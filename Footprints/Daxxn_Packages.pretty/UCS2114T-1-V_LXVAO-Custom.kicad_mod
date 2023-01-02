@@ -93,7 +93,7 @@
   (pad "14" smd rect (at 1.4478 -0.4953 90) (size 0.254 0.508) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 591e969d-7122-41e3-8c35-363e2a9714ca))
   (pad "15" smd rect (at 1.4478 -0.9906 90) (size 0.254 0.508) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp da583fd8-297c-45d1-a802-ffe1e43db9b6))
   (pad "16" smd rect (at 0.9906 -1.4478) (size 0.254 0.508) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp ab31a2ed-32be-4673-85c4-0890d6200220))
-  (pad "17" smd custom (at 0 -1) (size 0 0) (layers "F.Cu" "F.Paste" "F.Mask")
+  (pad "17" smd custom (at 0 -1) (size 0.001 0.001) (layers "F.Cu" "F.Paste" "F.Mask")
     (options (clearance outline) (anchor rect))
     (primitives
       (gr_poly (pts
@@ -114,7 +114,7 @@
   (zone (net 0) (net_name "") (layer "F.Cu") (tstamp d79006ad-e170-48da-b33c-98284544471d) (hatch edge 0.508)
     (connect_pads (clearance 0))
     (min_thickness 0.254)
-    (keepout (tracks allowed) (vias allowed) (pads allowed ) (copperpour not_allowed) (footprints allowed))
+    (keepout (tracks allowed) (vias allowed) (pads allowed) (copperpour not_allowed) (footprints allowed))
     (fill (thermal_gap 0.508) (thermal_bridge_width 0.508))
     (polygon
       (pts

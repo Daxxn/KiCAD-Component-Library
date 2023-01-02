@@ -25,7 +25,7 @@
   (pad "NC2" smd roundrect (at 3.2 -3.37 180) (size 1 2.9) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25) (tstamp 799905c4-4da0-4eb2-a63d-f04ebd0e3def))
   (pad "NO1" smd roundrect (at 7.6 3.37 180) (size 1 2.9) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25) (tstamp ecf24ccc-cdea-42e2-a8fb-614c0ac25a7f))
   (pad "NO2" smd roundrect (at 7.6 -3.37 180) (size 1 2.9) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25) (tstamp c23abb10-a189-4cd8-81ef-2e9f95f9e18c))
-  (model "${MY_MODELS_DIR}/Relays/AGQ200S4HZ-SMD v2.step"
+  (model "${MY_MODELS_DIR}/Relays/AGQ200S4HZ-SMD v2.stp"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

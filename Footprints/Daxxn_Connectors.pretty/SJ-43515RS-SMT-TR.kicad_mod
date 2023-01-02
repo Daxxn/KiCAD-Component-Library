@@ -1,6 +1,8 @@
 (footprint "SJ-43515RS-SMT-TR" (version 20211014) (generator pcbnew)
   (layer "F.Cu")
   (tedit 62E75AAE)
+  (descr "2.5mm TRS Audio Jack Connector SMD")
+  (tags "smd trs audio connector")
   (attr smd)
   (fp_text reference "REF**" (at 15.5 -4 unlocked) (layer "F.SilkS")
     (effects (font (size 1 1) (thickness 0.15)) (justify right))
@@ -28,7 +30,7 @@
   (pad "S" smd roundrect (at 0.6 3.7) (size 2 2.8) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.2) (tstamp 3c290e33-446f-4e0f-8642-c50a090f3260))
   (pad "SW" smd roundrect (at 2.5 -3.7) (size 2 2.8) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.2) (tstamp da781c60-48a4-4647-8767-6120cf9043b8))
   (pad "T" smd roundrect (at 12.8 3.7) (size 2.8 2.8) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.2) (tstamp 79711ec1-23db-4197-b62c-8871279e9f62))
-  (model "${MY_MODELS_DIR}/Connectors/SJ-43515RS-SMT-TR v4.step"
+  (model "${MY_MODELS_DIR}/Connectors/SJ-43515RS-SMT-TR v4.stp"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

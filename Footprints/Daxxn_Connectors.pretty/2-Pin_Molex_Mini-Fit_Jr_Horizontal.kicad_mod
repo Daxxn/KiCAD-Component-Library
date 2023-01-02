@@ -1,6 +1,6 @@
 (footprint "2-Pin_Molex_Mini-Fit_Jr_Horizontal" (version 20211014) (generator pcbnew)
   (layer "F.Cu")
-  (tedit 6338E9E0)
+  (tedit 6354584C)
   (descr "Molex Mini-Fit Jr. Power Connectors, old mpn/engineering number: 5569-02A1, example for new mpn: 39-29-4029, 1 Pins per row, Mounting: PCB Mounting Flange (http://www.molex.com/pdm_docs/sd/039291047_sd.pdf), generated with kicad-footprint-generator")
   (tags "connector Molex Mini-Fit_Jr top entryscrew_flange")
   (attr through_hole)
@@ -11,6 +11,10 @@
   (fp_text value "2-Pin_Molex_Mini-Fit_Jr_Horizontal" (at 0 8.55) (layer "F.Fab")
     (effects (font (size 1 1) (thickness 0.15)))
     (tstamp afd1c9f0-b60f-44a3-beb5-606c3e9d9c9a)
+  )
+  (fp_text user "${PARTNUMBER}" (at 0 10.05) (layer "Eco1.User") hide
+    (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp a3668681-09b1-48f0-a7b1-f6b24183a469)
   )
   (fp_text user "${REFERENCE}" (at 0 -13.2) (layer "F.Fab")
     (effects (font (size 1 1) (thickness 0.15)))

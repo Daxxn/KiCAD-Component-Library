@@ -311,4 +311,50 @@
       )
     )
   )
+  (symbol "VREF" (power) (in_bom no) (on_board no)
+    (property "Reference" "+5UF" (id 0) (at 0 5.08 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "VREF" (id 1) (at 0 3.81 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (id 2) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (id 3) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (symbol "VREF_0_1"
+      (polyline
+        (pts
+          (xy 0 1.27)
+          (xy -0.508 0.635)
+        )
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 0 1.27)
+          (xy 0 0)
+        )
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 0 1.27)
+          (xy 0.508 0.635)
+        )
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+    )
+    (symbol "VREF_1_1"
+      (pin output line (at 0 0 90) (length 0) hide
+        (name "+5UF" (effects (font (size 1.4986 1.4986))))
+        (number "1" (effects (font (size 1.4986 1.4986))))
+      )
+    )
+  )
 )

@@ -28,7 +28,8 @@
   (fp_line (start -7.8 5.2) (end -7.8 -5.3) (layer "F.CrtYd") (width 0.05) (tstamp f006d316-3a22-4981-9c5b-13e4b64ff2bd))
   (fp_rect (start -2.5 -2.5) (end 2.5 2.5) (layer "F.Fab") (width 0.1) (fill none) (tstamp c38f28b6-5bd4-4cf9-b273-1e7b230f6b42))
   (fp_rect (start -6 -6) (end 6 6) (layer "F.Fab") (width 0.1) (fill none) (tstamp fd34aa56-ded2-4e97-965a-a39457716f0c))
-  (pad "1" smd custom (at -7.62 -5.08) (size 0 0) (layers "F.Cu" "F.Paste" "F.Mask")
+  (pad "1" smd custom (at -7.62 -5.08) (size 0.001 0.001) (layers "F.Cu" "F.Paste" "F.Mask")
+    (solder_mask_margin 0.01) (clearance 0.01)
     (options (clearance outline) (anchor rect))
     (primitives
       (gr_poly (pts
@@ -40,7 +41,8 @@
           (xy 0 10)
         ) (width 0.2) (fill yes))
     ) (tstamp 0ff398d7-e6e2-4972-a7a4-438407886f34))
-  (pad "2" smd custom (at 7.62 -5.08) (size 0 0) (layers "F.Cu" "F.Paste" "F.Mask")
+  (pad "2" smd custom (at 7.62 -5.08) (size 0.001 0.001) (layers "F.Cu" "F.Paste" "F.Mask")
+    (solder_mask_margin 0.01) (clearance 0.01)
     (options (clearance outline) (anchor rect))
     (primitives
       (gr_poly (pts

@@ -55,4 +55,9 @@
   (pad "17" thru_hole circle (at 12 0) (size 1.1 1.1) (drill 0.64) (layers *.Cu *.Mask) (tstamp 1d0cc47c-836c-4bee-a3e9-37896e6acc39))
   (pad "A" thru_hole oval (at -17.3 -2.04) (size 1.9 1.38) (drill oval 1.35 0.85) (layers *.Cu *.Mask) (tstamp 3f78056a-e42f-411f-8081-5f1e5171770f))
   (pad "K" thru_hole oval (at 17.3 -1.95) (size 1.9 1.38) (drill oval 1.35 0.85) (layers *.Cu *.Mask) (tstamp af4718e1-3189-4347-b694-e18f09b2728e))
+  (model "${MY_FOLDER}/KiCad/Libraries/Models/Displays/NHD-C12832A1Z.STEP"
+    (offset (xyz 0 11.57 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
 )

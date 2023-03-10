@@ -34,4 +34,9 @@
   (pad "9" thru_hole circle (at 4.25 0) (size 1.2 1.2) (drill 0.7) (layers *.Cu *.Mask) (tstamp 8a574418-b6eb-43b6-8833-c257d0500a16))
   (pad "10" thru_hole circle (at 6.02 6.71) (size 3.6 3.6) (drill 2.3) (layers *.Cu *.Mask) (tstamp 42d0a433-bd1a-4f40-b844-e5f3e5640784))
   (pad "10" thru_hole circle (at -6.02 6.71) (size 3.6 3.6) (drill 2.3) (layers *.Cu *.Mask) (tstamp 8982602d-d86f-4434-94af-d35062293c2a))
+  (model "${ENGINEERING}/KiCad/Libraries/Models/Connectors-USB/gsb3211311weu.stp"
+    (offset (xyz 0 1.05 5.7))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 90))
+  )
 )

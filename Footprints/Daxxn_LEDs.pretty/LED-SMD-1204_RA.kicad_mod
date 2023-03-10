@@ -31,9 +31,9 @@
   (fp_arc (start 1.1 0.55) (mid 0 1.390175) (end -1.1 0.55) (layer "F.CrtYd") (width 0.05) (tstamp 40234e35-09ef-4940-823b-9eae8a1a9d71))
   (fp_rect (start -1.6 -0.25) (end 1.6 0.25) (layer "F.Fab") (width 0.1) (fill none) (tstamp 5961019d-a210-4f9e-901c-ffe7151b1aa0))
   (fp_arc (start 1 0.25) (mid 0 1.25) (end -1 0.25) (layer "F.Fab") (width 0.1) (tstamp fcc6442d-30c9-4c2d-ba28-b7df2da18063))
+  (pad "" smd roundrect (at 0 -0.6) (size 1 0.9) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.2) (tstamp eabb50a2-2294-4ea9-b213-a1aeea1fed55))
   (pad "1" smd roundrect (at -1.6 0) (size 1.5 1) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.2) (tstamp 84f4c388-77c0-4fa3-8390-5733a53e25cd))
   (pad "2" smd roundrect (at 1.6 0) (size 1.5 1) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.2) (tstamp 96d3edd8-5036-4d90-9101-69b7f36ecefc))
-  (pad "3" smd roundrect (at 0 -0.6) (size 1 0.9) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.2) (tstamp eabb50a2-2294-4ea9-b213-a1aeea1fed55))
   (model "${MY_MODELS_DIR}/LEDs/1204-LED-RA.stp"
     (offset (xyz 0 -0.25 0))
     (scale (xyz 1 1 1))

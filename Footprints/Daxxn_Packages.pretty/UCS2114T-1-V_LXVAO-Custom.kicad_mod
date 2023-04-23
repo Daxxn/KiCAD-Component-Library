@@ -17,19 +17,10 @@
       (effects (font (size 1 1) (thickness 0.15)))
     (tstamp fe55d0af-9e3d-44b0-a017-d02aa2b5afd1)
   )
-  (fp_poly
-    (pts
-      (xy 0.3683 -1.7018)
-      (xy 0.6223 -1.7018)
-      (xy 0.6223 -0.99695)
-      (xy 1.0033 -0.99695)
-      (xy 1.0033 0.13335)
-      (xy -1.0033 0.13335)
-      (xy -1.0033 -0.99695)
-      (xy 0.3683 -0.99695)
-    )
-
-    (stroke (width 0) (type solid)) (fill solid) (layer "F.Paste") (tstamp 97353067-49c7-424b-b0c3-9e3cd462b0d3))
+  (fp_rect (start -0.75 -0.75) (end 0.75 -0.05)
+    (stroke (width 0.1) (type solid)) (fill solid) (layer "F.Paste") (tstamp cdde1ab4-0179-40f9-8393-ed6026a41628))
+  (fp_rect (start 0.375 -1.7) (end 0.625 -1.19)
+    (stroke (width 0) (type solid)) (fill solid) (layer "F.Paste") (tstamp 0197e372-515f-411f-a5b0-cb59d99e0f0f))
   (fp_line (start -1.8796 -1.8796) (end -1.8796 -1.398853)
     (stroke (width 0.12) (type solid)) (layer "F.SilkS") (tstamp ef3c20a9-74fe-4bea-a401-04991b56d78b))
   (fp_line (start -1.8796 1.398853) (end -1.8796 1.8796)
@@ -135,7 +126,7 @@
   (pad "15" smd rect (at 1.4478 -0.9906 90) (size 0.254 0.508) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp da583fd8-297c-45d1-a802-ffe1e43db9b6))
   (pad "16" smd rect (at 0.9906 -1.4478) (size 0.254 0.508) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp ab31a2ed-32be-4673-85c4-0890d6200220))
   (pad "17" thru_hole circle (at -0.5 -0.4) (size 0.46 0.46) (drill 0.2) (layers "*.Cu" "*.Mask") (tstamp da1baf2f-e16c-4c42-af21-5e94baab59fe))
-  (pad "17" smd custom (at 0 -1) (size 0.001 0.001) (layers "F.Cu" "F.Paste" "F.Mask")
+  (pad "17" smd custom (at 0 -1) (size 0.001 0.001) (layers "F.Cu" "F.Mask")
     (thermal_bridge_angle 45)
     (options (clearance outline) (anchor rect))
     (primitives

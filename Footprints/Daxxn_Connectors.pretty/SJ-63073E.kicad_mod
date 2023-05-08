@@ -41,7 +41,7 @@
   (pad "4" thru_hole circle (at 4.2 -8.15) (size 2.2 2.2) (drill 1.6) (layers "*.Cu" "*.Mask") (tstamp d2b2c2a2-eae9-4a97-9753-329e648d1fca))
   (pad "5" thru_hole circle (at 16.8 -8.15) (size 2.2 2.2) (drill 1.6) (layers "*.Cu" "*.Mask") (tstamp dbaf76e3-226d-4d5b-88e2-284b8ceebae1))
   (pad "6" thru_hole circle (at 10.5 -8.15) (size 2.2 2.2) (drill 1.6) (layers "*.Cu" "*.Mask") (tstamp c541749f-e7a6-4e7d-ac0e-ea8e35b9fb32))
-  (model ":DAXXN:Connectors/CUI_DEVICES_SJ-63073E.step"
+  (model ":DAXXN:Connectors/CUI_DEVICES_SJ-63073E.stp"
     (offset (xyz 10.5 -16.6 5.75))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 90))

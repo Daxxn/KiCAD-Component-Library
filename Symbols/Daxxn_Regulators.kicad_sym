@@ -6,7 +6,7 @@
     (property "Value" "AP3401" (at 0 1.27 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Package_DFN_QFN:DFN-6-1EP_2x2mm_P0.65mm_EP1x1.6mm" (at 6.35 6.35 0)
+    (property "Footprint" "Daxxn_Packages:DFN-6-1EP_2x2mm_P0.65mm_EP1x1.6mm" (at 6.35 6.35 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "%LOCAL_DATASHEETS%\\AP3401.pdf" (at 6.35 8.89 0)

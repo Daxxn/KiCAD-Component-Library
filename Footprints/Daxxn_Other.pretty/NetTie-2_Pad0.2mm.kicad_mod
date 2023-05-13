@@ -1,4 +1,4 @@
-(footprint "NetTie-2-SMALL_SMD_Pad0.2mm" (version 20221018) (generator pcbnew)
+(footprint "NetTie-2_Pad0.2mm" (version 20221018) (generator pcbnew)
   (layer "F.Cu")
   (descr "Net tie, 2 pin, 0.5mm square SMD pads")
   (tags "net tie")
@@ -13,6 +13,7 @@
     (tstamp 55decc6c-ccba-49a9-9c58-e53b55d22ed2)
   )
   (pad "1" smd custom (at -0.2 0) (size 0.2 0.2) (layers "F.Cu")
+    (thermal_bridge_angle 45)
     (options (clearance outline) (anchor circle))
     (primitives
       (gr_poly
@@ -25,6 +26,7 @@
         (width 0) (fill yes))
     ) (tstamp 1745e8e7-cb05-4e0c-be57-60ff31465fb9))
   (pad "2" smd custom (at 0.2 0 180) (size 0.2 0.2) (layers "F.Cu")
+    (thermal_bridge_angle 45)
     (options (clearance outline) (anchor circle))
     (primitives
       (gr_poly

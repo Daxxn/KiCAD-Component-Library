@@ -460,4 +460,9 @@
   (pad "Y23" smd circle (at 5 3.500001) (size 0.249999 0.249999) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp a1c2a242-9b4c-4ab6-9269-9ce86132e431))
   (pad "Y24" smd circle (at 5.499999 3.500001) (size 0.249999 0.249999) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp ec17b5c8-aa66-4423-ba19-373297daaa10))
   (pad "Y25" smd circle (at 6.000001 3.500001) (size 0.249999 0.249999) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp f937e950-f83f-4918-a009-ddc1aa28b653))
+  (model ":DAXXN:Packages/ALW0425A-BGA.step"
+    (offset (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
 )

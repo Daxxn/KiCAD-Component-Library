@@ -17,12 +17,8 @@
     (stroke (width 0.1) (type solid)) (fill solid) (layer "F.Paste") (tstamp cdde1ab4-0179-40f9-8393-ed6026a41628))
   (fp_rect (start 0.375 -1.7) (end 0.625 -1.19)
     (stroke (width 0) (type solid)) (fill solid) (layer "F.Paste") (tstamp 0197e372-515f-411f-a5b0-cb59d99e0f0f))
-  (fp_line (start -1.675 -1.4) (end -1.55 -1.475)
-    (stroke (width 0.1) (type solid)) (layer "F.SilkS") (tstamp c1415c1f-b046-41db-811d-86366015b6c7))
   (fp_line (start -1.55 -1.55) (end -1.55 -1.225)
     (stroke (width 0.1) (type solid)) (layer "F.SilkS") (tstamp 61fe42b9-d942-4a0e-89b8-389287748d68))
-  (fp_line (start -1.55 -1.225) (end -1.675 -1.4)
-    (stroke (width 0.1) (type solid)) (layer "F.SilkS") (tstamp 5a61d66b-0571-4692-bebb-a81877e13cd8))
   (fp_line (start -1.55 1.25) (end -1.55 1.55)
     (stroke (width 0.1) (type solid)) (layer "F.SilkS") (tstamp d27a20ff-e6e1-4357-a345-6c445bff6d35))
   (fp_line (start -1.55 1.55) (end -1.25 1.55)
@@ -37,6 +33,14 @@
     (stroke (width 0.1) (type solid)) (layer "F.SilkS") (tstamp 8ed272d9-2872-4b24-82e2-db5d3434b0e5))
   (fp_line (start 1.55 1.55) (end 1.55 1.25)
     (stroke (width 0.1) (type solid)) (layer "F.SilkS") (tstamp 822e73f1-a3e8-4fab-8658-98573d2b46c0))
+  (fp_poly
+    (pts
+      (xy -1.55 -1.225)
+      (xy -1.85 -1.35)
+      (xy -1.55 -1.55)
+    )
+
+    (stroke (width 0.1) (type solid)) (fill solid) (layer "F.SilkS") (tstamp 52d009d0-c563-489c-8269-ebe31432d153))
   (fp_poly
     (pts
       (xy 0.3683 -1.7018)

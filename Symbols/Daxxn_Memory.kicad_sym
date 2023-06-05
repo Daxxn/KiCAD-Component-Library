@@ -595,8 +595,8 @@
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "C5" (effects (font (size 1.27 1.27))))
       )
-      (pin unspecified line (at 17.78 -2.54 180) (length 2.54)
-        (name "VCC" (effects (font (size 1.27 1.27))))
+      (pin unspecified line (at 17.78 -6.35 180) (length 2.54)
+        (name "VCCQ" (effects (font (size 1.27 1.27))))
         (number "C6" (effects (font (size 1.27 1.27))))
       )
       (pin unspecified line (at 8.89 -12.7 0) (length 2.54) hide
@@ -671,7 +671,7 @@
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "E5" (effects (font (size 1.27 1.27))))
       )
-      (pin unspecified line (at 17.78 -2.54 180) (length 2.54) hide
+      (pin unspecified line (at 17.78 -2.54 180) (length 2.54)
         (name "VCC" (effects (font (size 1.27 1.27))))
         (number "E6" (effects (font (size 1.27 1.27))))
       )
@@ -919,8 +919,8 @@
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "M3" (effects (font (size 1.27 1.27))))
       )
-      (pin unspecified line (at 17.78 -2.54 180) (length 2.54) hide
-        (name "VCC" (effects (font (size 1.27 1.27))))
+      (pin unspecified line (at 17.78 -6.35 180) (length 2.54) hide
+        (name "VCCQ" (effects (font (size 1.27 1.27))))
         (number "M4" (effects (font (size 1.27 1.27))))
       )
       (pin unspecified line (at -2.54 -8.89 0) (length 2.54)
@@ -975,8 +975,8 @@
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "N3" (effects (font (size 1.27 1.27))))
       )
-      (pin unspecified line (at 17.78 -2.54 180) (length 2.54) hide
-        (name "VCC" (effects (font (size 1.27 1.27))))
+      (pin unspecified line (at 17.78 -6.35 180) (length 2.54) hide
+        (name "VCCQ" (effects (font (size 1.27 1.27))))
         (number "N4" (effects (font (size 1.27 1.27))))
       )
       (pin unspecified line (at 17.78 -33.02 180) (length 2.54) hide
@@ -1027,16 +1027,16 @@
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "P2" (effects (font (size 1.27 1.27))))
       )
-      (pin unspecified line (at 17.78 -2.54 180) (length 2.54) hide
-        (name "VCC" (effects (font (size 1.27 1.27))))
+      (pin unspecified line (at 17.78 -6.35 180) (length 2.54) hide
+        (name "VCCQ" (effects (font (size 1.27 1.27))))
         (number "P3" (effects (font (size 1.27 1.27))))
       )
       (pin unspecified line (at 17.78 -33.02 180) (length 2.54) hide
         (name "GND" (effects (font (size 1.27 1.27))))
         (number "P4" (effects (font (size 1.27 1.27))))
       )
-      (pin unspecified line (at 17.78 -2.54 180) (length 2.54) hide
-        (name "VCC" (effects (font (size 1.27 1.27))))
+      (pin unspecified line (at 17.78 -6.35 180) (length 2.54) hide
+        (name "VCCQ" (effects (font (size 1.27 1.27))))
         (number "P5" (effects (font (size 1.27 1.27))))
       )
       (pin unspecified line (at 17.78 -33.02 180) (length 2.54) hide
@@ -1061,7 +1061,10 @@
         (stroke (width 0) (type default))
         (fill (type none))
       )
-      (text "9x" (at 10.795 -2.54 0)
+      (text "4x" (at 10.795 -2.54 0)
+        (effects (font (size 1.27 1.27)) (justify right))
+      )
+      (text "5x" (at 9.398 -6.35 0)
         (effects (font (size 1.27 1.27)) (justify right))
       )
     )

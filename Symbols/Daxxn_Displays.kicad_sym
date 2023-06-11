@@ -6,7 +6,7 @@
     (property "Value" "LVDS-DISPLAY" (at 0 1.27 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (at 1.27 -34.29 0)
+    (property "Footprint" "Daxxn_Connectors:0541324033" (at 1.27 -34.29 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 0 6.35 0)

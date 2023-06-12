@@ -6,7 +6,7 @@
     (property "Value" "AS4C512M16D4-75BCN" (at 27.94 1.27 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Package_BGA:Micron_FBGA-96_7.5x13.5mm_Layout9x16_P0.8mm" (at 19.05 16.51 0)
+    (property "Footprint" "Daxxn_Packages:Micron_FBGA-96_7.5x13.5mm_Layout9x16_P0.8mm" (at 19.05 16.51 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "%LOCAL_DATASHEETS%/AS4C512M16D4.pdf" (at 19.05 13.97 0)

@@ -61,4 +61,9 @@
   (pad "E3" smd circle (at 0 2) (size 0.45 0.45) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 9df6e797-9528-46f5-83bb-d306b16454c6))
   (pad "E4" smd circle (at 1 2) (size 0.45 0.45) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 9df6e797-9528-46f5-83bb-d306b16454c6))
   (pad "E5" smd circle (at 2 2) (size 0.45 0.45) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 9df6e797-9528-46f5-83bb-d306b16454c6))
+  (model ":DAXXN:Packages/VBGA-24_B6x8mm_P1mm.step"
+    (offset (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
 )

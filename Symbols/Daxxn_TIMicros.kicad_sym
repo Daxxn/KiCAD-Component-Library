@@ -2324,7 +2324,7 @@
         (alternate "PR0-PRU1-GPI1" input line)
         (alternate "PR0-PRU1-GPO1" output line)
         (alternate "UART2-TX" output line)
-        (alternate "VOUT0-DATA16" output line)
+        (alternate "VOUT0-DATA17" output line)
       )
       (pin bidirectional line (at -5.08 -34.29 0) (length 5.08)
         (name "GPMC0-AD12" (effects (font (size 1.27 1.27))))

@@ -1,0 +1,203 @@
+(footprint "CONBNC002"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -7 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "adec0d8d-c823-49b5-b31a-e397cbea0721")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.12)
+			)
+		)
+	)
+	(property "Value" "CONBNC002"
+		(at 0 -0.2 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "ec424328-9d90-4d5b-b344-e5772766e2b9")
+		(effects
+			(font
+				(size 0.25 0.25)
+				(thickness 0.04)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at -12 -16.9 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2af2ee7c-c777-400f-ad49-5a1b330244e6")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at -12 -16.9 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3dfc542e-2b66-44a0-ac2b-091dd3d99d9d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at -12 -16.9 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6d5f3a72-ed5f-4247-9b2a-68ecd6942afb")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_rect
+		(start -7.5 -6.22)
+		(end 7.5 9.5)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "f7e62339-754f-4f8b-b727-407eb01e8a73")
+	)
+	(fp_rect
+		(start -7 -6)
+		(end 7 9)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "4f8bfb96-aa7c-407e-8b34-4ca399531832")
+	)
+	(fp_rect
+		(start -7.3 -5.095)
+		(end 7.3 9.1)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "F.Fab")
+		(uuid "1ef7fbce-814a-4adf-88de-d19b83fe658f")
+	)
+	(fp_rect
+		(start -6.4 9.1)
+		(end 6.4 19.6)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "F.Fab")
+		(uuid "725c50bd-a167-4f2e-ab7e-dc0cbbbab6a7")
+	)
+	(fp_rect
+		(start -4.8 19.6)
+		(end 4.8 29.4)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "F.Fab")
+		(uuid "05af1127-67cb-4103-b47a-453e36a64bda")
+	)
+	(fp_line
+		(start -7 9)
+		(end 7 9)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "User.1")
+		(uuid "4b043943-adfd-4372-9de1-9bd9d1cdb8e7")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0.25 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "9e4e9dd9-0b51-4842-9f3a-fa4620af13c2")
+		(effects
+			(font
+				(size 0.25 0.25)
+				(thickness 0.04)
+			)
+		)
+	)
+	(fp_text user "PCB EDGE"
+		(at 0 8.5 0)
+		(unlocked yes)
+		(layer "User.1")
+		(uuid "cf3c8b3a-f3ba-4956-a42d-1e23e42146ac")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify bottom)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at 0 -5.08)
+		(size 1.6 1.6)
+		(drill 0.89)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "e9b0b1b5-1bad-4190-b2f3-f785768e43c3")
+	)
+	(pad "2" thru_hole circle
+		(at -5.08 0)
+		(size 3.1 3.1)
+		(drill 2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "96a1f809-b7fb-4d2a-96b0-3b737e14b89f")
+	)
+	(pad "2" thru_hole circle
+		(at 2.54 -5.08)
+		(size 1.6 1.6)
+		(drill 0.89)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "6247b058-a5e6-4fb9-8aef-a89daad29947")
+	)
+	(pad "2" thru_hole circle
+		(at 5.08 0)
+		(size 3.1 3.1)
+		(drill 2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "2edce843-1aab-49da-a954-3f8301f422ca")
+	)
+	(model "${DAXXN}/Connectors/Connector_BNC/CONBNC002.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 0)
+		)
+	)
+)

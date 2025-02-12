@@ -1,0 +1,218 @@
+(footprint "IDC-Header_2x05_P2.54mm_Vertical"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -3.3 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "a7ba3522-5d8c-43ad-b2bf-3fba2dac1040")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.12)
+			)
+		)
+	)
+	(property "Value" "IDC-Header_2x05_P2.54mm_Vertical"
+		(at 0 0.285 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "b63ccacd-5a5d-4a4a-ae45-f017799ac162")
+		(effects
+			(font
+				(size 0.25 0.25)
+				(thickness 0.04)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at -1.15 -15.9 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4f843008-575e-4771-9a93-2381a1166681")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at -1.15 -15.9 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "403b576c-2478-4b45-9d1f-f3903cd00f23")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at -1.15 -15.9 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "acb32fd5-2c93-484c-bbf7-12fb64b28425")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_rect
+		(start -6.45 -2.6)
+		(end 6.45 2.6)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "2089d059-8b54-4285-9a27-6bda278c8a37")
+	)
+	(fp_poly
+		(pts
+			(xy -2.1 2.6) (xy -2.55 3.1) (xy -3 2.6)
+		)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.SilkS")
+		(uuid "de085c51-6fd6-4f88-9040-bbd0e0fc9088")
+	)
+	(fp_rect
+		(start -6.45 -2.6)
+		(end 6.45 2.6)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "e580c271-cae4-46a6-b98a-080e057abd95")
+	)
+	(fp_rect
+		(start -6.35 -2.5)
+		(end 6.35 2.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "F.Fab")
+		(uuid "9c595741-1748-478a-86e7-8db9c083a2ae")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 -0.285 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "35232645-740d-4294-824c-f943c91295b2")
+		(effects
+			(font
+				(size 0.25 0.25)
+				(thickness 0.04)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at -2.54 0.635)
+		(size 1 1)
+		(drill 0.7)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "18bdfa7c-2f03-47ae-88a1-7ea0933bf315")
+	)
+	(pad "2" thru_hole circle
+		(at -2.54 -0.635)
+		(size 1 1)
+		(drill 0.7)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "0ba14daf-8b9d-420c-a0f0-748bb810740c")
+	)
+	(pad "3" thru_hole circle
+		(at -1.27 0.635)
+		(size 1 1)
+		(drill 0.7)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "92c07e63-c238-4c5d-b171-9d511ac192e1")
+	)
+	(pad "4" thru_hole circle
+		(at -1.27 -0.635)
+		(size 1 1)
+		(drill 0.7)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "0c7008e4-9e57-4579-86ac-ae01a9eacf8e")
+	)
+	(pad "5" thru_hole circle
+		(at 0 0.635)
+		(size 1 1)
+		(drill 0.7)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "3341d703-8b02-41a1-85e6-f0e25a83c363")
+	)
+	(pad "6" thru_hole circle
+		(at 0 -0.635)
+		(size 1 1)
+		(drill 0.7)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "44d92093-cff8-427e-802d-c29189d0e28b")
+	)
+	(pad "7" thru_hole circle
+		(at 1.27 0.635)
+		(size 1 1)
+		(drill 0.7)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "5aabdca6-f53b-4bbd-b635-226c5c03e1d6")
+	)
+	(pad "8" thru_hole circle
+		(at 1.27 -0.635)
+		(size 1 1)
+		(drill 0.7)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "22ed96eb-6c69-4f49-8bb9-3924dd5dc6b2")
+	)
+	(pad "9" thru_hole circle
+		(at 2.54 0.635)
+		(size 1 1)
+		(drill 0.7)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "896fe6ba-a151-4ec4-8597-ed287e03b899")
+	)
+	(pad "10" thru_hole circle
+		(at 2.54 -0.635)
+		(size 1 1)
+		(drill 0.7)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "3d8660ca-afaa-424b-a1c3-426f3080f650")
+	)
+	(model "${DAXXN}/Connectors/Connector_IDC/3220-10-0100-00.STEP"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 0)
+		)
+	)
+)

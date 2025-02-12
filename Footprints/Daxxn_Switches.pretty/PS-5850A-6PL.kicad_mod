@@ -1,0 +1,174 @@
+(footprint "PS-5850A-6PL"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -3.8 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "42f89fb9-b138-4f21-8ab3-0c82d83b0365")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.12)
+			)
+		)
+	)
+	(property "Value" "PS-5850A-6PL"
+		(at 0 0.2 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "f2d36191-fd39-4c01-8629-42c48bae6174")
+		(effects
+			(font
+				(size 0.25 0.25)
+				(thickness 0.04)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at -0.1 -12.1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e5925b44-aa96-43cf-87dc-93f67dac8357")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at -0.1 -12.1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5fbcf8e9-9c9c-43d8-91a5-e10f95c7f094")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at -0.1 -12.1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "88a41c61-e731-4b2d-abb1-751f372205ae")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_rect
+		(start -3 -3.125)
+		(end 3 3.125)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "527c0055-b569-4996-85cb-3ccfb106e9e2")
+	)
+	(fp_rect
+		(start -3 -3.125)
+		(end 3 3.125)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "5211fad7-4692-46c4-acc1-dc2de1bbf1ab")
+	)
+	(fp_rect
+		(start -2.9 -2.9)
+		(end 2.9 2.9)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "F.Fab")
+		(uuid "ed23c7f5-b76c-4f97-a841-a023a9c76cbf")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 -0.3 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "0564720c-9e8a-4ab4-8846-95c4ab65fb91")
+		(effects
+			(font
+				(size 0.25 0.25)
+				(thickness 0.04)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at -2 2.25)
+		(size 1.45 1.45)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "3bb81a77-f303-4804-9523-21a8b49fec45")
+	)
+	(pad "2" thru_hole circle
+		(at 0 2.25)
+		(size 1.45 1.45)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "1a520b99-6fb1-4cd9-8fb9-c56e849ecd0c")
+	)
+	(pad "3" thru_hole circle
+		(at 2 2.25)
+		(size 1.45 1.45)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "379912aa-c92f-47d0-938d-2deaa041e28d")
+	)
+	(pad "4" thru_hole circle
+		(at -2 -2.25)
+		(size 1.45 1.45)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "b2e55b57-6d35-418c-9e25-526641cdacea")
+	)
+	(pad "5" thru_hole circle
+		(at 0 -2.25)
+		(size 1.45 1.45)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "a0634e34-03b5-4217-a57e-24b931cdb1d2")
+	)
+	(pad "6" thru_hole circle
+		(at 2 -2.25)
+		(size 1.45 1.45)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "ca49c484-5010-46a2-b625-cc2051c5d6ef")
+	)
+	(model "${DAXXN}/Controls/PS-5850A-6PL.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

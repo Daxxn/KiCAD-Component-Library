@@ -1,0 +1,81 @@
+(footprint "CAP_2816"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at -4.7 -6.4 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "28b4652e-b1b0-4854-a366-d3ea79c36b4d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "CAP_2816"
+		(at -4.7 -4.9 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "d0e28166-2458-4248-a2fd-3a3596bdc0e0")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at -4.7 -5.9 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "784b8595-94b5-41cd-bfd3-9faf585922ab")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at -4.7 -5.9 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4ede2014-c762-4a44-b226-40d2432c018e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at -4.7 -5.9 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "965e8679-c1f3-46dd-bd31-fed6986f16c8")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(model "${KICAD8_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_2816_7142Metric.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

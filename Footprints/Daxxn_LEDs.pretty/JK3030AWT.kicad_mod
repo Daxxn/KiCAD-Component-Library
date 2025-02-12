@@ -1,0 +1,158 @@
+(footprint "JK3030AWT"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -2.25 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "6d46f9e4-c79c-47cf-8f73-5cf6f725b8ef")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.12)
+			)
+		)
+	)
+	(property "Value" "JK3030AWT"
+		(at 0 0.275 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "56040591-fe1e-4e17-9a0e-c4d5b419b3da")
+		(effects
+			(font
+				(size 0.25 0.25)
+				(thickness 0.04)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at -8.15 -11.7 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "bde4fb57-5084-4be2-a222-adfe86eb2574")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at -8.15 -11.7 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1d304f7f-0dd6-49ec-90eb-bb73a6711389")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at -8.15 -11.7 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e151a6cb-18e9-4c66-8479-2075ea5eabaa")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -1.5 -1.625)
+		(end 1.5 -1.625)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "a931e1d7-9b07-44d6-9603-6d95c6a7d670")
+	)
+	(fp_line
+		(start -1.5 1.625)
+		(end -1.25 1.875)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "f65b3f76-d7b4-4657-aab7-fb6ceefcfdf7")
+	)
+	(fp_line
+		(start -1.25 1.875)
+		(end -1.075 1.625)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "9cc6c197-4d21-48e9-94cc-33ddf57908df")
+	)
+	(fp_line
+		(start 1.5 1.625)
+		(end -1.5 1.625)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "a6219299-290c-489b-897d-7fc956a50eb4")
+	)
+	(fp_rect
+		(start -1.5 -1.5)
+		(end 1.5 1.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "F.Fab")
+		(uuid "5caeda2a-a091-45d7-9b1d-e61e2671d581")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 -0.275 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "3f453f22-d313-4b04-977e-882780497764")
+		(effects
+			(font
+				(size 0.25 0.25)
+				(thickness 0.04)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -0.625 0)
+		(size 1.6 2.4)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(thermal_bridge_angle 45)
+		(uuid "88344ff7-7c35-4c80-9e00-fe246086c0aa")
+	)
+	(pad "2" smd rect
+		(at 1.05 0)
+		(size 0.7 2.4)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(thermal_bridge_angle 45)
+		(uuid "5d6945b2-dcca-4e3a-8ff0-e0b933ed94bc")
+	)
+	(model "${DAXXN}/LEDs/JK3030AWT-P.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

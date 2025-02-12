@@ -1,0 +1,193 @@
+(footprint "Crystal_SMD_ABLS7M2"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -2.85 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "1210d4f0-d76d-401f-8f17-bce5162b46cb")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Crystal_SMD_ABLS7M2"
+		(at 0 0.25 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "b54ab8ae-8c02-4166-93a4-5d4f5590c002")
+		(effects
+			(font
+				(size 0.25 0.25)
+				(thickness 0.04)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 -9.6 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "aa7ae314-39e7-4e6d-9dfb-8f60703ee358")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 -9.6 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f39bbbea-8ee4-464c-a7ab-f25484550b0d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 -9.6 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7871be0a-7307-420e-a2bd-1ac0a9b6cb17")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -3.5 -2.15)
+		(end 3.5 -2.15)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "5a4d4e1d-fedc-48a4-8884-cdcdfa4502b4")
+	)
+	(fp_line
+		(start -3.5 2.15)
+		(end 3.5 2.15)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "f45ce664-de74-45c9-b17c-537cca501c78")
+	)
+	(fp_rect
+		(start -4.65 -2.15)
+		(end 4.65 2.15)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "34c50db5-7fd5-42c4-93e0-92a7abf846e7")
+	)
+	(fp_line
+		(start -1.7 -1.45)
+		(end 1.7 -1.45)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "26f95cf3-8966-4b24-9896-30fc4cc4d172")
+	)
+	(fp_line
+		(start -1.7 1.45)
+		(end 1.7 1.45)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "209681b2-cc85-4c81-9847-2852bbcfc994")
+	)
+	(fp_rect
+		(start -3.5 -2.05)
+		(end 3.5 2.05)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "F.Fab")
+		(uuid "5c2f3829-20a3-4aea-aed7-f11bf5ad5bf0")
+	)
+	(fp_arc
+		(start -1.7 1.45)
+		(mid -3.15 0)
+		(end -1.7 -1.45)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "3e924983-1554-4629-9c2e-ed6eea6b3ce3")
+	)
+	(fp_arc
+		(start 1.7 -1.45)
+		(mid 3.15 0)
+		(end 1.7 1.45)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "09f2c874-3886-48bc-9ac8-8c8d809bf357")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 -0.3 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "df70ba97-429b-4f6e-8707-647751729b46")
+		(effects
+			(font
+				(size 0.25 0.25)
+				(thickness 0.04)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at -2.75 0)
+		(size 3.5 1.2)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.2)
+		(thermal_bridge_angle 45)
+		(uuid "54c0bbaf-3552-4317-8179-bc12604a0ef7")
+	)
+	(pad "2" smd roundrect
+		(at 2.75 0)
+		(size 3.5 1.2)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.2)
+		(thermal_bridge_angle 45)
+		(uuid "019ffa34-423e-422d-a8b0-438efd5bfd69")
+	)
+	(model "${DAXXN}/Passives/Crystals/ABLS7M2-20.000MHZ-D2Y-T.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 0)
+		)
+	)
+)

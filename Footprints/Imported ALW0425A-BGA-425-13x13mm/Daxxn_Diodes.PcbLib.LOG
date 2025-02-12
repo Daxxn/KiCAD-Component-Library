@@ -1,0 +1,27 @@
+Importer Log Report
+Document: F:\Electrical\KiCad\Libraries\Footprints\Daxxn_Diodes.pretty
+    Section : Analyze Document from - F:\Electrical\KiCad\Libraries\Footprints\Daxxn_Diodes.pretty
+        Warning: Unknown child stroke of fp_line.
+        Warning: Unknown child stroke of fp_line.
+        Warning: Unknown child stroke of fp_line.
+        Warning: Unknown child stroke of fp_line.
+        Warning: Unknown child stroke of fp_line.
+        Warning: Unknown child stroke of fp_line.
+        Warning: Unknown child stroke of fp_line.
+        Warning: Unknown child stroke of fp_line.
+        Warning: Unknown child stroke of fp_line.
+        Warning: Unknown child stroke of fp_line.
+        Warning: Unknown child stroke of fp_line.
+        Warning: Unknown child stroke of fp_line.
+        Warning: Unknown child stroke of fp_line.
+        Warning: Unknown child stroke of fp_line.
+        Warning: Unknown child stroke of fp_line.
+        Warning: Unknown child stroke of fp_line.
+        Warning: Unknown child stroke of fp_line.
+    EndSection
+    Section : Import Document - F:\Electrical\KiCad\Libraries\Footprints\Imported ALW0425A-BGA-425-13x13mm\Daxxn_Diodes.PcbLib
+        Section : Component REF** importing.
+        EndSection
+        Section : Component REF** importing.
+        EndSection
+    EndSection

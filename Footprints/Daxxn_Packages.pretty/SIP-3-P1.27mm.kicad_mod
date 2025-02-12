@@ -1,38 +1,157 @@
-(footprint "SIP-3-P1.27mm" (version 20221018) (generator pcbnew)
-  (layer "F.Cu")
-  (attr through_hole)
-  (fp_text reference "REF**" (at 0 -1.4 unlocked) (layer "F.SilkS")
-      (effects (font (size 1 1) (thickness 0.15)))
-    (tstamp f14ecb97-b50f-4cc4-9c64-ff1bee67b7fd)
-  )
-  (fp_text value "SIP-3-P1.27mm" (at 0 0.25 unlocked) (layer "F.Fab")
-      (effects (font (size 0.25 0.25) (thickness 0.0625)))
-    (tstamp 017a93ed-2a19-4025-9c44-2cd26d121e24)
-  )
-  (fp_text user "${REFERENCE}" (at 0 -0.25 unlocked) (layer "F.Fab")
-      (effects (font (size 0.25 0.25) (thickness 0.0625)))
-    (tstamp 2fd1d38a-3e28-4b84-88ab-12e16f01b818)
-  )
-  (fp_line (start 1.35 -0.55) (end -1.35 -0.55)
-    (stroke (width 0.12) (type solid)) (layer "F.SilkS") (tstamp 4c5b6087-a0c7-43b8-b357-24742b445c1e))
-  (fp_line (start 1.35 0.55) (end -1.35 0.55)
-    (stroke (width 0.12) (type solid)) (layer "F.SilkS") (tstamp 084d436e-d672-4970-bee3-91358269e5cd))
-  (fp_poly
-    (pts
-      (xy -1.35 -0.55)
-      (xy -1.175 -0.85)
-      (xy -0.975 -0.55)
-    )
-
-    (stroke (width 0.12) (type solid)) (fill solid) (layer "F.SilkS") (tstamp cc824171-a350-4e74-bc36-8fce09d67c63))
-  (fp_rect (start -1.84 -0.57) (end 1.84 0.57)
-    (stroke (width 0.05) (type default)) (fill none) (layer "F.CrtYd") (tstamp 1f7c7d82-bf3f-4147-9a82-fb9859de1468))
-  (pad "1" thru_hole circle (at -1.27 0) (size 0.9 0.9) (drill 0.6) (layers "*.Cu" "*.Mask") (tstamp 04ab6b42-fe42-41a7-a8ca-9f37610405e7))
-  (pad "2" thru_hole circle (at 0 0) (size 0.9 0.9) (drill 0.6) (layers "*.Cu" "*.Mask") (tstamp 7d35adb9-3415-48b3-9772-4e820318e124))
-  (pad "3" thru_hole circle (at 1.27 0) (size 0.9 0.9) (drill 0.6) (layers "*.Cu" "*.Mask") (tstamp 1db58c91-59f0-4293-9a7a-36ac996bc01d))
-  (model ":DAXXN:Packages/SIP-3.step"
-    (offset (xyz 0.08 0.83 2))
-    (scale (xyz 1 1 1))
-    (rotate (xyz 0 0 180))
-  )
+(footprint "SIP-3-P1.27mm"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -1.4 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "f14ecb97-b50f-4cc4-9c64-ff1bee67b7fd")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.12)
+			)
+		)
+	)
+	(property "Value" "SIP-3-P1.27mm"
+		(at 0 0.25 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "017a93ed-2a19-4025-9c44-2cd26d121e24")
+		(effects
+			(font
+				(size 0.25 0.25)
+				(thickness 0.04)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2db99527-9684-40f1-814a-a39e2cbe53f0")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "72cef761-c882-4969-895c-04f9c7d0e77a")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "af354606-6e2f-4c47-8dd1-7343b9e4c696")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start 1.35 -0.55)
+		(end -1.35 -0.55)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "4c5b6087-a0c7-43b8-b357-24742b445c1e")
+	)
+	(fp_line
+		(start 1.35 0.55)
+		(end -1.35 0.55)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "084d436e-d672-4970-bee3-91358269e5cd")
+	)
+	(fp_poly
+		(pts
+			(xy -1.35 -0.55) (xy -1.175 -0.85) (xy -0.975 -0.55)
+		)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.SilkS")
+		(uuid "cc824171-a350-4e74-bc36-8fce09d67c63")
+	)
+	(fp_rect
+		(start -1.84 -0.57)
+		(end 1.84 0.57)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "1f7c7d82-bf3f-4147-9a82-fb9859de1468")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 -0.25 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "2fd1d38a-3e28-4b84-88ab-12e16f01b818")
+		(effects
+			(font
+				(size 0.25 0.25)
+				(thickness 0.04)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at -1.27 0)
+		(size 0.9 0.9)
+		(drill 0.6)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "04ab6b42-fe42-41a7-a8ca-9f37610405e7")
+	)
+	(pad "2" thru_hole circle
+		(at 0 0)
+		(size 0.9 0.9)
+		(drill 0.6)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "7d35adb9-3415-48b3-9772-4e820318e124")
+	)
+	(pad "3" thru_hole circle
+		(at 1.27 0)
+		(size 0.9 0.9)
+		(drill 0.6)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "1db58c91-59f0-4293-9a7a-36ac996bc01d")
+	)
+	(model ":DAXXN:Packages/SIP-3.step"
+		(offset
+			(xyz 0.08 0.83 2)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 180)
+		)
+	)
 )

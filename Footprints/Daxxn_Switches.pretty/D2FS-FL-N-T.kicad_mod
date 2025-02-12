@@ -1,0 +1,150 @@
+(footprint "D2FS-FL-N-T"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -3.6 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "ec324dd0-3bcc-49e0-b2a8-e55dc81e66cf")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.12)
+			)
+		)
+	)
+	(property "Value" "D2FS-FL-N-T"
+		(at 0 0.3 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "4a968e12-4441-46ce-b7aa-674102fc4a87")
+		(effects
+			(font
+				(size 0.25 0.25)
+				(thickness 0.04)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0.2 -8.6 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4d93200e-2520-46cf-aa2d-b420834c38cb")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0.2 -8.6 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c4036b9f-de80-4f74-83ce-95116b1a8a5d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0.2 -8.6 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ac0777ab-bf6d-45c6-9ed4-e488b349bb7e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_rect
+		(start -6.5 -3)
+		(end 6.5 3)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "88d09df7-0392-46a4-ae31-479b5300a78a")
+	)
+	(fp_rect
+		(start -6.5 -3)
+		(end 6.5 3)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "d0b977e0-061a-4eb6-97d7-004fd4e64f87")
+	)
+	(fp_rect
+		(start -6.4 -2.9)
+		(end 6.4 2.9)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "F.Fab")
+		(uuid "1350cf40-a517-4569-a6fb-644682a1eb31")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 -0.3 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "15f1a069-0609-4078-b30b-b0ab8717953b")
+		(effects
+			(font
+				(size 0.25 0.25)
+				(thickness 0.04)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at -5.08 0)
+		(size 1.85 1.85)
+		(drill 1.2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "f8c7e333-2f8c-46eb-ad28-d7184ff60fa5")
+	)
+	(pad "2" thru_hole circle
+		(at 0 0)
+		(size 1.85 1.85)
+		(drill 1.2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "7fb466bd-759e-4c54-96c8-ae013219c9d7")
+	)
+	(pad "3" thru_hole circle
+		(at 5.08 0)
+		(size 1.85 1.85)
+		(drill 1.2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "1d462a76-810c-4002-90c5-b7dba070c0df")
+	)
+	(model "${DAXXN}/Controls/D2FS-FL-N-T.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

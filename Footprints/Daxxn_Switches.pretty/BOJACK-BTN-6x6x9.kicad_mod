@@ -1,0 +1,167 @@
+(footprint "BOJACK-BTN-6x6x9"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -3.9 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "34b57c2e-98a4-48be-9671-664676daf052")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.12)
+			)
+		)
+	)
+	(property "Value" "BOJACK-BTN-6x6x9"
+		(at 0 0.2 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "6c946e8e-1685-4251-acf9-94d7dae3ef7a")
+		(effects
+			(font
+				(size 0.25 0.25)
+				(thickness 0.04)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at -6 -11.2 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1fcda7f0-fd66-45e4-8a38-064b4db6edbd")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at -6 -11.2 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b5adb134-382f-4c0b-9447-c48fee717998")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at -6 -11.2 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3951fe1a-bde6-4975-8c18-c75946a134fa")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -3 -3.2)
+		(end 3 -3.2)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "731d4503-4ff2-41ce-aeac-4e8d2d0b6441")
+	)
+	(fp_line
+		(start -3 3.2)
+		(end 3 3.2)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "557ded7d-9cb8-4b5d-9a65-34a0ca9809bb")
+	)
+	(fp_rect
+		(start -4.2 -3.3)
+		(end 4.2 3.3)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "d9dcd88b-3c9d-466f-97eb-9eca7cafd34d")
+	)
+	(fp_rect
+		(start -3 -3)
+		(end 3 3)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "F.Fab")
+		(uuid "15fcfde1-43ee-467f-ae1a-0f42e6c74433")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 -0.3 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "195839e3-99c3-4ee0-8656-8e987674fa6d")
+		(effects
+			(font
+				(size 0.25 0.25)
+				(thickness 0.04)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at -3.25 -2.25)
+		(size 1.65 1.65)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "e2c2fa54-b521-429c-b2e6-6cc799360396")
+	)
+	(pad "1" thru_hole circle
+		(at 3.25 -2.25)
+		(size 1.65 1.65)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "316b7972-5f70-4c44-8d84-19353cd93dbf")
+	)
+	(pad "2" thru_hole circle
+		(at -3.25 2.25)
+		(size 1.65 1.65)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "de9656f8-3655-4efb-8281-5a07195f8083")
+	)
+	(pad "2" thru_hole circle
+		(at 3.25 2.25)
+		(size 1.65 1.65)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "1e3a6305-fbb6-4349-8d18-e9a92b0ce5f8")
+	)
+	(model "${DAXXN}/Controls/Bojack-BTN-6x6x9.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

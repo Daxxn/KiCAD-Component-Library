@@ -1,0 +1,131 @@
+(footprint "14A"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -2 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "8cd29c47-5a5e-44d6-a7f8-a1c0c0f079eb")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.12)
+			)
+		)
+	)
+	(property "Value" "14A"
+		(at 0 0.225 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "b0f945fb-0e1e-4148-af8b-232eeff427c0")
+		(effects
+			(font
+				(size 0.25 0.25)
+				(thickness 0.04)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at -2.3 -13.025 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "96af5d73-db74-48e7-8ae0-e87fa77f9f49")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at -2.3 -13.025 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f78dfa53-bbc8-4a67-bd6f-72e2643e8b52")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at -2.3 -13.025 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "526ad997-18da-4b65-b411-f8c0b92e034b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_rect
+		(start -9.1 -3.3)
+		(end 9.1 3.3)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "26408fe6-2b92-43d0-b247-23c34b4403ed")
+	)
+	(fp_rect
+		(start -9 -3.2)
+		(end 9 3.2)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "F.Fab")
+		(uuid "db87277c-45ba-46cb-87e4-50dc91c5e2ad")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 -0.275 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "95706492-0c48-4b21-b140-41ba48ef8492")
+		(effects
+			(font
+				(size 0.25 0.25)
+				(thickness 0.04)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at -10.9 0)
+		(size 1.7 1.7)
+		(drill 0.95)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "680f065f-9348-4725-aefa-92c8abc7cf94")
+	)
+	(pad "2" thru_hole circle
+		(at 10.9 0)
+		(size 1.7 1.7)
+		(drill 0.95)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "7df26ff3-1248-4d2c-96ce-8c72c1b84089")
+	)
+	(model "${DAXXN}/Passives/Resistors/14AFR010E v2.step"
+		(offset
+			(xyz 0 0 -1)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

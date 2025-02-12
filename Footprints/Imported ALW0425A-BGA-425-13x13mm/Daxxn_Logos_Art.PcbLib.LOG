@@ -1,0 +1,43 @@
+Importer Log Report
+Document: F:\Electrical\KiCad\Libraries\Footprints\Daxxn_Logos_Art.pretty
+    Section : Analyze Document from - F:\Electrical\KiCad\Libraries\Footprints\Daxxn_Logos_Art.pretty
+        Warning: Unknown child stroke of fp_line.
+        Warning: Unknown child stroke of fp_line.
+        Warning: Unknown child stroke of fp_line.
+        Warning: Unknown child stroke of fp_line.
+        Warning: Unknown child stroke of fp_line.
+        Warning: Unknown child stroke of fp_arc.
+        Warning: Unknown child stroke of fp_circle.
+        Warning: Unknown child stroke of fp_circle.
+        Warning: Unknown child stroke of fp_circle.
+    EndSection
+    Section : Import Document - F:\Electrical\KiCad\Libraries\Footprints\Imported ALW0425A-BGA-425-13x13mm\Daxxn_Logos_Art.PcbLib
+        Section : Component G*** importing.
+        EndSection
+        Section : Component G*** importing.
+        EndSection
+        Section : Component G*** importing.
+        EndSection
+        Section : Component G*** importing.
+        EndSection
+        Section : Component G*** importing.
+        EndSection
+        Section : Component G*** importing.
+        EndSection
+        Section : Component G*** importing.
+        EndSection
+        Section : Component G*** importing.
+        EndSection
+        Section : Component G*** importing.
+        EndSection
+        Section : Component G*** importing.
+        EndSection
+        Section : Component G*** importing.
+        EndSection
+        Section : Component G*** importing.
+        EndSection
+        Section : Component REF** importing.
+        EndSection
+        Section : Component G importing.
+        EndSection
+    EndSection

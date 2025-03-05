@@ -33,7 +33,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "F:\\Electrical\\Datasheets\\ECS-2520MV.pdf"
+		(property "Datasheet" "${DATASHEETS}/ECS-2520MV.pdf"
 			(at 7.62 13.462 0)
 			(effects
 				(font

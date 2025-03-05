@@ -33,7 +33,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "F:\\Electrical\\Datasheets\\AOZ6605PI-1.pdf"
+		(property "Datasheet" "${DATASHEETS}/AOZ6605PI-1.pdf"
 			(at 0 7.62 0)
 			(effects
 				(font
@@ -270,7 +270,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "F:\\Electrical\\Datasheets\\AP3401.pdf"
+		(property "Datasheet" "${DATASHEETS}/AP3401.pdf"
 			(at 0 8.382 0)
 			(effects
 				(font
@@ -947,7 +947,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "F:\\Electrical\\Datasheets\\LM2670.pdf"
+		(property "Datasheet" "${DATASHEETS}/LM2670.pdf"
 			(at 0 10.668 0)
 			(effects
 				(font
@@ -1147,7 +1147,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "F:\\Electrical\\Datasheets\\LM2698.pdf"
+		(property "Datasheet" "${DATASHEETS}/LM2698.pdf"
 			(at 0 7.62 0)
 			(effects
 				(font
@@ -1365,7 +1365,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "F:\\Electrical\\Datasheets\\LMR33630.pdf"
+		(property "Datasheet" "${DATASHEETS}/LMR33630.pdf"
 			(at 12.7 8.636 0)
 			(effects
 				(font
@@ -2058,7 +2058,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "F:\\Electrical\\Datasheets\\MAX774.pdf"
+		(property "Datasheet" "${DATASHEETS}/MAX774.pdf"
 			(at -0.254 13.716 0)
 			(effects
 				(font
@@ -2278,7 +2278,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "F:\\Electrical\\Datasheets\\MC33063A.pdf"
+		(property "Datasheet" "${DATASHEETS}/MC33063A.pdf"
 			(at 0 7.62 0)
 			(effects
 				(font
@@ -3686,7 +3686,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "F:\\Electrical\\Datasheets\\TPS54308.pdf"
+		(property "Datasheet" "${DATASHEETS}/TPS54308.pdf"
 			(at 0 9.906 0)
 			(effects
 				(font
@@ -3879,7 +3879,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "F:\\Electrical\\Datasheets\\TPS61391.pdf"
+		(property "Datasheet" "${DATASHEETS}/TPS61391.pdf"
 			(at 0 9.144 0)
 			(effects
 				(font
@@ -4259,7 +4259,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "F:\\Electrical\\Datasheets\\TPS63001.pdf"
+		(property "Datasheet" "${DATASHEETS}/TPS63001.pdf"
 			(at 12.7 6.858 0)
 			(effects
 				(font
@@ -4546,7 +4546,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "F:\\Electrical\\Datasheets\\TPS65400.pdf"
+		(property "Datasheet" "${DATASHEETS}/TPS65400.pdf"
 			(at 0 9.652 0)
 			(effects
 				(font
@@ -6054,7 +6054,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "F:\\Electrical\\Datasheets\\SIC450.pdf"
+		(property "Datasheet" "${DATASHEETS}/SIC450.pdf"
 			(at 0 9.652 0)
 			(effects
 				(font
@@ -6132,7 +6132,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "F:\\Electrical\\Datasheets\\TPS65400.pdf"
+		(property "Datasheet" "${DATASHEETS}/TPS65400.pdf"
 			(at 0 9.652 0)
 			(effects
 				(font

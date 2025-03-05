@@ -33,7 +33,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "F:\\Electrical\\Datasheets\\CEM-1206S.pdf"
+		(property "Datasheet" "${DATASHEETS}/CEM-1206S.pdf"
 			(at 0 10.414 0)
 			(effects
 				(font

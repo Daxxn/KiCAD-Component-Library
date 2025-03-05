@@ -903,7 +903,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "F:\\Electrical\\Datasheets\\LD15S33E4GV00LF.pdf"
+		(property "Datasheet" "${DATASHEETS}/LD15S33E4GV00LF.pdf"
 			(at 2.54 5.08 0)
 			(effects
 				(font

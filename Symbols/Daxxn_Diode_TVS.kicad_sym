@@ -164,7 +164,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "F:\\Electrical\\Datasheets\\DT1240A-08LP3810.pdf"
+		(property "Datasheet" "${DATASHEETS}/DT1240A-08LP3810.pdf"
 			(at 0 11.684 0)
 			(effects
 				(font
@@ -2055,7 +2055,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "F:\\Electrical\\Datasheets\\HSP051-4M10.pdf"
+		(property "Datasheet" "${DATASHEETS}/HSP051-4M10.pdf"
 			(at -0.254 12.7 0)
 			(effects
 				(font
@@ -2864,7 +2864,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "F:\\Electrical\\Datasheets\\PESD5V0C2BDF.pdf"
+		(property "Datasheet" "${DATASHEETS}/PESD5V0C2BDF.pdf"
 			(at 0 8.636 0)
 			(effects
 				(font
@@ -4320,7 +4320,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "F:\\Electrical\\Datasheets\\PUSB3AB6.pdf"
+		(property "Datasheet" "${DATASHEETS}/PUSB3AB6.pdf"
 			(at 5.08 9.398 0)
 			(effects
 				(font
@@ -5333,7 +5333,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "F:\\Electrical\\Datasheets\\S2303.pdf"
+		(property "Datasheet" "${DATASHEETS}/S2303.pdf"
 			(at 0 7.62 0)
 			(effects
 				(font
@@ -5565,7 +5565,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "F:\\Electrical\\Datasheets\\S23LCC05.pdf"
+		(property "Datasheet" "${DATASHEETS}/S23LCC05.pdf"
 			(at 0 7.874 0)
 			(effects
 				(font
@@ -5797,7 +5797,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "F:\\Electrical\\Datasheets\\SMAJ000CA.pdf"
+		(property "Datasheet" "${DATASHEETS}/SMAJ000CA.pdf"
 			(at 0 6.096 0)
 			(effects
 				(font
@@ -5926,7 +5926,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "F:\\Electrical\\Datasheets\\SMAJ22A.pdf"
+		(property "Datasheet" "${DATASHEETS}/SMAJ22A.pdf"
 			(at 0 5.842 0)
 			(effects
 				(font
@@ -6057,7 +6057,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "F:\\Electrical\\Datasheets\\SMF4L13CA.pdf"
+		(property "Datasheet" "${DATASHEETS}/SMF4L13CA.pdf"
 			(at 0 9.144 0)
 			(effects
 				(font
@@ -6489,7 +6489,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "F:\\Electrical\\Datasheets\\USBLC6-4SC6Y.pdf"
+		(property "Datasheet" "${DATASHEETS}/USBLC6-4SC6Y.pdf"
 			(at 5.08 9.144 0)
 			(effects
 				(font

@@ -173,7 +173,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "F:\\Electrical\\Datasheets\\ALS31300.pdf"
+		(property "Datasheet" "${DATASHEETS}/ALS31300.pdf"
 			(at 8.89 13.208 0)
 			(effects
 				(font
@@ -454,7 +454,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "F:\\Electrical\\Datasheets\\AS5600.pdf"
+		(property "Datasheet" "${DATASHEETS}/AS5600.pdf"
 			(at 7.62 7.62 0)
 			(effects
 				(font
@@ -681,7 +681,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "F:\\Electrical\\Datasheets\\TLV493D-A1B6.pdf"
+		(property "Datasheet" "${DATASHEETS}/TLV493D-A1B6.pdf"
 			(at 6.35 7.62 0)
 			(effects
 				(font

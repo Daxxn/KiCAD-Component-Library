@@ -33,7 +33,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "F:\\Electrical\\Datasheets\\hc-49usx.pdf"
+		(property "Datasheet" "${DATASHEETS}/hc-49usx.pdf"
 			(at 0 9.144 0)
 			(effects
 				(font
@@ -175,7 +175,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "F:\\Electrical\\Datasheets\\RH100-16.000-8-1010-TR.pdf"
+		(property "Datasheet" "${DATASHEETS}/RH100-16.000-8-1010-TR.pdf"
 			(at 0 11.43 0)
 			(effects
 				(font
@@ -373,7 +373,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "F:\\Electrical\\Datasheets\\ABLS2.pdf"
+		(property "Datasheet" "${DATASHEETS}/ABLS2.pdf"
 			(at 0 9.144 0)
 			(effects
 				(font
@@ -436,7 +436,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "F:\\Electrical\\Datasheets\\ABLS7M2.pdf"
+		(property "Datasheet" "${DATASHEETS}/ABLS7M2.pdf"
 			(at 0 9.144 0)
 			(effects
 				(font
@@ -499,7 +499,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "F:\\Electrical\\Datasheets\\AS-6.000-12-2020-EXT-SMD-TR.pdf"
+		(property "Datasheet" "${DATASHEETS}/AS-6.000-12-2020-EXT-SMD-TR.pdf"
 			(at 0 9.144 0)
 			(effects
 				(font
@@ -562,7 +562,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "F:\\Electrical\\Datasheets\\ECX-31B.pdf"
+		(property "Datasheet" "${DATASHEETS}/ECX-31B.pdf"
 			(at 0 11.43 0)
 			(effects
 				(font
@@ -625,7 +625,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "F:\\Electrical\\Datasheets\\hc-49usx.pdf"
+		(property "Datasheet" "${DATASHEETS}/hc-49usx.pdf"
 			(at 0 9.144 0)
 			(effects
 				(font
@@ -688,7 +688,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "F:\\Electrical\\Datasheets\\ECX-1637B.pdf"
+		(property "Datasheet" "${DATASHEETS}/ECX-1637B.pdf"
 			(at 0 11.43 0)
 			(effects
 				(font
@@ -751,7 +751,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "F:\\Electrical\\Datasheets\\ECX_1247.pdf"
+		(property "Datasheet" "${DATASHEETS}/ECX_1247.pdf"
 			(at 0 11.43 0)
 			(effects
 				(font
@@ -814,7 +814,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "F:\\Electrical\\Datasheets\\G23270006.pdf"
+		(property "Datasheet" "${DATASHEETS}/G23270006.pdf"
 			(at 0 9.144 0)
 			(effects
 				(font
@@ -877,7 +877,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "F:\\Electrical\\Datasheets\\RH100-16.000-9-1010-TR.pdf"
+		(property "Datasheet" "${DATASHEETS}/RH100-16.000-9-1010-TR.pdf"
 			(at 0 11.43 0)
 			(effects
 				(font
@@ -940,7 +940,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "F:\\Electrical\\Datasheets\\RH100-24.000-18-2030-EXT-TR.pdf"
+		(property "Datasheet" "${DATASHEETS}/RH100-24.000-18-2030-EXT-TR.pdf"
 			(at 0 11.43 0)
 			(effects
 				(font
@@ -1003,7 +1003,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "F:\\Electrical\\Datasheets\\RH100-25.000-12-F-1010-TR.pdf"
+		(property "Datasheet" "${DATASHEETS}/RH100-25.000-12-F-1010-TR.pdf"
 			(at 0 11.43 0)
 			(effects
 				(font
@@ -1066,7 +1066,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "F:\\Electrical\\Datasheets\\RH100-40.000-10-F-1010-TR.pdf"
+		(property "Datasheet" "${DATASHEETS}/RH100-40.000-10-F-1010-TR.pdf"
 			(at 0 11.43 0)
 			(effects
 				(font
@@ -1129,7 +1129,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "F:\\Electrical\\Datasheets\\RH100-48.000-8-F-1015-EXT-TR.pdf"
+		(property "Datasheet" "${DATASHEETS}/RH100-48.000-8-F-1015-EXT-TR.pdf"
 			(at 0 11.43 0)
 			(effects
 				(font
@@ -1192,7 +1192,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "F:\\Electrical\\Datasheets\\RH100-50.000-12-F-1010-TR.pdf"
+		(property "Datasheet" "${DATASHEETS}/RH100-50.000-12-F-1010-TR.pdf"
 			(at 0 11.43 0)
 			(effects
 				(font

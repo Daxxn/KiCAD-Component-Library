@@ -33,7 +33,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "F:\\Electrical\\Datasheets\\IS31FL3235A.pdf"
+		(property "Datasheet" "${DATASHEETS}/IS31FL3235A.pdf"
 			(at 12.7 8.128 0)
 			(effects
 				(font
@@ -782,7 +782,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "F:\\Electrical\\Datasheets\\IS31FL3236A.pdf"
+		(property "Datasheet" "${DATASHEETS}/IS31FL3236A.pdf"
 			(at 12.7 10.16 0)
 			(effects
 				(font
@@ -1675,7 +1675,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "F:\\Electrical\\Datasheets\\IS31FL3236A.pdf"
+		(property "Datasheet" "${DATASHEETS}/IS31FL3236A.pdf"
 			(at 0 9.144 0)
 			(effects
 				(font
@@ -2631,7 +2631,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "F:\\Electrical\\Datasheets\\LP3944.pdf"
+		(property "Datasheet" "${DATASHEETS}/LP3944.pdf"
 			(at 0 7.62 0)
 			(effects
 				(font
@@ -3846,7 +3846,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "F:\\Electrical\\Datasheets\\NTE1561.pdf"
+		(property "Datasheet" "${DATASHEETS}/NTE1561.pdf"
 			(at 10.16 9.144 0)
 			(effects
 				(font
@@ -4772,7 +4772,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "F:\\Electrical\\Datasheets\\PCA9635.pdf"
+		(property "Datasheet" "${DATASHEETS}/PCA9635.pdf"
 			(at 12.7 9.144 0)
 			(effects
 				(font
@@ -5350,7 +5350,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "F:\\Electrical\\Datasheets\\STP08DP05.pdf"
+		(property "Datasheet" "${DATASHEETS}/STP08DP05.pdf"
 			(at -17.272 13.716 0)
 			(effects
 				(font
@@ -5715,7 +5715,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "F:\\Electrical\\Datasheets\\STP16CP05.pdf"
+		(property "Datasheet" "${DATASHEETS}/STP16CP05.pdf"
 			(at 0 10.16 0)
 			(effects
 				(font
@@ -6235,7 +6235,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "F:\\Electrical\\Datasheets\\STP16CP05.pdf"
+		(property "Datasheet" "${DATASHEETS}/STP16CP05.pdf"
 			(at 0 10.16 0)
 			(effects
 				(font
@@ -6773,7 +6773,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "F:\\Electrical\\Datasheets\\STP16CP05.pdf"
+		(property "Datasheet" "${DATASHEETS}/STP16CP05.pdf"
 			(at 0 10.16 0)
 			(effects
 				(font
@@ -7292,7 +7292,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "F:\\Electrical\\Datasheets\\TLC5929.pdf"
+		(property "Datasheet" "${DATASHEETS}/TLC5929.pdf"
 			(at 12.7 10.16 0)
 			(effects
 				(font
@@ -7817,7 +7817,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "F:\\Electrical\\Datasheets\\TLC5947.pdf"
+		(property "Datasheet" "${DATASHEETS}/TLC5947.pdf"
 			(at 0 10.16 0)
 			(effects
 				(font

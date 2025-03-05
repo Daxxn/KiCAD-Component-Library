@@ -33,7 +33,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "F:\\Electrical\\Datasheets\\AFY480272A0-4.3N6NTM.pdf"
+		(property "Datasheet" "${DATASHEETS}/AFY480272A0-4.3N6NTM.pdf"
 			(at 12.7 8.128 0)
 			(effects
 				(font
@@ -864,7 +864,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "F:\\Electrical\\Datasheets\\AFY800480B1-5.0N12NTM-C.pdf"
+		(property "Datasheet" "${DATASHEETS}/AFY800480B1-5.0N12NTM-C.pdf"
 			(at 0 11.43 0)
 			(effects
 				(font
@@ -1810,7 +1810,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "F:\\Electrical\\Datasheets\\E45RA-MW307-N.pdf"
+		(property "Datasheet" "${DATASHEETS}/E45RA-MW307-N.pdf"
 			(at 12.954 7.62 0)
 			(effects
 				(font
@@ -2271,7 +2271,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "F:\\Electrical\\Datasheets\\E50RA-I-MW550-N.pdf"
+		(property "Datasheet" "${DATASHEETS}/E50RA-I-MW550-N.pdf"
 			(at 0 7.62 0)
 			(effects
 				(font
@@ -2723,7 +2723,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "F:\\Electrical\\Datasheets\\WF35UTYAIDNN0.pdf"
+		(property "Datasheet" "${DATASHEETS}/WF35UTYAIDNN0.pdf"
 			(at 10.16 7.62 0)
 			(effects
 				(font

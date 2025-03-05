@@ -571,7 +571,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "F:\\Electrical\\Datasheets\\AGQ - Signal Relay.pdf"
+		(property "Datasheet" "${DATASHEETS}/AGQ - Signal Relay.pdf"
 			(at 0 6.35 0)
 			(effects
 				(font
@@ -1109,7 +1109,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "F:\\Electrical\\Datasheets\\ALQ112.pdf"
+		(property "Datasheet" "${DATASHEETS}/ALQ112.pdf"
 			(at 0 16.51 0)
 			(effects
 				(font
@@ -1517,7 +1517,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "F:\\Electrical\\Datasheets\\G2R.pdf"
+		(property "Datasheet" "${DATASHEETS}/G2R.pdf"
 			(at 2.794 12.954 0)
 			(effects
 				(font
@@ -1848,7 +1848,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "F:\\Electrical\\Datasheets\\G5NB.pdf"
+		(property "Datasheet" "${DATASHEETS}/G5NB.pdf"
 			(at 0.762 11.684 0)
 			(effects
 				(font
@@ -2168,7 +2168,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "F:\\Electrical\\Datasheets\\J151.pdf"
+		(property "Datasheet" "${DATASHEETS}/J151.pdf"
 			(at -4.572 6.35 0)
 			(effects
 				(font
@@ -3230,7 +3230,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "F:\\Electrical\\Datasheets\\LY.pdf"
+		(property "Datasheet" "${DATASHEETS}/LY.pdf"
 			(at 3.048 13.462 0)
 			(effects
 				(font
@@ -3765,7 +3765,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "F:\\Electrical\\Datasheets\\AGQ - Signal Relay.pdf"
+		(property "Datasheet" "${DATASHEETS}/AGQ - Signal Relay.pdf"
 			(at 0 6.35 0)
 			(effects
 				(font

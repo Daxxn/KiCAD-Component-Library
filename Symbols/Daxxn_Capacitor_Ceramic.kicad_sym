@@ -33,7 +33,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "F:\\Electrical\\Datasheets\\C1812X334J5JACAUTO.pdf"
+		(property "Datasheet" "${DATASHEETS}/C1812X334J5JACAUTO.pdf"
 			(at 1.016 9.906 0)
 			(effects
 				(font
@@ -157,7 +157,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "F:\\Electrical\\Datasheets\\W2A4ZC104MAT2A.pdf"
+		(property "Datasheet" "${DATASHEETS}/W2A4ZC104MAT2A.pdf"
 			(at 0 9.144 0)
 			(effects
 				(font

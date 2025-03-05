@@ -275,7 +275,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "F:\\Electrical\\Datasheets\\IRS10752LPBF.pdf"
+		(property "Datasheet" "${DATASHEETS}/IRS10752LPBF.pdf"
 			(at 7.62 9.398 0)
 			(effects
 				(font
@@ -908,7 +908,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "F:\\Electrical\\Datasheets\\TPS2054A.pdf"
+		(property "Datasheet" "${DATASHEETS}/TPS2054A.pdf"
 			(at 0 7.62 0)
 			(effects
 				(font

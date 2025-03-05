@@ -33,7 +33,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "F:\\Electrical\\Datasheets\\ADR280.pdf"
+		(property "Datasheet" "${DATASHEETS}/ADR280.pdf"
 			(at 5.08 9.144 0)
 			(effects
 				(font
@@ -162,7 +162,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "F:\\Electrical\\Datasheets\\LM4040.pdf"
+		(property "Datasheet" "${DATASHEETS}/LM4040.pdf"
 			(at 0 10.922 0)
 			(effects
 				(font
@@ -327,7 +327,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "F:\\Electrical\\Datasheets\\REF5020.pdf"
+		(property "Datasheet" "${DATASHEETS}/REF5020.pdf"
 			(at 7.62 10.922 0)
 			(effects
 				(font
@@ -546,7 +546,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "F:\\Electrical\\Datasheets\\TL1431.pdf"
+		(property "Datasheet" "${DATASHEETS}/TL1431.pdf"
 			(at 0 10.414 0)
 			(effects
 				(font

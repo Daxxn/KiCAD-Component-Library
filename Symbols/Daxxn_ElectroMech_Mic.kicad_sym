@@ -34,7 +34,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "F:\\Electrical\\Datasheets\\SPH11C3LR5H-Falcon.pdf"
+		(property "Datasheet" "${DATASHEETS}/SPH11C3LR5H-Falcon.pdf"
 			(at 0 8.128 0)
 			(effects
 				(font

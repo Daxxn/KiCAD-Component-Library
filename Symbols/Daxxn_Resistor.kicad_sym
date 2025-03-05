@@ -33,7 +33,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "F:\\Electrical\\Datasheets\\R2R.pdf"
+		(property "Datasheet" "${DATASHEETS}/R2R.pdf"
 			(at 0 9.398 0)
 			(effects
 				(font
@@ -875,7 +875,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "F:\\Electrical\\Datasheets\\74x_Series.pdf"
+		(property "Datasheet" "${DATASHEETS}/74x_Series.pdf"
 			(at 0 11.43 0)
 			(effects
 				(font
@@ -1281,7 +1281,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "F:\\Electrical\\Datasheets\\‎77061471P‎.pdf"
+		(property "Datasheet" "${DATASHEETS}/‎77061471P‎.pdf"
 			(at 0 5.08 0)
 			(effects
 				(font
@@ -1755,7 +1755,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "F:\\Electrical\\Datasheets\\EXB.pdf"
+		(property "Datasheet" "${DATASHEETS}/EXB.pdf"
 			(at 0 14.224 0)
 			(effects
 				(font
@@ -2007,7 +2007,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "F:\\Electrical\\Datasheets\\EXB.pdf"
+		(property "Datasheet" "${DATASHEETS}/EXB.pdf"
 			(at 0 14.224 0)
 			(effects
 				(font
@@ -2413,7 +2413,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "F:\\Electrical\\Datasheets\\AOC0000C12.pdf"
+		(property "Datasheet" "${DATASHEETS}/AOC0000C12.pdf"
 			(at 0 5.842 0)
 			(effects
 				(font
@@ -3138,7 +3138,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "F:\\Electrical\\Datasheets\\AOC0000C12.pdf"
+		(property "Datasheet" "${DATASHEETS}/AOC0000C12.pdf"
 			(at 0 6.604 0)
 			(effects
 				(font
@@ -4379,7 +4379,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "F:\\Electrical\\Datasheets\\74x_Series.pdf"
+		(property "Datasheet" "${DATASHEETS}/74x_Series.pdf"
 			(at 0 11.43 0)
 			(effects
 				(font
@@ -4444,7 +4444,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "F:\\Electrical\\Datasheets\\74x_Series.pdf"
+		(property "Datasheet" "${DATASHEETS}/74x_Series.pdf"
 			(at 0 8.89 0)
 			(effects
 				(font
@@ -4508,7 +4508,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "F:\\Electrical\\Datasheets\\EXB.pdf"
+		(property "Datasheet" "${DATASHEETS}/EXB.pdf"
 			(at 0 14.224 0)
 			(effects
 				(font

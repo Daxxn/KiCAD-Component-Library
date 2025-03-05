@@ -35,7 +35,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "F:\\Electrical\\Datasheets\\KXM.pdf"
+		(property "Datasheet" "${DATASHEETS}/KXM.pdf"
 			(at 0 8.128 0)
 			(effects
 				(font
@@ -187,7 +187,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "F:\\Electrical\\Datasheets\\865090368008.pdf"
+		(property "Datasheet" "${DATASHEETS}/865090368008.pdf"
 			(at 0 8.128 0)
 			(effects
 				(font
@@ -253,7 +253,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "F:\\Electrical\\Datasheets\\EEV.pdf"
+		(property "Datasheet" "${DATASHEETS}/EEV.pdf"
 			(at 0 8.128 0)
 			(effects
 				(font
@@ -319,7 +319,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "F:\\Electrical\\Datasheets\\MVYRA.pdf"
+		(property "Datasheet" "${DATASHEETS}/MVYRA.pdf"
 			(at 0 8.128 0)
 			(effects
 				(font
@@ -385,7 +385,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "F:\\Electrical\\Datasheets\\UUD.pdf"
+		(property "Datasheet" "${DATASHEETS}/UUD.pdf"
 			(at 0 8.128 0)
 			(effects
 				(font
@@ -451,7 +451,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "F:\\Electrical\\Datasheets\\UWT.pdf"
+		(property "Datasheet" "${DATASHEETS}/UWT.pdf"
 			(at 0 8.128 0)
 			(effects
 				(font
@@ -517,7 +517,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "F:\\Electrical\\Datasheets\\MVERA.pdf"
+		(property "Datasheet" "${DATASHEETS}/MVERA.pdf"
 			(at 0 8.128 0)
 			(effects
 				(font
@@ -2299,7 +2299,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "F:\\Electrical\\Datasheets\\RVT1V470M0605.pdf"
+		(property "Datasheet" "${DATASHEETS}/RVT1V470M0605.pdf"
 			(at 0 8.128 0)
 			(effects
 				(font
@@ -2365,7 +2365,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "F:\\Electrical\\Datasheets\\UWT.pdf"
+		(property "Datasheet" "${DATASHEETS}/UWT.pdf"
 			(at 0 8.128 0)
 			(effects
 				(font

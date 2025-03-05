@@ -35,7 +35,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "F:\\Electrical\\Datasheets\\B1047AS.pdf"
+		(property "Datasheet" "${DATASHEETS}/B1047AS.pdf"
 			(at 0 5.08 0)
 			(effects
 				(font
@@ -213,7 +213,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "F:\\Electrical\\Datasheets\\MLZ2012.pdf"
+		(property "Datasheet" "${DATASHEETS}/MLZ2012.pdf"
 			(at 0 8.128 0)
 			(effects
 				(font
@@ -367,7 +367,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "F:\\Electrical\\Datasheets\\744786210A.pdf"
+		(property "Datasheet" "${DATASHEETS}/744786210A.pdf"
 			(at 0 8.128 0)
 			(effects
 				(font
@@ -433,7 +433,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "F:\\Electrical\\Datasheets\\DFE201612E.pdf"
+		(property "Datasheet" "${DATASHEETS}/DFE201612E.pdf"
 			(at 0 8.128 0)
 			(effects
 				(font
@@ -499,7 +499,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "F:\\Electrical\\Datasheets\\MLZ1608.pdf"
+		(property "Datasheet" "${DATASHEETS}/MLZ1608.pdf"
 			(at 0 8.128 0)
 			(effects
 				(font

@@ -158,7 +158,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "F:\\Electrical\\Datasheets\\PF2200.pdf"
+		(property "Datasheet" "${DATASHEETS}/PF2200.pdf"
 			(at 0 7.62 0)
 			(effects
 				(font
@@ -281,7 +281,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "F:\\Electrical\\Datasheets\\RL1632T4F-Series.pdf"
+		(property "Datasheet" "${DATASHEETS}/RL1632T4F-Series.pdf"
 			(at 0 10.922 0)
 			(effects
 				(font
@@ -486,7 +486,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "F:\\Electrical\\Datasheets\\CRM.pdf"
+		(property "Datasheet" "${DATASHEETS}/CRM.pdf"
 			(at 0 6.096 0)
 			(effects
 				(font
@@ -543,7 +543,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "F:\\Electrical\\Datasheets\\CSRN.pdf"
+		(property "Datasheet" "${DATASHEETS}/CSRN.pdf"
 			(at 0 6.096 0)
 			(effects
 				(font
@@ -600,7 +600,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "F:\\Electrical\\Datasheets\\CSRN.pdf"
+		(property "Datasheet" "${DATASHEETS}/CSRN.pdf"
 			(at 0 6.096 0)
 			(effects
 				(font
@@ -657,7 +657,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "F:\\Electrical\\Datasheets\\CSR.pdf"
+		(property "Datasheet" "${DATASHEETS}/CSR.pdf"
 			(at 0 6.096 0)
 			(effects
 				(font
@@ -714,7 +714,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "F:\\Electrical\\Datasheets\\CSRN.pdf"
+		(property "Datasheet" "${DATASHEETS}/CSRN.pdf"
 			(at 0 6.096 0)
 			(effects
 				(font
@@ -771,7 +771,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "F:\\Electrical\\Datasheets\\CSRN.pdf"
+		(property "Datasheet" "${DATASHEETS}/CSRN.pdf"
 			(at 0 6.096 0)
 			(effects
 				(font
@@ -828,7 +828,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "F:\\Electrical\\Datasheets\\CSRN.pdf"
+		(property "Datasheet" "${DATASHEETS}/CSRN.pdf"
 			(at 0 6.096 0)
 			(effects
 				(font
@@ -885,7 +885,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "F:\\Electrical\\Datasheets\\ERJ-Series.pdf"
+		(property "Datasheet" "${DATASHEETS}/ERJ-Series.pdf"
 			(at 0 6.096 0)
 			(effects
 				(font
@@ -942,7 +942,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "F:\\Electrical\\Datasheets\\LVK-Series.pdf"
+		(property "Datasheet" "${DATASHEETS}/LVK-Series.pdf"
 			(at 0 6.096 0)
 			(effects
 				(font
@@ -999,7 +999,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "F:\\Electrical\\Datasheets\\MSR.pdf"
+		(property "Datasheet" "${DATASHEETS}/MSR.pdf"
 			(at 0 6.096 0)
 			(effects
 				(font
@@ -1056,7 +1056,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "F:\\Electrical\\Datasheets\\MSR.pdf"
+		(property "Datasheet" "${DATASHEETS}/MSR.pdf"
 			(at 0 6.096 0)
 			(effects
 				(font
@@ -1113,7 +1113,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "F:\\Electrical\\Datasheets\\PMR_Series.pdf"
+		(property "Datasheet" "${DATASHEETS}/PMR_Series.pdf"
 			(at 0 6.096 0)
 			(effects
 				(font
@@ -1170,7 +1170,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "F:\\Electrical\\Datasheets\\PRL-Series.pdf"
+		(property "Datasheet" "${DATASHEETS}/PRL-Series.pdf"
 			(at 0 6.096 0)
 			(effects
 				(font
@@ -1227,7 +1227,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "F:\\Electrical\\Datasheets\\RL-Series.pdf"
+		(property "Datasheet" "${DATASHEETS}/RL-Series.pdf"
 			(at 0 6.096 0)
 			(effects
 				(font
@@ -1284,7 +1284,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "F:\\Electrical\\Datasheets\\RL-Series.pdf"
+		(property "Datasheet" "${DATASHEETS}/RL-Series.pdf"
 			(at 0 6.096 0)
 			(effects
 				(font
@@ -1350,7 +1350,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "F:\\Electrical\\Datasheets\\RL-Series.pdf"
+		(property "Datasheet" "${DATASHEETS}/RL-Series.pdf"
 			(at 0 6.096 0)
 			(effects
 				(font
@@ -1407,7 +1407,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "F:\\Electrical\\Datasheets\\PRL-Series.pdf"
+		(property "Datasheet" "${DATASHEETS}/PRL-Series.pdf"
 			(at 0 6.096 0)
 			(effects
 				(font
@@ -1464,7 +1464,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "F:\\Electrical\\Datasheets\\SR.pdf"
+		(property "Datasheet" "${DATASHEETS}/SR.pdf"
 			(at 0 6.096 0)
 			(effects
 				(font
@@ -1521,7 +1521,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "F:\\Electrical\\Datasheets\\SR73.pdf"
+		(property "Datasheet" "${DATASHEETS}/SR73.pdf"
 			(at 0 6.096 0)
 			(effects
 				(font
@@ -1578,7 +1578,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "F:\\Electrical\\Datasheets\\SR73.pdf"
+		(property "Datasheet" "${DATASHEETS}/SR73.pdf"
 			(at 0 6.096 0)
 			(effects
 				(font
@@ -1635,7 +1635,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "F:\\Electrical\\Datasheets\\TLRP-Series.pdf"
+		(property "Datasheet" "${DATASHEETS}/TLRP-Series.pdf"
 			(at 0 6.096 0)
 			(effects
 				(font
@@ -1692,7 +1692,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "F:\\Electrical\\Datasheets\\WSHP2818.pdf"
+		(property "Datasheet" "${DATASHEETS}/WSHP2818.pdf"
 			(at 0 6.096 0)
 			(effects
 				(font
@@ -1749,7 +1749,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "F:\\Electrical\\Datasheets\\WSL.pdf"
+		(property "Datasheet" "${DATASHEETS}/WSL.pdf"
 			(at 0 6.096 0)
 			(effects
 				(font
@@ -1806,7 +1806,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "F:\\Electrical\\Datasheets\\WSL.pdf"
+		(property "Datasheet" "${DATASHEETS}/WSL.pdf"
 			(at 0 6.096 0)
 			(effects
 				(font
@@ -1863,7 +1863,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "F:\\Electrical\\Datasheets\\WSLT2010.pdf"
+		(property "Datasheet" "${DATASHEETS}/WSLT2010.pdf"
 			(at 0 6.096 0)
 			(effects
 				(font

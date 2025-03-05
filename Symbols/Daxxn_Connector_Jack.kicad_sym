@@ -33,7 +33,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "F:\\Electrical\\Datasheets\\0432026105.pdf"
+		(property "Datasheet" "${DATASHEETS}/0432026105.pdf"
 			(at -7.62 5.08 0)
 			(effects
 				(font

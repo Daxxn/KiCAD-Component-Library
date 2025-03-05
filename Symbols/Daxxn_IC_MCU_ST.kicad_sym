@@ -33,7 +33,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "F:\\Electrical\\Datasheets\\STM32F042.pdf"
+		(property "Datasheet" "${DATASHEETS}/STM32F042.pdf"
 			(at 0 9.144 0)
 			(effects
 				(font
@@ -653,7 +653,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "F:\\Electrical\\Datasheets\\STM32F070.pdf"
+		(property "Datasheet" "${DATASHEETS}/STM32F070.pdf"
 			(at 0 7.112 0)
 			(effects
 				(font
@@ -1929,7 +1929,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "F:\\Electrical\\Datasheets\\STM32F072.pdf"
+		(property "Datasheet" "${DATASHEETS}/STM32F072.pdf"
 			(at 0 10.414 0)
 			(effects
 				(font
@@ -6964,7 +6964,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "F:\\Electrical\\Datasheets\\STM32F334.pdf"
+		(property "Datasheet" "${DATASHEETS}/STM32F334.pdf"
 			(at 22.86 10.668 0)
 			(effects
 				(font
@@ -7624,7 +7624,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "F:\\Electrical\\Datasheets\\STM32F401.pdf"
+		(property "Datasheet" "${DATASHEETS}/STM32F401.pdf"
 			(at 0 10.16 0)
 			(effects
 				(font
@@ -9562,7 +9562,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "F:\\Electrical\\Datasheets\\STM32F412.pdf"
+		(property "Datasheet" "${DATASHEETS}/STM32F412.pdf"
 			(at 0 10.668 0)
 			(effects
 				(font
@@ -18292,7 +18292,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "F:\\Electrical\\Datasheets\\STM32F413.pdf"
+		(property "Datasheet" "${DATASHEETS}/STM32F413.pdf"
 			(at 0 9.144 0)
 			(effects
 				(font
@@ -24060,7 +24060,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "F:\\Electrical\\Datasheets\\STM32F745xx.pdf"
+		(property "Datasheet" "${DATASHEETS}/STM32F745xx.pdf"
 			(at -0.254 15.24 0)
 			(effects
 				(font
@@ -24120,7 +24120,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "F:\\Electrical\\Datasheets\\STM32G431.pdf"
+		(property "Datasheet" "${DATASHEETS}/STM32G431.pdf"
 			(at 0 7.366 0)
 			(effects
 				(font
@@ -25537,7 +25537,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "F:\\Electrical\\Datasheets\\STM32H723VG.pdf"
+		(property "Datasheet" "${DATASHEETS}/STM32H723VG.pdf"
 			(at 0 7.874 0)
 			(effects
 				(font
@@ -28346,7 +28346,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "F:\\Electrical\\Datasheets\\STM32H725.pdf"
+		(property "Datasheet" "${DATASHEETS}/STM32H725.pdf"
 			(at 0 12.446 0)
 			(effects
 				(font
@@ -32088,7 +32088,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "F:\\Electrical\\Datasheets\\STM32H753XIH6.pdf"
+		(property "Datasheet" "${DATASHEETS}/STM32H753XIH6.pdf"
 			(at 0 8.89 0)
 			(effects
 				(font
@@ -38287,7 +38287,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "F:\\Electrical\\Datasheets\\STM32H757AI.pdf"
+		(property "Datasheet" "${DATASHEETS}/STM32H757AI.pdf"
 			(at 12.7 10.16 0)
 			(effects
 				(font
@@ -44647,7 +44647,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "F:\\Electrical\\Datasheets\\STM8L101x2.pdf"
+		(property "Datasheet" "${DATASHEETS}/STM8L101x2.pdf"
 			(at 0 9.144 0)
 			(effects
 				(font
@@ -45107,7 +45107,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "F:\\Electrical\\Datasheets\\STM8TL52x4.pdf"
+		(property "Datasheet" "${DATASHEETS}/STM8TL52x4.pdf"
 			(at 0 10.668 0)
 			(effects
 				(font

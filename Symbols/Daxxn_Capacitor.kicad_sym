@@ -34,7 +34,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "F:\\Electrical\\Datasheets\\CB-PETHT.pdf"
+		(property "Datasheet" "${DATASHEETS}/CB-PETHT.pdf"
 			(at 1.27 3.81 0)
 			(effects
 				(font
@@ -169,7 +169,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "F:\\Electrical\\Datasheets\\ECHU(X)_Series_Catalog.pdf"
+		(property "Datasheet" "${DATASHEETS}/ECHU(X)_Series_Catalog.pdf"
 			(at 2.54 5.08 0)
 			(effects
 				(font
@@ -371,7 +371,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "F:\\Electrical\\Datasheets\\LDE-Series.pdf"
+		(property "Datasheet" "${DATASHEETS}/LDE-Series.pdf"
 			(at 2.54 6.35 0)
 			(effects
 				(font

@@ -31,7 +31,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "F:\\Electrical\\Datasheets\\1N4148WS.pdf"
+		(property "Datasheet" "${DATASHEETS}/1N4148WS.pdf"
 			(at 0 5.588 0)
 			(effects
 				(font
@@ -163,7 +163,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "F:\\Electrical\\Datasheets\\1SS308.pdf"
+		(property "Datasheet" "${DATASHEETS}/1SS308.pdf"
 			(at 3.81 7.874 0)
 			(effects
 				(font
@@ -524,7 +524,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "F:\\Electrical\\Datasheets\\1N4007FL.pdf"
+		(property "Datasheet" "${DATASHEETS}/1N4007FL.pdf"
 			(at 0 7.62 0)
 			(effects
 				(font
@@ -587,7 +587,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "F:\\Electrical\\Datasheets\\1N4148W.pdf"
+		(property "Datasheet" "${DATASHEETS}/1N4148W.pdf"
 			(at 0 7.62 0)
 			(effects
 				(font
@@ -650,7 +650,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "F:\\Electrical\\Datasheets\\1N4148WS.pdf"
+		(property "Datasheet" "${DATASHEETS}/1N4148WS.pdf"
 			(at 0 7.366 0)
 			(effects
 				(font
@@ -713,7 +713,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "F:\\Electrical\\Datasheets\\1N4448WS.pdf"
+		(property "Datasheet" "${DATASHEETS}/1N4448WS.pdf"
 			(at 0 9.144 0)
 			(effects
 				(font
@@ -776,7 +776,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "F:\\Electrical\\Datasheets\\ES2A-A.pdf"
+		(property "Datasheet" "${DATASHEETS}/ES2A-A.pdf"
 			(at 0 7.62 0)
 			(effects
 				(font
@@ -839,7 +839,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "F:\\Electrical\\Datasheets\\M1-7.pdf"
+		(property "Datasheet" "${DATASHEETS}/M1-7.pdf"
 			(at 0 7.62 0)
 			(effects
 				(font
@@ -965,7 +965,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "F:\\Electrical\\Datasheets\\M1-7.pdf"
+		(property "Datasheet" "${DATASHEETS}/M1-7.pdf"
 			(at 0 7.62 0)
 			(effects
 				(font
@@ -1028,7 +1028,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "F:\\Electrical\\Datasheets\\M1-7.pdf"
+		(property "Datasheet" "${DATASHEETS}/M1-7.pdf"
 			(at 0 7.62 0)
 			(effects
 				(font
@@ -1091,7 +1091,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "F:\\Electrical\\Datasheets\\RS1M.PDF"
+		(property "Datasheet" "${DATASHEETS}/RS1M.PDF"
 			(at 0 7.62 0)
 			(effects
 				(font
@@ -1154,7 +1154,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "F:\\Electrical\\Datasheets\\S1M.pdf"
+		(property "Datasheet" "${DATASHEETS}/S1M.pdf"
 			(at 0 7.62 0)
 			(effects
 				(font
@@ -1217,7 +1217,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "F:\\Electrical\\Datasheets\\S2M.PDF"
+		(property "Datasheet" "${DATASHEETS}/S2M.PDF"
 			(at 0 7.62 0)
 			(effects
 				(font
@@ -1280,7 +1280,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "F:\\Electrical\\Datasheets\\S3M.pdf"
+		(property "Datasheet" "${DATASHEETS}/S3M.pdf"
 			(at 0 7.62 0)
 			(effects
 				(font
@@ -1343,7 +1343,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "F:\\Electrical\\Datasheets\\US1M.pdf"
+		(property "Datasheet" "${DATASHEETS}/US1M.pdf"
 			(at 0 7.62 0)
 			(effects
 				(font

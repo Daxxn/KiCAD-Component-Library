@@ -33,7 +33,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "F:\\Electrical\\Datasheets\\ADCMP394.pdf"
+		(property "Datasheet" "${DATASHEETS}/ADCMP394.pdf"
 			(at -1.27 18.034 0)
 			(effects
 				(font
@@ -730,7 +730,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "F:\\Electrical\\Datasheets\\BU5265.pdf"
+		(property "Datasheet" "${DATASHEETS}/BU5265.pdf"
 			(at 0 17.78 0)
 			(effects
 				(font
@@ -921,7 +921,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "F:\\Electrical\\Datasheets\\LM2901Q4T.pdf"
+		(property "Datasheet" "${DATASHEETS}/LM2901Q4T.pdf"
 			(at 0 10.16 0)
 			(effects
 				(font
@@ -1461,7 +1461,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "F:\\Electrical\\Datasheets\\LM311.pdf"
+		(property "Datasheet" "${DATASHEETS}/LM311.pdf"
 			(at -4.826 11.684 0)
 			(effects
 				(font
@@ -1818,7 +1818,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "F:\\Electrical\\Datasheets\\LM119.pdf"
+		(property "Datasheet" "${DATASHEETS}/LM119.pdf"
 			(at 0 16.764 0)
 			(effects
 				(font
@@ -2241,7 +2241,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "F:\\Electrical\\Datasheets\\LM393-D.PDF"
+		(property "Datasheet" "${DATASHEETS}/LM393-D.PDF"
 			(at -1.524 15.748 0)
 			(effects
 				(font
@@ -2565,7 +2565,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "F:\\Electrical\\Datasheets\\LMV331.pdf"
+		(property "Datasheet" "${DATASHEETS}/LMV331.pdf"
 			(at 2.54 7.62 0)
 			(effects
 				(font
@@ -3173,7 +3173,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "F:\\Electrical\\Datasheets\\TLV7011.pdf"
+		(property "Datasheet" "${DATASHEETS}/TLV7011.pdf"
 			(at 0 22.606 0)
 			(effects
 				(font
@@ -3378,7 +3378,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "F:\\Electrical\\Datasheets\\TSX339.pdf"
+		(property "Datasheet" "${DATASHEETS}/TSX339.pdf"
 			(at 1.016 21.844 0)
 			(effects
 				(font
@@ -3871,7 +3871,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "F:\\Electrical\\Datasheets\\LM397.pdf"
+		(property "Datasheet" "${DATASHEETS}/LM397.pdf"
 			(at 2.54 7.62 0)
 			(effects
 				(font
@@ -3928,7 +3928,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "F:\\Electrical\\Datasheets\\TL331B.pdf"
+		(property "Datasheet" "${DATASHEETS}/TL331B.pdf"
 			(at 0 15.24 0)
 			(effects
 				(font

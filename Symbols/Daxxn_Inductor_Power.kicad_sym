@@ -35,7 +35,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "F:\\Electrical\\Datasheets\\PA4340.pdf"
+		(property "Datasheet" "${DATASHEETS}/PA4340.pdf"
 			(at 0 5.08 0)
 			(effects
 				(font
@@ -200,7 +200,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "F:\\Electrical\\Datasheets\\74438357100.pdf"
+		(property "Datasheet" "${DATASHEETS}/74438357100.pdf"
 			(at 0 5.08 0)
 			(effects
 				(font
@@ -266,7 +266,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "F:\\Electrical\\Datasheets\\74479276222C.pdf"
+		(property "Datasheet" "${DATASHEETS}/74479276222C.pdf"
 			(at 0 5.08 0)
 			(effects
 				(font
@@ -332,7 +332,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "F:\\Electrical\\Datasheets\\ASPI-4030S.pdf"
+		(property "Datasheet" "${DATASHEETS}/ASPI-4030S.pdf"
 			(at 0 5.08 0)
 			(effects
 				(font
@@ -398,7 +398,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "F:\\Electrical\\Datasheets\\BMRx_Series.pdf"
+		(property "Datasheet" "${DATASHEETS}/BMRx_Series.pdf"
 			(at 0 5.08 0)
 			(effects
 				(font
@@ -464,7 +464,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "F:\\Electrical\\Datasheets\\LE-Series.pdf"
+		(property "Datasheet" "${DATASHEETS}/LE-Series.pdf"
 			(at 0 5.08 0)
 			(effects
 				(font
@@ -530,7 +530,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "F:\\Electrical\\Datasheets\\IHLP-6767GZ-01.pdf"
+		(property "Datasheet" "${DATASHEETS}/IHLP-6767GZ-01.pdf"
 			(at 0 5.08 0)
 			(effects
 				(font
@@ -596,7 +596,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "F:\\Electrical\\Datasheets\\LBC3225T1R0MR.pdf"
+		(property "Datasheet" "${DATASHEETS}/LBC3225T1R0MR.pdf"
 			(at 0 5.08 0)
 			(effects
 				(font
@@ -662,7 +662,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "F:\\Electrical\\Datasheets\\JELF243A-0142.pdf"
+		(property "Datasheet" "${DATASHEETS}/JELF243A-0142.pdf"
 			(at 0 5.08 0)
 			(effects
 				(font
@@ -728,7 +728,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "F:\\Electrical\\Datasheets\\NLCV32-EFR.pdf"
+		(property "Datasheet" "${DATASHEETS}/NLCV32-EFR.pdf"
 			(at 0 5.08 0)
 			(effects
 				(font
@@ -794,7 +794,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "F:\\Electrical\\Datasheets\\PA4341.pdf"
+		(property "Datasheet" "${DATASHEETS}/PA4341.pdf"
 			(at 0 5.08 0)
 			(effects
 				(font
@@ -860,7 +860,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "F:\\Electrical\\Datasheets\\SLF10145.pdf"
+		(property "Datasheet" "${DATASHEETS}/SLF10145.pdf"
 			(at 0 5.08 0)
 			(effects
 				(font
@@ -926,7 +926,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "F:\\Electrical\\Datasheets\\SLF7032.pdf"
+		(property "Datasheet" "${DATASHEETS}/SLF7032.pdf"
 			(at 0 5.08 0)
 			(effects
 				(font
@@ -992,7 +992,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "F:\\Electrical\\Datasheets\\SRP7050WA.pdf"
+		(property "Datasheet" "${DATASHEETS}/SRP7050WA.pdf"
 			(at 0 5.08 0)
 			(effects
 				(font
@@ -1058,7 +1058,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "F:\\Electrical\\Datasheets\\SRU1038.pdf"
+		(property "Datasheet" "${DATASHEETS}/SRU1038.pdf"
 			(at 0 5.08 0)
 			(effects
 				(font
@@ -1124,7 +1124,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "F:\\Electrical\\Datasheets\\VLS6045EX.pdf"
+		(property "Datasheet" "${DATASHEETS}/VLS6045EX.pdf"
 			(at 0 5.08 0)
 			(effects
 				(font
@@ -1190,7 +1190,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "F:\\Electrical\\Datasheets\\74438357022.pdf"
+		(property "Datasheet" "${DATASHEETS}/74438357022.pdf"
 			(at 0 5.08 0)
 			(effects
 				(font
@@ -1256,7 +1256,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "F:\\Electrical\\Datasheets\\74438357033.pdf"
+		(property "Datasheet" "${DATASHEETS}/74438357033.pdf"
 			(at 0 5.08 0)
 			(effects
 				(font
@@ -1322,7 +1322,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "F:\\Electrical\\Datasheets\\74438357047.pdf"
+		(property "Datasheet" "${DATASHEETS}/74438357047.pdf"
 			(at 0 5.08 0)
 			(effects
 				(font
@@ -1388,7 +1388,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "F:\\Electrical\\Datasheets\\74438357056.pdf"
+		(property "Datasheet" "${DATASHEETS}/74438357056.pdf"
 			(at 0 5.08 0)
 			(effects
 				(font
@@ -1454,7 +1454,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "F:\\Electrical\\Datasheets\\74438357082.pdf"
+		(property "Datasheet" "${DATASHEETS}/74438357082.pdf"
 			(at 0 5.08 0)
 			(effects
 				(font
@@ -1520,7 +1520,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "F:\\Electrical\\Datasheets\\LP-Series.pdf"
+		(property "Datasheet" "${DATASHEETS}/LP-Series.pdf"
 			(at 0 5.08 0)
 			(effects
 				(font
@@ -1586,7 +1586,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "F:\\Electrical\\Datasheets\\SLF10145.pdf"
+		(property "Datasheet" "${DATASHEETS}/SLF10145.pdf"
 			(at 0 5.08 0)
 			(effects
 				(font
@@ -1652,7 +1652,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "F:\\Electrical\\Datasheets\\SLF10145.pdf"
+		(property "Datasheet" "${DATASHEETS}/SLF10145.pdf"
 			(at 0 5.08 0)
 			(effects
 				(font
@@ -1718,7 +1718,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "F:\\Electrical\\Datasheets\\SLF10145.pdf"
+		(property "Datasheet" "${DATASHEETS}/SLF10145.pdf"
 			(at 0 5.08 0)
 			(effects
 				(font
@@ -1784,7 +1784,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "F:\\Electrical\\Datasheets\\SLF10145.pdf"
+		(property "Datasheet" "${DATASHEETS}/SLF10145.pdf"
 			(at 0 5.08 0)
 			(effects
 				(font
@@ -1850,7 +1850,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "F:\\Electrical\\Datasheets\\SLF10145.pdf"
+		(property "Datasheet" "${DATASHEETS}/SLF10145.pdf"
 			(at 0 5.08 0)
 			(effects
 				(font
@@ -1916,7 +1916,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "F:\\Electrical\\Datasheets\\SLF10145.pdf"
+		(property "Datasheet" "${DATASHEETS}/SLF10145.pdf"
 			(at 0 5.08 0)
 			(effects
 				(font
@@ -1982,7 +1982,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "F:\\Electrical\\Datasheets\\SLF10145.pdf"
+		(property "Datasheet" "${DATASHEETS}/SLF10145.pdf"
 			(at 0 5.08 0)
 			(effects
 				(font
@@ -2048,7 +2048,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "F:\\Electrical\\Datasheets\\SLF10145.pdf"
+		(property "Datasheet" "${DATASHEETS}/SLF10145.pdf"
 			(at 0 5.08 0)
 			(effects
 				(font
@@ -2114,7 +2114,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "F:\\Electrical\\Datasheets\\SLF10145.pdf"
+		(property "Datasheet" "${DATASHEETS}/SLF10145.pdf"
 			(at 0 5.08 0)
 			(effects
 				(font
@@ -2180,7 +2180,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "F:\\Electrical\\Datasheets\\SLF10145.pdf"
+		(property "Datasheet" "${DATASHEETS}/SLF10145.pdf"
 			(at 0 5.08 0)
 			(effects
 				(font
@@ -2246,7 +2246,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "F:\\Electrical\\Datasheets\\SLF10145.pdf"
+		(property "Datasheet" "${DATASHEETS}/SLF10145.pdf"
 			(at 0 5.08 0)
 			(effects
 				(font
@@ -2312,7 +2312,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "F:\\Electrical\\Datasheets\\SLF10145.pdf"
+		(property "Datasheet" "${DATASHEETS}/SLF10145.pdf"
 			(at 0 5.08 0)
 			(effects
 				(font
@@ -2378,7 +2378,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "F:\\Electrical\\Datasheets\\SLF10145.pdf"
+		(property "Datasheet" "${DATASHEETS}/SLF10145.pdf"
 			(at 0 5.08 0)
 			(effects
 				(font
@@ -2444,7 +2444,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "F:\\Electrical\\Datasheets\\SLF10145.pdf"
+		(property "Datasheet" "${DATASHEETS}/SLF10145.pdf"
 			(at 0 5.08 0)
 			(effects
 				(font
@@ -2510,7 +2510,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "F:\\Electrical\\Datasheets\\SLF10145.pdf"
+		(property "Datasheet" "${DATASHEETS}/SLF10145.pdf"
 			(at 0 5.08 0)
 			(effects
 				(font
@@ -2576,7 +2576,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "F:\\Electrical\\Datasheets\\SLF7032.pdf"
+		(property "Datasheet" "${DATASHEETS}/SLF7032.pdf"
 			(at 0 5.08 0)
 			(effects
 				(font
@@ -2642,7 +2642,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "F:\\Electrical\\Datasheets\\SLF7032.pdf"
+		(property "Datasheet" "${DATASHEETS}/SLF7032.pdf"
 			(at 0 5.08 0)
 			(effects
 				(font
@@ -2708,7 +2708,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "F:\\Electrical\\Datasheets\\SLF7032.pdf"
+		(property "Datasheet" "${DATASHEETS}/SLF7032.pdf"
 			(at 0 5.08 0)
 			(effects
 				(font
@@ -2774,7 +2774,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "F:\\Electrical\\Datasheets\\SLF7032.pdf"
+		(property "Datasheet" "${DATASHEETS}/SLF7032.pdf"
 			(at 0 5.08 0)
 			(effects
 				(font
@@ -2840,7 +2840,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "F:\\Electrical\\Datasheets\\SLF7032.pdf"
+		(property "Datasheet" "${DATASHEETS}/SLF7032.pdf"
 			(at 0 5.08 0)
 			(effects
 				(font
@@ -2906,7 +2906,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "F:\\Electrical\\Datasheets\\SLF7032.pdf"
+		(property "Datasheet" "${DATASHEETS}/SLF7032.pdf"
 			(at 0 5.08 0)
 			(effects
 				(font
@@ -2972,7 +2972,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "F:\\Electrical\\Datasheets\\SLF7032.pdf"
+		(property "Datasheet" "${DATASHEETS}/SLF7032.pdf"
 			(at 0 5.08 0)
 			(effects
 				(font
@@ -3038,7 +3038,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "F:\\Electrical\\Datasheets\\SLF7032.pdf"
+		(property "Datasheet" "${DATASHEETS}/SLF7032.pdf"
 			(at 0 5.08 0)
 			(effects
 				(font
@@ -3104,7 +3104,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "F:\\Electrical\\Datasheets\\SLF7032.pdf"
+		(property "Datasheet" "${DATASHEETS}/SLF7032.pdf"
 			(at 0 5.08 0)
 			(effects
 				(font
@@ -3170,7 +3170,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "F:\\Electrical\\Datasheets\\SLF7032.pdf"
+		(property "Datasheet" "${DATASHEETS}/SLF7032.pdf"
 			(at 0 5.08 0)
 			(effects
 				(font
@@ -3236,7 +3236,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "F:\\Electrical\\Datasheets\\SLF7032.pdf"
+		(property "Datasheet" "${DATASHEETS}/SLF7032.pdf"
 			(at 0 5.08 0)
 			(effects
 				(font
@@ -3302,7 +3302,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "F:\\Electrical\\Datasheets\\SLF7032.pdf"
+		(property "Datasheet" "${DATASHEETS}/SLF7032.pdf"
 			(at 0 5.08 0)
 			(effects
 				(font
@@ -3368,7 +3368,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "F:\\Electrical\\Datasheets\\SLF7032.pdf"
+		(property "Datasheet" "${DATASHEETS}/SLF7032.pdf"
 			(at 0 5.08 0)
 			(effects
 				(font
@@ -3434,7 +3434,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "F:\\Electrical\\Datasheets\\SLF7032.pdf"
+		(property "Datasheet" "${DATASHEETS}/SLF7032.pdf"
 			(at 0 5.08 0)
 			(effects
 				(font
@@ -3500,7 +3500,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "F:\\Electrical\\Datasheets\\SLF7032.pdf"
+		(property "Datasheet" "${DATASHEETS}/SLF7032.pdf"
 			(at 0 5.08 0)
 			(effects
 				(font

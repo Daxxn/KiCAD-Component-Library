@@ -647,7 +647,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "F:\\Electrical\\Datasheets\\74LVC541A.pdf"
+		(property "Datasheet" "${DATASHEETS}/74LVC541A.pdf"
 			(at 12.7 9.144 0)
 			(effects
 				(font
@@ -1099,7 +1099,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "F:\\Electrical\\Datasheets\\SN74AHCT125.pdf"
+		(property "Datasheet" "${DATASHEETS}/SN74AHCT125.pdf"
 			(at 0 13.462 0)
 			(effects
 				(font
@@ -2965,7 +2965,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "F:\\Electrical\\Datasheets\\SN74HCS365.pdf"
+		(property "Datasheet" "${DATASHEETS}/SN74HCS365.pdf"
 			(at 0 10.16 0)
 			(effects
 				(font
@@ -4348,7 +4348,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "F:\\Electrical\\Datasheets\\SN74LVC1G17.pdf"
+		(property "Datasheet" "${DATASHEETS}/SN74LVC1G17.pdf"
 			(at 0 9.144 0)
 			(effects
 				(font
@@ -4564,7 +4564,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "F:\\Electrical\\Datasheets\\SN74LVC3G17.pdf"
+		(property "Datasheet" "${DATASHEETS}/SN74LVC3G17.pdf"
 			(at 0 11.43 0)
 			(effects
 				(font
@@ -4949,7 +4949,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "F:\\Electrical\\Datasheets\\TC7PZ17FU.pdf"
+		(property "Datasheet" "${DATASHEETS}/TC7PZ17FU.pdf"
 			(at 0 11.43 0)
 			(effects
 				(font

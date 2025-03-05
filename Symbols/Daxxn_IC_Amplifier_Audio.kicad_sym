@@ -33,7 +33,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "F:\\Electrical\\Datasheets\\LM386.pdf"
+		(property "Datasheet" "${DATASHEETS}/LM386.pdf"
 			(at 0 20.32 0)
 			(effects
 				(font
@@ -317,7 +317,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "F:\\Electrical\\Datasheets\\PGA2311.pdf"
+		(property "Datasheet" "${DATASHEETS}/PGA2311.pdf"
 			(at 12.7 9.144 0)
 			(effects
 				(font

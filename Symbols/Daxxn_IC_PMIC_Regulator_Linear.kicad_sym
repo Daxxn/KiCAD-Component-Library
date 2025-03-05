@@ -33,7 +33,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "F:\\Electrical\\Datasheets\\ADP7182.pdf"
+		(property "Datasheet" "${DATASHEETS}/ADP7182.pdf"
 			(at 0 7.62 0)
 			(effects
 				(font
@@ -233,7 +233,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "F:\\Electrical\\Datasheets\\AP2112.pdf"
+		(property "Datasheet" "${DATASHEETS}/AP2112.pdf"
 			(at 0 13.716 0)
 			(effects
 				(font
@@ -397,7 +397,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "F:\\Electrical\\Datasheets\\F:\\Electrical\\Datasheets\\AP2127.pdf"
+		(property "Datasheet" "${DATASHEETS}/${DATASHEETS}/AP2127.pdf"
 			(at 0 10.668 0)
 			(effects
 				(font
@@ -561,7 +561,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "F:\\Electrical\\Datasheets\\AP2127.pdf"
+		(property "Datasheet" "${DATASHEETS}/AP2127.pdf"
 			(at 0 10.668 0)
 			(effects
 				(font
@@ -725,7 +725,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "F:\\Electrical\\Datasheets\\AP7366.pdf"
+		(property "Datasheet" "${DATASHEETS}/AP7366.pdf"
 			(at -0.508 9.906 0)
 			(effects
 				(font
@@ -889,7 +889,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "F:\\Electrical\\Datasheets\\AZ1117C.pdf"
+		(property "Datasheet" "${DATASHEETS}/AZ1117C.pdf"
 			(at 2.54 13.97 0)
 			(effects
 				(font
@@ -1035,7 +1035,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "F:\\Electrical\\Datasheets\\AZ1117I.pdf"
+		(property "Datasheet" "${DATASHEETS}/AZ1117I.pdf"
 			(at 0 9.144 0)
 			(effects
 				(font
@@ -1183,7 +1183,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "F:\\Electrical\\Datasheets\\AZ1117I.pdf"
+		(property "Datasheet" "${DATASHEETS}/AZ1117I.pdf"
 			(at 0 10.668 0)
 			(effects
 				(font
@@ -1329,7 +1329,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "F:\\Electrical\\Datasheets\\LM317-JCET.pdf"
+		(property "Datasheet" "${DATASHEETS}/LM317-JCET.pdf"
 			(at 0 9.144 0)
 			(effects
 				(font
@@ -1475,7 +1475,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "F:\\Electrical\\Datasheets\\LM317.pdf"
+		(property "Datasheet" "${DATASHEETS}/LM317.pdf"
 			(at 0 9.144 0)
 			(effects
 				(font
@@ -1621,7 +1621,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "F:\\Electrical\\Datasheets\\LM317.pdf"
+		(property "Datasheet" "${DATASHEETS}/LM317.pdf"
 			(at 0 9.398 0)
 			(effects
 				(font
@@ -1749,7 +1749,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "F:\\Electrical\\Datasheets\\LM317.pdf"
+		(property "Datasheet" "${DATASHEETS}/LM317.pdf"
 			(at 7.62 9.906 0)
 			(effects
 				(font
@@ -2027,7 +2027,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "F:\\Electrical\\Datasheets\\LM317-D.PDF"
+		(property "Datasheet" "${DATASHEETS}/LM317-D.PDF"
 			(at 0 9.144 0)
 			(effects
 				(font
@@ -2155,7 +2155,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "F:\\Electrical\\Datasheets\\LM7800.pdf"
+		(property "Datasheet" "${DATASHEETS}/LM7800.pdf"
 			(at 0 10.922 0)
 			(effects
 				(font
@@ -2301,7 +2301,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "F:\\Electrical\\Datasheets\\LP2985.pdf"
+		(property "Datasheet" "${DATASHEETS}/LP2985.pdf"
 			(at 0 11.176 0)
 			(effects
 				(font
@@ -2465,7 +2465,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "F:\\Electrical\\Datasheets\\LT1129.pdf"
+		(property "Datasheet" "${DATASHEETS}/LT1129.pdf"
 			(at 0 10.922 0)
 			(effects
 				(font
@@ -2967,7 +2967,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "F:\\Electrical\\Datasheets\\MC78M00-D.PDF"
+		(property "Datasheet" "${DATASHEETS}/MC78M00-D.PDF"
 			(at -1.524 14.478 0)
 			(effects
 				(font
@@ -3101,7 +3101,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "F:\\Electrical\\Datasheets\\MCP1700.pdf"
+		(property "Datasheet" "${DATASHEETS}/MCP1700.pdf"
 			(at 0 13.208 0)
 			(effects
 				(font
@@ -3240,7 +3240,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "F:\\Electrical\\Datasheets\\MIC5219.pdf"
+		(property "Datasheet" "${DATASHEETS}/MIC5219.pdf"
 			(at 0 9.144 0)
 			(effects
 				(font
@@ -3405,7 +3405,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "F:\\Electrical\\Datasheets\\MIC5501.pdf"
+		(property "Datasheet" "${DATASHEETS}/MIC5501.pdf"
 			(at 0 10.922 0)
 			(effects
 				(font
@@ -4027,7 +4027,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "F:\\Electrical\\Datasheets\\TCR2LF.pdf"
+		(property "Datasheet" "${DATASHEETS}/TCR2LF.pdf"
 			(at -0.254 10.922 0)
 			(effects
 				(font
@@ -4387,7 +4387,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "F:\\Electrical\\Datasheets\\TLV755P.pdf"
+		(property "Datasheet" "${DATASHEETS}/TLV755P.pdf"
 			(at 0 10.668 0)
 			(effects
 				(font
@@ -4800,7 +4800,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "F:\\Electrical\\Datasheets\\TPS723.pdf"
+		(property "Datasheet" "${DATASHEETS}/TPS723.pdf"
 			(at 0 12.446 0)
 			(effects
 				(font
@@ -5011,7 +5011,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "F:\\Electrical\\Datasheets\\TPS7A02.pdf"
+		(property "Datasheet" "${DATASHEETS}/TPS7A02.pdf"
 			(at 0 9.144 0)
 			(effects
 				(font
@@ -5460,7 +5460,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "F:\\Electrical\\Datasheets\\UA78Mxx.pdf"
+		(property "Datasheet" "${DATASHEETS}/UA78Mxx.pdf"
 			(at 0 12.954 0)
 			(effects
 				(font
@@ -5599,7 +5599,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "F:\\Electrical\\Datasheets\\AP2127.pdf"
+		(property "Datasheet" "${DATASHEETS}/AP2127.pdf"
 			(at 0 10.668 0)
 			(effects
 				(font

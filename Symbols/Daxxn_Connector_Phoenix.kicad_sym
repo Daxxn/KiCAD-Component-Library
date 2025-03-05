@@ -33,7 +33,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "F:\\Electrical\\Datasheets\\284512-4.pdf"
+		(property "Datasheet" "${DATASHEETS}/284512-4.pdf"
 			(at 0 9.144 0)
 			(effects
 				(font
@@ -238,7 +238,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "F:\\Electrical\\Datasheets\\6913211000xx.pdf"
+		(property "Datasheet" "${DATASHEETS}/6913211000xx.pdf"
 			(at 0 5.08 0)
 			(effects
 				(font
@@ -385,7 +385,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "F:\\Electrical\\Datasheets\\796644.pdf"
+		(property "Datasheet" "${DATASHEETS}/796644.pdf"
 			(at 0 9.144 0)
 			(effects
 				(font
@@ -557,7 +557,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "F:\\Electrical\\Datasheets\\1755529_04.pdf"
+		(property "Datasheet" "${DATASHEETS}/1755529_04.pdf"
 			(at 0 9.144 0)
 			(effects
 				(font
@@ -629,7 +629,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "F:\\Electrical\\Datasheets\\1755736.pdf"
+		(property "Datasheet" "${DATASHEETS}/1755736.pdf"
 			(at 0 6.604 0)
 			(effects
 				(font
@@ -701,7 +701,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "F:\\Electrical\\Datasheets\\2351886-4.pdf"
+		(property "Datasheet" "${DATASHEETS}/2351886-4.pdf"
 			(at 0 10.668 0)
 			(effects
 				(font
@@ -773,7 +773,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "F:\\Electrical\\Datasheets\\6913114001xx.pdf"
+		(property "Datasheet" "${DATASHEETS}/6913114001xx.pdf"
 			(at 0 5.08 0)
 			(effects
 				(font

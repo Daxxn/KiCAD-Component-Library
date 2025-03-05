@@ -33,7 +33,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "F:\\Electrical\\Datasheets\\SSD1309.pdf"
+		(property "Datasheet" "${DATASHEETS}/SSD1309.pdf"
 			(at 0 7.62 0)
 			(effects
 				(font
@@ -264,7 +264,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "F:\\Electrical\\Datasheets\\NHD-0440WH-ATMI-JT.pdf"
+		(property "Datasheet" "${DATASHEETS}/NHD-0440WH-ATMI-JT.pdf"
 			(at 3.048 11.684 0)
 			(effects
 				(font
@@ -1476,7 +1476,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "F:\\Electrical\\Datasheets\\NHD-C12832A1Z.pdf"
+		(property "Datasheet" "${DATASHEETS}/NHD-C12832A1Z.pdf"
 			(at 0 21.59 0)
 			(effects
 				(font

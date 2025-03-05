@@ -33,7 +33,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "F:\\Electrical\\Datasheets\\74HC02.pdf"
+		(property "Datasheet" "${DATASHEETS}/74HC02.pdf"
 			(at 0 10.16 0)
 			(effects
 				(font
@@ -697,7 +697,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "F:\\Electrical\\Datasheets\\CD4001B.pdf"
+		(property "Datasheet" "${DATASHEETS}/CD4001B.pdf"
 			(at 0 10.16 0)
 			(effects
 				(font
@@ -1344,7 +1344,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "F:\\Electrical\\Datasheets\\SN74LV1T02.pdf"
+		(property "Datasheet" "${DATASHEETS}/SN74LV1T02.pdf"
 			(at 0.254 12.954 0)
 			(effects
 				(font

@@ -32,7 +32,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "F:\\Electrical\\Datasheets\\3F-Series.pdf"
+		(property "Datasheet" "${DATASHEETS}/3F-Series.pdf"
 			(at 0 11.684 0)
 			(effects
 				(font
@@ -179,7 +179,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "F:\\Electrical\\Datasheets\\3F-Series.pdf"
+		(property "Datasheet" "${DATASHEETS}/3F-Series.pdf"
 			(at 0 11.684 0)
 			(effects
 				(font
@@ -570,7 +570,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "F:\\Electrical\\Datasheets\\B3F Series.pdf"
+		(property "Datasheet" "${DATASHEETS}/B3F Series.pdf"
 			(at 0 8.636 0)
 			(effects
 				(font
@@ -873,7 +873,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "F:\\Electrical\\Datasheets\\D2FS.pdf"
+		(property "Datasheet" "${DATASHEETS}/D2FS.pdf"
 			(at 0 11.684 0)
 			(effects
 				(font
@@ -1770,7 +1770,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "F:\\Electrical\\Datasheets\\ILS-Series.pdf"
+		(property "Datasheet" "${DATASHEETS}/ILS-Series.pdf"
 			(at 0 8.382 0)
 			(effects
 				(font
@@ -2075,7 +2075,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "F:\\Electrical\\Datasheets\\PS-5850A-6PL.pdf"
+		(property "Datasheet" "${DATASHEETS}/PS-5850A-6PL.pdf"
 			(at 0 10.16 0)
 			(effects
 				(font
@@ -2576,7 +2576,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "F:\\Electrical\\Datasheets\\TL1105.pdf"
+		(property "Datasheet" "${DATASHEETS}/TL1105.pdf"
 			(at 0 7.62 0)
 			(effects
 				(font
@@ -2747,7 +2747,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "F:\\Electrical\\Datasheets\\TL2201.pdf"
+		(property "Datasheet" "${DATASHEETS}/TL2201.pdf"
 			(at 0 11.684 0)
 			(effects
 				(font
@@ -2974,7 +2974,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "F:\\Electrical\\Datasheets\\TL3365.pdf"
+		(property "Datasheet" "${DATASHEETS}/TL3365.pdf"
 			(at 0.254 10.16 0)
 			(effects
 				(font
@@ -3124,7 +3124,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "F:\\Electrical\\Datasheets\\B3F Series.pdf"
+		(property "Datasheet" "${DATASHEETS}/B3F Series.pdf"
 			(at 0 10.668 0)
 			(effects
 				(font
@@ -3673,7 +3673,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "F:\\Electrical\\Datasheets\\D2FS.pdf"
+		(property "Datasheet" "${DATASHEETS}/D2FS.pdf"
 			(at 0 11.684 0)
 			(effects
 				(font
@@ -3727,7 +3727,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "F:\\Electrical\\Datasheets\\ILS-Series.pdf"
+		(property "Datasheet" "${DATASHEETS}/ILS-Series.pdf"
 			(at 0 8.382 0)
 			(effects
 				(font
@@ -3799,7 +3799,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "F:\\Electrical\\Datasheets\\ILS-Series.pdf"
+		(property "Datasheet" "${DATASHEETS}/ILS-Series.pdf"
 			(at 0 8.382 0)
 			(effects
 				(font
@@ -3871,7 +3871,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "F:\\Electrical\\Datasheets\\ILS-Series.pdf"
+		(property "Datasheet" "${DATASHEETS}/ILS-Series.pdf"
 			(at 0 8.382 0)
 			(effects
 				(font
@@ -3943,7 +3943,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "F:\\Electrical\\Datasheets\\ILS-Series.pdf"
+		(property "Datasheet" "${DATASHEETS}/ILS-Series.pdf"
 			(at 0 8.382 0)
 			(effects
 				(font
@@ -4015,7 +4015,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "F:\\Electrical\\Datasheets\\ILS-Series.pdf"
+		(property "Datasheet" "${DATASHEETS}/ILS-Series.pdf"
 			(at 0 8.382 0)
 			(effects
 				(font
@@ -4087,7 +4087,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "F:\\Electrical\\Datasheets\\PTS526.pdf"
+		(property "Datasheet" "${DATASHEETS}/PTS526.pdf"
 			(at 0 11.684 0)
 			(effects
 				(font
@@ -4141,7 +4141,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "F:\\Electrical\\Datasheets\\TL1105.pdf"
+		(property "Datasheet" "${DATASHEETS}/TL1105.pdf"
 			(at 0 8.89 0)
 			(effects
 				(font
@@ -4197,7 +4197,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "F:\\Electrical\\Datasheets\\TL1105.pdf"
+		(property "Datasheet" "${DATASHEETS}/TL1105.pdf"
 			(at 0 7.62 0)
 			(effects
 				(font
@@ -4263,7 +4263,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "F:\\Electrical\\Datasheets\\TL1105.pdf"
+		(property "Datasheet" "${DATASHEETS}/TL1105.pdf"
 			(at 0 7.62 0)
 			(effects
 				(font

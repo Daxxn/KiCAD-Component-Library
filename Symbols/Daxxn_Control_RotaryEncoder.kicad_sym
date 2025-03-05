@@ -34,7 +34,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "F:\\Electrical\\Datasheets\\EVQ-V6B00909B.pdf"
+		(property "Datasheet" "${DATASHEETS}/EVQ-V6B00909B.pdf"
 			(at 3.81 8.89 0)
 			(effects
 				(font
@@ -313,7 +313,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "F:\\Electrical\\Datasheets\\PEC11R.pdf"
+		(property "Datasheet" "${DATASHEETS}/PEC11R.pdf"
 			(at 4.826 5.842 0)
 			(effects
 				(font
@@ -716,7 +716,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "F:\\Electrical\\Datasheets\\PEC16.pdf"
+		(property "Datasheet" "${DATASHEETS}/PEC16.pdf"
 			(at 5.08 10.16 0)
 			(effects
 				(font
@@ -1011,7 +1011,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "F:\\Electrical\\Datasheets\\PEC11R.pdf"
+		(property "Datasheet" "${DATASHEETS}/PEC11R.pdf"
 			(at 4.826 5.842 0)
 			(effects
 				(font
@@ -1077,7 +1077,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "F:\\Electrical\\Datasheets\\PEC11R.pdf"
+		(property "Datasheet" "${DATASHEETS}/PEC11R.pdf"
 			(at 4.826 5.842 0)
 			(effects
 				(font
@@ -1143,7 +1143,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "F:\\Electrical\\Datasheets\\PEC11R.pdf"
+		(property "Datasheet" "${DATASHEETS}/PEC11R.pdf"
 			(at 4.826 5.842 0)
 			(effects
 				(font
@@ -1209,7 +1209,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "F:\\Electrical\\Datasheets\\PEC12R.pdf"
+		(property "Datasheet" "${DATASHEETS}/PEC12R.pdf"
 			(at 4.826 5.842 0)
 			(effects
 				(font

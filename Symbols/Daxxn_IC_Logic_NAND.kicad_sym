@@ -532,7 +532,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "F:\\Electrical\\Datasheets\\SN74AHC1G00.pdf"
+		(property "Datasheet" "${DATASHEETS}/SN74AHC1G00.pdf"
 			(at -5.842 14.224 0)
 			(effects
 				(font
@@ -742,7 +742,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "F:\\Electrical\\Datasheets\\74AHC1G00.pdf"
+		(property "Datasheet" "${DATASHEETS}/74AHC1G00.pdf"
 			(at -5.842 14.224 0)
 			(effects
 				(font

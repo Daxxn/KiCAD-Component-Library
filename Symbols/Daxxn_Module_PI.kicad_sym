@@ -33,7 +33,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "F:\\Electrical\\Datasheets\\RPI-CM4.pdf"
+		(property "Datasheet" "${DATASHEETS}/RPI-CM4.pdf"
 			(at 0 9.144 0)
 			(effects
 				(font

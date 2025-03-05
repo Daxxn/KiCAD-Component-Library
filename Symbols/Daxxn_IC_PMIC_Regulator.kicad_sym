@@ -33,7 +33,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "F:\\Electrical\\Datasheets\\LM27761.pdf"
+		(property "Datasheet" "${DATASHEETS}/LM27761.pdf"
 			(at 7.62 7.874 0)
 			(effects
 				(font
@@ -276,7 +276,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "F:\\Electrical\\Datasheets\\MAX680.pdf"
+		(property "Datasheet" "${DATASHEETS}/MAX680.pdf"
 			(at 0 7.62 0)
 			(effects
 				(font
@@ -721,7 +721,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "F:\\Electrical\\Datasheets\\NCP51200.pdf"
+		(property "Datasheet" "${DATASHEETS}/NCP51200.pdf"
 			(at 0 9.144 0)
 			(effects
 				(font
@@ -995,7 +995,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "F:\\Electrical\\Datasheets\\TL494.pdf"
+		(property "Datasheet" "${DATASHEETS}/TL494.pdf"
 			(at 0 10.922 0)
 			(effects
 				(font
@@ -1344,7 +1344,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "F:\\Electrical\\Datasheets\\TPS60400.pdf"
+		(property "Datasheet" "${DATASHEETS}/TPS60400.pdf"
 			(at 7.62 6.858 0)
 			(effects
 				(font

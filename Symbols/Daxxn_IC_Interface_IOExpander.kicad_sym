@@ -33,7 +33,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "F:\\Electrical\\Datasheets\\MAX7315.pdf"
+		(property "Datasheet" "${DATASHEETS}/MAX7315.pdf"
 			(at 0 9.398 0)
 			(effects
 				(font
@@ -395,7 +395,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "F:\\Electrical\\Datasheets\\MCP23008.pdf"
+		(property "Datasheet" "${DATASHEETS}/MCP23008.pdf"
 			(at 10.16 11.176 0)
 			(effects
 				(font
@@ -847,7 +847,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "F:\\Electrical\\Datasheets\\MCP23008.pdf"
+		(property "Datasheet" "${DATASHEETS}/MCP23008.pdf"
 			(at 0 7.62 0)
 			(effects
 				(font
@@ -2203,7 +2203,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "F:\\Electrical\\Datasheets\\PCF8574A.pdf"
+		(property "Datasheet" "${DATASHEETS}/PCF8574A.pdf"
 			(at -0.254 13.462 0)
 			(effects
 				(font

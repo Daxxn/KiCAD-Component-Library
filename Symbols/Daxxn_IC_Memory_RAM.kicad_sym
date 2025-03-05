@@ -2809,7 +2809,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "F:\\Electrical\\Datasheets\\W9825G6KH-6I.pdf"
+		(property "Datasheet" "${DATASHEETS}/W9825G6KH-6I.pdf"
 			(at 12.7 9.144 0)
 			(effects
 				(font

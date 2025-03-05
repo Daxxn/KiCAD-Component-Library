@@ -33,7 +33,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "F:\\Electrical\\Datasheets\\CD4071B.pdf"
+		(property "Datasheet" "${DATASHEETS}/CD4071B.pdf"
 			(at 0 12.7 0)
 			(effects
 				(font
@@ -679,7 +679,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "F:\\Electrical\\Datasheets\\CD4071B.pdf"
+		(property "Datasheet" "${DATASHEETS}/CD4071B.pdf"
 			(at 0 13.208 0)
 			(effects
 				(font
@@ -1171,7 +1171,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "F:\\Electrical\\Datasheets\\SN74AUP1T32.pdf"
+		(property "Datasheet" "${DATASHEETS}/SN74AUP1T32.pdf"
 			(at 2.54 10.16 0)
 			(effects
 				(font
@@ -1421,7 +1421,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "F:\\Electrical\\Datasheets\\SN74LVC1G32.pdf"
+		(property "Datasheet" "${DATASHEETS}/SN74LVC1G32.pdf"
 			(at 0 11.684 0)
 			(effects
 				(font

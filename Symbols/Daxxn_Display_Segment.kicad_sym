@@ -32,7 +32,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "F:\\Electrical\\Datasheets\\HLMP2885.pdf"
+		(property "Datasheet" "${DATASHEETS}/HLMP2885.pdf"
 			(at 0 9.144 0)
 			(effects
 				(font
@@ -461,7 +461,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "F:\\Electrical\\Datasheets\\INND-TS30 Series.pdf"
+		(property "Datasheet" "${DATASHEETS}/INND-TS30 Series.pdf"
 			(at 6.35 7.62 0)
 			(effects
 				(font
@@ -898,7 +898,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "F:\\Electrical\\Datasheets\\KB2450YW.pdf"
+		(property "Datasheet" "${DATASHEETS}/KB2450YW.pdf"
 			(at 0 9.144 0)
 			(effects
 				(font
@@ -3018,7 +3018,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "F:\\Electrical\\Datasheets\\LTC-4627JR.pdf"
+		(property "Datasheet" "${DATASHEETS}/LTC-4627JR.pdf"
 			(at 0 9.144 0)
 			(effects
 				(font
@@ -3883,7 +3883,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "F:\\Electrical\\Datasheets\\LTP-587HR.pdf"
+		(property "Datasheet" "${DATASHEETS}/LTP-587HR.pdf"
 			(at 12.7 11.43 0)
 			(effects
 				(font
@@ -4652,7 +4652,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "F:\\Electrical\\Datasheets\\LTA-1000G.pdf"
+		(property "Datasheet" "${DATASHEETS}/LTA-1000G.pdf"
 			(at 0 10.16 0)
 			(effects
 				(font
@@ -4715,7 +4715,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "F:\\Electrical\\Datasheets\\LTA-1000Y.pdf"
+		(property "Datasheet" "${DATASHEETS}/LTA-1000Y.pdf"
 			(at 0 10.16 0)
 			(effects
 				(font

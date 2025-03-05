@@ -33,7 +33,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "F:\\Electrical\\Datasheets\\ADA-4492.pdf"
+		(property "Datasheet" "${DATASHEETS}/ADA-4492.pdf"
 			(at 5.08 7.62 0)
 			(effects
 				(font
@@ -187,7 +187,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "F:\\Electrical\\Datasheets\\APHBM2012QBDSURKC.pdf"
+		(property "Datasheet" "${DATASHEETS}/APHBM2012QBDSURKC.pdf"
 			(at 0 10.16 0)
 			(effects
 				(font
@@ -573,7 +573,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "F:\\Electrical\\Datasheets\\IN-P32TATRGB.pdf"
+		(property "Datasheet" "${DATASHEETS}/IN-P32TATRGB.pdf"
 			(at 0 21.59 0)
 			(effects
 				(font
@@ -1590,7 +1590,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "F:\\Electrical\\Datasheets\\QBLP679-RGBXW.pdf"
+		(property "Datasheet" "${DATASHEETS}/QBLP679-RGBXW.pdf"
 			(at 0 10.16 0)
 			(effects
 				(font
@@ -2185,7 +2185,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "F:\\Electrical\\Datasheets\\SM1204SGC.pdf"
+		(property "Datasheet" "${DATASHEETS}/SM1204SGC.pdf"
 			(at 0 14.986 0)
 			(effects
 				(font
@@ -3245,7 +3245,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "F:\\Electrical\\Datasheets\\JSeries-3030.pdf"
+		(property "Datasheet" "${DATASHEETS}/JSeries-3030.pdf"
 			(at 0 9.906 0)
 			(effects
 				(font

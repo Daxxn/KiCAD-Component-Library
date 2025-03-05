@@ -224,7 +224,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "F:\\Electrical\\Datasheets\\AP3031.pdf"
+		(property "Datasheet" "${DATASHEETS}/AP3031.pdf"
 			(at 10.16 8.636 0)
 			(effects
 				(font
@@ -415,7 +415,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "F:\\Electrical\\Datasheets\\CAT3626.PDF"
+		(property "Datasheet" "${DATASHEETS}/CAT3626.PDF"
 			(at 12.7 7.62 0)
 			(effects
 				(font
@@ -804,7 +804,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "F:\\Electrical\\Datasheets\\LM36923H.pdf"
+		(property "Datasheet" "${DATASHEETS}/LM36923H.pdf"
 			(at -2.54 13.462 0)
 			(effects
 				(font
@@ -1104,7 +1104,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "F:\\Electrical\\Datasheets\\NCR320U.pdf"
+		(property "Datasheet" "${DATASHEETS}/NCR320U.pdf"
 			(at 0 10.668 0)
 			(effects
 				(font
@@ -1297,7 +1297,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "F:\\Electrical\\Datasheets\\NCR420PAS.pdf"
+		(property "Datasheet" "${DATASHEETS}/NCR420PAS.pdf"
 			(at 10.16 7.62 0)
 			(effects
 				(font
@@ -1524,7 +1524,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "F:\\Electrical\\Datasheets\\ZXLD1356.pdf"
+		(property "Datasheet" "${DATASHEETS}/ZXLD1356.pdf"
 			(at 15.24 10.922 0)
 			(effects
 				(font
@@ -1696,7 +1696,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "F:\\Electrical\\Datasheets\\NCR320U.pdf"
+		(property "Datasheet" "${DATASHEETS}/NCR320U.pdf"
 			(at 0 10.668 0)
 			(effects
 				(font

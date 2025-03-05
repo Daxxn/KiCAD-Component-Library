@@ -33,7 +33,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "F:\\Electrical\\Datasheets\\ADM1085.pdf"
+		(property "Datasheet" "${DATASHEETS}/ADM1085.pdf"
 			(at 0 7.62 0)
 			(effects
 				(font
@@ -215,7 +215,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "F:\\Electrical\\Datasheets\\AP33771.pdf"
+		(property "Datasheet" "${DATASHEETS}/AP33771.pdf"
 			(at 0 7.62 0)
 			(effects
 				(font
@@ -742,7 +742,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "F:\\Electrical\\Datasheets\\AP33772.pdf"
+		(property "Datasheet" "${DATASHEETS}/AP33772.pdf"
 			(at 10.16 11.43 0)
 			(effects
 				(font
@@ -1279,7 +1279,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "F:\\Electrical\\Datasheets\\FSUSB30MUX.pdf"
+		(property "Datasheet" "${DATASHEETS}/FSUSB30MUX.pdf"
 			(at 0 7.62 0)
 			(effects
 				(font
@@ -1728,7 +1728,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "F:\\Electrical\\Datasheets\\LMV7231.pdf"
+		(property "Datasheet" "${DATASHEETS}/LMV7231.pdf"
 			(at 0 9.144 0)
 			(effects
 				(font
@@ -3376,7 +3376,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "F:\\Electrical\\Datasheets\\TCPP03-M20.pdf"
+		(property "Datasheet" "${DATASHEETS}/TCPP03-M20.pdf"
 			(at 0 6.604 0)
 			(effects
 				(font
@@ -3828,7 +3828,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "F:\\Electrical\\Datasheets\\TLV803E.pdf"
+		(property "Datasheet" "${DATASHEETS}/TLV803E.pdf"
 			(at 0 7.62 0)
 			(effects
 				(font
@@ -3956,7 +3956,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "F:\\Electrical\\Datasheets\\TPS25750.pdf"
+		(property "Datasheet" "${DATASHEETS}/TPS25750.pdf"
 			(at 0 7.62 0)
 			(effects
 				(font
@@ -4750,7 +4750,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "F:\\Electrical\\Datasheets\\TPS3808.pdf"
+		(property "Datasheet" "${DATASHEETS}/TPS3808.pdf"
 			(at 0 9.144 0)
 			(effects
 				(font
@@ -4932,7 +4932,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "F:\\Electrical\\Datasheets\\TPS3840.pdf"
+		(property "Datasheet" "${DATASHEETS}/TPS3840.pdf"
 			(at 0 7.62 0)
 			(effects
 				(font
@@ -5096,7 +5096,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "F:\\Electrical\\Datasheets\\TPS65988DK.pdf"
+		(property "Datasheet" "${DATASHEETS}/TPS65988DK.pdf"
 			(at 0 9.144 0)
 			(effects
 				(font
@@ -6198,7 +6198,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "F:\\Electrical\\Datasheets\\UCD9081.pdf"
+		(property "Datasheet" "${DATASHEETS}/UCD9081.pdf"
 			(at 0 7.62 0)
 			(effects
 				(font
@@ -7348,7 +7348,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "F:\\Electrical\\Datasheets\\UPD360.pdf"
+		(property "Datasheet" "${DATASHEETS}/UPD360.pdf"
 			(at -0.508 9.652 0)
 			(effects
 				(font

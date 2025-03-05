@@ -33,7 +33,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "F:\\Electrical\\Datasheets\\TMCH.pdf"
+		(property "Datasheet" "${DATASHEETS}/TMCH.pdf"
 			(at 0 6.604 0)
 			(effects
 				(font
@@ -185,7 +185,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "F:\\Electrical\\Datasheets\\293D.pdf"
+		(property "Datasheet" "${DATASHEETS}/293D.pdf"
 			(at 0 6.604 0)
 			(effects
 				(font
@@ -251,7 +251,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "F:\\Electrical\\Datasheets\\293D.pdf"
+		(property "Datasheet" "${DATASHEETS}/293D.pdf"
 			(at 0 6.604 0)
 			(effects
 				(font
@@ -317,7 +317,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "F:\\Electrical\\Datasheets\\293D.pdf"
+		(property "Datasheet" "${DATASHEETS}/293D.pdf"
 			(at 0 6.604 0)
 			(effects
 				(font
@@ -383,7 +383,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "F:\\Electrical\\Datasheets\\293D.pdf"
+		(property "Datasheet" "${DATASHEETS}/293D.pdf"
 			(at 0 6.604 0)
 			(effects
 				(font
@@ -449,7 +449,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "F:\\Electrical\\Datasheets\\TAJ.pdf"
+		(property "Datasheet" "${DATASHEETS}/TAJ.pdf"
 			(at 0 6.604 0)
 			(effects
 				(font
@@ -515,7 +515,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "F:\\Electrical\\Datasheets\\TCJ.pdf"
+		(property "Datasheet" "${DATASHEETS}/TCJ.pdf"
 			(at 0 6.604 0)
 			(effects
 				(font

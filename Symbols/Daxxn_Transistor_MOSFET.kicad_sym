@@ -33,7 +33,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "F:\\Electrical\\Datasheets\\CPH3348-TL-W.PDF"
+		(property "Datasheet" "${DATASHEETS}/CPH3348-TL-W.PDF"
 			(at 1.27 8.382 0)
 			(effects
 				(font
@@ -291,7 +291,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "F:\\Electrical\\Datasheets\\CSD87503Q3E.pdf"
+		(property "Datasheet" "${DATASHEETS}/CSD87503Q3E.pdf"
 			(at 5.08 8.89 0)
 			(effects
 				(font
@@ -749,7 +749,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "F:\\Electrical\\Datasheets\\DMG2301L.pdf"
+		(property "Datasheet" "${DATASHEETS}/DMG2301L.pdf"
 			(at 0 8.89 0)
 			(effects
 				(font
@@ -2069,7 +2069,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "F:\\Electrical\\Datasheets\\SIA440DJ.pdf"
+		(property "Datasheet" "${DATASHEETS}/SIA440DJ.pdf"
 			(at 0 9.398 0)
 			(effects
 				(font
@@ -3101,7 +3101,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "F:\\Electrical\\Datasheets\\DMN62D0U.pdf"
+		(property "Datasheet" "${DATASHEETS}/DMN62D0U.pdf"
 			(at 1.27 5.842 0)
 			(effects
 				(font

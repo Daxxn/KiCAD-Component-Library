@@ -33,7 +33,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "F:\\Electrical\\Datasheets\\12402012E212A,pdf"
+		(property "Datasheet" "${DATASHEETS}/12402012E212A,pdf"
 			(at 0 9.652 0)
 			(effects
 				(font
@@ -532,7 +532,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "F:\\Electrical\\Datasheets\\UJ2-Micro-Conn.pdf"
+		(property "Datasheet" "${DATASHEETS}/UJ2-Micro-Conn.pdf"
 			(at 0 9.906 0)
 			(effects
 				(font

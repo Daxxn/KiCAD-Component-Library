@@ -4138,7 +4138,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "F:\\Electrical\\Datasheets\\SN74LVC1G97.pdf"
+		(property "Datasheet" "${DATASHEETS}/SN74LVC1G97.pdf"
 			(at 7.62 4.318 0)
 			(effects
 				(font
@@ -4318,7 +4318,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "F:\\Electrical\\Datasheets\\CD4511B.pdf"
+		(property "Datasheet" "${DATASHEETS}/CD4511B.pdf"
 			(at 7.62 15.24 0)
 			(effects
 				(font

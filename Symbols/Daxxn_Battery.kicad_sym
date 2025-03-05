@@ -33,7 +33,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "F:\\Electrical\\Datasheets\\BU2032SM-JJ-GTR.pdf"
+		(property "Datasheet" "${DATASHEETS}/BU2032SM-JJ-GTR.pdf"
 			(at 0 10.16 0)
 			(effects
 				(font

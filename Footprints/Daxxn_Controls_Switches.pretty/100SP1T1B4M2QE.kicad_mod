@@ -1,0 +1,147 @@
+(footprint "100SP1T1B4M2QE"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -4.3 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "34243e1f-77a4-44fe-8605-3f3caf07da83")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.12)
+			)
+		)
+	)
+	(property "Value" "100SP1T1B4M2QE"
+		(at 0 0.3 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "093da46b-02d9-4e59-91d1-9a7cfad95886")
+		(effects
+			(font
+				(size 0.25 0.25)
+				(thickness 0.04)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0.2 -4.6 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3085f944-2d7d-42ca-a180-669770dd52d8")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0.2 -4.6 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b9d95772-c5b2-4704-a168-be6f8688dffe")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -6.35 -3.6)
+		(end 6.35 -3.6)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "62ee4434-f352-4259-8a01-4449c89c5e9e")
+	)
+	(fp_line
+		(start -6.35 3.6)
+		(end 6.35 3.6)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "d841d4bf-b8a1-4609-82ff-d175cb82b9ea")
+	)
+	(fp_rect
+		(start -6.5 -3.6)
+		(end 6.5 3.6)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "d4defb08-1c93-4cda-aa9a-75e43d093d8f")
+	)
+	(fp_rect
+		(start -6.35 -3.43)
+		(end 6.35 3.43)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "751cf52f-2bb4-4ede-ba27-93a706bd77a2")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 -0.4 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "733a92c3-f3f9-44cb-b84c-1f1da68fba1d")
+		(effects
+			(font
+				(size 0.25 0.25)
+				(thickness 0.04)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at -4.7 0)
+		(size 2.85 2.85)
+		(drill 1.85)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "5d73afb8-2fd8-43cc-a71f-95efe50b9844")
+	)
+	(pad "2" thru_hole circle
+		(at 0 0)
+		(size 2.85 2.85)
+		(drill 1.85)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "50813f2d-331b-4741-babc-6550bc16ff52")
+	)
+	(pad "3" thru_hole circle
+		(at 4.7 0)
+		(size 2.85 2.85)
+		(drill 1.85)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "6027bce7-1969-4959-b1f8-4289cfa3c4e0")
+	)
+	(embedded_fonts no)
+	(model "${DAXXN}/Controls/100SP1-TOGGLE v4.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

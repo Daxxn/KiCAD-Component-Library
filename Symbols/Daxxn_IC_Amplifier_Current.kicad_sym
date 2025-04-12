@@ -1,13 +1,13 @@
 (kicad_symbol_lib
-	(version 20231120)
+	(version 20241209)
 	(generator "kicad_symbol_editor")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(symbol "ACS715ELCTR-20A-T"
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "U"
-			(at 8.382 4.572 0)
+			(at 8.636 3.556 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16,7 +16,7 @@
 			)
 		)
 		(property "Value" "ACS715ELCTR-20A-T"
-			(at 8.382 2.794 0)
+			(at 8.636 2.032 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -52,10 +52,10 @@
 			)
 		)
 		(property "PartNumber" "0801-0300-00021"
-			(at 8.382 1.016 0)
+			(at 8.636 0.762 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1 1)
 				)
 				(justify left)
 			)
@@ -90,7 +90,8 @@
 			)
 			(pin input line
 				(at -2.54 -2.54 0)
-				(length 2.54) hide
+				(length 2.54)
+				(hide yes)
 				(name "IN+"
 					(effects
 						(font
@@ -126,7 +127,8 @@
 			)
 			(pin output line
 				(at -2.54 -7.62 0)
-				(length 2.54) hide
+				(length 2.54)
+				(hide yes)
 				(name "IN-"
 					(effects
 						(font
@@ -135,6 +137,24 @@
 					)
 				)
 				(number "4"
+					(effects
+						(font
+							(size 0.9906 0.9906)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 7.62 2.54 270)
+				(length 2.54)
+				(name "VCC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "8"
 					(effects
 						(font
 							(size 0.9906 0.9906)
@@ -178,24 +198,6 @@
 					)
 				)
 			)
-			(pin power_in line
-				(at 7.62 2.54 270)
-				(length 2.54)
-				(name "VCC"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "8"
-					(effects
-						(font
-							(size 0.9906 0.9906)
-						)
-					)
-				)
-			)
 		)
 		(symbol "ACS715ELCTR-20A-T_0_1"
 			(rectangle
@@ -230,13 +232,14 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "INA180A2IDBVT"
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "U"
-			(at 7.62 6.096 0)
+			(at 7.62 5.334 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -245,7 +248,7 @@
 			)
 		)
 		(property "Value" "INA180A2IDBVT"
-			(at 7.62 4.318 0)
+			(at 7.62 3.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -259,7 +262,6 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 				(hide yes)
 			)
 		)
@@ -269,7 +271,6 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 				(hide yes)
 			)
 		)
@@ -279,17 +280,6 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Gain" "50V/V"
-			(at 0 11.684 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 				(hide yes)
 			)
 		)
@@ -297,7 +287,7 @@
 			(at 7.62 2.54 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1 1)
 				)
 				(justify left)
 			)
@@ -326,7 +316,7 @@
 			)
 			(polyline
 				(pts
-					(xy 5.461 1.905) (xy 4.699 1.905)
+					(xy 5.08 -2.54) (xy 5.08 -2.159) (xy 4.699 -1.778) (xy 5.461 -1.778) (xy 5.08 -2.159)
 				)
 				(stroke
 					(width 0)
@@ -338,7 +328,7 @@
 			)
 			(polyline
 				(pts
-					(xy 5.08 -2.54) (xy 5.08 -2.159) (xy 4.699 -1.778) (xy 5.461 -1.778) (xy 5.08 -2.159)
+					(xy 5.461 1.905) (xy 4.699 1.905)
 				)
 				(stroke
 					(width 0)
@@ -346,24 +336,6 @@
 				)
 				(fill
 					(type none)
-				)
-			)
-			(pin input line
-				(at -2.54 -2.54 0)
-				(length 2.54)
-				(name "IN+"
-					(effects
-						(font
-							(size 0.8 0.8)
-						)
-					)
-				)
-				(number "3"
-					(effects
-						(font
-							(size 0.9906 0.9906)
-						)
-					)
 				)
 			)
 			(pin input line
@@ -384,19 +356,37 @@
 					)
 				)
 			)
-		)
-		(symbol "INA180A2IDBVT_1_0"
-			(pin output line
-				(at 12.7 0 180)
+			(pin input line
+				(at -2.54 -2.54 0)
 				(length 2.54)
-				(name "OUT"
+				(name "IN+"
 					(effects
 						(font
 							(size 0.8 0.8)
 						)
 					)
 				)
-				(number "1"
+				(number "3"
+					(effects
+						(font
+							(size 0.9906 0.9906)
+						)
+					)
+				)
+			)
+		)
+		(symbol "INA180A2IDBVT_1_0"
+			(pin power_in line
+				(at 5.08 5.08 270)
+				(length 2.54)
+				(name "VS"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+				(number "5"
 					(effects
 						(font
 							(size 0.9906 0.9906)
@@ -422,17 +412,17 @@
 					)
 				)
 			)
-			(pin power_in line
-				(at 5.08 5.08 270)
+			(pin output line
+				(at 12.7 0 180)
 				(length 2.54)
-				(name "VS"
+				(name "OUT"
 					(effects
 						(font
-							(size 0 0)
+							(size 0.8 0.8)
 						)
 					)
 				)
-				(number "5"
+				(number "1"
 					(effects
 						(font
 							(size 0.9906 0.9906)
@@ -455,13 +445,14 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
-	(symbol "INA213AIDCKR"
+	(symbol "INA181A3IDBVR"
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "U"
-			(at 6.604 5.588 0)
+			(at 5.842 5.588 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -469,8 +460,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "INA213AIDCKR"
-			(at 6.604 4.064 0)
+		(property "Value" "INA181A3IDBVR"
+			(at 5.842 4.064 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -478,8 +469,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Daxxn_Packages:SOT-363_SC-70-6"
-			(at 0 11.938 0)
+		(property "Footprint" "Daxxn_Packages:SOT-23-6"
+			(at 0 9.398 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -487,8 +478,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "${DATASHEETS}/INA211.pdf"
-			(at 0 10.16 0)
+		(property "Datasheet" "${DATASHEETS}/INA181.pdf"
+			(at 0 10.922 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -496,8 +487,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Current Sense Amplifier 1 Circuit Single-Ended SC-70-6"
-			(at 0 13.716 0)
+		(property "Description" "IC CURR SENSE 1 CIRCUIT SOT23-6"
+			(at 0 7.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -505,8 +496,8 @@
 				(hide yes)
 			)
 		)
-		(property "PartNumber" "0801-0300-00003"
-			(at 6.604 2.54 0)
+		(property "PartNumber" "0801-0300-00008"
+			(at 5.842 2.794 0)
 			(effects
 				(font
 					(size 1 1)
@@ -514,18 +505,54 @@
 				(justify left)
 			)
 		)
-		(symbol "INA213AIDCKR_0_0"
+		(symbol "INA181A3IDBVR_0_0"
 			(pin input line
-				(at 7.62 -6.35 90)
+				(at -2.54 2.54 0)
 				(length 2.54)
-				(name "REF"
+				(name "IN+"
 					(effects
 						(font
-							(size 1 1)
+							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "1"
+				(number "3"
+					(effects
+						(font
+							(size 0.9906 0.9906)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -2.54 -2.54 0)
+				(length 2.54)
+				(name "IN-"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 0.9906 0.9906)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 5.08 5.08 270)
+				(length 2.54)
+				(name "VDD"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+				(number "6"
 					(effects
 						(font
 							(size 0.9906 0.9906)
@@ -551,10 +578,220 @@
 					)
 				)
 			)
+			(pin input line
+				(at 7.62 -6.35 90)
+				(length 2.54)
+				(name "REF"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 0.9906 0.9906)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at 12.7 0 180)
+				(length 2.54)
+				(name "OUT"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 0.9906 0.9906)
+						)
+					)
+				)
+			)
+		)
+		(symbol "INA181A3IDBVR_0_1"
+			(polyline
+				(pts
+					(xy 4.572 1.778) (xy 5.588 1.778)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 5.08 2.54) (xy 5.08 1.778)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 5.08 -2.54) (xy 5.08 -2.032) (xy 4.572 -1.524) (xy 5.588 -1.524) (xy 5.08 -2.032)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 5.08 -3.81) (xy 5.08 -2.54)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 7.62 -3.81) (xy 7.62 -2.54) (xy 7.112 -1.524)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "INA181A3IDBVR_1_1"
+			(polyline
+				(pts
+					(xy 0 5.08) (xy 0 -5.08) (xy 10.16 0) (xy 0 5.08)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "INA211AIDCKR"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "U"
+			(at 6.096 5.334 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "INA211AIDCKR"
+			(at 6.096 3.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Daxxn_Packages:SOT-363_SC-70-6"
+			(at 0 11.176 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "${DATASHEETS}/INA211.pdf"
+			(at 0 7.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "IC CURR SENSE 1 CIRCUIT SC70-6"
+			(at 0 9.398 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PartNumber" "0801-0300-00004"
+			(at 6.096 2.54 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
+			)
+		)
+		(symbol "INA211AIDCKR_0_0"
+			(pin input line
+				(at -2.54 2.54 0)
+				(length 2.54)
+				(name "IN+"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 0.9906 0.9906)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -2.54 -2.54 0)
+				(length 2.54)
+				(name "IN-"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 0.9906 0.9906)
+						)
+					)
+				)
+			)
 			(pin power_in line
 				(at 5.08 5.08 270)
 				(length 2.54)
-				(name "V+"
+				(name "VDD"
 					(effects
 						(font
 							(size 0 0)
@@ -562,6 +799,216 @@
 					)
 				)
 				(number "3"
+					(effects
+						(font
+							(size 0.9906 0.9906)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 5.08 -6.35 90)
+				(length 2.54)
+				(name "GND"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 0.9906 0.9906)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 7.62 -6.35 90)
+				(length 2.54)
+				(name "REF"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 0.9906 0.9906)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at 12.7 0 180)
+				(length 2.54)
+				(name "OUT"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 0.9906 0.9906)
+						)
+					)
+				)
+			)
+		)
+		(symbol "INA211AIDCKR_0_1"
+			(polyline
+				(pts
+					(xy 4.572 1.778) (xy 5.588 1.778)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 5.08 2.54) (xy 5.08 1.778)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 5.08 -2.54) (xy 5.08 -2.032) (xy 4.572 -1.524) (xy 5.588 -1.524) (xy 5.08 -2.032)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 5.08 -3.81) (xy 5.08 -2.54)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 7.62 -3.81) (xy 7.62 -2.54) (xy 7.112 -1.524)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "INA211AIDCKR_1_1"
+			(polyline
+				(pts
+					(xy 0 5.08) (xy 0 -5.08) (xy 10.16 0) (xy 0 5.08)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "INA213AIDCKR"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "U"
+			(at 6.604 5.334 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "INA213AIDCKR"
+			(at 6.604 3.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Daxxn_Packages:SOT-363_SC-70-6"
+			(at 0 10.414 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "${DATASHEETS}/INA211.pdf"
+			(at 0 8.636 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Current Sense Amplifier 1 Circuit Single-Ended SC-70-6"
+			(at 0 11.938 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PartNumber" "0801-0300-00003"
+			(at 6.604 2.54 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
+			)
+		)
+		(symbol "INA213AIDCKR_0_0"
+			(pin input line
+				(at -2.54 2.54 0)
+				(length 2.54)
+				(name "IN-"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "5"
 					(effects
 						(font
 							(size 0.9906 0.9906)
@@ -587,17 +1034,53 @@
 					)
 				)
 			)
-			(pin input line
-				(at -2.54 2.54 0)
+			(pin power_in line
+				(at 5.08 5.08 270)
 				(length 2.54)
-				(name "IN-"
+				(name "V+"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 0 0)
 						)
 					)
 				)
-				(number "5"
+				(number "3"
+					(effects
+						(font
+							(size 0.9906 0.9906)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 5.08 -6.35 90)
+				(length 2.54)
+				(name "GND"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 0.9906 0.9906)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 7.62 -6.35 90)
+				(length 2.54)
+				(name "REF"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "1"
 					(effects
 						(font
 							(size 0.9906 0.9906)
@@ -639,18 +1122,6 @@
 			)
 			(polyline
 				(pts
-					(xy 5.08 -3.81) (xy 5.08 -2.54)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
 					(xy 5.08 2.54) (xy 5.08 1.778)
 				)
 				(stroke
@@ -663,7 +1134,7 @@
 			)
 			(polyline
 				(pts
-					(xy 7.62 -3.81) (xy 7.62 -2.54) (xy 7.112 -1.524)
+					(xy 5.08 -2.54) (xy 5.08 -2.032) (xy 4.572 -1.524) (xy 5.588 -1.524) (xy 5.08 -2.032)
 				)
 				(stroke
 					(width 0)
@@ -675,7 +1146,19 @@
 			)
 			(polyline
 				(pts
-					(xy 5.08 -2.54) (xy 5.08 -2.032) (xy 4.572 -1.524) (xy 5.588 -1.524) (xy 5.08 -2.032)
+					(xy 5.08 -3.81) (xy 5.08 -2.54)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 7.62 -3.81) (xy 7.62 -2.54) (xy 7.112 -1.524)
 				)
 				(stroke
 					(width 0)
@@ -700,13 +1183,14 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "INA2181A2IDGST"
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "U"
-			(at 0 7.62 0)
+			(at 0 6.858 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -715,7 +1199,7 @@
 			)
 		)
 		(property "Value" "INA2181A2IDGST"
-			(at 0 5.842 0)
+			(at 0 5.334 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -724,7 +1208,7 @@
 			)
 		)
 		(property "Footprint" "Daxxn_Packages:VSSOP-10_3x3mm_P0.5mm"
-			(at 0 15.24 0)
+			(at 0 11.938 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -732,8 +1216,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "%LOCAL_DATASHEETS%\\INA181.pdf"
-			(at 0 12.7 0)
+		(property "Datasheet" "${DATASHEETS}/INA181.pdf"
+			(at 0 10.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -742,7 +1226,7 @@
 			)
 		)
 		(property "Description" "2-Channel Current Sense Amplifier"
-			(at 0.254 17.526 0)
+			(at 0 13.462 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -754,7 +1238,7 @@
 			(at 0 4.064 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1 1)
 				)
 				(justify left)
 			)
@@ -777,24 +1261,6 @@
 			)
 		)
 		(symbol "INA2181A2IDGST_1_0"
-			(pin output line
-				(at 8.89 0 180)
-				(length 2.54)
-				(name "OUT"
-					(effects
-						(font
-							(size 0.8 0.8)
-						)
-					)
-				)
-				(number "1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
 			(pin input line
 				(at -6.35 2.54 0)
 				(length 2.54)
@@ -849,6 +1315,24 @@
 					)
 				)
 			)
+			(pin output line
+				(at 8.89 0 180)
+				(length 2.54)
+				(name "OUT"
+					(effects
+						(font
+							(size 0.8 0.8)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
 		)
 		(symbol "INA2181A2IDGST_1_1"
 			(polyline
@@ -865,17 +1349,17 @@
 			)
 		)
 		(symbol "INA2181A2IDGST_2_0"
-			(pin power_out line
-				(at 1.27 -5.08 90)
+			(pin input line
+				(at -6.35 2.54 0)
 				(length 2.54)
-				(name "REF"
+				(name "IN-"
 					(effects
 						(font
 							(size 0.8 0.8)
 						)
 					)
 				)
-				(number "6"
+				(number "8"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -901,17 +1385,17 @@
 					)
 				)
 			)
-			(pin input line
-				(at -6.35 2.54 0)
+			(pin power_out line
+				(at 1.27 -5.08 90)
 				(length 2.54)
-				(name "IN-"
+				(name "REF"
 					(effects
 						(font
 							(size 0.8 0.8)
 						)
 					)
 				)
-				(number "8"
+				(number "6"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1016,13 +1500,14 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "INA230AIRGTR"
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "U"
-			(at 7.62 4.572 0)
+			(at 7.62 3.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1031,7 +1516,7 @@
 			)
 		)
 		(property "Value" "INA230AIRGTR"
-			(at 7.62 2.794 0)
+			(at 7.62 2.286 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1045,7 +1530,6 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 				(hide yes)
 			)
 		)
@@ -1055,7 +1539,6 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 				(hide yes)
 			)
 		)
@@ -1065,7 +1548,6 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 				(hide yes)
 			)
 		)
@@ -1073,7 +1555,7 @@
 			(at 7.62 1.016 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1 1)
 				)
 				(justify left)
 			)
@@ -1089,196 +1571,16 @@
 		)
 		(symbol "INA230AIRGTR_0_0"
 			(pin unspecified line
-				(at -2.54 -12.7 0)
+				(at -2.54 -2.54 0)
 				(length 2.54)
-				(name "A1"
+				(name "SCL"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "1"
-					(effects
-						(font
-							(size 0.9906 0.9906)
-						)
-					)
-				)
-			)
-			(pin unspecified line
-				(at 6.35 -20.32 90)
-				(length 2.54)
-				(name "GND"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "10"
-					(effects
-						(font
-							(size 0.9906 0.9906)
-						)
-					)
-				)
-			)
-			(pin unspecified line
-				(at 15.24 -2.54 180)
-				(length 2.54)
-				(name "VBUS"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "11"
-					(effects
-						(font
-							(size 0.9906 0.9906)
-						)
-					)
-				)
-			)
-			(pin unspecified line
-				(at 15.24 -15.24 180)
-				(length 2.54)
-				(name "IN-"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "12"
-					(effects
-						(font
-							(size 0.9906 0.9906)
-						)
-					)
-				)
-			)
-			(pin unspecified line
-				(at 15.24 -6.35 180)
-				(length 2.54)
-				(name "IN+"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "13"
-					(effects
-						(font
-							(size 0.9906 0.9906)
-						)
-					)
-				)
-			)
-			(pin unspecified line
-				(at 10.16 -10.16 0)
-				(length 2.54) hide
-				(name "NC"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "14"
-					(effects
-						(font
-							(size 0.9906 0.9906)
-						)
-					)
-				)
-			)
-			(pin unspecified line
-				(at 10.16 -10.16 0)
-				(length 2.54) hide
-				(name "NC"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "15"
-					(effects
-						(font
-							(size 0.9906 0.9906)
-						)
-					)
-				)
-			)
-			(pin unspecified line
-				(at 10.16 -10.16 0)
-				(length 2.54) hide
-				(name "NC"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "16"
-					(effects
-						(font
-							(size 0.9906 0.9906)
-						)
-					)
-				)
-			)
-			(pin unspecified line
-				(at 6.35 -20.32 90)
-				(length 2.54) hide
-				(name "GND"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "17"
-					(effects
-						(font
-							(size 0.9906 0.9906)
-						)
-					)
-				)
-			)
-			(pin unspecified line
-				(at -2.54 -15.24 0)
-				(length 2.54)
-				(name "A0"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "2"
-					(effects
-						(font
-							(size 0.9906 0.9906)
-						)
-					)
-				)
-			)
-			(pin unspecified line
-				(at -2.54 -8.89 0)
-				(length 2.54)
-				(name "ALERT"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "3"
+				(number "5"
 					(effects
 						(font
 							(size 0.9906 0.9906)
@@ -1305,16 +1607,16 @@
 				)
 			)
 			(pin unspecified line
-				(at -2.54 -2.54 0)
+				(at -2.54 -8.89 0)
 				(length 2.54)
-				(name "SCL"
+				(name "ALERT"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "5"
+				(number "3"
 					(effects
 						(font
 							(size 0.9906 0.9906)
@@ -1323,16 +1625,16 @@
 				)
 			)
 			(pin unspecified line
-				(at 10.16 -10.16 0)
-				(length 2.54) hide
-				(name "NC"
+				(at -2.54 -12.7 0)
+				(length 2.54)
+				(name "A1"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "6"
+				(number "1"
 					(effects
 						(font
 							(size 0.9906 0.9906)
@@ -1341,34 +1643,16 @@
 				)
 			)
 			(pin unspecified line
-				(at 10.16 -10.16 0)
-				(length 2.54) hide
-				(name "NC"
+				(at -2.54 -15.24 0)
+				(length 2.54)
+				(name "A0"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "7"
-					(effects
-						(font
-							(size 0.9906 0.9906)
-						)
-					)
-				)
-			)
-			(pin unspecified line
-				(at 10.16 -10.16 0)
-				(length 2.54) hide
-				(name "NC"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "8"
+				(number "2"
 					(effects
 						(font
 							(size 0.9906 0.9906)
@@ -1394,6 +1678,211 @@
 					)
 				)
 			)
+			(pin unspecified line
+				(at 6.35 -20.32 90)
+				(length 2.54)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "10"
+					(effects
+						(font
+							(size 0.9906 0.9906)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 6.35 -20.32 90)
+				(length 2.54)
+				(hide yes)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "17"
+					(effects
+						(font
+							(size 0.9906 0.9906)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 10.16 -10.16 0)
+				(length 2.54)
+				(hide yes)
+				(name "NC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "14"
+					(effects
+						(font
+							(size 0.9906 0.9906)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 10.16 -10.16 0)
+				(length 2.54)
+				(hide yes)
+				(name "NC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "15"
+					(effects
+						(font
+							(size 0.9906 0.9906)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 10.16 -10.16 0)
+				(length 2.54)
+				(hide yes)
+				(name "NC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "16"
+					(effects
+						(font
+							(size 0.9906 0.9906)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 10.16 -10.16 0)
+				(length 2.54)
+				(hide yes)
+				(name "NC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 0.9906 0.9906)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 10.16 -10.16 0)
+				(length 2.54)
+				(hide yes)
+				(name "NC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "7"
+					(effects
+						(font
+							(size 0.9906 0.9906)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 10.16 -10.16 0)
+				(length 2.54)
+				(hide yes)
+				(name "NC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "8"
+					(effects
+						(font
+							(size 0.9906 0.9906)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 15.24 -2.54 180)
+				(length 2.54)
+				(name "VBUS"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "11"
+					(effects
+						(font
+							(size 0.9906 0.9906)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 15.24 -6.35 180)
+				(length 2.54)
+				(name "IN+"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "13"
+					(effects
+						(font
+							(size 0.9906 0.9906)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 15.24 -15.24 180)
+				(length 2.54)
+				(name "IN-"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "12"
+					(effects
+						(font
+							(size 0.9906 0.9906)
+						)
+					)
+				)
+			)
 		)
 		(symbol "INA230AIRGTR_0_1"
 			(rectangle
@@ -1408,13 +1897,14 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "INA231AIYFFR"
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "U"
-			(at 8.636 4.826 0)
+			(at 8.636 3.556 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1423,7 +1913,7 @@
 			)
 		)
 		(property "Value" "INA231AIYFFR"
-			(at 8.636 3.048 0)
+			(at 8.636 2.032 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1432,7 +1922,7 @@
 			)
 		)
 		(property "Footprint" "Daxxn_Packages:DSBGA-12_3x4_1.418x1.675mm(YFF12)"
-			(at 8.89 8.89 0)
+			(at 0 7.366 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1440,8 +1930,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "%LOCAL_DATASHEETS%/INA231.pdf"
-			(at 8.89 7.62 0)
+		(property "Datasheet" "${DATASHEETS}/INA231.pdf"
+			(at 0 5.842 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1450,7 +1940,7 @@
 			)
 		)
 		(property "Description" "Current Monitor Regulator High/Low-Side DSBGA-12"
-			(at 15.494 10.922 0)
+			(at 0 8.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1459,10 +1949,10 @@
 			)
 		)
 		(property "PartNumber" "0801-0300-00019"
-			(at 8.636 1.27 0)
+			(at 8.636 0.762 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1 1)
 				)
 				(justify left)
 			)
@@ -1532,42 +2022,6 @@
 				)
 			)
 			(pin input line
-				(at 7.62 2.54 270)
-				(length 2.54)
-				(name "VCC"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "B1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin no_connect line
-				(at 0 1.27 0)
-				(length 2.54) hide
-				(name "NC"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "B2"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input line
 				(at -2.54 -12.7 0)
 				(length 2.54)
 				(name "A0"
@@ -1578,42 +2032,6 @@
 					)
 				)
 				(number "B3"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin power_in line
-				(at 7.62 -20.32 90)
-				(length 2.54)
-				(name "GND"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "C1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin no_connect line
-				(at 0 1.27 0)
-				(length 2.54) hide
-				(name "NC"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "C2"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1632,6 +2050,80 @@
 					)
 				)
 				(number "C3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin no_connect line
+				(at 0 1.27 0)
+				(length 2.54)
+				(hide yes)
+				(name "NC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "B2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin no_connect line
+				(at 0 1.27 0)
+				(length 2.54)
+				(hide yes)
+				(name "NC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "C2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 7.62 2.54 270)
+				(length 2.54)
+				(name "VCC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "B1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 7.62 -20.32 90)
+				(length 2.54)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "C1"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1658,24 +2150,6 @@
 				)
 			)
 			(pin input line
-				(at 17.78 -12.7 180)
-				(length 2.54)
-				(name "IN-"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "D2"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input line
 				(at 17.78 -10.16 180)
 				(length 2.54)
 				(name "IN+"
@@ -1686,6 +2160,24 @@
 					)
 				)
 				(number "D3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 17.78 -12.7 180)
+				(length 2.54)
+				(name "IN-"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "D2"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1707,13 +2199,505 @@
 				)
 			)
 		)
+		(embedded_fonts no)
+	)
+	(symbol "INA4180A4IPWR"
+		(pin_names
+			(hide yes)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "U"
+			(at 2.54 5.842 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "INA4180A4IPWR"
+			(at 2.54 4.318 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Daxxn_Packages:TSSOP-14_4.4x5mm_P0.65mm"
+			(at 0 11.684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "${DATASHEETS}/INA4180.pdf"
+			(at 0 9.906 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "IC CURR SENSE 4 CIRCUIT 14TSSOP"
+			(at 0 8.382 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PartNumber" "0801-0300-00016"
+			(at 2.54 3.048 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
+			)
+		)
+		(property "ki_locked" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(symbol "INA4180A4IPWR_1_0"
+			(polyline
+				(pts
+					(xy 0 3.81) (xy 0 -3.81) (xy 7.62 0) (xy 0 3.81)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(pin input line
+				(at -2.54 2.54 0)
+				(length 2.54)
+				(name "IN1+"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 0.9906 0.9906)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -2.54 -2.54 0)
+				(length 2.54)
+				(name "IN1-"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 0.9906 0.9906)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at 10.16 0 180)
+				(length 2.54)
+				(name "OUT1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 0.9906 0.9906)
+						)
+					)
+				)
+			)
+		)
+		(symbol "INA4180A4IPWR_1_1"
+			(text "+"
+				(at 0.762 2.54 0)
+				(effects
+					(font
+						(size 1 1)
+					)
+				)
+			)
+			(text "-"
+				(at 0.762 -2.54 0)
+				(effects
+					(font
+						(size 1 1)
+					)
+				)
+			)
+		)
+		(symbol "INA4180A4IPWR_2_0"
+			(polyline
+				(pts
+					(xy 0 3.81) (xy 0 -3.81) (xy 7.62 0) (xy 0 3.81)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(pin input line
+				(at -2.54 2.54 0)
+				(length 2.54)
+				(name "IN2+"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 0.9906 0.9906)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -2.54 -2.54 0)
+				(length 2.54)
+				(name "IN2-"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 0.9906 0.9906)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at 10.16 0 180)
+				(length 2.54)
+				(name "OUT2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "7"
+					(effects
+						(font
+							(size 0.9906 0.9906)
+						)
+					)
+				)
+			)
+		)
+		(symbol "INA4180A4IPWR_2_1"
+			(text "+"
+				(at 0.762 2.54 0)
+				(effects
+					(font
+						(size 1 1)
+					)
+				)
+			)
+			(text "-"
+				(at 0.762 -2.54 0)
+				(effects
+					(font
+						(size 1 1)
+					)
+				)
+			)
+		)
+		(symbol "INA4180A4IPWR_3_0"
+			(polyline
+				(pts
+					(xy 0 3.81) (xy 0 -3.81) (xy 7.62 0) (xy 0 3.81)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(pin input line
+				(at -2.54 2.54 0)
+				(length 2.54)
+				(name "IN3+"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "10"
+					(effects
+						(font
+							(size 0.9906 0.9906)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -2.54 -2.54 0)
+				(length 2.54)
+				(name "IN3-"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "9"
+					(effects
+						(font
+							(size 0.9906 0.9906)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at 10.16 0 180)
+				(length 2.54)
+				(name "OUT3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "8"
+					(effects
+						(font
+							(size 0.9906 0.9906)
+						)
+					)
+				)
+			)
+		)
+		(symbol "INA4180A4IPWR_3_1"
+			(text "+"
+				(at 0.762 2.54 0)
+				(effects
+					(font
+						(size 1 1)
+					)
+				)
+			)
+			(text "-"
+				(at 0.762 -2.54 0)
+				(effects
+					(font
+						(size 1 1)
+					)
+				)
+			)
+		)
+		(symbol "INA4180A4IPWR_4_0"
+			(polyline
+				(pts
+					(xy 0 3.81) (xy 0 -3.81) (xy 7.62 0) (xy 0 3.81)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(pin input line
+				(at -2.54 2.54 0)
+				(length 2.54)
+				(name "IN4+"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "12"
+					(effects
+						(font
+							(size 0.9906 0.9906)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -2.54 -2.54 0)
+				(length 2.54)
+				(name "IN4-"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "13"
+					(effects
+						(font
+							(size 0.9906 0.9906)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at 10.16 0 180)
+				(length 2.54)
+				(name "OUT4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "14"
+					(effects
+						(font
+							(size 0.9906 0.9906)
+						)
+					)
+				)
+			)
+		)
+		(symbol "INA4180A4IPWR_4_1"
+			(text "+"
+				(at 0.762 2.54 0)
+				(effects
+					(font
+						(size 1 1)
+					)
+				)
+			)
+			(text "-"
+				(at 0.762 -2.54 0)
+				(effects
+					(font
+						(size 1 1)
+					)
+				)
+			)
+		)
+		(symbol "INA4180A4IPWR_5_0"
+			(pin power_in line
+				(at 0 5.08 270)
+				(length 2.54)
+				(name "VDD"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 0.9906 0.9906)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 0 -5.08 90)
+				(length 2.54)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "11"
+					(effects
+						(font
+							(size 0.9906 0.9906)
+						)
+					)
+				)
+			)
+		)
+		(symbol "INA4180A4IPWR_5_1"
+			(polyline
+				(pts
+					(xy -1.27 1.27) (xy 1.27 1.27)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 2.54) (xy 0 1.27)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 -2.54) (xy -1.27 -1.27) (xy 1.27 -1.27) (xy 0 -2.54)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(embedded_fonts no)
 	)
 	(symbol "INA4181A2IPWR"
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "U"
-			(at 0 7.62 0)
+			(at 0 7.366 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1722,7 +2706,7 @@
 			)
 		)
 		(property "Value" "INA4181A2IPWR"
-			(at 0 5.842 0)
+			(at 0 5.588 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1731,7 +2715,7 @@
 			)
 		)
 		(property "Footprint" "Daxxn_Packages:TSSOP-20_4.4x6.5mm_P0.65mm"
-			(at 0 13.462 0)
+			(at 0 11.938 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1739,8 +2723,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "%LOCAL_DATASHEETS%\\INA181.pdf"
-			(at 0 11.43 0)
+		(property "Datasheet" "${DATASHEETS}/INA181.pdf"
+			(at 0 10.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1749,7 +2733,7 @@
 			)
 		)
 		(property "Description" "4-Channel Current Sense Amplifier"
-			(at 0 15.24 0)
+			(at 0 13.462 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1786,7 +2770,8 @@
 		(symbol "INA4181A2IPWR_0_0"
 			(pin no_connect line
 				(at -1.27 0 180)
-				(length 2.54) hide
+				(length 2.54)
+				(hide yes)
 				(name "NC"
 					(effects
 						(font
@@ -1804,7 +2789,8 @@
 			)
 			(pin no_connect line
 				(at -1.27 0 180)
-				(length 2.54) hide
+				(length 2.54)
+				(hide yes)
 				(name "NC"
 					(effects
 						(font
@@ -1822,42 +2808,6 @@
 			)
 		)
 		(symbol "INA4181A2IPWR_1_0"
-			(pin power_out line
-				(at 1.27 -5.08 90)
-				(length 2.54)
-				(name "REF"
-					(effects
-						(font
-							(size 0.8 0.8)
-						)
-					)
-				)
-				(number "1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin output line
-				(at 8.89 0 180)
-				(length 2.54)
-				(name "OUT"
-					(effects
-						(font
-							(size 0.8 0.8)
-						)
-					)
-				)
-				(number "2"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
 			(pin input line
 				(at -6.35 2.54 0)
 				(length 2.54)
@@ -1894,6 +2844,42 @@
 					)
 				)
 			)
+			(pin power_out line
+				(at 1.27 -5.08 90)
+				(length 2.54)
+				(name "REF"
+					(effects
+						(font
+							(size 0.8 0.8)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at 8.89 0 180)
+				(length 2.54)
+				(name "OUT"
+					(effects
+						(font
+							(size 0.8 0.8)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
 		)
 		(symbol "INA4181A2IPWR_1_1"
 			(polyline
@@ -1910,24 +2896,6 @@
 			)
 		)
 		(symbol "INA4181A2IPWR_2_0"
-			(pin input line
-				(at -6.35 -2.54 0)
-				(length 2.54)
-				(name "IN+"
-					(effects
-						(font
-							(size 0.8 0.8)
-						)
-					)
-				)
-				(number "6"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
 			(pin input line
 				(at -6.35 2.54 0)
 				(length 2.54)
@@ -1946,17 +2914,17 @@
 					)
 				)
 			)
-			(pin output line
-				(at 8.89 0 180)
+			(pin input line
+				(at -6.35 -2.54 0)
 				(length 2.54)
-				(name "OUT"
+				(name "IN+"
 					(effects
 						(font
 							(size 0.8 0.8)
 						)
 					)
 				)
-				(number "8"
+				(number "6"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1982,6 +2950,24 @@
 					)
 				)
 			)
+			(pin output line
+				(at 8.89 0 180)
+				(length 2.54)
+				(name "OUT"
+					(effects
+						(font
+							(size 0.8 0.8)
+						)
+					)
+				)
+				(number "8"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
 		)
 		(symbol "INA4181A2IPWR_2_1"
 			(polyline
@@ -1998,42 +2984,6 @@
 			)
 		)
 		(symbol "INA4181A2IPWR_3_0"
-			(pin power_out line
-				(at 1.27 -5.08 90)
-				(length 2.54)
-				(name "REF"
-					(effects
-						(font
-							(size 0.8 0.8)
-						)
-					)
-				)
-				(number "12"
-					(effects
-						(font
-							(size 1 1)
-						)
-					)
-				)
-			)
-			(pin output line
-				(at 8.89 0 180)
-				(length 2.54)
-				(name "OUT"
-					(effects
-						(font
-							(size 0.8 0.8)
-						)
-					)
-				)
-				(number "13"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
 			(pin input line
 				(at -6.35 2.54 0)
 				(length 2.54)
@@ -2070,6 +3020,42 @@
 					)
 				)
 			)
+			(pin power_out line
+				(at 1.27 -5.08 90)
+				(length 2.54)
+				(name "REF"
+					(effects
+						(font
+							(size 0.8 0.8)
+						)
+					)
+				)
+				(number "12"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at 8.89 0 180)
+				(length 2.54)
+				(name "OUT"
+					(effects
+						(font
+							(size 0.8 0.8)
+						)
+					)
+				)
+				(number "13"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
 		)
 		(symbol "INA4181A2IPWR_3_1"
 			(polyline
@@ -2086,24 +3072,6 @@
 			)
 		)
 		(symbol "INA4181A2IPWR_4_0"
-			(pin input line
-				(at -6.35 -2.54 0)
-				(length 2.54)
-				(name "IN+"
-					(effects
-						(font
-							(size 0.8 0.8)
-						)
-					)
-				)
-				(number "17"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
 			(pin input line
 				(at -6.35 2.54 0)
 				(length 2.54)
@@ -2122,17 +3090,17 @@
 					)
 				)
 			)
-			(pin output line
-				(at 8.89 0 180)
+			(pin input line
+				(at -6.35 -2.54 0)
 				(length 2.54)
-				(name "OUT"
+				(name "IN+"
 					(effects
 						(font
 							(size 0.8 0.8)
 						)
 					)
 				)
-				(number "19"
+				(number "17"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -2158,6 +3126,24 @@
 					)
 				)
 			)
+			(pin output line
+				(at 8.89 0 180)
+				(length 2.54)
+				(name "OUT"
+					(effects
+						(font
+							(size 0.8 0.8)
+						)
+					)
+				)
+				(number "19"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
 		)
 		(symbol "INA4181A2IPWR_4_1"
 			(polyline
@@ -2175,24 +3161,6 @@
 		)
 		(symbol "INA4181A2IPWR_5_0"
 			(pin power_in line
-				(at 0 -3.81 90)
-				(length 2.54)
-				(name "~"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "16"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin power_in line
 				(at 0 3.81 270)
 				(length 2.54)
 				(name "~"
@@ -2203,6 +3171,24 @@
 					)
 				)
 				(number "5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 0 -3.81 90)
+				(length 2.54)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "16"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -2237,13 +3223,14 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "LT6105CMS8#PBF"
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "U"
-			(at 5.334 1.778 0)
+			(at 5.08 1.016 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2252,7 +3239,7 @@
 			)
 		)
 		(property "Value" "LT6105CMS8#PBF"
-			(at 5.334 0 0)
+			(at 5.08 -0.508 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2261,7 +3248,7 @@
 			)
 		)
 		(property "Footprint" "Daxxn_Packages:MSOP-8_3x3mm_P0.65mm"
-			(at 2.54 5.08 0)
+			(at 0 5.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2269,8 +3256,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "%LOCAL_DATASHEETS%\\LT6105.pdf"
-			(at 2.54 6.858 0)
+		(property "Datasheet" "${DATASHEETS}/LT6105.pdf"
+			(at 0 6.604 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2279,7 +3266,7 @@
 			)
 		)
 		(property "Description" "Single Current Sense Amplifier"
-			(at 2.54 8.636 0)
+			(at 0 8.382 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2288,10 +3275,10 @@
 			)
 		)
 		(property "PartNumber" "0801-0300-00022"
-			(at 5.334 -1.778 0)
+			(at 5.08 -1.778 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1 1)
 				)
 				(justify left)
 			)
@@ -2324,6 +3311,24 @@
 					)
 				)
 			)
+			(pin input line
+				(at -2.54 -7.62 0)
+				(length 2.54)
+				(name "IN+"
+					(effects
+						(font
+							(size 0.8 0.8)
+						)
+					)
+				)
+				(number "8"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
 			(pin power_in line
 				(at 3.81 1.27 270)
 				(length 3.1)
@@ -2335,24 +3340,6 @@
 					)
 				)
 				(number "2"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin no_connect line
-				(at 5.08 -10.16 0)
-				(length 2.54) hide
-				(name "NC"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "3"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -2378,17 +3365,18 @@
 					)
 				)
 			)
-			(pin open_emitter line
-				(at 12.7 -5.08 180)
+			(pin no_connect line
+				(at 5.08 -10.16 0)
 				(length 2.54)
-				(name "VOUT"
+				(hide yes)
+				(name "NC"
 					(effects
 						(font
-							(size 0.8 0.8)
+							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "5"
+				(number "3"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -2398,7 +3386,8 @@
 			)
 			(pin no_connect line
 				(at 5.08 -10.16 0)
-				(length 2.54) hide
+				(length 2.54)
+				(hide yes)
 				(name "NC"
 					(effects
 						(font
@@ -2416,7 +3405,8 @@
 			)
 			(pin no_connect line
 				(at 5.08 -10.16 0)
-				(length 2.54) hide
+				(length 2.54)
+				(hide yes)
 				(name "NC"
 					(effects
 						(font
@@ -2432,17 +3422,17 @@
 					)
 				)
 			)
-			(pin input line
-				(at -2.54 -7.62 0)
+			(pin open_emitter line
+				(at 12.7 -5.08 180)
 				(length 2.54)
-				(name "IN+"
+				(name "VOUT"
 					(effects
 						(font
 							(size 0.8 0.8)
 						)
 					)
 				)
-				(number "8"
+				(number "5"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -2465,13 +3455,233 @@
 				)
 			)
 		)
+		(embedded_fonts no)
+	)
+	(symbol "LTC6102HVIMS8#PBF"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "U"
+			(at 13.716 3.556 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "LTC6102HVIMS8#PBF"
+			(at 13.716 2.032 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Daxxn_Packages:MSOP-8_3x3mm_P0.65mm"
+			(at 0 9.398 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "${DATASHEETS}/LTC6102.pdf"
+			(at 0 7.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "IC CURRENT SENSE 1 CIRCUIT 8MSOP"
+			(at 0 10.922 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PartNumber" "0801-0300-00020"
+			(at 13.716 0.762 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
+			)
+		)
+		(symbol "LTC6102HVIMS8#PBF_0_0"
+			(pin input line
+				(at -2.54 -2.54 0)
+				(length 2.54)
+				(name "-INS"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 0.9906 0.9906)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -2.54 -5.08 0)
+				(length 2.54)
+				(name "-INF"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 0.9906 0.9906)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -2.54 -12.7 0)
+				(length 2.54)
+				(name "+IN"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "8"
+					(effects
+						(font
+							(size 0.9906 0.9906)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 12.7 2.54 270)
+				(length 2.54)
+				(name "V+"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "7"
+					(effects
+						(font
+							(size 0.9906 0.9906)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 12.7 -17.78 90)
+				(length 2.54)
+				(name "V-"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 0.9906 0.9906)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at 27.94 -2.54 180)
+				(length 2.54)
+				(name "OUT"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 0.9906 0.9906)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 27.94 -10.16 180)
+				(length 2.54)
+				(name "V-/EN"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 0.9906 0.9906)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 27.94 -12.7 180)
+				(length 2.54)
+				(name "V-REG"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 0.9906 0.9906)
+						)
+					)
+				)
+			)
+		)
+		(symbol "LTC6102HVIMS8#PBF_0_1"
+			(rectangle
+				(start 0 0)
+				(end 25.4 -15.24)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(embedded_fonts no)
 	)
 	(symbol "TMCS1108A3UQDR"
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "U"
-			(at 8.382 2.794 0)
+			(at 8.636 3.556 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2480,7 +3690,7 @@
 			)
 		)
 		(property "Value" "TMCS1108A3UQDR"
-			(at 8.382 1.016 0)
+			(at 8.636 2.032 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2489,7 +3699,7 @@
 			)
 		)
 		(property "Footprint" "Daxxn_Packages:SOIC-8_3.9x4.9mm_P1.27mm"
-			(at 7.62 7.62 0)
+			(at 0 6.858 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2498,7 +3708,7 @@
 			)
 		)
 		(property "Datasheet" "${DATASHEETS}/TMCS1108.pdf"
-			(at 7.62 9.398 0)
+			(at 0 8.636 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2507,12 +3717,21 @@
 			)
 		)
 		(property "Description" "Current Sensor 1 Channel Hall Effect Unidirectional 8-SOIC (0.154\", 3.90mm Width)"
-			(at 7.62 11.176 0)
+			(at 0 10.414 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "PartNumber" "na"
+			(at 8.636 0.762 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
 			)
 		)
 		(property "ki_keywords" "ic sensor amplifier current hall-effect"
@@ -2545,7 +3764,8 @@
 			)
 			(pin input line
 				(at -2.54 -2.54 0)
-				(length 2.54) hide
+				(length 2.54)
+				(hide yes)
 				(name "IN+"
 					(effects
 						(font
@@ -2581,7 +3801,8 @@
 			)
 			(pin output line
 				(at -2.54 -10.16 0)
-				(length 2.54) hide
+				(length 2.54)
+				(hide yes)
 				(name "IN-"
 					(effects
 						(font
@@ -2590,60 +3811,6 @@
 					)
 				)
 				(number "4"
-					(effects
-						(font
-							(size 0.9906 0.9906)
-						)
-					)
-				)
-			)
-			(pin power_in line
-				(at 7.62 -15.24 90)
-				(length 2.54)
-				(name "GND"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "5"
-					(effects
-						(font
-							(size 0.9906 0.9906)
-						)
-					)
-				)
-			)
-			(pin no_connect line
-				(at 7.62 -7.62 0)
-				(length 2.54) hide
-				(name "NC"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "6"
-					(effects
-						(font
-							(size 0.9906 0.9906)
-						)
-					)
-				)
-			)
-			(pin output line
-				(at 17.78 -2.54 180)
-				(length 2.54)
-				(name "VOUT"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "7"
 					(effects
 						(font
 							(size 0.9906 0.9906)
@@ -2669,6 +3836,61 @@
 					)
 				)
 			)
+			(pin no_connect line
+				(at 7.62 -7.62 0)
+				(length 2.54)
+				(hide yes)
+				(name "NC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 0.9906 0.9906)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 7.62 -15.24 90)
+				(length 2.54)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 0.9906 0.9906)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at 17.78 -2.54 180)
+				(length 2.54)
+				(name "VOUT"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "7"
+					(effects
+						(font
+							(size 0.9906 0.9906)
+						)
+					)
+				)
+			)
 		)
 		(symbol "TMCS1108A3UQDR_0_1"
 			(rectangle
@@ -2683,13 +3905,14 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "ZXCT1110W5-7"
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "U"
-			(at 3.556 7.62 0)
+			(at 3.556 6.858 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2698,7 +3921,7 @@
 			)
 		)
 		(property "Value" "ZXCT1110W5-7"
-			(at 3.556 5.842 0)
+			(at 3.556 5.334 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2707,7 +3930,7 @@
 			)
 		)
 		(property "Footprint" "Daxxn_Packages:SOT-23-5"
-			(at 0 11.176 0)
+			(at 0 11.938 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2716,7 +3939,7 @@
 			)
 		)
 		(property "Datasheet" "${DATASHEETS}/ZXCT1107.pdf"
-			(at 0 12.7 0)
+			(at 0 13.462 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2725,7 +3948,7 @@
 			)
 		)
 		(property "Description" "Current Monitor Regulator High-Side SOT-25"
-			(at 0 9.398 0)
+			(at 0 10.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2737,15 +3960,52 @@
 			(at 3.556 4.064 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1 1)
 				)
 				(justify left)
 			)
 		)
 		(symbol "ZXCT1110W5-7_0_0"
+			(pin input line
+				(at -2.54 2.54 0)
+				(length 2.54)
+				(name "IN+"
+					(effects
+						(font
+							(size 0.8 0.8)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 0.9906 0.9906)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -2.54 -2.54 0)
+				(length 2.54)
+				(name "IN-"
+					(effects
+						(font
+							(size 0.8 0.8)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 0.9906 0.9906)
+						)
+					)
+				)
+			)
 			(pin no_connect line
 				(at 1.27 0 0)
-				(length 2.54) hide
+				(length 2.54)
+				(hide yes)
 				(name "NC"
 					(effects
 						(font
@@ -2797,42 +4057,6 @@
 					)
 				)
 			)
-			(pin input line
-				(at -2.54 2.54 0)
-				(length 2.54)
-				(name "IN+"
-					(effects
-						(font
-							(size 0.8 0.8)
-						)
-					)
-				)
-				(number "4"
-					(effects
-						(font
-							(size 0.9906 0.9906)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at -2.54 -2.54 0)
-				(length 2.54)
-				(name "IN-"
-					(effects
-						(font
-							(size 0.8 0.8)
-						)
-					)
-				)
-				(number "5"
-					(effects
-						(font
-							(size 0.9906 0.9906)
-						)
-					)
-				)
-			)
 		)
 		(symbol "ZXCT1110W5-7_1_1"
 			(polyline
@@ -2848,11 +4072,12 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
-	(symbol "INA2181A2IDSQR"
-		(extends "INA2181A2IDGST")
+	(symbol "INA181A2QDBVRQ1"
+		(extends "INA181A3IDBVR")
 		(property "Reference" "U"
-			(at 0 7.62 0)
+			(at 7.62 5.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2860,8 +4085,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "INA2181A2IDGST"
-			(at 0 5.842 0)
+		(property "Value" "INA181A3IDBVR"
+			(at 7.62 3.556 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2869,8 +4094,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 0 15.24 0)
+		(property "Footprint" "Daxxn_Packages:SOT-23-6"
+			(at 0 9.652 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2879,7 +4104,7 @@
 			)
 		)
 		(property "Datasheet" "${DATASHEETS}/INA181.pdf"
-			(at 0 12.7 0)
+			(at 0 11.176 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2887,8 +4112,236 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "2-Channel Current Sense Amplifier"
-			(at 0.254 17.526 0)
+		(property "Description" "IC CURR SENSE 1 CIRCUIT SOT23-6"
+			(at 0 7.874 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PartNumber" "0801-0300-00009"
+			(at 7.62 2.286 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
+			)
+		)
+	)
+	(symbol "INA181A3QDBVRQ1"
+		(extends "INA181A3IDBVR")
+		(property "Reference" "U"
+			(at 6.096 5.334 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "INA181A3IDBVR"
+			(at 6.096 3.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Daxxn_Packages:SOT-23-6"
+			(at 0 9.906 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "${DATASHEETS}/INA181.pdf"
+			(at 0 11.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "IC CURR SENSE 1 CIRCUIT SOT23-6"
+			(at 0 8.128 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PartNumber" "0801-0300-00006"
+			(at 6.096 2.54 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
+			)
+		)
+	)
+	(symbol "INA181A4QDBVRQ1"
+		(extends "INA181A3IDBVR")
+		(property "Reference" "U"
+			(at 6.096 5.334 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "INA181A3IDBVR"
+			(at 6.096 3.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Daxxn_Packages:SOT-23-6"
+			(at 0 9.398 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "${DATASHEETS}/INA181.pdf"
+			(at 0 10.922 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "IC CURR SENSE 1 CIRCUIT SOT23-6"
+			(at 0 7.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PartNumber" "0801-0300-00007"
+			(at 6.096 2.54 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
+			)
+		)
+	)
+	(symbol "INA214AIDCKR"
+		(extends "INA211AIDCKR")
+		(property "Reference" "U"
+			(at 6.096 5.588 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "INA214AIDCKR"
+			(at 6.096 4.064 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Daxxn_Packages:SOT-363_SC-70-6"
+			(at 0 11.176 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "${DATASHEETS}/INA211.pdf"
+			(at 0 7.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "IC CURR SENSE 1 CIRCUIT SC70-6"
+			(at 0 9.398 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PartNumber" "0801-0300-00002"
+			(at 6.096 2.794 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
+			)
+		)
+	)
+	(symbol "INA2181A2IDSQR"
+		(extends "INA2181A2IDGST")
+		(property "Reference" "U"
+			(at 0 6.858 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "INA2181A2IDSQR"
+			(at 0 5.334 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Daxxn_Packages:WSON-10_B2x2_P0.4_EP1-0.9x1.5"
+			(at 0 13.208 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "${DATASHEETS}/INA181.pdf"
+			(at 0 10.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "IC CURR SENSE 2 CIRCUIT WSON-10"
+			(at 0 11.684 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2900,7 +4353,7 @@
 			(at 0 4.064 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1 1)
 				)
 				(justify left)
 			)
@@ -2918,7 +4371,7 @@
 	(symbol "INA2181A3IDGST"
 		(extends "INA2181A2IDGST")
 		(property "Reference" "U"
-			(at 0 7.62 0)
+			(at 0 6.858 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2927,7 +4380,7 @@
 			)
 		)
 		(property "Value" "INA2181A2IDGST"
-			(at 0 5.842 0)
+			(at 0 5.334 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2936,7 +4389,7 @@
 			)
 		)
 		(property "Footprint" "Daxxn_Packages:VSSOP-10_3x3mm_P0.5mm"
-			(at 0 15.24 0)
+			(at 0 14.478 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2944,7 +4397,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "%LOCAL_DATASHEETS%\\INA181.pdf"
+		(property "Datasheet" "${DATASHEETS}/INA181.pdf"
 			(at 0 12.7 0)
 			(effects
 				(font
@@ -2953,8 +4406,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "2-Channel Current Sense Amplifier"
-			(at 0.254 17.526 0)
+		(property "Description" "IC CURR SENSE 2 CIRCUIT VSSOP-10"
+			(at 0 16.002 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2966,7 +4419,7 @@
 			(at 0 4.064 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1 1)
 				)
 				(justify left)
 			)
@@ -2984,7 +4437,7 @@
 	(symbol "INA2181A3IDSQR"
 		(extends "INA2181A2IDGST")
 		(property "Reference" "U"
-			(at 0 7.62 0)
+			(at 0 6.858 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2992,8 +4445,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "INA2181A2IDGST"
-			(at 0 5.842 0)
+		(property "Value" "INA2181A3IDSQR"
+			(at 0 5.334 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3001,8 +4454,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 0 15.24 0)
+		(property "Footprint" "Daxxn_Packages:WSON-10_B2x2_P0.4_EP1-0.9x1.5"
+			(at 0 11.938 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3011,7 +4464,7 @@
 			)
 		)
 		(property "Datasheet" "${DATASHEETS}/INA181.pdf"
-			(at 0 12.7 0)
+			(at 0 10.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3019,8 +4472,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "2-Channel Current Sense Amplifier"
-			(at 0.254 17.526 0)
+		(property "Description" "IC CURR SENSE 2 CIRCUIT WSON-10"
+			(at 0 13.462 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3032,7 +4485,7 @@
 			(at 0 4.064 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1 1)
 				)
 				(justify left)
 			)
@@ -3050,7 +4503,7 @@
 	(symbol "INA2181A4IDGST"
 		(extends "INA2181A2IDGST")
 		(property "Reference" "U"
-			(at 0 7.62 0)
+			(at 0 6.858 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3058,8 +4511,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "INA2181A2IDGST"
-			(at 0 5.842 0)
+		(property "Value" "INA2181A4IDGST"
+			(at 0 5.334 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3068,7 +4521,7 @@
 			)
 		)
 		(property "Footprint" "Daxxn_Packages:VSSOP-10_3x3mm_P0.5mm"
-			(at 0 15.24 0)
+			(at 0 11.938 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3076,8 +4529,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "%LOCAL_DATASHEETS%\\INA181.pdf"
-			(at 0 12.7 0)
+		(property "Datasheet" "${DATASHEETS}/INA181.pdf"
+			(at 0 10.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3085,8 +4538,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "2-Channel Current Sense Amplifier"
-			(at 0.254 17.526 0)
+		(property "Description" "IC CURR SENSE 2 CIRCUIT VSSOP-10"
+			(at 0 13.462 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3098,7 +4551,7 @@
 			(at 0 4.064 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1 1)
 				)
 				(justify left)
 			)
@@ -3110,6 +4563,63 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+	)
+	(symbol "INA4180A3IPWR"
+		(extends "INA4180A4IPWR")
+		(property "Reference" "U"
+			(at 2.54 5.842 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "INA4180A3IPWR"
+			(at 2.54 4.318 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Daxxn_Packages:TSSOP-14_4.4x5mm_P0.65mm"
+			(at 0 11.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "${DATASHEETS}/INA4180.pdf"
+			(at 0 9.652 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "IC CURR SENSE 4 CIRCUIT 14TSSOP"
+			(at 0 8.128 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PartNumber" "0801-0300-00015"
+			(at 2.54 3.048 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
 			)
 		)
 	)

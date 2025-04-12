@@ -1,10 +1,14 @@
 (kicad_symbol_lib
-	(version 20231120)
+	(version 20241209)
 	(generator "kicad_symbol_editor")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(symbol "14AFR010E"
-		(pin_numbers hide)
-		(pin_names hide)
+		(pin_numbers
+			(hide yes)
+		)
+		(pin_names
+			(hide yes)
+		)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -35,7 +39,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "F:/Electrical/Datasheets/14A.pdf"
+		(property "Datasheet" "${DATASHEETS}/14A.pdf"
 			(at 0 6.096 0)
 			(effects
 				(font
@@ -54,18 +58,18 @@
 			)
 		)
 		(property "PartNumber" "0204-0200-00008"
-			(at 1.524 -1.524 0)
+			(at 0 10.668 0)
 			(effects
 				(font
 					(size 1 1)
 				)
-				(justify left)
+				(hide yes)
 			)
 		)
 		(symbol "14AFR010E_1_1"
 			(polyline
 				(pts
-					(xy 0 0) (xy 1.016 -0.381) (xy 0 -0.762) (xy -1.016 -1.143) (xy 0 -1.524)
+					(xy 0 1.524) (xy 1.016 1.143) (xy 0 0.762) (xy -1.016 0.381) (xy 0 0)
 				)
 				(stroke
 					(width 0)
@@ -77,7 +81,7 @@
 			)
 			(polyline
 				(pts
-					(xy 0 1.524) (xy 1.016 1.143) (xy 0 0.762) (xy -1.016 0.381) (xy 0 0)
+					(xy 0 0) (xy 1.016 -0.381) (xy 0 -0.762) (xy -1.016 -1.143) (xy 0 -1.524)
 				)
 				(stroke
 					(width 0)
@@ -124,10 +128,15 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "PF2203-0R1F1"
-		(pin_numbers hide)
-		(pin_names hide)
+		(pin_numbers
+			(hide yes)
+		)
+		(pin_names
+			(hide yes)
+		)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -177,18 +186,18 @@
 			)
 		)
 		(property "PartNumber" "0204-0200-00022"
-			(at 1.524 -1.524 0)
+			(at 0 12.7 0)
 			(effects
 				(font
 					(size 1 1)
 				)
-				(justify left)
+				(hide yes)
 			)
 		)
 		(symbol "PF2203-0R1F1_1_1"
 			(polyline
 				(pts
-					(xy 0 0) (xy 1.016 -0.381) (xy 0 -0.762) (xy -1.016 -1.143) (xy 0 -1.524)
+					(xy 0 1.524) (xy 1.016 1.143) (xy 0 0.762) (xy -1.016 0.381) (xy 0 0)
 				)
 				(stroke
 					(width 0)
@@ -200,7 +209,7 @@
 			)
 			(polyline
 				(pts
-					(xy 0 1.524) (xy 1.016 1.143) (xy 0 0.762) (xy -1.016 0.381) (xy 0 0)
+					(xy 0 0) (xy 1.016 -0.381) (xy 0 -0.762) (xy -1.016 -1.143) (xy 0 -1.524)
 				)
 				(stroke
 					(width 0)
@@ -247,10 +256,15 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "RL1632T4F-R010-FNH"
-		(pin_numbers hide)
-		(pin_names hide)
+		(pin_numbers
+			(hide yes)
+		)
+		(pin_names
+			(hide yes)
+		)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -300,18 +314,18 @@
 			)
 		)
 		(property "PartNumber" "0204-0200-00007"
-			(at -1.524 -1.524 0)
+			(at 0 6.096 0)
 			(effects
 				(font
 					(size 1 1)
 				)
-				(justify right)
+				(hide yes)
 			)
 		)
 		(symbol "RL1632T4F-R010-FNH_0_1"
 			(polyline
 				(pts
-					(xy 0 -1.016) (xy 0 -1.524)
+					(xy 0 1.016) (xy 0 1.524)
 				)
 				(stroke
 					(width 0)
@@ -323,7 +337,7 @@
 			)
 			(polyline
 				(pts
-					(xy 0 1.016) (xy 0 1.524)
+					(xy 0 -1.016) (xy 0 -1.524)
 				)
 				(stroke
 					(width 0)
@@ -361,7 +375,7 @@
 		(symbol "RL1632T4F-R010-FNH_1_1"
 			(polyline
 				(pts
-					(xy 0 0) (xy 1.016 -0.254) (xy 0 -0.508) (xy -1.016 -0.762) (xy 0 -1.016)
+					(xy 0 1.016) (xy 1.016 0.762) (xy 0 0.508) (xy -1.016 0.254) (xy 0 0)
 				)
 				(stroke
 					(width 0)
@@ -373,7 +387,7 @@
 			)
 			(polyline
 				(pts
-					(xy 0 1.016) (xy 1.016 0.762) (xy 0 0.508) (xy -1.016 0.254) (xy 0 0)
+					(xy 0 0) (xy 1.016 -0.254) (xy 0 -0.508) (xy -1.016 -0.762) (xy 0 -1.016)
 				)
 				(stroke
 					(width 0)
@@ -394,6 +408,24 @@
 					)
 				)
 				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -2.54 90)
+				(length 1.016)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -437,25 +469,8 @@
 					)
 				)
 			)
-			(pin passive line
-				(at 0 -2.54 90)
-				(length 1.016)
-				(name "~"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "4"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "CRM2010-FX-R100ELF"
 		(extends "14AFR010E")
@@ -505,12 +520,12 @@
 			)
 		)
 		(property "PartNumber" "0204-0200-00021"
-			(at 1.524 -1.524 0)
+			(at 0 10.922 0)
 			(effects
 				(font
 					(size 1 1)
 				)
-				(justify left)
+				(hide yes)
 			)
 		)
 	)
@@ -562,12 +577,12 @@
 			)
 		)
 		(property "PartNumber" "0204-0200-00012"
-			(at 1.524 -1.524 0)
+			(at 0 10.922 0)
 			(effects
 				(font
 					(size 1 1)
 				)
-				(justify left)
+				(hide yes)
 			)
 		)
 	)
@@ -619,12 +634,12 @@
 			)
 		)
 		(property "PartNumber" "0204-0200-00005"
-			(at 1.524 -1.524 0)
+			(at 0 10.922 0)
 			(effects
 				(font
 					(size 1 1)
 				)
-				(justify left)
+				(hide yes)
 			)
 		)
 	)
@@ -676,12 +691,12 @@
 			)
 		)
 		(property "PartNumber" "0204-0200-00016"
-			(at 1.524 -1.524 0)
+			(at 0 10.922 0)
 			(effects
 				(font
 					(size 1 1)
 				)
-				(justify left)
+				(hide yes)
 			)
 		)
 	)
@@ -733,12 +748,12 @@
 			)
 		)
 		(property "PartNumber" "0204-0200-00028"
-			(at 1.524 -1.524 0)
+			(at 0 10.922 0)
 			(effects
 				(font
 					(size 1 1)
 				)
-				(justify left)
+				(hide yes)
 			)
 		)
 	)
@@ -790,12 +805,12 @@
 			)
 		)
 		(property "PartNumber" "0204-0200-00020"
-			(at 1.524 -1.524 0)
+			(at 0 10.668 0)
 			(effects
 				(font
 					(size 1 1)
 				)
-				(justify left)
+				(hide yes)
 			)
 		)
 	)
@@ -847,12 +862,12 @@
 			)
 		)
 		(property "PartNumber" "0204-0200-00024"
-			(at 1.524 -1.524 0)
+			(at 0 10.668 0)
 			(effects
 				(font
 					(size 1 1)
 				)
-				(justify left)
+				(hide yes)
 			)
 		)
 	)
@@ -904,12 +919,12 @@
 			)
 		)
 		(property "PartNumber" "0204-0200-00011"
-			(at 1.524 -1.524 0)
+			(at 0 10.922 0)
 			(effects
 				(font
 					(size 1 1)
 				)
-				(justify left)
+				(hide yes)
 			)
 		)
 	)
@@ -961,12 +976,12 @@
 			)
 		)
 		(property "PartNumber" "0204-0200-00013"
-			(at 1.524 -1.524 0)
+			(at 0 10.922 0)
 			(effects
 				(font
 					(size 1 1)
 				)
-				(justify left)
+				(hide yes)
 			)
 		)
 	)
@@ -1018,12 +1033,12 @@
 			)
 		)
 		(property "PartNumber" "0204-0200-00027"
-			(at 1.524 -1.524 0)
+			(at 0 10.922 0)
 			(effects
 				(font
 					(size 1 1)
 				)
-				(justify left)
+				(hide yes)
 			)
 		)
 	)
@@ -1075,12 +1090,12 @@
 			)
 		)
 		(property "PartNumber" "0204-0200-00009"
-			(at 1.524 -1.524 0)
+			(at 0 10.922 0)
 			(effects
 				(font
 					(size 1 1)
 				)
-				(justify left)
+				(hide yes)
 			)
 		)
 	)
@@ -1132,12 +1147,12 @@
 			)
 		)
 		(property "PartNumber" "0204-0200-00003"
-			(at 1.524 -1.524 0)
+			(at 0 10.922 0)
 			(effects
 				(font
 					(size 1 1)
 				)
-				(justify left)
+				(hide yes)
 			)
 		)
 	)
@@ -1189,12 +1204,12 @@
 			)
 		)
 		(property "PartNumber" "0204-0200-00004"
-			(at 1.524 -1.524 0)
+			(at 0 10.922 0)
 			(effects
 				(font
 					(size 1 1)
 				)
-				(justify left)
+				(hide yes)
 			)
 		)
 	)
@@ -1246,12 +1261,12 @@
 			)
 		)
 		(property "PartNumber" "0204-0200-00014"
-			(at 1.524 -1.524 0)
+			(at 0 10.922 0)
 			(effects
 				(font
 					(size 1 1)
 				)
-				(justify left)
+				(hide yes)
 			)
 		)
 	)
@@ -1303,12 +1318,12 @@
 			)
 		)
 		(property "PartNumber" "0204-0200-00029"
-			(at 1.524 -1.27 0)
+			(at 0 10.922 0)
 			(effects
 				(font
 					(size 1 1)
 				)
-				(justify left)
+				(hide yes)
 			)
 		)
 		(property "ki_keywords" "resistor current sense power smd"
@@ -1369,12 +1384,12 @@
 			)
 		)
 		(property "PartNumber" "0204-0200-00023"
-			(at 1.524 -1.524 0)
+			(at 0 10.922 0)
 			(effects
 				(font
 					(size 1 1)
 				)
-				(justify left)
+				(hide yes)
 			)
 		)
 	)
@@ -1426,12 +1441,12 @@
 			)
 		)
 		(property "PartNumber" "0204-0200-00010"
-			(at 1.524 -1.524 0)
+			(at 0 4.572 0)
 			(effects
 				(font
 					(size 1 1)
 				)
-				(justify left)
+				(hide yes)
 			)
 		)
 	)
@@ -1483,12 +1498,12 @@
 			)
 		)
 		(property "PartNumber" "0204-0200-00026"
-			(at 1.524 -1.524 0)
+			(at 0 4.572 0)
 			(effects
 				(font
 					(size 1 1)
 				)
-				(justify left)
+				(hide yes)
 			)
 		)
 	)
@@ -1540,12 +1555,12 @@
 			)
 		)
 		(property "PartNumber" "0204-0200-00002"
-			(at 1.524 -1.524 0)
+			(at 0 4.572 0)
 			(effects
 				(font
 					(size 1 1)
 				)
-				(justify left)
+				(hide yes)
 			)
 		)
 	)
@@ -1597,12 +1612,12 @@
 			)
 		)
 		(property "PartNumber" "0204-0200-00001"
-			(at 1.524 -1.524 0)
+			(at 0 4.572 0)
 			(effects
 				(font
 					(size 1 1)
 				)
-				(justify left)
+				(hide yes)
 			)
 		)
 	)
@@ -1654,12 +1669,12 @@
 			)
 		)
 		(property "PartNumber" "0204-0200-00017"
-			(at 1.524 -1.524 0)
+			(at 0 4.572 0)
 			(effects
 				(font
 					(size 1 1)
 				)
-				(justify left)
+				(hide yes)
 			)
 		)
 	)
@@ -1711,12 +1726,12 @@
 			)
 		)
 		(property "PartNumber" "0204-0200-00006"
-			(at 1.524 -1.524 0)
+			(at 0 4.318 0)
 			(effects
 				(font
 					(size 1 1)
 				)
-				(justify left)
+				(hide yes)
 			)
 		)
 	)
@@ -1768,12 +1783,12 @@
 			)
 		)
 		(property "PartNumber" "0204-0200-00019"
-			(at 1.524 -1.524 0)
+			(at 0 4.318 0)
 			(effects
 				(font
 					(size 1 1)
 				)
-				(justify left)
+				(hide yes)
 			)
 		)
 	)
@@ -1825,12 +1840,12 @@
 			)
 		)
 		(property "PartNumber" "0204-0200-00018"
-			(at 1.524 -1.524 0)
+			(at 0 4.572 0)
 			(effects
 				(font
 					(size 1 1)
 				)
-				(justify left)
+				(hide yes)
 			)
 		)
 	)
@@ -1882,12 +1897,12 @@
 			)
 		)
 		(property "PartNumber" "0204-0200-00015"
-			(at 1.524 -1.524 0)
+			(at 0 4.318 0)
 			(effects
 				(font
 					(size 1 1)
 				)
-				(justify left)
+				(hide yes)
 			)
 		)
 	)

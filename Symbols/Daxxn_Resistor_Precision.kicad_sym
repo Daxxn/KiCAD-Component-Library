@@ -1,10 +1,14 @@
 (kicad_symbol_lib
-	(version 20231120)
+	(version 20241209)
 	(generator "kicad_symbol_editor")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(symbol "PTN0805E5002BST1"
-		(pin_numbers hide)
-		(pin_names hide)
+		(pin_numbers
+			(hide yes)
+		)
+		(pin_names
+			(hide yes)
+		)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -35,8 +39,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 0 0 0)
+		(property "Datasheet" "${DATASHEETS}/PTN.pdf"
+			(at 0 9.652 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -54,18 +58,18 @@
 			)
 		)
 		(property "PartNumber" "0204-0100-00007"
-			(at 1.778 -1.524 0)
+			(at 0 8.128 0)
 			(effects
 				(font
 					(size 1 1)
 				)
-				(justify left)
+				(hide yes)
 			)
 		)
 		(symbol "PTN0805E5002BST1_1_1"
 			(polyline
 				(pts
-					(xy 0 0) (xy 1.016 -0.381) (xy 0 -0.762) (xy -1.016 -1.143) (xy 0 -1.524)
+					(xy 0 1.524) (xy 1.016 1.143) (xy 0 0.762) (xy -1.016 0.381) (xy 0 0)
 				)
 				(stroke
 					(width 0)
@@ -77,7 +81,7 @@
 			)
 			(polyline
 				(pts
-					(xy 0 1.524) (xy 1.016 1.143) (xy 0 0.762) (xy -1.016 0.381) (xy 0 0)
+					(xy 0 0) (xy 1.016 -0.381) (xy 0 -0.762) (xy -1.016 -1.143) (xy 0 -1.524)
 				)
 				(stroke
 					(width 0)
@@ -124,6 +128,7 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "ERA-1AEB102C"
 		(extends "PTN0805E5002BST1")
@@ -154,8 +159,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 0 0 0)
+		(property "Datasheet" "${DATASHEETS}/ERA-Series.pdf"
+			(at 0 9.652 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -173,12 +178,12 @@
 			)
 		)
 		(property "PartNumber" "0204-0100-00013"
-			(at 1.778 -1.524 0)
+			(at 0 8.128 0)
 			(effects
 				(font
 					(size 1 1)
 				)
-				(justify left)
+				(hide yes)
 			)
 		)
 	)
@@ -211,8 +216,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 0 0 0)
+		(property "Datasheet" "${DATASHEETS}/ERA-Series.pdf"
+			(at 0 9.398 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -230,12 +235,12 @@
 			)
 		)
 		(property "PartNumber" "0204-0100-00004"
-			(at 1.778 -1.524 0)
+			(at 0 8.128 0)
 			(effects
 				(font
 					(size 1 1)
 				)
-				(justify left)
+				(hide yes)
 			)
 		)
 	)
@@ -268,8 +273,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 0 0 0)
+		(property "Datasheet" "${DATASHEETS}/ERA-Series.pdf"
+			(at 0 9.652 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -287,12 +292,12 @@
 			)
 		)
 		(property "PartNumber" "0204-0100-00009"
-			(at 1.778 -1.524 0)
+			(at 0 8.128 0)
 			(effects
 				(font
 					(size 1 1)
 				)
-				(justify left)
+				(hide yes)
 			)
 		)
 	)
@@ -325,8 +330,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 0 0 0)
+		(property "Datasheet" "${DATASHEETS}/ERA-Series.pdf"
+			(at 0 9.398 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -344,12 +349,12 @@
 			)
 		)
 		(property "PartNumber" "0204-0100-00014"
-			(at 1.778 -1.524 0)
+			(at 0 8.128 0)
 			(effects
 				(font
 					(size 1 1)
 				)
-				(justify left)
+				(hide yes)
 			)
 		)
 	)
@@ -382,8 +387,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 0 0 0)
+		(property "Datasheet" "${DATASHEETS}/ERJ-Series.pdf"
+			(at 0 9.652 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -401,12 +406,12 @@
 			)
 		)
 		(property "PartNumber" "0204-0100-00016"
-			(at 1.778 -1.524 0)
+			(at 0 8.128 0)
 			(effects
 				(font
 					(size 1 1)
 				)
-				(justify left)
+				(hide yes)
 			)
 		)
 	)
@@ -439,8 +444,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 0 0 0)
+		(property "Datasheet" "${DATASHEETS}/MCA1206.pdf"
+			(at 0 9.652 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -458,12 +463,12 @@
 			)
 		)
 		(property "PartNumber" "0204-0100-00003"
-			(at 1.778 -1.524 0)
+			(at 0 8.128 0)
 			(effects
 				(font
 					(size 1 1)
 				)
-				(justify left)
+				(hide yes)
 			)
 		)
 	)
@@ -496,8 +501,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 0 0 0)
+		(property "Datasheet" "${DATASHEETS}/RC-Series.pdf"
+			(at 0 9.398 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -515,12 +520,12 @@
 			)
 		)
 		(property "PartNumber" "0204-0100-00002"
-			(at 1.778 -1.524 0)
+			(at 0 8.128 0)
 			(effects
 				(font
 					(size 1 1)
 				)
-				(justify left)
+				(hide yes)
 			)
 		)
 	)
@@ -553,8 +558,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 0 0 0)
+		(property "Datasheet" "${DATASHEETS}/RG-Series.pdf"
+			(at 0 9.398 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -572,12 +577,12 @@
 			)
 		)
 		(property "PartNumber" "0204-0100-00010"
-			(at 1.778 -1.524 0)
+			(at 0 8.128 0)
 			(effects
 				(font
 					(size 1 1)
 				)
-				(justify left)
+				(hide yes)
 			)
 		)
 	)
@@ -610,8 +615,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 0 0 0)
+		(property "Datasheet" "${DATASHEETS}/RNCF-Series.pdf"
+			(at 0 9.398 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -629,12 +634,12 @@
 			)
 		)
 		(property "PartNumber" "0204-0100-00001"
-			(at 1.778 -1.524 0)
+			(at 0 8.128 0)
 			(effects
 				(font
 					(size 1 1)
 				)
-				(justify left)
+				(hide yes)
 			)
 		)
 	)
@@ -667,8 +672,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 0 0 0)
+		(property "Datasheet" "${DATASHEETS}/RNCF-Series.pdf"
+			(at 0 9.398 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -686,12 +691,12 @@
 			)
 		)
 		(property "PartNumber" "0204-0100-00017"
-			(at 1.778 -1.524 0)
+			(at 0 8.128 0)
 			(effects
 				(font
 					(size 1 1)
 				)
-				(justify left)
+				(hide yes)
 			)
 		)
 	)
@@ -724,8 +729,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 0 0 0)
+		(property "Datasheet" "${DATASHEETS}/RP73PF1E39R2BTD.pdf"
+			(at 0 9.652 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -743,12 +748,12 @@
 			)
 		)
 		(property "PartNumber" "0204-0100-00006"
-			(at 1.778 -1.524 0)
+			(at 0 8.382 0)
 			(effects
 				(font
 					(size 1 1)
 				)
-				(justify left)
+				(hide yes)
 			)
 		)
 	)
@@ -781,8 +786,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 0 0 0)
+		(property "Datasheet" "${DATASHEETS}/RQ73C2B255KBTD.pdf"
+			(at 0 9.652 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -800,12 +805,12 @@
 			)
 		)
 		(property "PartNumber" "0204-0100-00005"
-			(at 1.778 -1.524 0)
+			(at 0 8.128 0)
 			(effects
 				(font
 					(size 1 1)
 				)
-				(justify left)
+				(hide yes)
 			)
 		)
 	)
@@ -838,8 +843,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 0 0 0)
+		(property "Datasheet" "${DATASHEETS}/RR-Series.pdf"
+			(at 0 9.398 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -857,12 +862,12 @@
 			)
 		)
 		(property "PartNumber" "0204-0100-00008"
-			(at 1.778 -1.524 0)
+			(at 0 8.128 0)
 			(effects
 				(font
 					(size 1 1)
 				)
-				(justify left)
+				(hide yes)
 			)
 		)
 	)
@@ -895,8 +900,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 0 0 0)
+		(property "Datasheet" "${DATASHEETS}/RR-Series.pdf"
+			(at 0 9.652 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -914,12 +919,12 @@
 			)
 		)
 		(property "PartNumber" "0204-0100-00011"
-			(at 1.778 -1.524 0)
+			(at 0 8.382 0)
 			(effects
 				(font
 					(size 1 1)
 				)
-				(justify left)
+				(hide yes)
 			)
 		)
 	)
@@ -952,8 +957,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 0 0 0)
+		(property "Datasheet" "${DATASHEETS}/RT-Series.pdf"
+			(at 0 9.652 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -971,12 +976,12 @@
 			)
 		)
 		(property "PartNumber" "0204-0100-00012"
-			(at 1.778 -1.524 0)
+			(at 0 8.382 0)
 			(effects
 				(font
 					(size 1 1)
 				)
-				(justify left)
+				(hide yes)
 			)
 		)
 	)
@@ -1009,8 +1014,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 0 0 0)
+		(property "Datasheet" "${DATASHEETS}/RT-Series.pdf"
+			(at 0 9.906 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1028,12 +1033,69 @@
 			)
 		)
 		(property "PartNumber" "0204-0100-00015"
-			(at 1.778 -1.524 0)
+			(at 0 8.382 0)
 			(effects
 				(font
 					(size 1 1)
 				)
+				(hide yes)
+			)
+		)
+	)
+	(symbol "TNPW1206150KBYEN"
+		(extends "PTN0805E5002BST1")
+		(property "Reference" "R"
+			(at 1.778 1.778 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(justify left)
+			)
+		)
+		(property "Value" "150K 0.1%"
+			(at 1.778 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Daxxn_Standard_Resistors:RES_1206"
+			(at 0 6.858 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "${DATASHEETS}/TNPW-Series.pdf"
+			(at 0 10.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Vishay / Dale 150Kohms .1% 10ppm / Thin Film Resistors - SMD"
+			(at 0 5.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PartNumber" "0204-0100-00018"
+			(at 0 8.382 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 	)

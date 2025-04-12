@@ -1,0 +1,225 @@
+(footprint "QBLP655R-RGB"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -8.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "ed6e8683-2268-4193-9f26-eb405223cf2a")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.12)
+			)
+		)
+	)
+	(property "Value" "QBLP655R-RGB"
+		(at 0 -7 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "db07fb39-1de4-4c8e-b699-9cd4036888ed")
+		(effects
+			(font
+				(size 0.25 0.25)
+				(thickness 0.04)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 -8 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6b1d9dce-c314-4e4a-9776-7be34d61157f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 -8 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d89fb5a6-5080-43a5-804b-72a92fb3a81d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_poly
+		(pts
+			(xy -2 -0.8) (xy -1.6 -0.8) (xy -1.8 -1)
+		)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "527393f1-49ac-48cb-9e6a-d11075933f4c")
+	)
+	(fp_line
+		(start -2.3 -0.8)
+		(end -2.3 0.8)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "aa91f6c7-f322-4e2c-a2a2-2b5dafa914e8")
+	)
+	(fp_line
+		(start -2.3 0.8)
+		(end -1.1 0.8)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "81de8138-b6f8-4ef8-890d-121f1edd36b0")
+	)
+	(fp_line
+		(start -1.1 -0.8)
+		(end -2.3 -0.8)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "3650b909-8d5c-4ece-9d26-ff4a7582c6bb")
+	)
+	(fp_line
+		(start 1.1 -0.8)
+		(end 2.3 -0.8)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "e274bcd5-ec0d-4484-8131-bca9736e16f7")
+	)
+	(fp_line
+		(start 2.3 -0.8)
+		(end 2.3 0.8)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "6d6b5072-801b-4590-8374-c25559f4dfa0")
+	)
+	(fp_line
+		(start 2.3 0.8)
+		(end 1.1 0.8)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "a5e2bcf2-ab2f-4809-a6f5-aee95668d904")
+	)
+	(fp_arc
+		(start -1.1 -0.8)
+		(mid 0 -1.360147)
+		(end 1.1 -0.8)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "d5ac481e-873c-4d8c-b2c8-09081693410d")
+	)
+	(fp_arc
+		(start 1.1 0.8)
+		(mid 0 1.360147)
+		(end -1.1 0.8)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "80b25fcb-25d8-4fb4-a3a9-8f8d9e90d478")
+	)
+	(fp_rect
+		(start -1.6 -0.6)
+		(end 1.6 0.6)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "a175f581-e1ec-400c-a681-dda226d09fbd")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 -5.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "dbd4e9d8-545b-431f-bc3e-e7ab1046a2dc")
+		(effects
+			(font
+				(size 0.25 0.25)
+				(thickness 0.04)
+			)
+		)
+	)
+	(pad "" np_thru_hole circle
+		(at 0 0)
+		(size 2.4 2.4)
+		(drill 2.4)
+		(layers "F&B.Cu" "*.Mask")
+		(uuid "fa7438f6-093a-416b-8690-e8622025becd")
+	)
+	(pad "1" smd roundrect
+		(at -1.7 -0.4)
+		(size 0.8 0.45)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.15)
+		(thermal_bridge_angle 45)
+		(uuid "fb4e7018-d059-40ff-8d13-520280f6829f")
+	)
+	(pad "2" smd roundrect
+		(at 1.7 -0.4)
+		(size 0.8 0.45)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.15)
+		(thermal_bridge_angle 45)
+		(uuid "c54f56db-26c3-48eb-ab3e-9d59a3027439")
+	)
+	(pad "3" smd roundrect
+		(at 1.7 0.4)
+		(size 0.8 0.45)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.15)
+		(thermal_bridge_angle 45)
+		(uuid "84cf57f6-66d0-44ee-a0f4-3460709766fb")
+	)
+	(pad "4" smd roundrect
+		(at -1.7 0.4)
+		(size 0.8 0.45)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.15)
+		(thermal_bridge_angle 45)
+		(uuid "c3f5f5ee-40ea-41b4-b0f3-1dc26b3bd1e6")
+	)
+	(embedded_fonts no)
+	(model "${DAXXN}/LEDs/QBLP655_QBLP655R_BI_TRI.step"
+		(offset
+			(xyz 0 0 0.25)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 180 -0 -0)
+		)
+	)
+)

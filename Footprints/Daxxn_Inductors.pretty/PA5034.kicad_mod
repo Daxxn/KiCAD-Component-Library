@@ -18,14 +18,14 @@
 		)
 	)
 	(property "Value" "PA5034"
-		(at 0 -6 0)
+		(at 0 0.3 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(uuid "7b803c7a-f5c9-48e8-8a07-eb6e2510bde7")
 		(effects
 			(font
-				(size 1 1)
-				(thickness 0.15)
+				(size 0.25 0.25)
+				(thickness 0.04)
 			)
 		)
 	)
@@ -189,14 +189,14 @@
 		(uuid "cca6aedc-7968-49b8-bf63-283f2abb59da")
 	)
 	(fp_text user "${REFERENCE}"
-		(at 0 -7.4 0)
+		(at 0 -0.3 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(uuid "ce69b3ad-139c-422f-8362-b4c74038b7c0")
 		(effects
 			(font
-				(size 1 1)
-				(thickness 0.15)
+				(size 0.25 0.25)
+				(thickness 0.04)
 			)
 		)
 	)

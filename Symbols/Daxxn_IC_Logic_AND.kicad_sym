@@ -1,8 +1,8 @@
 (kicad_symbol_lib
-	(version 20231120)
+	(version 20241209)
 	(generator "kicad_symbol_editor")
-	(generator_version "8.0")
-	(symbol "74HC2G08DP"
+	(generator_version "9.0")
+	(symbol "74HC2G08DP,125"
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -15,7 +15,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "74HC2G08DP"
+		(property "Value" "74HC2G08DP,125"
 			(at 0 7.366 0)
 			(effects
 				(font
@@ -25,7 +25,7 @@
 			)
 		)
 		(property "Footprint" "Daxxn_Packages:TSSOP-8_3x3mm_P0.65mm"
-			(at 0 14.478 0)
+			(at 0 14.224 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34,7 +34,7 @@
 			)
 		)
 		(property "Datasheet" "${DATASHEETS}/74HC2G08.pdf"
-			(at 0 12.954 0)
+			(at 0 12.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -68,7 +68,7 @@
 				)
 			)
 		)
-		(symbol "74HC2G08DP_1_0"
+		(symbol "74HC2G08DP,125_1_0"
 			(pin input line
 				(at -2.54 2.54 0)
 				(length 2.54)
@@ -124,7 +124,7 @@
 				)
 			)
 		)
-		(symbol "74HC2G08DP_1_1"
+		(symbol "74HC2G08DP,125_1_1"
 			(polyline
 				(pts
 					(xy 0 5.08) (xy 6.35 5.08)
@@ -150,8 +150,8 @@
 				)
 			)
 			(arc
-				(start 6.35 -5.08)
-				(mid 9.9421 -3.5921)
+				(start 6.35 5.08)
+				(mid 9.9421 3.5921)
 				(end 11.43 0)
 				(stroke
 					(width 0)
@@ -163,8 +163,8 @@
 			)
 			(arc
 				(start 11.43 0)
-				(mid 9.9421 3.5921)
-				(end 6.35 5.08)
+				(mid 9.9421 -3.5921)
+				(end 6.35 -5.08)
 				(stroke
 					(width 0)
 					(type default)
@@ -174,25 +174,7 @@
 				)
 			)
 		)
-		(symbol "74HC2G08DP_2_0"
-			(pin output line
-				(at 13.97 0 180)
-				(length 2.54)
-				(name "2Y"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "3"
-					(effects
-						(font
-							(size 0.9906 0.9906)
-						)
-					)
-				)
-			)
+		(symbol "74HC2G08DP,125_2_0"
 			(pin input line
 				(at -2.54 2.54 0)
 				(length 2.54)
@@ -229,8 +211,26 @@
 					)
 				)
 			)
+			(pin output line
+				(at 13.97 0 180)
+				(length 2.54)
+				(name "2Y"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 0.9906 0.9906)
+						)
+					)
+				)
+			)
 		)
-		(symbol "74HC2G08DP_2_1"
+		(symbol "74HC2G08DP,125_2_1"
 			(polyline
 				(pts
 					(xy 0 5.08) (xy 6.35 5.08)
@@ -256,8 +256,8 @@
 				)
 			)
 			(arc
-				(start 6.35 -5.08)
-				(mid 9.9421 -3.5921)
+				(start 6.35 5.08)
+				(mid 9.9421 3.5921)
 				(end 11.43 0)
 				(stroke
 					(width 0)
@@ -269,8 +269,8 @@
 			)
 			(arc
 				(start 11.43 0)
-				(mid 9.9421 3.5921)
-				(end 6.35 5.08)
+				(mid 9.9421 -3.5921)
+				(end 6.35 -5.08)
 				(stroke
 					(width 0)
 					(type default)
@@ -280,25 +280,7 @@
 				)
 			)
 		)
-		(symbol "74HC2G08DP_3_0"
-			(pin power_in line
-				(at 0 -5.08 90)
-				(length 2.54)
-				(name "GND"
-					(effects
-						(font
-							(size 0 0)
-						)
-					)
-				)
-				(number "4"
-					(effects
-						(font
-							(size 0.9906 0.9906)
-						)
-					)
-				)
-			)
+		(symbol "74HC2G08DP,125_3_0"
 			(pin power_in line
 				(at 0 5.08 270)
 				(length 2.54)
@@ -317,8 +299,26 @@
 					)
 				)
 			)
+			(pin power_in line
+				(at 0 -5.08 90)
+				(length 2.54)
+				(name "GND"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 0.9906 0.9906)
+						)
+					)
+				)
+			)
 		)
-		(symbol "74HC2G08DP_3_1"
+		(symbol "74HC2G08DP,125_3_1"
 			(polyline
 				(pts
 					(xy -1.27 1.27) (xy 1.27 1.27)
@@ -368,13 +368,14 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
-	(symbol "74HCT2G08DP"
+	(symbol "74HCT2G08DP,125"
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "U"
-			(at -5.08 9.398 0)
+			(at -5.08 8.636 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -382,8 +383,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "74HCT2G08DP"
-			(at -5.08 7.62 0)
+		(property "Value" "74HCT2G08DP,125"
+			(at -5.08 7.112 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -401,7 +402,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "%LOCAL_DATASHEETS%\\74HC2G08.pdf"
+		(property "Datasheet" "${DATASHEETS}\\74HC2G08.pdf"
 			(at -5.08 13.97 0)
 			(effects
 				(font
@@ -422,7 +423,7 @@
 			)
 		)
 		(property "PartNumber" "0806-0100-00003"
-			(at -5.08 6.096 0)
+			(at -5.08 5.842 0)
 			(effects
 				(font
 					(size 1 1)
@@ -447,7 +448,7 @@
 				(hide yes)
 			)
 		)
-		(symbol "74HCT2G08DP_1_0"
+		(symbol "74HCT2G08DP,125_1_0"
 			(pin input line
 				(at -7.62 2.54 0)
 				(length 2.54)
@@ -503,7 +504,7 @@
 				)
 			)
 		)
-		(symbol "74HCT2G08DP_1_1"
+		(symbol "74HCT2G08DP,125_1_1"
 			(polyline
 				(pts
 					(xy -5.08 5.08) (xy 1.27 5.08)
@@ -529,8 +530,8 @@
 				)
 			)
 			(arc
-				(start 1.27 -5.08)
-				(mid 4.8621 -3.5921)
+				(start 1.27 5.08)
+				(mid 4.8621 3.5921)
 				(end 6.35 0)
 				(stroke
 					(width 0)
@@ -542,8 +543,8 @@
 			)
 			(arc
 				(start 6.35 0)
-				(mid 4.8621 3.5921)
-				(end 1.27 5.08)
+				(mid 4.8621 -3.5921)
+				(end 1.27 -5.08)
 				(stroke
 					(width 0)
 					(type default)
@@ -553,25 +554,7 @@
 				)
 			)
 		)
-		(symbol "74HCT2G08DP_2_0"
-			(pin output line
-				(at 8.89 0 180)
-				(length 2.54)
-				(name "Y"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "3"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
+		(symbol "74HCT2G08DP,125_2_0"
 			(pin input line
 				(at -7.62 2.54 0)
 				(length 2.54)
@@ -608,8 +591,26 @@
 					)
 				)
 			)
+			(pin output line
+				(at 8.89 0 180)
+				(length 2.54)
+				(name "Y"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
 		)
-		(symbol "74HCT2G08DP_2_1"
+		(symbol "74HCT2G08DP,125_2_1"
 			(polyline
 				(pts
 					(xy -5.08 5.08) (xy 1.27 5.08)
@@ -635,8 +636,8 @@
 				)
 			)
 			(arc
-				(start 1.27 -5.08)
-				(mid 4.8621 -3.5921)
+				(start 1.27 5.08)
+				(mid 4.8621 3.5921)
 				(end 6.35 0)
 				(stroke
 					(width 0)
@@ -648,8 +649,8 @@
 			)
 			(arc
 				(start 6.35 0)
-				(mid 4.8621 3.5921)
-				(end 1.27 5.08)
+				(mid 4.8621 -3.5921)
+				(end 1.27 -5.08)
 				(stroke
 					(width 0)
 					(type default)
@@ -659,25 +660,7 @@
 				)
 			)
 		)
-		(symbol "74HCT2G08DP_3_0"
-			(pin power_in line
-				(at 0 -5.08 90)
-				(length 2.54)
-				(name "~"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "4"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
+		(symbol "74HCT2G08DP,125_3_0"
 			(pin power_in line
 				(at 0 5.08 270)
 				(length 2.54)
@@ -696,8 +679,26 @@
 					)
 				)
 			)
+			(pin power_in line
+				(at 0 -5.08 90)
+				(length 2.54)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
 		)
-		(symbol "74HCT2G08DP_3_1"
+		(symbol "74HCT2G08DP,125_3_1"
 			(polyline
 				(pts
 					(xy -1.27 1.27) (xy 1.27 1.27)
@@ -747,8 +748,9 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
-	(symbol "74LVC1G08GW"
+	(symbol "74LVC1G08GW,125"
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -761,7 +763,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "74LVC1G08GW"
+		(property "Value" "74LVC1G08GW,125"
 			(at 1.27 7.366 0)
 			(effects
 				(font
@@ -771,32 +773,29 @@
 			)
 		)
 		(property "Footprint" "Daxxn_Packages:SOT-353_SC-70-5"
-			(at 0 16.002 0)
+			(at 0 14.224 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "%LOCAL_DATASHEETS%\\74LVC1G08.pdf"
-			(at 0 17.272 0)
+		(property "Datasheet" "${DATASHEETS}\\74LVC1G08.pdf"
+			(at 0 15.748 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 				(hide yes)
 			)
 		)
 		(property "Description" "IC GATE AND 1CH 2-INP SC-70-5"
-			(at 0 14.478 0)
+			(at 0 12.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 				(hide yes)
 			)
 		)
@@ -818,7 +817,25 @@
 				(hide yes)
 			)
 		)
-		(symbol "74LVC1G08GW_0_0"
+		(symbol "74LVC1G08GW,125_0_0"
+			(pin input line
+				(at -7.62 2.54 0)
+				(length 2.54)
+				(name "A"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
 			(pin input line
 				(at -7.62 -2.54 0)
 				(length 2.54)
@@ -837,17 +854,17 @@
 					)
 				)
 			)
-			(pin input line
-				(at -7.62 2.54 0)
+			(pin power_in line
+				(at 0 7.62 270)
 				(length 2.54)
-				(name "A"
+				(name "VCC"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "2"
+				(number "5"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -891,26 +908,8 @@
 					)
 				)
 			)
-			(pin power_in line
-				(at 0 7.62 270)
-				(length 2.54)
-				(name "VCC"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "5"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
 		)
-		(symbol "74LVC1G08GW_1_1"
+		(symbol "74LVC1G08GW,125_1_1"
 			(polyline
 				(pts
 					(xy -5.08 5.08) (xy 1.27 5.08)
@@ -936,8 +935,8 @@
 				)
 			)
 			(arc
-				(start 1.27 -5.08)
-				(mid 4.8621 -3.5921)
+				(start 1.27 5.08)
+				(mid 4.8621 3.5921)
 				(end 6.35 0)
 				(stroke
 					(width 0)
@@ -949,8 +948,8 @@
 			)
 			(arc
 				(start 6.35 0)
-				(mid 4.8621 3.5921)
-				(end 1.27 5.08)
+				(mid 4.8621 -3.5921)
+				(end 1.27 -5.08)
 				(stroke
 					(width 0)
 					(type default)
@@ -960,6 +959,7 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "MC74VHC1G09DTT1G"
 		(exclude_from_sim no)
@@ -984,7 +984,7 @@
 			)
 		)
 		(property "Footprint" "Daxxn_Packages:SOT-23-5"
-			(at 4.572 12.954 0)
+			(at 0 12.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -993,7 +993,7 @@
 			)
 		)
 		(property "Datasheet" "${DATASHEETS}/MC74VHC1G09-D.PDF"
-			(at 0 25.654 0)
+			(at 0 15.748 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1002,7 +1002,7 @@
 			)
 		)
 		(property "Description" "AND Gate IC 1 Channel Open Drain 5-TSOP"
-			(at 0 23.114 0)
+			(at 0 14.224 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1021,6 +1021,24 @@
 		)
 		(symbol "MC74VHC1G09DTT1G_0_0"
 			(pin input line
+				(at -5.08 2.54 0)
+				(length 2.54)
+				(name "A"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 0.9906 0.9906)
+						)
+					)
+				)
+			)
+			(pin input line
 				(at -5.08 -2.54 0)
 				(length 2.54)
 				(name "B"
@@ -1038,17 +1056,17 @@
 					)
 				)
 			)
-			(pin input line
-				(at -5.08 2.54 0)
+			(pin power_in line
+				(at 5.08 10.16 270)
 				(length 2.54)
-				(name "A"
+				(name "VCC"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "2"
+				(number "5"
 					(effects
 						(font
 							(size 0.9906 0.9906)
@@ -1092,29 +1110,23 @@
 					)
 				)
 			)
-			(pin power_in line
-				(at 5.08 10.16 270)
-				(length 2.54)
-				(name "VCC"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "5"
-					(effects
-						(font
-							(size 0.9906 0.9906)
-						)
-					)
-				)
-			)
 		)
 		(symbol "MC74VHC1G09DTT1G_0_1"
 			(rectangle
 				(start -2.54 7.62)
 				(end 20.32 -7.62)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 2.54) (xy -0.762 2.54)
+				)
 				(stroke
 					(width 0)
 					(type default)
@@ -1135,9 +1147,20 @@
 					(type none)
 				)
 			)
+			(circle
+				(center 11.938 0)
+				(radius 0.508)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
 			(polyline
 				(pts
-					(xy 0 2.54) (xy -0.762 2.54)
+					(xy 12.446 0) (xy 13.462 0) (xy 13.462 -2.54) (xy 14.732 -2.54)
 				)
 				(stroke
 					(width 0)
@@ -1161,7 +1184,31 @@
 			)
 			(polyline
 				(pts
-					(xy 14.986 -4.318) (xy 14.986 -3.302)
+					(xy 14.986 -0.762) (xy 14.986 -1.778)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 14.986 -1.27) (xy 16.256 -1.27) (xy 16.256 -1.27)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 14.986 -2.54) (xy 15.24 -2.286) (xy 15.24 -2.794) (xy 14.986 -2.54)
 				)
 				(stroke
 					(width 0)
@@ -1185,7 +1232,7 @@
 			)
 			(polyline
 				(pts
-					(xy 14.986 -0.762) (xy 14.986 -1.778)
+					(xy 14.986 -3.81) (xy 16.256 -3.81) (xy 16.256 -3.81)
 				)
 				(stroke
 					(width 0)
@@ -1197,31 +1244,7 @@
 			)
 			(polyline
 				(pts
-					(xy 16.256 -3.81) (xy 16.256 -5.08)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 16.256 -1.27) (xy 16.256 2.54)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 16.256 0) (xy 18.542 0)
+					(xy 14.986 -4.318) (xy 14.986 -3.302)
 				)
 				(stroke
 					(width 0)
@@ -1257,8 +1280,19 @@
 			)
 			(polyline
 				(pts
-					(xy 16.764 -2.286) (xy 17.272 -2.286)
+					(xy 16.256 0) (xy 18.542 0)
 				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 16.256 0)
+				(radius 0.1595)
 				(stroke
 					(width 0)
 					(type default)
@@ -1269,8 +1303,19 @@
 			)
 			(polyline
 				(pts
-					(xy 14.986 -3.81) (xy 16.256 -3.81) (xy 16.256 -3.81)
+					(xy 16.256 -1.27) (xy 16.256 2.54)
 				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 16.256 -1.27)
+				(radius 0.1595)
 				(stroke
 					(width 0)
 					(type default)
@@ -1281,7 +1326,7 @@
 			)
 			(polyline
 				(pts
-					(xy 14.986 -1.27) (xy 16.256 -1.27) (xy 16.256 -1.27)
+					(xy 16.256 -3.81) (xy 16.256 -5.08)
 				)
 				(stroke
 					(width 0)
@@ -1305,55 +1350,8 @@
 			)
 			(polyline
 				(pts
-					(xy 12.446 0) (xy 13.462 0) (xy 13.462 -2.54) (xy 14.732 -2.54)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 14.986 -2.54) (xy 15.24 -2.286) (xy 15.24 -2.794) (xy 14.986 -2.54)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
 					(xy 16.256 -3.81) (xy 17.018 -3.81) (xy 17.018 -1.27) (xy 16.256 -1.27)
 				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 17.018 -2.286) (xy 16.764 -2.794) (xy 17.272 -2.794) (xy 17.018 -2.286)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type outline)
-				)
-			)
-			(circle
-				(center 11.938 0)
-				(radius 0.508)
 				(stroke
 					(width 0)
 					(type default)
@@ -1373,9 +1371,10 @@
 					(type none)
 				)
 			)
-			(circle
-				(center 16.256 -1.27)
-				(radius 0.1595)
+			(polyline
+				(pts
+					(xy 16.764 -2.286) (xy 17.272 -2.286)
+				)
 				(stroke
 					(width 0)
 					(type default)
@@ -1384,15 +1383,16 @@
 					(type none)
 				)
 			)
-			(circle
-				(center 16.256 0)
-				(radius 0.1595)
+			(polyline
+				(pts
+					(xy 17.018 -2.286) (xy 16.764 -2.794) (xy 17.272 -2.794) (xy 17.018 -2.286)
+				)
 				(stroke
 					(width 0)
 					(type default)
 				)
 				(fill
-					(type none)
+					(type outline)
 				)
 			)
 		)
@@ -1421,6 +1421,30 @@
 					(type none)
 				)
 			)
+			(arc
+				(start 6.35 5.08)
+				(mid 9.9421 3.5921)
+				(end 11.43 0)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 11.43 0)
+				(mid 9.9421 -3.5921)
+				(end 6.35 -5.08)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
 			(polyline
 				(pts
 					(xy 16.256 -6.35) (xy 14.986 -5.08) (xy 17.526 -5.08) (xy 16.256 -6.35)
@@ -1433,31 +1457,8 @@
 					(type none)
 				)
 			)
-			(arc
-				(start 6.35 -5.08)
-				(mid 9.9421 -3.5921)
-				(end 11.43 0)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(arc
-				(start 11.43 0)
-				(mid 9.9421 3.5921)
-				(end 6.35 5.08)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "SN74HCS21PWR"
 		(exclude_from_sim no)
@@ -1487,17 +1488,15 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "%LOCAL_DATASHEETS%/SN74HCS21.pdf"
+		(property "Datasheet" "${DATASHEETS}/SN74HCS21.pdf"
 			(at 0 16.002 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 				(hide yes)
 			)
 		)
@@ -1507,7 +1506,6 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 				(hide yes)
 			)
 		)
@@ -1540,7 +1538,7 @@
 		(symbol "SN74HCS21PWR_1_0"
 			(polyline
 				(pts
-					(xy 4.318 -0.762) (xy 4.318 0.762) (xy 5.08 0.762)
+					(xy 3.683 -0.762) (xy 5.08 -0.762) (xy 5.08 0.762) (xy 5.715 0.762)
 				)
 				(stroke
 					(width 0)
@@ -1552,7 +1550,7 @@
 			)
 			(polyline
 				(pts
-					(xy 3.683 -0.762) (xy 5.08 -0.762) (xy 5.08 0.762) (xy 5.715 0.762)
+					(xy 4.318 -0.762) (xy 4.318 0.762) (xy 5.08 0.762)
 				)
 				(stroke
 					(width 0)
@@ -1679,8 +1677,8 @@
 				)
 			)
 			(arc
-				(start 6.35 -5.08)
-				(mid 9.9421 -3.5921)
+				(start 6.35 5.08)
+				(mid 9.9421 3.5921)
 				(end 11.43 0)
 				(stroke
 					(width 0)
@@ -1692,8 +1690,8 @@
 			)
 			(arc
 				(start 11.43 0)
-				(mid 9.9421 3.5921)
-				(end 6.35 5.08)
+				(mid 9.9421 -3.5921)
+				(end 6.35 -5.08)
 				(stroke
 					(width 0)
 					(type default)
@@ -1706,7 +1704,7 @@
 		(symbol "SN74HCS21PWR_2_0"
 			(polyline
 				(pts
-					(xy 4.318 -0.762) (xy 4.318 0.762) (xy 5.08 0.762)
+					(xy 3.683 -0.762) (xy 5.08 -0.762) (xy 5.08 0.762) (xy 5.715 0.762)
 				)
 				(stroke
 					(width 0)
@@ -1718,7 +1716,7 @@
 			)
 			(polyline
 				(pts
-					(xy 3.683 -0.762) (xy 5.08 -0.762) (xy 5.08 0.762) (xy 5.715 0.762)
+					(xy 4.318 -0.762) (xy 4.318 0.762) (xy 5.08 0.762)
 				)
 				(stroke
 					(width 0)
@@ -1726,6 +1724,24 @@
 				)
 				(fill
 					(type none)
+				)
+			)
+			(pin input line
+				(at -2.54 3.81 0)
+				(length 2.54)
+				(name "2A"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "9"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
 				)
 			)
 			(pin input line
@@ -1800,24 +1816,6 @@
 					)
 				)
 			)
-			(pin input line
-				(at -2.54 3.81 0)
-				(length 2.54)
-				(name "2A"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "9"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
 		)
 		(symbol "SN74HCS21PWR_2_1"
 			(polyline
@@ -1845,8 +1843,8 @@
 				)
 			)
 			(arc
-				(start 6.35 -5.08)
-				(mid 9.9421 -3.5921)
+				(start 6.35 5.08)
+				(mid 9.9421 3.5921)
 				(end 11.43 0)
 				(stroke
 					(width 0)
@@ -1858,8 +1856,8 @@
 			)
 			(arc
 				(start 11.43 0)
-				(mid 9.9421 3.5921)
-				(end 6.35 5.08)
+				(mid 9.9421 -3.5921)
+				(end 6.35 -5.08)
 				(stroke
 					(width 0)
 					(type default)
@@ -1870,24 +1868,6 @@
 			)
 		)
 		(symbol "SN74HCS21PWR_3_0"
-			(pin no_connect line
-				(at 3.175 -5.715 90)
-				(length 2.54) hide
-				(name "NC"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "11"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
 			(pin power_in line
 				(at 0 5.08 270)
 				(length 2.54)
@@ -1906,24 +1886,6 @@
 					)
 				)
 			)
-			(pin no_connect line
-				(at 3.175 -5.715 90)
-				(length 2.54) hide
-				(name "NC"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "3"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
 			(pin power_in line
 				(at 0 -5.08 90)
 				(length 2.54)
@@ -1935,6 +1897,44 @@
 					)
 				)
 				(number "7"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin no_connect line
+				(at 3.175 -5.715 90)
+				(length 2.54)
+				(hide yes)
+				(name "NC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "11"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin no_connect line
+				(at 3.175 -5.715 90)
+				(length 2.54)
+				(hide yes)
+				(name "NC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1981,13 +1981,14 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "SN74LV08AD"
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "U"
-			(at 0 9.398 0)
+			(at 0 9.144 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1996,7 +1997,7 @@
 			)
 		)
 		(property "Value" "SN74LV08AD"
-			(at 0 7.62 0)
+			(at 0 7.366 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2005,7 +2006,7 @@
 			)
 		)
 		(property "Footprint" "Daxxn_Packages:SOIC-14_3.9x8.7mm_P1.27mm"
-			(at -4.572 18.288 0)
+			(at 0 15.748 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2014,7 +2015,7 @@
 			)
 		)
 		(property "Datasheet" "${DATASHEETS}/SN74LV08A.pdf"
-			(at -3.556 16.002 0)
+			(at 0 14.224 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2023,7 +2024,7 @@
 			)
 		)
 		(property "Description" "AND Gate IC 4 Channel 14-SOIC"
-			(at -4.572 14.478 0)
+			(at 0 12.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2032,7 +2033,7 @@
 			)
 		)
 		(property "PartNumber" "0806-0100-00004"
-			(at 0 6.096 0)
+			(at 0 5.842 0)
 			(effects
 				(font
 					(size 1 1)
@@ -2130,8 +2131,8 @@
 				)
 			)
 			(arc
-				(start 6.35 -5.08)
-				(mid 9.9421 -3.5921)
+				(start 6.35 5.08)
+				(mid 9.9421 3.5921)
 				(end 11.43 0)
 				(stroke
 					(width 0)
@@ -2143,8 +2144,8 @@
 			)
 			(arc
 				(start 11.43 0)
-				(mid 9.9421 3.5921)
-				(end 6.35 5.08)
+				(mid 9.9421 -3.5921)
+				(end 6.35 -5.08)
 				(stroke
 					(width 0)
 					(type default)
@@ -2236,8 +2237,8 @@
 				)
 			)
 			(arc
-				(start 6.35 -5.08)
-				(mid 9.9421 -3.5921)
+				(start 6.35 5.08)
+				(mid 9.9421 3.5921)
 				(end 11.43 0)
 				(stroke
 					(width 0)
@@ -2249,8 +2250,8 @@
 			)
 			(arc
 				(start 11.43 0)
-				(mid 9.9421 3.5921)
-				(end 6.35 5.08)
+				(mid 9.9421 -3.5921)
+				(end 6.35 -5.08)
 				(stroke
 					(width 0)
 					(type default)
@@ -2261,6 +2262,24 @@
 			)
 		)
 		(symbol "SN74LV08AD_3_0"
+			(pin input line
+				(at -2.54 2.54 0)
+				(length 2.54)
+				(name "3A"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "9"
+					(effects
+						(font
+							(size 0.9906 0.9906)
+						)
+					)
+				)
+			)
 			(pin input line
 				(at -2.54 -2.54 0)
 				(length 2.54)
@@ -2297,24 +2316,6 @@
 					)
 				)
 			)
-			(pin input line
-				(at -2.54 2.54 0)
-				(length 2.54)
-				(name "3A"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "9"
-					(effects
-						(font
-							(size 0.9906 0.9906)
-						)
-					)
-				)
-			)
 		)
 		(symbol "SN74LV08AD_3_1"
 			(polyline
@@ -2342,8 +2343,8 @@
 				)
 			)
 			(arc
-				(start 6.35 -5.08)
-				(mid 9.9421 -3.5921)
+				(start 6.35 5.08)
+				(mid 9.9421 3.5921)
 				(end 11.43 0)
 				(stroke
 					(width 0)
@@ -2355,8 +2356,8 @@
 			)
 			(arc
 				(start 11.43 0)
-				(mid 9.9421 3.5921)
-				(end 6.35 5.08)
+				(mid 9.9421 -3.5921)
+				(end 6.35 -5.08)
 				(stroke
 					(width 0)
 					(type default)
@@ -2367,24 +2368,6 @@
 			)
 		)
 		(symbol "SN74LV08AD_4_0"
-			(pin output line
-				(at 13.97 0 180)
-				(length 2.54)
-				(name "4Y"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "11"
-					(effects
-						(font
-							(size 0.9906 0.9906)
-						)
-					)
-				)
-			)
 			(pin input line
 				(at -2.54 2.54 0)
 				(length 2.54)
@@ -2421,6 +2404,24 @@
 					)
 				)
 			)
+			(pin output line
+				(at 13.97 0 180)
+				(length 2.54)
+				(name "4Y"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "11"
+					(effects
+						(font
+							(size 0.9906 0.9906)
+						)
+					)
+				)
+			)
 		)
 		(symbol "SN74LV08AD_4_1"
 			(polyline
@@ -2448,8 +2449,8 @@
 				)
 			)
 			(arc
-				(start 6.35 -5.08)
-				(mid 9.9421 -3.5921)
+				(start 6.35 5.08)
+				(mid 9.9421 3.5921)
 				(end 11.43 0)
 				(stroke
 					(width 0)
@@ -2461,8 +2462,8 @@
 			)
 			(arc
 				(start 11.43 0)
-				(mid 9.9421 3.5921)
-				(end 6.35 5.08)
+				(mid 9.9421 -3.5921)
+				(end 6.35 -5.08)
 				(stroke
 					(width 0)
 					(type default)
@@ -2548,6 +2549,7 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "SN74LVC1G11DRYR"
 		(exclude_from_sim no)
@@ -2577,17 +2579,15 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "%LOCAL_DATASHEETS%\\SN74LVC1G11.pdf"
+		(property "Datasheet" "${DATASHEETS}\\SN74LVC1G11.pdf"
 			(at 0 13.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 				(hide yes)
 			)
 		)
@@ -2597,7 +2597,6 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 				(hide yes)
 			)
 		)
@@ -2638,24 +2637,6 @@
 					)
 				)
 			)
-			(pin power_in line
-				(at 0 -7.62 90)
-				(length 2.54)
-				(name "GND"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "2"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
 			(pin input line
 				(at -7.62 0 0)
 				(length 2.54)
@@ -2674,17 +2655,17 @@
 					)
 				)
 			)
-			(pin output line
-				(at 8.89 0 180)
+			(pin input line
+				(at -7.62 -3.81 0)
 				(length 2.54)
-				(name "Y"
+				(name "C"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "4"
+				(number "6"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -2710,17 +2691,35 @@
 					)
 				)
 			)
-			(pin input line
-				(at -7.62 -3.81 0)
+			(pin power_in line
+				(at 0 -7.62 90)
 				(length 2.54)
-				(name "C"
+				(name "GND"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "6"
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at 8.89 0 180)
+				(length 2.54)
+				(name "Y"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -2755,8 +2754,8 @@
 				)
 			)
 			(arc
-				(start 1.27 -5.08)
-				(mid 4.8621 -3.5921)
+				(start 1.27 5.08)
+				(mid 4.8621 3.5921)
 				(end 6.35 0)
 				(stroke
 					(width 0)
@@ -2768,8 +2767,8 @@
 			)
 			(arc
 				(start 6.35 0)
-				(mid 4.8621 3.5921)
-				(end 1.27 5.08)
+				(mid 4.8621 -3.5921)
+				(end 1.27 -5.08)
 				(stroke
 					(width 0)
 					(type default)
@@ -2779,5 +2778,6 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 )

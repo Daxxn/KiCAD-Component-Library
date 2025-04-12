@@ -1,11 +1,15 @@
 (kicad_symbol_lib
-	(version 20231120)
+	(version 20241209)
 	(generator "kicad_symbol_editor")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(symbol "PTA2043-2010CIB254"
-		(pin_numbers hide)
+		(pin_numbers
+			(hide yes)
+		)
 		(pin_names
-			(offset 0.254) hide)
+			(offset 0.254)
+			(hide yes)
+		)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -27,7 +31,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Potentiometer_THT:Potentiometer_Bourns_PTA2043_Single_Slide"
+		(property "Footprint" "Daxxn_Controls_Pots:PTA2043"
 			(at 0 8.382 0)
 			(effects
 				(font
@@ -95,7 +99,7 @@
 			)
 			(polyline
 				(pts
-					(xy 1.143 0) (xy 1.524 -0.254)
+					(xy 1.143 0) (xy 1.524 0.254)
 				)
 				(stroke
 					(width 0)
@@ -107,7 +111,7 @@
 			)
 			(polyline
 				(pts
-					(xy 1.143 0) (xy 1.524 0.254)
+					(xy 1.143 0) (xy 1.524 -0.254)
 				)
 				(stroke
 					(width 0)
@@ -133,7 +137,7 @@
 		(symbol "PTA2043-2010CIB254_1_1"
 			(polyline
 				(pts
-					(xy 0 0) (xy 1.016 -0.381) (xy 0 -0.762) (xy -1.016 -1.143) (xy 0 -1.524)
+					(xy 0 1.524) (xy 1.016 1.143) (xy 0 0.762) (xy -1.016 0.381) (xy 0 0)
 				)
 				(stroke
 					(width 0)
@@ -145,7 +149,7 @@
 			)
 			(polyline
 				(pts
-					(xy 0 1.524) (xy 1.016 1.143) (xy 0 0.762) (xy -1.016 0.381) (xy 0 0)
+					(xy 0 0) (xy 1.016 -0.381) (xy 0 -0.762) (xy -1.016 -1.143) (xy 0 -1.524)
 				)
 				(stroke
 					(width 0)
@@ -153,6 +157,24 @@
 				)
 				(fill
 					(type none)
+				)
+			)
+			(pin passive line
+				(at -2.54 -2.54 90)
+				(length 0.75)
+				(name "SH"
+					(effects
+						(font
+							(size 0.8 0.8)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
 				)
 			)
 			(pin passive line
@@ -166,24 +188,6 @@
 					)
 				)
 				(number "1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 2.54 0 180)
-				(length 0.75)
-				(name "~"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "2"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -210,16 +214,16 @@
 				)
 			)
 			(pin passive line
-				(at -2.54 -2.54 90)
+				(at 2.54 0 180)
 				(length 0.75)
-				(name "SH"
+				(name "~"
 					(effects
 						(font
-							(size 0.8 0.8)
+							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "4"
+				(number "2"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -228,9 +232,12 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "PTV09A-2030F-A103"
-		(pin_names hide)
+		(pin_names
+			(hide yes)
+		)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -252,7 +259,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Daxxn_Switches:PTV09A-2030F-A103"
+		(property "Footprint" "Daxxn_Controls_Pots:PTV09A-2030F-A103"
 			(at 3.81 13.97 0)
 			(effects
 				(font
@@ -308,24 +315,6 @@
 				)
 			)
 			(pin passive line
-				(at 5.08 0 180)
-				(length 2.54)
-				(name "W"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "2"
-					(effects
-						(font
-							(size 0.9906 0.9906)
-						)
-					)
-				)
-			)
-			(pin passive line
 				(at 0 -5.08 90)
 				(length 2.54)
 				(name "B"
@@ -336,6 +325,24 @@
 					)
 				)
 				(number "3"
+					(effects
+						(font
+							(size 0.9906 0.9906)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 5.08 0 180)
+				(length 2.54)
+				(name "W"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
 					(effects
 						(font
 							(size 0.9906 0.9906)
@@ -358,18 +365,6 @@
 			)
 			(polyline
 				(pts
-					(xy 0 -1.524) (xy 0 -2.54)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
 					(xy 0 1.524) (xy 0 2.54)
 				)
 				(stroke
@@ -382,7 +377,7 @@
 			)
 			(polyline
 				(pts
-					(xy 1.143 0) (xy 1.524 -0.254)
+					(xy 0 -1.524) (xy 0 -2.54)
 				)
 				(stroke
 					(width 0)
@@ -395,6 +390,18 @@
 			(polyline
 				(pts
 					(xy 1.143 0) (xy 1.524 0.254)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 1.143 0) (xy 1.524 -0.254)
 				)
 				(stroke
 					(width 0)
@@ -440,7 +447,7 @@
 		(symbol "PTV09A-2030F-A103_1_1"
 			(polyline
 				(pts
-					(xy 0 0) (xy 1.016 -0.381) (xy 0 -0.762) (xy -1.016 -1.143) (xy 0 -1.524)
+					(xy 0 1.524) (xy 1.016 1.143) (xy 0 0.762) (xy -1.016 0.381) (xy 0 0)
 				)
 				(stroke
 					(width 0)
@@ -452,7 +459,7 @@
 			)
 			(polyline
 				(pts
-					(xy 0 1.524) (xy 1.016 1.143) (xy 0 0.762) (xy -1.016 0.381) (xy 0 0)
+					(xy 0 0) (xy 1.016 -0.381) (xy 0 -0.762) (xy -1.016 -1.143) (xy 0 -1.524)
 				)
 				(stroke
 					(width 0)
@@ -463,11 +470,16 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "TC33X-1-103E"
-		(pin_numbers hide)
+		(pin_numbers
+			(hide yes)
+		)
 		(pin_names
-			(offset 0.254) hide)
+			(offset 0.254)
+			(hide yes)
+		)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -489,7 +501,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Daxxn_Switches:Bourns_TC33X"
+		(property "Footprint" "Daxxn_Controls_Pots:Bourns_TC33X"
 			(at 0 8.382 0)
 			(effects
 				(font
@@ -546,7 +558,7 @@
 		(symbol "TC33X-1-103E_0_1"
 			(polyline
 				(pts
-					(xy 1.143 0) (xy 1.524 -0.254)
+					(xy 1.143 0) (xy 1.524 0.254)
 				)
 				(stroke
 					(width 0)
@@ -558,7 +570,7 @@
 			)
 			(polyline
 				(pts
-					(xy 1.143 0) (xy 1.524 0.254)
+					(xy 1.143 0) (xy 1.524 -0.254)
 				)
 				(stroke
 					(width 0)
@@ -584,7 +596,7 @@
 		(symbol "TC33X-1-103E_1_1"
 			(polyline
 				(pts
-					(xy 0 0) (xy 1.016 -0.381) (xy 0 -0.762) (xy -1.016 -1.143) (xy 0 -1.524)
+					(xy 0 1.524) (xy 1.016 1.143) (xy 0 0.762) (xy -1.016 0.381) (xy 0 0)
 				)
 				(stroke
 					(width 0)
@@ -596,7 +608,7 @@
 			)
 			(polyline
 				(pts
-					(xy 0 1.524) (xy 1.016 1.143) (xy 0 0.762) (xy -1.016 0.381) (xy 0 0)
+					(xy 0 0) (xy 1.016 -0.381) (xy 0 -0.762) (xy -1.016 -1.143) (xy 0 -1.524)
 				)
 				(stroke
 					(width 0)
@@ -625,24 +637,6 @@
 				)
 			)
 			(pin passive line
-				(at 2.54 0 180)
-				(length 0.75)
-				(name "~"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "2"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
 				(at 0 -2.54 90)
 				(length 1.016)
 				(name "~"
@@ -660,7 +654,26 @@
 					)
 				)
 			)
+			(pin passive line
+				(at 2.54 0 180)
+				(length 0.75)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "3214J-1-103E"
 		(extends "TC33X-1-103E")
@@ -823,7 +836,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Daxxn_Switches:PT01-D120K2-B103"
+		(property "Footprint" "Daxxn_Controls_Pots:PT01-D120K2-B103"
 			(at 0 8.382 0)
 			(effects
 				(font
@@ -973,7 +986,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Daxxn_Switches:Bourns_TC33X"
+		(property "Footprint" "Daxxn_Controls_Pots:Bourns_TC33X"
 			(at 0 8.382 0)
 			(effects
 				(font
@@ -1048,7 +1061,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Daxxn_Switches:Bourns_TC33X"
+		(property "Footprint" "Daxxn_Controls_Pots:Bourns_TC33X"
 			(at 0 8.382 0)
 			(effects
 				(font
@@ -1123,7 +1136,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Daxxn_Switches:Bourns_TC33X"
+		(property "Footprint" "Daxxn_Controls_Pots:Bourns_TC33X"
 			(at 0 8.382 0)
 			(effects
 				(font
@@ -1198,7 +1211,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Daxxn_Switches:Bourns_TC33X"
+		(property "Footprint" "Daxxn_Controls_Pots:Bourns_TC33X"
 			(at 0 8.382 0)
 			(effects
 				(font
@@ -1273,7 +1286,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Daxxn_Switches:Bourns_TC33X"
+		(property "Footprint" "Daxxn_Controls_Pots:Bourns_TC33X"
 			(at 0 8.382 0)
 			(effects
 				(font
@@ -1348,7 +1361,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Daxxn_Switches:Bourns_TC33X"
+		(property "Footprint" "Daxxn_Controls_Pots:Bourns_TC33X"
 			(at 0 8.382 0)
 			(effects
 				(font
@@ -1423,7 +1436,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Daxxn_Switches:Bourns_TC33X"
+		(property "Footprint" "Daxxn_Controls_Pots:Bourns_TC33X"
 			(at 0 8.382 0)
 			(effects
 				(font
@@ -1498,7 +1511,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Daxxn_Switches:Bourns_3214W_Vertical"
+		(property "Footprint" "Daxxn_Controls_Pots:Bourns_3214W_Vertical"
 			(at 0 8.382 0)
 			(effects
 				(font
@@ -1573,7 +1586,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Daxxn_Switches:Bourns_3214W_Vertical"
+		(property "Footprint" "Daxxn_Controls_Pots:Bourns_3214W_Vertical"
 			(at 0 8.382 0)
 			(effects
 				(font
@@ -1723,7 +1736,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Daxxn_Switches:BOJACK-POT-6mm"
+		(property "Footprint" "Daxxn_Controls_Pots:BOJACK-POT-6mm"
 			(at 0 8.382 0)
 			(effects
 				(font
@@ -1798,7 +1811,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Daxxn_Switches:BOJACK-POT-6mm"
+		(property "Footprint" "Daxxn_Controls_Pots:BOJACK-POT-6mm"
 			(at 0 8.382 0)
 			(effects
 				(font
@@ -1873,7 +1886,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Daxxn_Switches:BOJACK-POT-6mm"
+		(property "Footprint" "Daxxn_Controls_Pots:BOJACK-POT-6mm"
 			(at 0 8.382 0)
 			(effects
 				(font
@@ -1948,7 +1961,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Daxxn_Switches:BOJACK-POT-6mm"
+		(property "Footprint" "Daxxn_Controls_Pots:BOJACK-POT-6mm"
 			(at 0 8.382 0)
 			(effects
 				(font
@@ -2023,7 +2036,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Daxxn_Switches:BOJACK-POT-6mm"
+		(property "Footprint" "Daxxn_Controls_Pots:BOJACK-POT-6mm"
 			(at 0 8.382 0)
 			(effects
 				(font
@@ -2098,7 +2111,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Daxxn_Switches:BOJACK-POT-6mm"
+		(property "Footprint" "Daxxn_Controls_Pots:BOJACK-POT-6mm"
 			(at 0 8.382 0)
 			(effects
 				(font
@@ -2173,7 +2186,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Daxxn_Switches:BOJACK-POT-6mm"
+		(property "Footprint" "Daxxn_Controls_Pots:BOJACK-POT-6mm"
 			(at 0 8.382 0)
 			(effects
 				(font
@@ -2248,7 +2261,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Daxxn_Switches:BOJACK-POT-6mm"
+		(property "Footprint" "Daxxn_Controls_Pots:BOJACK-POT-6mm"
 			(at 0 8.382 0)
 			(effects
 				(font
@@ -2323,7 +2336,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Daxxn_Switches:BOJACK-POT-6mm"
+		(property "Footprint" "Daxxn_Controls_Pots:BOJACK-POT-6mm"
 			(at 0 8.382 0)
 			(effects
 				(font
@@ -2398,7 +2411,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Daxxn_Switches:BOJACK-POT-6mm"
+		(property "Footprint" "Daxxn_Controls_Pots:BOJACK-POT-6mm"
 			(at 0 8.382 0)
 			(effects
 				(font
@@ -2473,7 +2486,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Daxxn_Switches:BOJACK-POT-6mm"
+		(property "Footprint" "Daxxn_Controls_Pots:BOJACK-POT-6mm"
 			(at 0 8.382 0)
 			(effects
 				(font
@@ -2548,7 +2561,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Daxxn_Switches:BOJACK-POT-6mm"
+		(property "Footprint" "Daxxn_Controls_Pots:BOJACK-POT-6mm"
 			(at 0 8.382 0)
 			(effects
 				(font
@@ -2623,7 +2636,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Daxxn_Switches:BOJACK-POT-6mm"
+		(property "Footprint" "Daxxn_Controls_Pots:BOJACK-POT-6mm"
 			(at 0 8.382 0)
 			(effects
 				(font
@@ -2698,7 +2711,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Daxxn_Switches:BOJACK-POT-6mm"
+		(property "Footprint" "Daxxn_Controls_Pots:BOJACK-POT-6mm"
 			(at 0 8.382 0)
 			(effects
 				(font
@@ -2773,7 +2786,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Daxxn_Switches:PT-10"
+		(property "Footprint" "Daxxn_Controls_Pots:PT-10"
 			(at 0 8.382 0)
 			(effects
 				(font
@@ -2848,7 +2861,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Daxxn_Switches:PTV09A-2020F-A103"
+		(property "Footprint" "Daxxn_Controls_Pots:PTV09A-2020F-A103"
 			(at 0 8.382 0)
 			(effects
 				(font
@@ -2923,7 +2936,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Daxxn_Switches:PTV09A-4015F-B103"
+		(property "Footprint" "Daxxn_Controls_Pots:PTV09A-4015F-B103"
 			(at 0 8.382 0)
 			(effects
 				(font

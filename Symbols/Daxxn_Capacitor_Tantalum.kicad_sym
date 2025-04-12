@@ -52,12 +52,12 @@
 			)
 		)
 		(property "PartNumber" "0201-0300-00004"
-			(at 2.032 -1.524 0)
+			(at 0 3.81 0)
 			(effects
 				(font
 					(size 1 1)
 				)
-				(justify left)
+				(hide yes)
 			)
 		)
 		(property "ki_keywords" "cap tant smd"
@@ -204,12 +204,12 @@
 			)
 		)
 		(property "PartNumber" "0201-0300-00001"
-			(at 2.032 -1.524 0)
+			(at 0 3.81 0)
 			(effects
 				(font
 					(size 1 1)
 				)
-				(justify left)
+				(hide yes)
 			)
 		)
 		(property "ki_keywords" "cap tant smd"
@@ -270,12 +270,12 @@
 			)
 		)
 		(property "PartNumber" "0201-0300-00002"
-			(at 2.032 -1.524 0)
+			(at 0 3.556 0)
 			(effects
 				(font
 					(size 1 1)
 				)
-				(justify left)
+				(hide yes)
 			)
 		)
 		(property "ki_keywords" "cap tant smd"
@@ -336,12 +336,12 @@
 			)
 		)
 		(property "PartNumber" "0201-0300-00003"
-			(at 2.032 -1.524 0)
+			(at 0 3.81 0)
 			(effects
 				(font
 					(size 1 1)
 				)
-				(justify left)
+				(hide yes)
 			)
 		)
 		(property "ki_keywords" "cap tant smd"
@@ -402,12 +402,12 @@
 			)
 		)
 		(property "PartNumber" "0201-0300-00005"
-			(at 2.032 -1.524 0)
+			(at 0 3.81 0)
 			(effects
 				(font
 					(size 1 1)
 				)
-				(justify left)
+				(hide yes)
 			)
 		)
 		(property "ki_keywords" "cap tant smd"
@@ -468,12 +468,78 @@
 			)
 		)
 		(property "PartNumber" "0201-0300-00006"
-			(at 2.032 -1.524 0)
+			(at 0 3.81 0)
 			(effects
 				(font
 					(size 1 1)
 				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "cap tant smd"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(symbol "TCJB106M035R0200"
+		(extends "TMCHP1A225MTRF")
+		(property "Reference" "C"
+			(at 2.032 1.778 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(justify left)
+			)
+		)
+		(property "Value" "10u"
+			(at 2.032 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Daxxn_Passives:C-TANT-1210_EIA-3528"
+			(at 0 8.128 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "${DATASHEETS}/TCJ.pdf"
+			(at 0 6.604 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "10 µF Molded Tantalum Polymer Capacitor 35 V 1210 (3528 Metric) 200mOhm @ 100kHz"
+			(at 0 5.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PartNumber" "0201-0300-00008"
+			(at 0 4.064 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
 			)
 		)
 		(property "ki_keywords" "cap tant smd"
@@ -534,12 +600,12 @@
 			)
 		)
 		(property "PartNumber" "0201-0300-00007"
-			(at 2.032 -1.524 0)
+			(at 0 3.81 0)
 			(effects
 				(font
 					(size 1 1)
 				)
-				(justify left)
+				(hide yes)
 			)
 		)
 		(property "ki_keywords" "cap tant smd"

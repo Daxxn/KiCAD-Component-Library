@@ -1,0 +1,7 @@
+{
+"description": "Simple 12V RGB lighting MOSFET driver.",
+"keywords": "rgb led lighting pwm jst connector",
+"fields": {
+"PREFIX": "RGB"
+}
+}

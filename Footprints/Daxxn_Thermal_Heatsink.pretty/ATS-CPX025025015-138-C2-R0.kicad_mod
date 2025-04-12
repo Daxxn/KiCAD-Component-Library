@@ -1,0 +1,128 @@
+(footprint "ATS-CPX025025015-138-C2-R0"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at -0.1 -6.3 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "d707bb9f-1927-4fc8-9026-7a588ee70944")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.12)
+			)
+		)
+	)
+	(property "Value" "ATS-CPX025025015-138-C2-R0"
+		(at -0.1 -4.8 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "4b15367f-e87a-40f3-a131-3755ce2033b4")
+		(effects
+			(font
+				(size 0.25 0.25)
+				(thickness 0.04)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at -0.1 -5.8 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9b74ef50-7b7e-448b-b00a-04c8a850c713")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at -0.1 -5.8 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b756b5e7-f5c0-4492-b667-763857db8b34")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr board_only allow_missing_courtyard)
+	(fp_circle
+		(center -15 -15)
+		(end -13 -15)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "d5babbe1-59e3-4069-882f-e490b43789b5")
+	)
+	(fp_circle
+		(center 15 15)
+		(end 17 15)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "b617cf2e-1fab-48c4-a813-5ed61ba8ba2e")
+	)
+	(fp_rect
+		(start -12.5 -12.5)
+		(end 12.5 12.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "c2272ac1-2c72-43b3-9c10-94759f5d77e0")
+	)
+	(fp_text user "${REFERENCE}"
+		(at -0.1 -3.3 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "6290bbbf-4f69-44de-a25d-a9681c4c3e86")
+		(effects
+			(font
+				(size 0.25 0.25)
+				(thickness 0.04)
+			)
+		)
+	)
+	(pad "" np_thru_hole circle
+		(at -15 -15)
+		(size 2.5 2.5)
+		(drill 2.5)
+		(layers "F&B.Cu" "*.Mask")
+		(uuid "577d6c6c-3323-4bc4-bb79-e45cd066228f")
+	)
+	(pad "" np_thru_hole circle
+		(at 15 15)
+		(size 2.5 2.5)
+		(drill 2.5)
+		(layers "F&B.Cu" "*.Mask")
+		(uuid "317aee98-bd35-43cb-b4d3-c132b2bcc0e9")
+	)
+	(embedded_fonts no)
+	(model "${DAXXN}/Thermal/ATS-CPX025025015-138-C2-R0.step"
+		(offset
+			(xyz 0 0 1)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -0)
+		)
+	)
+)

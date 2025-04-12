@@ -1,7 +1,7 @@
 (kicad_symbol_lib
-	(version 20231120)
+	(version 20241209)
 	(generator "kicad_symbol_editor")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(symbol "LM386MMX-1/NOPB"
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -16,7 +16,7 @@
 			)
 		)
 		(property "Value" "LM386MMX-1/NOPB"
-			(at 10.668 5.08 0)
+			(at 10.668 5.334 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25,7 +25,7 @@
 			)
 		)
 		(property "Footprint" "Daxxn_Packages:VSSOP-8_3.0x3.0mm_P0.65mm"
-			(at 0 21.844 0)
+			(at 0 16.256 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34,7 +34,7 @@
 			)
 		)
 		(property "Datasheet" "${DATASHEETS}/LM386.pdf"
-			(at 0 20.32 0)
+			(at 0 14.478 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -43,7 +43,7 @@
 			)
 		)
 		(property "Description" "Amplifier IC 1-Channel (Mono) Class AB 8-VSSOP"
-			(at 0 18.542 0)
+			(at 0 12.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -52,7 +52,7 @@
 			)
 		)
 		(property "PartNumber" "0801-0100-00001"
-			(at 10.668 3.556 0)
+			(at 10.668 4.064 0)
 			(effects
 				(font
 					(size 1 1)
@@ -64,18 +64,6 @@
 			(rectangle
 				(start -2.54 7.62)
 				(end 10.16 -5.08)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -2.54 -2.54) (xy 0 -2.54)
-				)
 				(stroke
 					(width 0)
 					(type default)
@@ -98,7 +86,7 @@
 			)
 			(polyline
 				(pts
-					(xy 8.89 0) (xy 10.16 0)
+					(xy -2.54 -2.54) (xy 0 -2.54)
 				)
 				(stroke
 					(width 0)
@@ -108,22 +96,16 @@
 					(type none)
 				)
 			)
-			(pin input line
-				(at -5.08 -2.54 0)
-				(length 2.54)
-				(name "IN-"
-					(effects
-						(font
-							(size 0 0)
-						)
-					)
+			(polyline
+				(pts
+					(xy 8.89 0) (xy 10.16 0)
 				)
-				(number "2"
-					(effects
-						(font
-							(size 0.9906 0.9906)
-						)
-					)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
 				)
 			)
 			(pin input line
@@ -137,6 +119,24 @@
 					)
 				)
 				(number "3"
+					(effects
+						(font
+							(size 0.9906 0.9906)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -5.08 -2.54 0)
+				(length 2.54)
+				(name "IN-"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+				(number "2"
 					(effects
 						(font
 							(size 0.9906 0.9906)
@@ -162,17 +162,17 @@
 					)
 				)
 			)
-			(pin input line
-				(at 5.08 10.16 270)
+			(pin power_in line
+				(at 2.54 10.16 270)
 				(length 2.54)
-				(name "G+"
+				(name "V+"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "1"
+				(number "6"
 					(effects
 						(font
 							(size 0.9906 0.9906)
@@ -198,35 +198,17 @@
 					)
 				)
 			)
-			(pin output line
-				(at 12.7 0 180)
+			(pin input line
+				(at 5.08 10.16 270)
 				(length 2.54)
-				(name "VOUT"
-					(effects
-						(font
-							(size 0 0)
-						)
-					)
-				)
-				(number "5"
-					(effects
-						(font
-							(size 0.9906 0.9906)
-						)
-					)
-				)
-			)
-			(pin power_in line
-				(at 2.54 10.16 270)
-				(length 2.54)
-				(name "V+"
+				(name "G+"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "6"
+				(number "1"
 					(effects
 						(font
 							(size 0.9906 0.9906)
@@ -270,6 +252,24 @@
 					)
 				)
 			)
+			(pin output line
+				(at 12.7 0 180)
+				(length 2.54)
+				(name "VOUT"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 0.9906 0.9906)
+						)
+					)
+				)
+			)
 		)
 		(symbol "LM386MMX-1/NOPB_1_1"
 			(polyline
@@ -285,13 +285,14 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "PGA2311U/1K"
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "U"
-			(at 13.462 4.318 0)
+			(at 13.462 3.556 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -300,7 +301,7 @@
 			)
 		)
 		(property "Value" "PGA2311U/1K"
-			(at 13.462 2.54 0)
+			(at 13.462 2.032 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -309,7 +310,7 @@
 			)
 		)
 		(property "Footprint" "Daxxn_Packages:SOIC-16W_7.5x10.3mm_P1.27mm"
-			(at 12.7 10.668 0)
+			(at 0 9.144 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -318,7 +319,7 @@
 			)
 		)
 		(property "Datasheet" "${DATASHEETS}/PGA2311.pdf"
-			(at 12.7 9.144 0)
+			(at 0 7.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -327,7 +328,7 @@
 			)
 		)
 		(property "Description" "Audio Volume Control 2 Channel 16-SOIC"
-			(at 12.7 7.62 0)
+			(at 0 6.096 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -336,10 +337,10 @@
 			)
 		)
 		(property "PartNumber" "0801-0100-00002"
-			(at 13.462 1.016 0)
+			(at 13.462 0.762 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1 1)
 				)
 				(justify left)
 			)
@@ -363,34 +364,16 @@
 		)
 		(symbol "PGA2311U/1K_1_0"
 			(pin input line
-				(at 27.94 -7.62 180)
+				(at -2.54 -2.54 0)
 				(length 2.54)
-				(name "ZC-EN"
+				(name "SCLK"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "1"
-					(effects
-						(font
-							(size 0.9906 0.9906)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at -2.54 -7.62 0)
-				(length 2.54)
-				(name "~{CS}"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "2"
+				(number "6"
 					(effects
 						(font
 							(size 0.9906 0.9906)
@@ -409,6 +392,24 @@
 					)
 				)
 				(number "3"
+					(effects
+						(font
+							(size 0.9906 0.9906)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -2.54 -7.62 0)
+				(length 2.54)
+				(name "~{CS}"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
 					(effects
 						(font
 							(size 0.9906 0.9906)
@@ -452,24 +453,6 @@
 					)
 				)
 			)
-			(pin input line
-				(at -2.54 -2.54 0)
-				(length 2.54)
-				(name "SCLK"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "6"
-					(effects
-						(font
-							(size 0.9906 0.9906)
-						)
-					)
-				)
-			)
 			(pin output line
 				(at 27.94 -2.54 180)
 				(length 2.54)
@@ -481,6 +464,24 @@
 					)
 				)
 				(number "7"
+					(effects
+						(font
+							(size 0.9906 0.9906)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 27.94 -7.62 180)
+				(length 2.54)
+				(name "ZC-EN"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
 					(effects
 						(font
 							(size 0.9906 0.9906)
@@ -521,6 +522,60 @@
 			)
 		)
 		(symbol "PGA2311U/1K_2_0"
+			(pin input line
+				(at -2.54 -2.54 0)
+				(length 2.54)
+				(name "VIN1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "16"
+					(effects
+						(font
+							(size 0.9906 0.9906)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -2.54 -7.62 0)
+				(length 2.54)
+				(name "AGND1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "15"
+					(effects
+						(font
+							(size 0.9906 0.9906)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -2.54 -12.7 0)
+				(length 2.54)
+				(name "VIN2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "9"
+					(effects
+						(font
+							(size 0.9906 0.9906)
+						)
+					)
+				)
+			)
 			(pin power_in line
 				(at -2.54 -17.78 0)
 				(length 2.54)
@@ -532,24 +587,6 @@
 					)
 				)
 				(number "10"
-					(effects
-						(font
-							(size 0.9906 0.9906)
-						)
-					)
-				)
-			)
-			(pin output line
-				(at 27.94 -15.24 180)
-				(length 2.54)
-				(name "VOUT2"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "11"
 					(effects
 						(font
 							(size 0.9906 0.9906)
@@ -611,53 +648,17 @@
 					)
 				)
 			)
-			(pin power_in line
-				(at -2.54 -7.62 0)
+			(pin output line
+				(at 27.94 -15.24 180)
 				(length 2.54)
-				(name "AGND1"
+				(name "VOUT2"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "15"
-					(effects
-						(font
-							(size 0.9906 0.9906)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at -2.54 -2.54 0)
-				(length 2.54)
-				(name "VIN1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "16"
-					(effects
-						(font
-							(size 0.9906 0.9906)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at -2.54 -12.7 0)
-				(length 2.54)
-				(name "VIN2"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "9"
+				(number "11"
 					(effects
 						(font
 							(size 0.9906 0.9906)
@@ -679,5 +680,6 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 )

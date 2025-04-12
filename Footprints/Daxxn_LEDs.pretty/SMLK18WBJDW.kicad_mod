@@ -1,0 +1,138 @@
+(footprint "SMLK18WBJDW"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -2 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "48d5c618-7486-4863-a10e-1f83ed306ba1")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.12)
+			)
+		)
+	)
+	(property "Value" "SMLK18WBJDW"
+		(at 0 0.3 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "5e0f3127-6753-4ae2-9fc4-579026177ce5")
+		(effects
+			(font
+				(size 0.25 0.25)
+				(thickness 0.04)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0.1 -9.7 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0154da50-78f2-46ef-bad8-4f157aaa794d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0.1 -9.7 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8ffb1707-c029-490a-b16e-7afc8d32c5fa")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -2 -1.2)
+		(end 2 -1.2)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "76f1fe14-147c-4bb9-bbbd-d6aa0e9820ab")
+	)
+	(fp_line
+		(start -2 1.2)
+		(end 2 1.2)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "e8e37716-5fdd-4d0c-b320-8974fd985a29")
+	)
+	(fp_poly
+		(pts
+			(xy -2 -1.2) (xy -1.7 -1.5) (xy -1.4 -1.2)
+		)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "0dfb9dc4-20f2-4c47-a2bf-24704a2709f0")
+	)
+	(fp_rect
+		(start -2 -1)
+		(end 2 1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "1ba07b4a-f145-4f7e-875f-4e707f51a551")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 -0.3 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "4e9e3fd0-cca7-4db0-a450-d90670fdd83f")
+		(effects
+			(font
+				(size 0.25 0.25)
+				(thickness 0.04)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -2.075 0)
+		(size 1.35 1.74)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(thermal_bridge_angle 45)
+		(uuid "2b2d91e9-9737-4070-962e-f4ceb667a207")
+	)
+	(pad "2" smd rect
+		(at 0.875 0)
+		(size 3.75 1.74)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(thermal_bridge_angle 45)
+		(uuid "c347fe2a-20a4-47fc-b51d-332f73d386a0")
+	)
+	(embedded_fonts no)
+	(model "${DAXXN}/LEDs/SMLK18WB v2.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 90)
+		)
+	)
+)

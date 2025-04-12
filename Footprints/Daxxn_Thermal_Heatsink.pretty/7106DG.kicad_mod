@@ -1,0 +1,119 @@
+(footprint "7106DG"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -5.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "85d01bfd-eee3-46ad-bc99-e1e91a2aa8fe")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.12)
+			)
+		)
+	)
+	(property "Value" "7106DG"
+		(at 0 -2.8 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "be3779c8-33b3-4f6b-a7d6-755f424b1480")
+		(effects
+			(font
+				(size 0.25 0.25)
+				(thickness 0.04)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at -0.2 -6.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "678fef8f-16ca-4f39-aaaf-6084f5b728e4")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at -0.2 -6.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ed6fa751-93ca-44ea-9131-4e89528c9826")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd board_only allow_missing_courtyard)
+	(fp_rect
+		(start -8.3 -4.1)
+		(end -5.1 4.1)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "02752db3-6b1a-4e19-9ecc-6743888d5204")
+	)
+	(fp_rect
+		(start 5.1 -4.1)
+		(end 8.3 4.1)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "6898269b-dfc3-45d8-9b0b-bdde07db32ab")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 -3.4 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "55ac1b46-2c4a-450e-82bc-2a81112c7e78")
+		(effects
+			(font
+				(size 0.25 0.25)
+				(thickness 0.04)
+			)
+		)
+	)
+	(pad "MP" smd roundrect
+		(at -6.7 0)
+		(size 3 8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.15)
+		(thermal_bridge_angle 45)
+		(uuid "c049ed58-9e5b-434e-984e-0ca2d64b2310")
+	)
+	(pad "MP" smd roundrect
+		(at 6.7 0)
+		(size 3 8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.15)
+		(thermal_bridge_angle 45)
+		(uuid "1ef4f48b-b7f8-472e-93ac-b4a4a279c104")
+	)
+	(embedded_fonts no)
+	(model "${DAXXN}/Thermal/7106DG.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

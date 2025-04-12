@@ -1,0 +1,124 @@
+(footprint "G5NB-1A"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at -1.7 2.45 90)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "2d644982-eba1-4536-943d-bad8cd1a44c2")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.12)
+			)
+		)
+	)
+	(property "Value" "G5NB-1A"
+		(at 0 0.3 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "9c8dd8ad-da38-4b1a-b7b8-a7ab1adcc243")
+		(effects
+			(font
+				(size 0.25 0.25)
+				(thickness 0.04)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at -0.3 -6.7 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "df91e6da-5ea6-4378-8ce7-188bf67020b3")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at -0.3 -6.7 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "62bcb503-493a-4b51-bb5a-4f23baf6264f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_rect
+		(start -1.05 -1.15)
+		(end 19.45 6.05)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "61486b7b-5c82-4305-964a-afaabbebf62c")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 -0.3 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "7d33c0bb-02d3-4666-b6bf-94f8623d9de4")
+		(effects
+			(font
+				(size 0.25 0.25)
+				(thickness 0.04)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at 0 0)
+		(size 1.8 1.8)
+		(drill 1.1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "4e2e5856-1473-4225-84f8-6c2673792f58")
+	)
+	(pad "2" thru_hole circle
+		(at 11.5 0)
+		(size 1.7 1.7)
+		(drill 1.1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "c8994062-5435-42d0-817e-80bfcb65ebdd")
+	)
+	(pad "3" thru_hole circle
+		(at 18.5 0)
+		(size 1.8 1.8)
+		(drill 1.1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "072ae424-c93a-48ea-8aaf-d4370fb14314")
+	)
+	(pad "4" thru_hole circle
+		(at 0 4.7)
+		(size 1.8 1.8)
+		(drill 1.1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "921e0c6e-e6ef-4bf0-a77e-bc0c85bec05c")
+	)
+	(embedded_fonts no)
+	(model "${DAXXN}/Relays/G5NB-1A-E-RELAY-SPST-1COIL v4.step"
+		(offset
+			(xyz -1.05 1.15 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -0)
+		)
+	)
+)

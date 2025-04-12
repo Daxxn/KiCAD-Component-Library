@@ -1,7 +1,7 @@
 (kicad_symbol_lib
-	(version 20231120)
+	(version 20241209)
 	(generator "kicad_symbol_editor")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(symbol "CSTCR6M00G53-R0"
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -71,6 +71,17 @@
 		)
 		(symbol "CSTCR6M00G53-R0_0_1"
 			(rectangle
+				(start -3.556 -1.778)
+				(end -1.524 -2.032)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(rectangle
 				(start -3.556 -2.54)
 				(end -1.524 -2.794)
 				(stroke
@@ -81,15 +92,16 @@
 					(type outline)
 				)
 			)
-			(rectangle
-				(start -3.556 -1.778)
-				(end -1.524 -2.032)
+			(polyline
+				(pts
+					(xy -2.54 1.27) (xy -2.54 0)
+				)
 				(stroke
 					(width 0)
 					(type default)
 				)
 				(fill
-					(type outline)
+					(type none)
 				)
 			)
 			(circle
@@ -101,6 +113,42 @@
 				)
 				(fill
 					(type outline)
+				)
+			)
+			(polyline
+				(pts
+					(xy -2.54 0) (xy -1.397 0)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -2.54 -1.778) (xy -2.54 0)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -1.27 -1.27) (xy -1.27 1.27)
+				)
+				(stroke
+					(width 0.381)
+					(type default)
+				)
+				(fill
+					(type none)
 				)
 			)
 			(rectangle
@@ -127,46 +175,10 @@
 			)
 			(polyline
 				(pts
-					(xy -2.54 -1.778) (xy -2.54 0)
+					(xy 1.27 0) (xy 2.54 0)
 				)
 				(stroke
 					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -2.54 0) (xy -1.397 0)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -2.54 1.27) (xy -2.54 0)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -1.27 -1.27) (xy -1.27 1.27)
-				)
-				(stroke
-					(width 0.381)
 					(type default)
 				)
 				(fill
@@ -185,21 +197,31 @@
 					(type none)
 				)
 			)
-			(polyline
-				(pts
-					(xy 1.27 0) (xy 2.54 0)
-				)
+			(rectangle
+				(start 1.524 -1.778)
+				(end 3.556 -2.032)
 				(stroke
 					(width 0)
 					(type default)
 				)
 				(fill
-					(type none)
+					(type outline)
+				)
+			)
+			(rectangle
+				(start 1.524 -2.54)
+				(end 3.556 -2.794)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type outline)
 				)
 			)
 			(polyline
 				(pts
-					(xy 2.54 0) (xy 2.54 -1.778)
+					(xy 2.413 -2.794) (xy 2.413 -3.81) (xy -2.413 -3.81) (xy -2.413 -2.667)
 				)
 				(stroke
 					(width 0)
@@ -223,7 +245,7 @@
 			)
 			(polyline
 				(pts
-					(xy 2.413 -2.794) (xy 2.413 -3.81) (xy -2.413 -3.81) (xy -2.413 -2.667)
+					(xy 2.54 0) (xy 2.54 -1.778)
 				)
 				(stroke
 					(width 0)
@@ -231,28 +253,6 @@
 				)
 				(fill
 					(type none)
-				)
-			)
-			(rectangle
-				(start 1.524 -2.54)
-				(end 3.556 -2.794)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type outline)
-				)
-			)
-			(rectangle
-				(start 1.524 -1.778)
-				(end 3.556 -2.032)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type outline)
 				)
 			)
 			(circle
@@ -323,6 +323,7 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "CSTNE12M0G550000R0"
 		(exclude_from_sim no)
@@ -393,6 +394,17 @@
 		)
 		(symbol "CSTNE12M0G550000R0_0_1"
 			(rectangle
+				(start -3.556 -1.778)
+				(end -1.524 -2.032)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(rectangle
 				(start -3.556 -2.54)
 				(end -1.524 -2.794)
 				(stroke
@@ -403,15 +415,16 @@
 					(type outline)
 				)
 			)
-			(rectangle
-				(start -3.556 -1.778)
-				(end -1.524 -2.032)
+			(polyline
+				(pts
+					(xy -2.54 1.27) (xy -2.54 0)
+				)
 				(stroke
 					(width 0)
 					(type default)
 				)
 				(fill
-					(type outline)
+					(type none)
 				)
 			)
 			(circle
@@ -423,6 +436,42 @@
 				)
 				(fill
 					(type outline)
+				)
+			)
+			(polyline
+				(pts
+					(xy -2.54 0) (xy -1.397 0)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -2.54 -1.778) (xy -2.54 0)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -1.27 -1.27) (xy -1.27 1.27)
+				)
+				(stroke
+					(width 0.381)
+					(type default)
+				)
+				(fill
+					(type none)
 				)
 			)
 			(rectangle
@@ -449,46 +498,10 @@
 			)
 			(polyline
 				(pts
-					(xy -2.54 -1.778) (xy -2.54 0)
+					(xy 1.27 0) (xy 2.54 0)
 				)
 				(stroke
 					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -2.54 0) (xy -1.397 0)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -2.54 1.27) (xy -2.54 0)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -1.27 -1.27) (xy -1.27 1.27)
-				)
-				(stroke
-					(width 0.381)
 					(type default)
 				)
 				(fill
@@ -507,21 +520,31 @@
 					(type none)
 				)
 			)
-			(polyline
-				(pts
-					(xy 1.27 0) (xy 2.54 0)
-				)
+			(rectangle
+				(start 1.524 -1.778)
+				(end 3.556 -2.032)
 				(stroke
 					(width 0)
 					(type default)
 				)
 				(fill
-					(type none)
+					(type outline)
+				)
+			)
+			(rectangle
+				(start 1.524 -2.54)
+				(end 3.556 -2.794)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type outline)
 				)
 			)
 			(polyline
 				(pts
-					(xy 2.54 0) (xy 2.54 -1.778)
+					(xy 2.413 -2.794) (xy 2.413 -3.81) (xy -2.413 -3.81) (xy -2.413 -2.667)
 				)
 				(stroke
 					(width 0)
@@ -545,7 +568,7 @@
 			)
 			(polyline
 				(pts
-					(xy 2.413 -2.794) (xy 2.413 -3.81) (xy -2.413 -3.81) (xy -2.413 -2.667)
+					(xy 2.54 0) (xy 2.54 -1.778)
 				)
 				(stroke
 					(width 0)
@@ -553,28 +576,6 @@
 				)
 				(fill
 					(type none)
-				)
-			)
-			(rectangle
-				(start 1.524 -2.54)
-				(end 3.556 -2.794)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type outline)
-				)
-			)
-			(rectangle
-				(start 1.524 -1.778)
-				(end 3.556 -2.032)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type outline)
 				)
 			)
 			(circle
@@ -645,6 +646,7 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "CSTNE16M0V530000R0"
 		(exclude_from_sim no)
@@ -715,6 +717,17 @@
 		)
 		(symbol "CSTNE16M0V530000R0_0_1"
 			(rectangle
+				(start -3.556 -1.778)
+				(end -1.524 -2.032)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(rectangle
 				(start -3.556 -2.54)
 				(end -1.524 -2.794)
 				(stroke
@@ -725,15 +738,16 @@
 					(type outline)
 				)
 			)
-			(rectangle
-				(start -3.556 -1.778)
-				(end -1.524 -2.032)
+			(polyline
+				(pts
+					(xy -2.54 1.27) (xy -2.54 0)
+				)
 				(stroke
 					(width 0)
 					(type default)
 				)
 				(fill
-					(type outline)
+					(type none)
 				)
 			)
 			(circle
@@ -745,6 +759,42 @@
 				)
 				(fill
 					(type outline)
+				)
+			)
+			(polyline
+				(pts
+					(xy -2.54 0) (xy -1.397 0)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -2.54 -1.778) (xy -2.54 0)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -1.27 -1.27) (xy -1.27 1.27)
+				)
+				(stroke
+					(width 0.381)
+					(type default)
+				)
+				(fill
+					(type none)
 				)
 			)
 			(rectangle
@@ -771,46 +821,10 @@
 			)
 			(polyline
 				(pts
-					(xy -2.54 -1.778) (xy -2.54 0)
+					(xy 1.27 0) (xy 2.54 0)
 				)
 				(stroke
 					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -2.54 0) (xy -1.397 0)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -2.54 1.27) (xy -2.54 0)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -1.27 -1.27) (xy -1.27 1.27)
-				)
-				(stroke
-					(width 0.381)
 					(type default)
 				)
 				(fill
@@ -829,21 +843,31 @@
 					(type none)
 				)
 			)
-			(polyline
-				(pts
-					(xy 1.27 0) (xy 2.54 0)
-				)
+			(rectangle
+				(start 1.524 -1.778)
+				(end 3.556 -2.032)
 				(stroke
 					(width 0)
 					(type default)
 				)
 				(fill
-					(type none)
+					(type outline)
+				)
+			)
+			(rectangle
+				(start 1.524 -2.54)
+				(end 3.556 -2.794)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type outline)
 				)
 			)
 			(polyline
 				(pts
-					(xy 2.54 0) (xy 2.54 -1.778)
+					(xy 2.413 -2.794) (xy 2.413 -3.81) (xy -2.413 -3.81) (xy -2.413 -2.667)
 				)
 				(stroke
 					(width 0)
@@ -867,7 +891,7 @@
 			)
 			(polyline
 				(pts
-					(xy 2.413 -2.794) (xy 2.413 -3.81) (xy -2.413 -3.81) (xy -2.413 -2.667)
+					(xy 2.54 0) (xy 2.54 -1.778)
 				)
 				(stroke
 					(width 0)
@@ -875,28 +899,6 @@
 				)
 				(fill
 					(type none)
-				)
-			)
-			(rectangle
-				(start 1.524 -2.54)
-				(end 3.556 -2.794)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type outline)
-				)
-			)
-			(rectangle
-				(start 1.524 -1.778)
-				(end 3.556 -2.032)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type outline)
 				)
 			)
 			(circle
@@ -967,6 +969,7 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "CSTNE16M0V53L000R0"
 		(exclude_from_sim no)
@@ -1037,6 +1040,17 @@
 		)
 		(symbol "CSTNE16M0V53L000R0_0_1"
 			(rectangle
+				(start -3.556 -1.778)
+				(end -1.524 -2.032)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(rectangle
 				(start -3.556 -2.54)
 				(end -1.524 -2.794)
 				(stroke
@@ -1047,15 +1061,16 @@
 					(type outline)
 				)
 			)
-			(rectangle
-				(start -3.556 -1.778)
-				(end -1.524 -2.032)
+			(polyline
+				(pts
+					(xy -2.54 1.27) (xy -2.54 0)
+				)
 				(stroke
 					(width 0)
 					(type default)
 				)
 				(fill
-					(type outline)
+					(type none)
 				)
 			)
 			(circle
@@ -1067,6 +1082,42 @@
 				)
 				(fill
 					(type outline)
+				)
+			)
+			(polyline
+				(pts
+					(xy -2.54 0) (xy -1.397 0)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -2.54 -1.778) (xy -2.54 0)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -1.27 -1.27) (xy -1.27 1.27)
+				)
+				(stroke
+					(width 0.381)
+					(type default)
+				)
+				(fill
+					(type none)
 				)
 			)
 			(rectangle
@@ -1093,46 +1144,10 @@
 			)
 			(polyline
 				(pts
-					(xy -2.54 -1.778) (xy -2.54 0)
+					(xy 1.27 0) (xy 2.54 0)
 				)
 				(stroke
 					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -2.54 0) (xy -1.397 0)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -2.54 1.27) (xy -2.54 0)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -1.27 -1.27) (xy -1.27 1.27)
-				)
-				(stroke
-					(width 0.381)
 					(type default)
 				)
 				(fill
@@ -1151,21 +1166,31 @@
 					(type none)
 				)
 			)
-			(polyline
-				(pts
-					(xy 1.27 0) (xy 2.54 0)
-				)
+			(rectangle
+				(start 1.524 -1.778)
+				(end 3.556 -2.032)
 				(stroke
 					(width 0)
 					(type default)
 				)
 				(fill
-					(type none)
+					(type outline)
+				)
+			)
+			(rectangle
+				(start 1.524 -2.54)
+				(end 3.556 -2.794)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type outline)
 				)
 			)
 			(polyline
 				(pts
-					(xy 2.54 0) (xy 2.54 -1.778)
+					(xy 2.413 -2.794) (xy 2.413 -3.81) (xy -2.413 -3.81) (xy -2.413 -2.667)
 				)
 				(stroke
 					(width 0)
@@ -1189,7 +1214,7 @@
 			)
 			(polyline
 				(pts
-					(xy 2.413 -2.794) (xy 2.413 -3.81) (xy -2.413 -3.81) (xy -2.413 -2.667)
+					(xy 2.54 0) (xy 2.54 -1.778)
 				)
 				(stroke
 					(width 0)
@@ -1197,28 +1222,6 @@
 				)
 				(fill
 					(type none)
-				)
-			)
-			(rectangle
-				(start 1.524 -2.54)
-				(end 3.556 -2.794)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type outline)
-				)
-			)
-			(rectangle
-				(start 1.524 -1.778)
-				(end 3.556 -2.032)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type outline)
 				)
 			)
 			(circle
@@ -1289,6 +1292,7 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "CSTNE24M0VH3C000R0"
 		(exclude_from_sim no)
@@ -1359,6 +1363,17 @@
 		)
 		(symbol "CSTNE24M0VH3C000R0_0_1"
 			(rectangle
+				(start -3.556 -1.778)
+				(end -1.524 -2.032)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(rectangle
 				(start -3.556 -2.54)
 				(end -1.524 -2.794)
 				(stroke
@@ -1369,15 +1384,16 @@
 					(type outline)
 				)
 			)
-			(rectangle
-				(start -3.556 -1.778)
-				(end -1.524 -2.032)
+			(polyline
+				(pts
+					(xy -2.54 1.27) (xy -2.54 0)
+				)
 				(stroke
 					(width 0)
 					(type default)
 				)
 				(fill
-					(type outline)
+					(type none)
 				)
 			)
 			(circle
@@ -1389,6 +1405,42 @@
 				)
 				(fill
 					(type outline)
+				)
+			)
+			(polyline
+				(pts
+					(xy -2.54 0) (xy -1.397 0)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -2.54 -1.778) (xy -2.54 0)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -1.27 -1.27) (xy -1.27 1.27)
+				)
+				(stroke
+					(width 0.381)
+					(type default)
+				)
+				(fill
+					(type none)
 				)
 			)
 			(rectangle
@@ -1415,46 +1467,10 @@
 			)
 			(polyline
 				(pts
-					(xy -2.54 -1.778) (xy -2.54 0)
+					(xy 1.27 0) (xy 2.54 0)
 				)
 				(stroke
 					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -2.54 0) (xy -1.397 0)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -2.54 1.27) (xy -2.54 0)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -1.27 -1.27) (xy -1.27 1.27)
-				)
-				(stroke
-					(width 0.381)
 					(type default)
 				)
 				(fill
@@ -1473,21 +1489,31 @@
 					(type none)
 				)
 			)
-			(polyline
-				(pts
-					(xy 1.27 0) (xy 2.54 0)
-				)
+			(rectangle
+				(start 1.524 -1.778)
+				(end 3.556 -2.032)
 				(stroke
 					(width 0)
 					(type default)
 				)
 				(fill
-					(type none)
+					(type outline)
+				)
+			)
+			(rectangle
+				(start 1.524 -2.54)
+				(end 3.556 -2.794)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type outline)
 				)
 			)
 			(polyline
 				(pts
-					(xy 2.54 0) (xy 2.54 -1.778)
+					(xy 2.413 -2.794) (xy 2.413 -3.81) (xy -2.413 -3.81) (xy -2.413 -2.667)
 				)
 				(stroke
 					(width 0)
@@ -1511,7 +1537,7 @@
 			)
 			(polyline
 				(pts
-					(xy 2.413 -2.794) (xy 2.413 -3.81) (xy -2.413 -3.81) (xy -2.413 -2.667)
+					(xy 2.54 0) (xy 2.54 -1.778)
 				)
 				(stroke
 					(width 0)
@@ -1519,28 +1545,6 @@
 				)
 				(fill
 					(type none)
-				)
-			)
-			(rectangle
-				(start 1.524 -2.54)
-				(end 3.556 -2.794)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type outline)
-				)
-			)
-			(rectangle
-				(start 1.524 -1.778)
-				(end 3.556 -2.032)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type outline)
 				)
 			)
 			(circle
@@ -1611,6 +1615,7 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "CSTNE8M00G52Z000R0"
 		(exclude_from_sim no)
@@ -1681,6 +1686,17 @@
 		)
 		(symbol "CSTNE8M00G52Z000R0_0_1"
 			(rectangle
+				(start -3.556 -1.778)
+				(end -1.524 -2.032)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(rectangle
 				(start -3.556 -2.54)
 				(end -1.524 -2.794)
 				(stroke
@@ -1691,15 +1707,16 @@
 					(type outline)
 				)
 			)
-			(rectangle
-				(start -3.556 -1.778)
-				(end -1.524 -2.032)
+			(polyline
+				(pts
+					(xy -2.54 1.27) (xy -2.54 0)
+				)
 				(stroke
 					(width 0)
 					(type default)
 				)
 				(fill
-					(type outline)
+					(type none)
 				)
 			)
 			(circle
@@ -1711,6 +1728,42 @@
 				)
 				(fill
 					(type outline)
+				)
+			)
+			(polyline
+				(pts
+					(xy -2.54 0) (xy -1.397 0)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -2.54 -1.778) (xy -2.54 0)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -1.27 -1.27) (xy -1.27 1.27)
+				)
+				(stroke
+					(width 0.381)
+					(type default)
+				)
+				(fill
+					(type none)
 				)
 			)
 			(rectangle
@@ -1737,46 +1790,10 @@
 			)
 			(polyline
 				(pts
-					(xy -2.54 -1.778) (xy -2.54 0)
+					(xy 1.27 0) (xy 2.54 0)
 				)
 				(stroke
 					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -2.54 0) (xy -1.397 0)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -2.54 1.27) (xy -2.54 0)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -1.27 -1.27) (xy -1.27 1.27)
-				)
-				(stroke
-					(width 0.381)
 					(type default)
 				)
 				(fill
@@ -1795,21 +1812,31 @@
 					(type none)
 				)
 			)
-			(polyline
-				(pts
-					(xy 1.27 0) (xy 2.54 0)
-				)
+			(rectangle
+				(start 1.524 -1.778)
+				(end 3.556 -2.032)
 				(stroke
 					(width 0)
 					(type default)
 				)
 				(fill
-					(type none)
+					(type outline)
+				)
+			)
+			(rectangle
+				(start 1.524 -2.54)
+				(end 3.556 -2.794)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type outline)
 				)
 			)
 			(polyline
 				(pts
-					(xy 2.54 0) (xy 2.54 -1.778)
+					(xy 2.413 -2.794) (xy 2.413 -3.81) (xy -2.413 -3.81) (xy -2.413 -2.667)
 				)
 				(stroke
 					(width 0)
@@ -1833,7 +1860,7 @@
 			)
 			(polyline
 				(pts
-					(xy 2.413 -2.794) (xy 2.413 -3.81) (xy -2.413 -3.81) (xy -2.413 -2.667)
+					(xy 2.54 0) (xy 2.54 -1.778)
 				)
 				(stroke
 					(width 0)
@@ -1841,28 +1868,6 @@
 				)
 				(fill
 					(type none)
-				)
-			)
-			(rectangle
-				(start 1.524 -2.54)
-				(end 3.556 -2.794)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type outline)
-				)
-			)
-			(rectangle
-				(start 1.524 -1.778)
-				(end 3.556 -2.032)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type outline)
 				)
 			)
 			(circle
@@ -1931,6 +1936,73 @@
 						)
 					)
 				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "AWSCR-25.00CW-T"
+		(extends "CSTCR6M00G53-R0")
+		(property "Reference" "Y"
+			(at 4.318 0.762 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "25MHz"
+			(at 4.318 -1.016 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 5.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "${DATASHEETS}/AWSCR_CW.pdf"
+			(at 0 7.366 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "CERAMIC RES 25.0000MHZ 10PF SMD"
+			(at 0 6.096 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PartNumber" "1203-0000-00005"
+			(at 4.318 -2.54 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
+			)
+		)
+		(property "ki_keywords" "resonator oscillator 6mhz"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 	)

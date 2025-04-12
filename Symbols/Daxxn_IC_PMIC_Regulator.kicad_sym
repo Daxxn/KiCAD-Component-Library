@@ -1,13 +1,13 @@
 (kicad_symbol_lib
-	(version 20231120)
+	(version 20241209)
 	(generator "kicad_symbol_editor")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(symbol "LM27761DSGT"
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "U"
-			(at 16.002 4.318 0)
+			(at 16.002 3.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16,7 +16,7 @@
 			)
 		)
 		(property "Value" "LM27761DSGT"
-			(at 16.002 2.54 0)
+			(at 16.002 2.286 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25,7 +25,7 @@
 			)
 		)
 		(property "Footprint" "Daxxn_Packages:DFN-8-1EP_2x2mm_P0.5mm_EP0.9x1.6mm"
-			(at 10.16 11.176 0)
+			(at 0 11.176 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34,7 +34,7 @@
 			)
 		)
 		(property "Datasheet" "${DATASHEETS}/LM27761.pdf"
-			(at 7.62 7.874 0)
+			(at 0 7.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -43,7 +43,7 @@
 			)
 		)
 		(property "Description" "Charge Pump Switching Regulator IC Negative Adjustable -1.5V 1 Output 250mA 8-WFDFN"
-			(at 7.62 9.398 0)
+			(at 0 9.398 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -52,7 +52,7 @@
 			)
 		)
 		(property "PartNumber" "0811-0400-00002"
-			(at 16.002 1.016 0)
+			(at 16.002 0.762 0)
 			(effects
 				(font
 					(size 1 1)
@@ -99,17 +99,17 @@
 					)
 				)
 			)
-			(pin power_in line
-				(at 10.16 -15.24 90)
+			(pin input line
+				(at -2.54 -5.08 0)
 				(length 2.54)
-				(name "GND"
+				(name "EN"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "2"
+				(number "6"
 					(effects
 						(font
 							(size 0.9906 0.9906)
@@ -128,6 +128,79 @@
 					)
 				)
 				(number "3"
+					(effects
+						(font
+							(size 0.9906 0.9906)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 7.62 2.54 270)
+				(length 2.54)
+				(name "C1-"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "7"
+					(effects
+						(font
+							(size 0.9906 0.9906)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 10.16 -15.24 90)
+				(length 2.54)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 0.9906 0.9906)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 10.16 -15.24 90)
+				(length 2.54)
+				(hide yes)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "9"
+					(effects
+						(font
+							(size 0.9906 0.9906)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 15.24 2.54 270)
+				(length 2.54)
+				(name "C1+"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "8"
 					(effects
 						(font
 							(size 0.9906 0.9906)
@@ -171,86 +244,15 @@
 					)
 				)
 			)
-			(pin input line
-				(at -2.54 -5.08 0)
-				(length 2.54)
-				(name "EN"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "6"
-					(effects
-						(font
-							(size 0.9906 0.9906)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 7.62 2.54 270)
-				(length 2.54)
-				(name "C1-"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "7"
-					(effects
-						(font
-							(size 0.9906 0.9906)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 15.24 2.54 270)
-				(length 2.54)
-				(name "C1+"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "8"
-					(effects
-						(font
-							(size 0.9906 0.9906)
-						)
-					)
-				)
-			)
-			(pin power_in line
-				(at 10.16 -15.24 90)
-				(length 2.54) hide
-				(name "GND"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "9"
-					(effects
-						(font
-							(size 0.9906 0.9906)
-						)
-					)
-				)
-			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "MAX680CSA+T"
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "U"
-			(at 13.716 4.064 0)
+			(at 13.716 3.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -305,6 +307,24 @@
 		)
 		(symbol "MAX680CSA+T_0_0"
 			(pin passive line
+				(at -2.54 -2.54 0)
+				(length 2.54)
+				(name "C1+"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "7"
+					(effects
+						(font
+							(size 0.9906 0.9906)
+						)
+					)
+				)
+			)
+			(pin passive line
 				(at -2.54 -10.16 0)
 				(length 2.54)
 				(name "C1-"
@@ -358,17 +378,17 @@
 					)
 				)
 			)
-			(pin power_out line
-				(at 27.94 -20.32 180)
+			(pin power_in line
+				(at 12.7 2.54 270)
 				(length 2.54)
-				(name "V-"
+				(name "VCC"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "4"
+				(number "6"
 					(effects
 						(font
 							(size 0.9906 0.9906)
@@ -394,42 +414,6 @@
 					)
 				)
 			)
-			(pin power_in line
-				(at 12.7 2.54 270)
-				(length 2.54)
-				(name "VCC"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "6"
-					(effects
-						(font
-							(size 0.9906 0.9906)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at -2.54 -2.54 0)
-				(length 2.54)
-				(name "C1+"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "7"
-					(effects
-						(font
-							(size 0.9906 0.9906)
-						)
-					)
-				)
-			)
 			(pin power_out line
 				(at 27.94 -2.54 180)
 				(length 2.54)
@@ -441,6 +425,24 @@
 					)
 				)
 				(number "8"
+					(effects
+						(font
+							(size 0.9906 0.9906)
+						)
+					)
+				)
+			)
+			(pin power_out line
+				(at 27.94 -20.32 180)
+				(length 2.54)
+				(name "V-"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
 					(effects
 						(font
 							(size 0.9906 0.9906)
@@ -462,6 +464,7 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "MAX774CSA+"
 		(exclude_from_sim no)
@@ -532,24 +535,6 @@
 		)
 		(symbol "MAX774CSA+_0_0"
 			(pin unspecified line
-				(at 0 11.43 270)
-				(length 2.54)
-				(name "OUT"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin unspecified line
 				(at -8.89 6.35 0)
 				(length 2.54)
 				(name "FB"
@@ -596,6 +581,42 @@
 					)
 				)
 				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 0 11.43 270)
+				(length 2.54)
+				(name "OUT"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 0 -11.43 90)
+				(length 2.54)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "8"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -657,24 +678,6 @@
 					)
 				)
 			)
-			(pin unspecified line
-				(at 0 -11.43 90)
-				(length 2.54)
-				(name "GND"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "8"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
 		)
 		(symbol "MAX774CSA+_0_1"
 			(rectangle
@@ -689,6 +692,7 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "NCP51200AMNTXG"
 		(exclude_from_sim no)
@@ -749,125 +753,17 @@
 			)
 		)
 		(symbol "NCP51200AMNTXG_0_0"
-			(pin input line
-				(at 27.94 -12.7 180)
-				(length 2.54)
-				(name "VRI"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "1"
-					(effects
-						(font
-							(size 0.9906 0.9906)
-						)
-					)
-				)
-			)
-			(pin power_in line
-				(at 15.24 -25.4 90)
-				(length 2.54) hide
-				(name "GND"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "11"
-					(effects
-						(font
-							(size 0.9906 0.9906)
-						)
-					)
-				)
-			)
-			(pin power_in line
-				(at 17.78 -5.08 180)
-				(length 2.54)
-				(name "PVCC"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "2"
-					(effects
-						(font
-							(size 0.9906 0.9906)
-						)
-					)
-				)
-			)
-			(pin power_out line
-				(at 27.94 -17.78 180)
-				(length 2.54)
-				(name "VTT"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "3"
-					(effects
-						(font
-							(size 0.9906 0.9906)
-						)
-					)
-				)
-			)
-			(pin power_in line
-				(at 10.16 -25.4 90)
-				(length 2.54)
-				(name "PGND"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "4"
-					(effects
-						(font
-							(size 0.9906 0.9906)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at 27.94 -20.32 180)
-				(length 2.54)
-				(name "VTTS"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "5"
-					(effects
-						(font
-							(size 0.9906 0.9906)
-						)
-					)
-				)
-			)
 			(pin output line
-				(at -2.54 -17.78 0)
+				(at -2.54 -12.7 0)
 				(length 2.54)
-				(name "VRO"
+				(name "PG"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "6"
+				(number "9"
 					(effects
 						(font
 							(size 0.9906 0.9906)
@@ -893,6 +789,61 @@
 					)
 				)
 			)
+			(pin output line
+				(at -2.54 -17.78 0)
+				(length 2.54)
+				(name "VRO"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 0.9906 0.9906)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 10.16 -25.4 90)
+				(length 2.54)
+				(name "PGND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 0.9906 0.9906)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 15.24 -25.4 90)
+				(length 2.54)
+				(hide yes)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "11"
+					(effects
+						(font
+							(size 0.9906 0.9906)
+						)
+					)
+				)
+			)
 			(pin power_in line
 				(at 15.24 -25.4 90)
 				(length 2.54)
@@ -911,17 +862,71 @@
 					)
 				)
 			)
-			(pin output line
-				(at -2.54 -12.7 0)
+			(pin power_in line
+				(at 17.78 -5.08 180)
 				(length 2.54)
-				(name "PG"
+				(name "PVCC"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "9"
+				(number "2"
+					(effects
+						(font
+							(size 0.9906 0.9906)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 27.94 -12.7 180)
+				(length 2.54)
+				(name "VRI"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 0.9906 0.9906)
+						)
+					)
+				)
+			)
+			(pin power_out line
+				(at 27.94 -17.78 180)
+				(length 2.54)
+				(name "VTT"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 0.9906 0.9906)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 27.94 -20.32 180)
+				(length 2.54)
+				(name "VTTS"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "5"
 					(effects
 						(font
 							(size 0.9906 0.9906)
@@ -963,6 +968,7 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "TL494CN"
 		(exclude_from_sim no)
@@ -1034,132 +1040,6 @@
 					)
 				)
 				(number "1"
-					(effects
-						(font
-							(size 0.9906 0.9906)
-						)
-					)
-				)
-			)
-			(pin output line
-				(at -2.54 -25.4 0)
-				(length 2.54)
-				(name "E2"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "10"
-					(effects
-						(font
-							(size 0.9906 0.9906)
-						)
-					)
-				)
-			)
-			(pin output line
-				(at -2.54 -27.94 0)
-				(length 2.54)
-				(name "C2"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "11"
-					(effects
-						(font
-							(size 0.9906 0.9906)
-						)
-					)
-				)
-			)
-			(pin power_in line
-				(at -2.54 -30.48 0)
-				(length 2.54)
-				(name "VCC"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "12"
-					(effects
-						(font
-							(size 0.9906 0.9906)
-						)
-					)
-				)
-			)
-			(pin output line
-				(at -2.54 -33.02 0)
-				(length 2.54)
-				(name "OUT-CTRL"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "13"
-					(effects
-						(font
-							(size 0.9906 0.9906)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at -2.54 -35.56 0)
-				(length 2.54)
-				(name "REF"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "14"
-					(effects
-						(font
-							(size 0.9906 0.9906)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at -2.54 -38.1 0)
-				(length 2.54)
-				(name "2IN-"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "15"
-					(effects
-						(font
-							(size 0.9906 0.9906)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at -2.54 -40.64 0)
-				(length 2.54)
-				(name "2IN+"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "16"
 					(effects
 						(font
 							(size 0.9906 0.9906)
@@ -1311,14 +1191,154 @@
 					)
 				)
 			)
+			(pin output line
+				(at -2.54 -25.4 0)
+				(length 2.54)
+				(name "E2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "10"
+					(effects
+						(font
+							(size 0.9906 0.9906)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at -2.54 -27.94 0)
+				(length 2.54)
+				(name "C2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "11"
+					(effects
+						(font
+							(size 0.9906 0.9906)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -2.54 -30.48 0)
+				(length 2.54)
+				(name "VCC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "12"
+					(effects
+						(font
+							(size 0.9906 0.9906)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at -2.54 -33.02 0)
+				(length 2.54)
+				(name "OUT-CTRL"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "13"
+					(effects
+						(font
+							(size 0.9906 0.9906)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -2.54 -35.56 0)
+				(length 2.54)
+				(name "REF"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "14"
+					(effects
+						(font
+							(size 0.9906 0.9906)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -2.54 -38.1 0)
+				(length 2.54)
+				(name "2IN-"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "15"
+					(effects
+						(font
+							(size 0.9906 0.9906)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -2.54 -40.64 0)
+				(length 2.54)
+				(name "2IN+"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "16"
+					(effects
+						(font
+							(size 0.9906 0.9906)
+						)
+					)
+				)
+			)
 		)
+		(symbol "TL494CN_0_1"
+			(rectangle
+				(start 0 0)
+				(end 17.78 -43.18)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(embedded_fonts no)
 	)
 	(symbol "TPS60403DBVR"
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "U"
-			(at 10.922 4.318 0)
+			(at 10.922 4.064 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1327,7 +1347,7 @@
 			)
 		)
 		(property "Value" "TPS60403DBVR"
-			(at 10.922 2.54 0)
+			(at 10.922 2.286 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1336,7 +1356,7 @@
 			)
 		)
 		(property "Footprint" "Daxxn_Packages:SOT-23-5"
-			(at 7.62 10.16 0)
+			(at 0 9.398 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1345,7 +1365,7 @@
 			)
 		)
 		(property "Datasheet" "${DATASHEETS}/TPS60400.pdf"
-			(at 7.62 6.858 0)
+			(at 0 6.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1354,7 +1374,7 @@
 			)
 		)
 		(property "Description" "Charge Pump Switching Regulator IC Positive or Negative Fixed -Vin, 2Vin, Vin/2 1 Output 60mA SOT-23-5"
-			(at 7.62 8.382 0)
+			(at 0 7.874 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1363,7 +1383,7 @@
 			)
 		)
 		(property "PartNumber" "0811-0400-00003"
-			(at 10.922 1.016 0)
+			(at 10.922 0.762 0)
 			(effects
 				(font
 					(size 1 1)
@@ -1390,24 +1410,6 @@
 				)
 				(fill
 					(type none)
-				)
-			)
-			(pin power_out line
-				(at 17.78 -2.54 180)
-				(length 2.54)
-				(name "OUT"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "1"
-					(effects
-						(font
-							(size 0.9906 0.9906)
-						)
-					)
 				)
 			)
 			(pin power_in line
@@ -1482,6 +1484,25 @@
 					)
 				)
 			)
+			(pin power_out line
+				(at 17.78 -2.54 180)
+				(length 2.54)
+				(name "OUT"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 0.9906 0.9906)
+						)
+					)
+				)
+			)
 		)
+		(embedded_fonts no)
 	)
 )

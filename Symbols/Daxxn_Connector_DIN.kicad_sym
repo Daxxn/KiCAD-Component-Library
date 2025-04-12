@@ -1,31 +1,33 @@
 (kicad_symbol_lib
-	(version 20231120)
+	(version 20241209)
 	(generator "kicad_symbol_editor")
-	(generator_version "8.0")
-	(symbol "CP30082-XLR"
+	(generator_version "9.0")
+	(symbol "57PC5FS"
+		(pin_names
+			(offset 1.016)
+			(hide yes)
+		)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "J"
-			(at 5.08 5.334 0)
+			(at 0 -6.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "CP30082-XLR"
-			(at 5.08 3.302 0)
+		(property "Value" "57PC5FS"
+			(at 0 -7.874 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Footprint" "Daxxn_Connectors:CP30082-XLR"
-			(at 0 10.414 0)
+		(property "Footprint" "Daxxn_Connectors_DIN:57PC5FS"
+			(at 0 10.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33,7 +35,16 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "F:/Electrical/Drawings/Connectors/CLIFF-AirtightXLR.pdf"
+		(property "Datasheet" "${DATASHEETS}/57PC5FS.pdf"
+			(at 0 11.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "CONN RCPT FMALE DIN 5POS SOLDER"
 			(at 0 12.954 0)
 			(effects
 				(font
@@ -42,16 +53,15 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "3 Position Circular Connector Receptacle, Female Sockets Solder"
-			(at 0 11.684 0)
+		(property "PartNumber" "0304-0000-00001"
+			(at 0 -9.144 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1 1)
 				)
-				(hide yes)
 			)
 		)
-		(property "ki_keywords" "connector xlr 3pin pth audio"
+		(property "ki_keywords" "circular DIN connector"
 			(at 0 0 0)
 			(effects
 				(font
@@ -60,25 +70,34 @@
 				(hide yes)
 			)
 		)
-		(symbol "CP30082-XLR_0_1"
-			(arc
-				(start -5.08 -0.762)
-				(mid -3.3444 -3.8673)
-				(end 0 -5.08)
+		(property "ki_fp_filters" "DIN*"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "57PC5FS_0_1"
+			(polyline
+				(pts
+					(xy -5.08 2.54) (xy -4.318 2.54) (xy -3.175 1.905)
+				)
 				(stroke
-					(width 0.254)
+					(width 0)
 					(type default)
 				)
 				(fill
 					(type none)
 				)
 			)
-			(arc
-				(start 0 -5.08)
-				(mid 5.0579 0)
-				(end 0 5.08)
+			(polyline
+				(pts
+					(xy -5.08 -2.54) (xy -4.318 -2.54) (xy -3.175 -1.905)
+				)
 				(stroke
-					(width 0.254)
+					(width 0)
 					(type default)
 				)
 				(fill
@@ -86,7 +105,18 @@
 				)
 			)
 			(circle
-				(center 0 -3.302)
+				(center -2.794 1.524)
+				(radius 0.508)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center -2.794 -1.524)
 				(radius 0.508)
 				(stroke
 					(width 0)
@@ -98,46 +128,34 @@
 			)
 			(polyline
 				(pts
-					(xy 0 -5.08) (xy 0 -3.81)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 0 3.81) (xy 0 5.08)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 3.81 0) (xy 5.08 0)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -4.953 0.762) (xy -4.191 0.762) (xy -4.191 -0.762) (xy -4.953 -0.762)
+					(xy -0.762 -4.953) (xy -0.762 -4.191) (xy 0.762 -4.191) (xy 0.762 -4.953)
 				)
 				(stroke
 					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 5.08 0)
+				(mid 3.8673 -3.3444)
+				(end 0.762 -5.08)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 5.08) (xy 0 3.81)
+				)
+				(stroke
+					(width 0)
 					(type default)
 				)
 				(fill
@@ -156,9 +174,21 @@
 				)
 			)
 			(arc
-				(start 0 5.08)
-				(mid -3.3379 3.8597)
-				(end -5.08 0.762)
+				(start -5.08 0)
+				(mid 0 5.0579)
+				(end 5.08 0)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start -0.762 -5.08)
+				(mid -3.8597 -3.3379)
+				(end -5.08 0)
 				(stroke
 					(width 0.254)
 					(type default)
@@ -168,7 +198,7 @@
 				)
 			)
 			(circle
-				(center 3.302 0)
+				(center 2.794 1.524)
 				(radius 0.508)
 				(stroke
 					(width 0)
@@ -178,28 +208,77 @@
 					(type none)
 				)
 			)
+			(circle
+				(center 2.794 -1.524)
+				(radius 0.508)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 5.08 2.54) (xy 4.318 2.54) (xy 3.175 1.905)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 5.08 -2.54) (xy 4.318 -2.54) (xy 3.175 -1.905)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 5.08 -5.08) (xy 3.556 -5.08) (xy 2.794 -4.318)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
 		)
-		(symbol "CP30082-XLR_1_1"
+		(symbol "57PC5FS_1_0"
 			(pin passive line
-				(at 0 7.62 270)
+				(at 7.62 -5.08 180)
 				(length 2.54)
-				(name "~"
+				(name "SH"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "1"
+				(number "6"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 0.9906 0.9906)
 						)
 					)
 				)
 			)
+		)
+		(symbol "57PC5FS_1_1"
 			(pin passive line
-				(at 7.62 0 180)
+				(at -7.62 2.54 0)
 				(length 2.54)
 				(name "~"
 					(effects
@@ -217,7 +296,25 @@
 				)
 			)
 			(pin passive line
-				(at 0 -7.62 90)
+				(at -7.62 -2.54 0)
+				(length 2.54)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 7.62 270)
 				(length 2.54)
 				(name "~"
 					(effects
@@ -234,6 +331,43 @@
 					)
 				)
 			)
+			(pin passive line
+				(at 7.62 2.54 180)
+				(length 2.54)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 7.62 -2.54 180)
+				(length 2.54)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
 		)
+		(embedded_fonts no)
 	)
 )

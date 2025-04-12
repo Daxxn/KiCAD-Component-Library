@@ -1,13 +1,13 @@
 (kicad_symbol_lib
-	(version 20231120)
+	(version 20241209)
 	(generator "kicad_symbol_editor")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(symbol "CD4066BM96"
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "U"
-			(at 0 3.302 0)
+			(at 0 3.556 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16,7 +16,7 @@
 			)
 		)
 		(property "Value" "CD4066BM96"
-			(at 0 1.27 0)
+			(at 0 2.032 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25,7 +25,7 @@
 			)
 		)
 		(property "Footprint" "Daxxn_Packages:SOIC-14_3.9x8.7mm_P1.27mm"
-			(at 12.7 5.08 0)
+			(at 0 6.858 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34,7 +34,7 @@
 			)
 		)
 		(property "Datasheet" "${DATASHEETS}/CD4066B.pdf"
-			(at 12.7 6.604 0)
+			(at 0 8.382 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -43,12 +43,21 @@
 			)
 		)
 		(property "Description" "4 Circuit IC Switch 1:1 240Ohm 14-SOIC"
-			(at 12.7 8.128 0)
+			(at 0 9.906 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "PartNumber" "na"
+			(at 0 0.762 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
 			)
 		)
 		(property "ki_keywords" "ic mux analog switch 4ch 1:1"
@@ -80,16 +89,34 @@
 				)
 			)
 			(pin passive line
-				(at 27.94 -10.16 180)
+				(at -2.54 -5.08 0)
 				(length 2.54)
-				(name "SIG-D-OUT"
+				(name "SIG-B-IN"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "10"
+				(number "4"
+					(effects
+						(font
+							(size 0.9906 0.9906)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -2.54 -7.62 0)
+				(length 2.54)
+				(name "SIG-C-IN"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "8"
 					(effects
 						(font
 							(size 0.9906 0.9906)
@@ -116,24 +143,6 @@
 				)
 			)
 			(pin input line
-				(at -2.54 -22.86 0)
-				(length 2.54)
-				(name "EN-D"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "12"
-					(effects
-						(font
-							(size 0.9906 0.9906)
-						)
-					)
-				)
-			)
-			(pin input line
 				(at -2.54 -15.24 0)
 				(length 2.54)
 				(name "EN-A"
@@ -151,17 +160,53 @@
 					)
 				)
 			)
-			(pin power_in line
-				(at 27.94 -15.24 180)
+			(pin input line
+				(at -2.54 -17.78 0)
 				(length 2.54)
-				(name "VDD"
+				(name "EN-B"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "14"
+				(number "5"
+					(effects
+						(font
+							(size 0.9906 0.9906)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -2.54 -20.32 0)
+				(length 2.54)
+				(name "EN-C"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 0.9906 0.9906)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -2.54 -22.86 0)
+				(length 2.54)
+				(name "EN-D"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "12"
 					(effects
 						(font
 							(size 0.9906 0.9906)
@@ -206,16 +251,16 @@
 				)
 			)
 			(pin passive line
-				(at -2.54 -5.08 0)
+				(at 27.94 -7.62 180)
 				(length 2.54)
-				(name "SIG-B-IN"
+				(name "SIG-C-OUT"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "4"
+				(number "9"
 					(effects
 						(font
 							(size 0.9906 0.9906)
@@ -223,17 +268,17 @@
 					)
 				)
 			)
-			(pin input line
-				(at -2.54 -17.78 0)
+			(pin passive line
+				(at 27.94 -10.16 180)
 				(length 2.54)
-				(name "EN-B"
+				(name "SIG-D-OUT"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "5"
+				(number "10"
 					(effects
 						(font
 							(size 0.9906 0.9906)
@@ -241,17 +286,17 @@
 					)
 				)
 			)
-			(pin input line
-				(at -2.54 -20.32 0)
+			(pin power_in line
+				(at 27.94 -15.24 180)
 				(length 2.54)
-				(name "EN-C"
+				(name "VDD"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "6"
+				(number "14"
 					(effects
 						(font
 							(size 0.9906 0.9906)
@@ -277,44 +322,19 @@
 					)
 				)
 			)
-			(pin passive line
-				(at -2.54 -7.62 0)
-				(length 2.54)
-				(name "SIG-C-IN"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "8"
-					(effects
-						(font
-							(size 0.9906 0.9906)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 27.94 -7.62 180)
-				(length 2.54)
-				(name "SIG-C-OUT"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "9"
-					(effects
-						(font
-							(size 0.9906 0.9906)
-						)
-					)
-				)
-			)
 		)
 		(symbol "CD4066BM96_0_1"
+			(rectangle
+				(start 0 0)
+				(end 25.4 -25.4)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
 			(polyline
 				(pts
 					(xy 0 -12.7) (xy 25.4 -12.7)
@@ -327,396 +347,15 @@
 					(type none)
 				)
 			)
-			(rectangle
-				(start 0 0)
-				(end 25.4 -25.4)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
 		)
-	)
-	(symbol "MAX4619"
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(property "Reference" "U"
-			(at 1.27 6.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MAX4619"
-			(at 1.27 1.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Daxxn_Packages:TSSOP-16_4.4x5mm_P0.65mm"
-			(at 0 12.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "%LOCAL_DATASHEETS%\\MAX4619.pdf"
-			(at 0 15.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Triple Analog Switch Mux"
-			(at 0 10.414 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PartNumber" "0816-0001"
-			(at 1.27 3.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "ki_keywords" "analog switch mux tri triple"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(symbol "MAX4619_0_0"
-			(pin output line
-				(at 10.16 -8.89 180)
-				(length 2.54)
-				(name "Y1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at -10.16 -17.78 0)
-				(length 2.54)
-				(name "B"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "10"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at -10.16 -15.24 0)
-				(length 2.54)
-				(name "A"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "11"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin output line
-				(at -10.16 -6.35 0)
-				(length 2.54)
-				(name "X0"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "12"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin output line
-				(at -10.16 -8.89 0)
-				(length 2.54)
-				(name "X1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "13"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at -10.16 -2.54 0)
-				(length 2.54)
-				(name "X"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "14"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at 10.16 -2.54 180)
-				(length 2.54)
-				(name "Y"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "15"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin power_in line
-				(at 0 2.54 270)
-				(length 2.54)
-				(name "VCC"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "16"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin output line
-				(at 10.16 -6.35 180)
-				(length 2.54)
-				(name "Y0"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "2"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin output line
-				(at 10.16 -20.32 180)
-				(length 2.54)
-				(name "Z1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "3"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at 10.16 -13.97 180)
-				(length 2.54)
-				(name "Z"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "4"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin output line
-				(at 10.16 -17.78 180)
-				(length 2.54)
-				(name "Z0"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "5"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at -10.16 -12.7 0)
-				(length 2.54)
-				(name "EN"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "6"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin no_connect line
-				(at 3.81 -25.4 90)
-				(length 2.54) hide
-				(name "NC"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "7"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin power_in line
-				(at 0 -25.4 90)
-				(length 2.54)
-				(name "GND"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "8"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at -10.16 -20.32 0)
-				(length 2.54)
-				(name "C"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "9"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-		)
-		(symbol "MAX4619_0_1"
-			(rectangle
-				(start -7.62 0)
-				(end 7.62 -22.86)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-		)
+		(embedded_fonts no)
 	)
 	(symbol "NL5S4157ADFT2G"
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "U"
-			(at 8.636 3.048 0)
+			(at 8.636 3.556 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -725,7 +364,7 @@
 			)
 		)
 		(property "Value" "NL5S4157ADFT2G"
-			(at 8.636 1.016 0)
+			(at 8.636 2.032 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -734,7 +373,7 @@
 			)
 		)
 		(property "Footprint" "Daxxn_Packages:SOT-363_SC-70-6"
-			(at 7.62 6.604 0)
+			(at 0 8.636 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -743,7 +382,7 @@
 			)
 		)
 		(property "Datasheet" "${DATASHEETS}/NL5S4157A.PDF"
-			(at 7.62 5.08 0)
+			(at 0 7.112 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -752,12 +391,21 @@
 			)
 		)
 		(property "Description" "1 Circuit IC Switch 2:1 800mOhm SC-88/SC70-6/SOT-363"
-			(at 7.62 8.128 0)
+			(at 0 10.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "PartNumber" "0802-0700-00001"
+			(at 8.636 0.762 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
 			)
 		)
 		(property "ki_keywords" "analog switch 2:1 1ch"
@@ -788,6 +436,42 @@
 					)
 				)
 			)
+			(pin bidirectional line
+				(at -2.54 -7.62 0)
+				(length 2.54)
+				(name "NC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 0.9906 0.9906)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 7.62 2.54 270)
+				(length 2.54)
+				(name "VCC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 0.9906 0.9906)
+						)
+					)
+				)
+			)
 			(pin power_in line
 				(at 7.62 -12.7 90)
 				(length 2.54)
@@ -807,24 +491,6 @@
 				)
 			)
 			(pin bidirectional line
-				(at -2.54 -7.62 0)
-				(length 2.54)
-				(name "NC"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "3"
-					(effects
-						(font
-							(size 0.9906 0.9906)
-						)
-					)
-				)
-			)
-			(pin bidirectional line
 				(at 17.78 -2.54 180)
 				(length 2.54)
 				(name "COM"
@@ -835,24 +501,6 @@
 					)
 				)
 				(number "4"
-					(effects
-						(font
-							(size 0.9906 0.9906)
-						)
-					)
-				)
-			)
-			(pin power_in line
-				(at 7.62 2.54 270)
-				(length 2.54)
-				(name "VCC"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "5"
 					(effects
 						(font
 							(size 0.9906 0.9906)
@@ -880,10 +528,9 @@
 			)
 		)
 		(symbol "NL5S4157ADFT2G_0_1"
-			(polyline
-				(pts
-					(xy 3.048 -7.62) (xy 5.08 -7.62)
-				)
+			(rectangle
+				(start 0 0)
+				(end 15.24 -10.16)
 				(stroke
 					(width 0)
 					(type default)
@@ -906,7 +553,7 @@
 			)
 			(polyline
 				(pts
-					(xy 5.08 -7.62) (xy 7.62 -5.08) (xy 10.16 -5.08)
+					(xy 3.048 -7.62) (xy 5.08 -7.62)
 				)
 				(stroke
 					(width 0)
@@ -918,7 +565,7 @@
 			)
 			(polyline
 				(pts
-					(xy 10.16 -5.08) (xy 10.16 -2.54) (xy 11.43 -2.54)
+					(xy 5.08 -7.62) (xy 7.62 -5.08) (xy 9.652 -5.08)
 				)
 				(stroke
 					(width 0)
@@ -928,9 +575,10 @@
 					(type none)
 				)
 			)
-			(rectangle
-				(start 0 0)
-				(end 15.24 -10.16)
+			(polyline
+				(pts
+					(xy 9.652 -5.08) (xy 9.652 -2.54) (xy 10.922 -2.54)
+				)
 				(stroke
 					(width 0)
 					(type default)
@@ -942,7 +590,7 @@
 		)
 		(symbol "NL5S4157ADFT2G_1_1"
 			(circle
-				(center 5.08 -7.62)
+				(center 5.08 -2.54)
 				(radius 0.1573)
 				(stroke
 					(width 0)
@@ -953,7 +601,7 @@
 				)
 			)
 			(circle
-				(center 5.08 -2.54)
+				(center 5.08 -7.62)
 				(radius 0.1573)
 				(stroke
 					(width 0)
@@ -975,13 +623,14 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "TMUX4052PWRQ1"
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "U"
-			(at 0 3.302 0)
+			(at 0 3.556 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -990,7 +639,7 @@
 			)
 		)
 		(property "Value" "TMUX4052PWRQ1"
-			(at 0 1.27 0)
+			(at 0 2.032 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -999,7 +648,7 @@
 			)
 		)
 		(property "Footprint" "Daxxn_Packages:TSSOP-16_4.4x5mm_P0.65mm"
-			(at 12.7 6.858 0)
+			(at 0 8.382 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1008,7 +657,7 @@
 			)
 		)
 		(property "Datasheet" "${DATASHEETS}/TMUX4051-Q1.pdf"
-			(at 12.7 5.08 0)
+			(at 0 6.604 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1017,12 +666,21 @@
 			)
 		)
 		(property "Description" "2 Circuit IC Switch 4:1 240Ohm 16-TSSOP"
-			(at 12.446 8.636 0)
+			(at 0 10.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "PartNumber" "na"
+			(at 0 0.762 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
 			)
 		)
 		(property "ki_keywords" "ic analog switch dual mux"
@@ -1036,60 +694,6 @@
 		)
 		(symbol "TMUX4052PWRQ1_0_0"
 			(pin passive line
-				(at -2.54 -15.24 0)
-				(length 2.54)
-				(name "S0B"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "1"
-					(effects
-						(font
-							(size 0.9906 0.9906)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at -2.54 -33.02 0)
-				(length 2.54)
-				(name "A0"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "10"
-					(effects
-						(font
-							(size 0.9906 0.9906)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at -2.54 -10.16 0)
-				(length 2.54)
-				(name "S3A"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "11"
-					(effects
-						(font
-							(size 0.9906 0.9906)
-						)
-					)
-				)
-			)
-			(pin passive line
 				(at -2.54 -2.54 0)
 				(length 2.54)
 				(name "S0A"
@@ -1100,24 +704,6 @@
 					)
 				)
 				(number "12"
-					(effects
-						(font
-							(size 0.9906 0.9906)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 27.94 -2.54 180)
-				(length 2.54)
-				(name "DA"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "13"
 					(effects
 						(font
 							(size 0.9906 0.9906)
@@ -1161,17 +747,53 @@
 					)
 				)
 			)
-			(pin power_in line
-				(at 27.94 -22.86 180)
+			(pin passive line
+				(at -2.54 -10.16 0)
 				(length 2.54)
-				(name "VDD"
+				(name "S3A"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "16"
+				(number "11"
+					(effects
+						(font
+							(size 0.9906 0.9906)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -2.54 -15.24 0)
+				(length 2.54)
+				(name "S0B"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 0.9906 0.9906)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -2.54 -17.78 0)
+				(length 2.54)
+				(name "S1B"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "5"
 					(effects
 						(font
 							(size 0.9906 0.9906)
@@ -1198,24 +820,6 @@
 				)
 			)
 			(pin passive line
-				(at 27.94 -15.24 180)
-				(length 2.54)
-				(name "DB"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "3"
-					(effects
-						(font
-							(size 0.9906 0.9906)
-						)
-					)
-				)
-			)
-			(pin passive line
 				(at -2.54 -22.86 0)
 				(length 2.54)
 				(name "S3B"
@@ -1226,24 +830,6 @@
 					)
 				)
 				(number "4"
-					(effects
-						(font
-							(size 0.9906 0.9906)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at -2.54 -17.78 0)
-				(length 2.54)
-				(name "S1B"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "5"
 					(effects
 						(font
 							(size 0.9906 0.9906)
@@ -1269,17 +855,89 @@
 					)
 				)
 			)
-			(pin power_in line
-				(at 27.94 -33.02 180)
+			(pin input line
+				(at -2.54 -30.48 0)
 				(length 2.54)
-				(name "VSS"
+				(name "A1"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "7"
+				(number "9"
+					(effects
+						(font
+							(size 0.9906 0.9906)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -2.54 -33.02 0)
+				(length 2.54)
+				(name "A0"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "10"
+					(effects
+						(font
+							(size 0.9906 0.9906)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 27.94 -2.54 180)
+				(length 2.54)
+				(name "DA"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "13"
+					(effects
+						(font
+							(size 0.9906 0.9906)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 27.94 -15.24 180)
+				(length 2.54)
+				(name "DB"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 0.9906 0.9906)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 27.94 -22.86 180)
+				(length 2.54)
+				(name "VDD"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "16"
 					(effects
 						(font
 							(size 0.9906 0.9906)
@@ -1305,17 +963,17 @@
 					)
 				)
 			)
-			(pin input line
-				(at -2.54 -30.48 0)
+			(pin power_in line
+				(at 27.94 -33.02 180)
 				(length 2.54)
-				(name "A1"
+				(name "VSS"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "9"
+				(number "7"
 					(effects
 						(font
 							(size 0.9906 0.9906)
@@ -1325,10 +983,9 @@
 			)
 		)
 		(symbol "TMUX4052PWRQ1_0_1"
-			(polyline
-				(pts
-					(xy 4.572 -22.86) (xy 9.652 -22.86)
-				)
+			(rectangle
+				(start 0 0)
+				(end 25.4 -35.56)
 				(stroke
 					(width 0)
 					(type default)
@@ -1339,55 +996,7 @@
 			)
 			(polyline
 				(pts
-					(xy 4.572 -20.32) (xy 9.652 -20.32)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 4.572 -17.78) (xy 9.652 -17.78)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 4.572 -15.24) (xy 9.652 -15.24)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 4.572 -10.16) (xy 9.652 -10.16)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 4.572 -7.62) (xy 9.652 -7.62)
+					(xy 4.572 -2.54) (xy 9.652 -2.54)
 				)
 				(stroke
 					(width 0)
@@ -1411,7 +1020,7 @@
 			)
 			(polyline
 				(pts
-					(xy 4.572 -2.54) (xy 9.652 -2.54)
+					(xy 4.572 -7.62) (xy 9.652 -7.62)
 				)
 				(stroke
 					(width 0)
@@ -1423,7 +1032,7 @@
 			)
 			(polyline
 				(pts
-					(xy 9.652 -22.86) (xy 14.478 -22.098)
+					(xy 4.572 -10.16) (xy 9.652 -10.16)
 				)
 				(stroke
 					(width 0)
@@ -1435,7 +1044,7 @@
 			)
 			(polyline
 				(pts
-					(xy 9.652 -20.32) (xy 14.478 -19.558)
+					(xy 4.572 -15.24) (xy 9.652 -15.24)
 				)
 				(stroke
 					(width 0)
@@ -1447,7 +1056,7 @@
 			)
 			(polyline
 				(pts
-					(xy 9.652 -17.78) (xy 14.478 -17.018)
+					(xy 4.572 -17.78) (xy 9.652 -17.78)
 				)
 				(stroke
 					(width 0)
@@ -1459,7 +1068,7 @@
 			)
 			(polyline
 				(pts
-					(xy 9.652 -15.24) (xy 14.478 -14.478)
+					(xy 4.572 -20.32) (xy 9.652 -20.32)
 				)
 				(stroke
 					(width 0)
@@ -1471,31 +1080,7 @@
 			)
 			(polyline
 				(pts
-					(xy 9.652 -10.16) (xy 14.478 -9.398)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 9.652 -7.62) (xy 14.478 -6.858)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 9.652 -5.08) (xy 14.478 -4.318)
+					(xy 4.572 -22.86) (xy 9.652 -22.86)
 				)
 				(stroke
 					(width 0)
@@ -1519,7 +1104,7 @@
 			)
 			(polyline
 				(pts
-					(xy 14.732 -22.86) (xy 17.272 -22.86)
+					(xy 9.652 -5.08) (xy 14.478 -4.318)
 				)
 				(stroke
 					(width 0)
@@ -1531,7 +1116,7 @@
 			)
 			(polyline
 				(pts
-					(xy 14.732 -20.32) (xy 17.272 -20.32)
+					(xy 9.652 -7.62) (xy 14.478 -6.858)
 				)
 				(stroke
 					(width 0)
@@ -1543,7 +1128,7 @@
 			)
 			(polyline
 				(pts
-					(xy 14.732 -17.78) (xy 17.272 -17.78)
+					(xy 9.652 -10.16) (xy 14.478 -9.398)
 				)
 				(stroke
 					(width 0)
@@ -1555,7 +1140,7 @@
 			)
 			(polyline
 				(pts
-					(xy 14.732 -15.24) (xy 17.272 -15.24)
+					(xy 9.652 -15.24) (xy 14.478 -14.478)
 				)
 				(stroke
 					(width 0)
@@ -1567,7 +1152,7 @@
 			)
 			(polyline
 				(pts
-					(xy 14.732 -10.16) (xy 17.272 -10.16)
+					(xy 9.652 -17.78) (xy 14.478 -17.018)
 				)
 				(stroke
 					(width 0)
@@ -1579,7 +1164,7 @@
 			)
 			(polyline
 				(pts
-					(xy 14.732 -7.62) (xy 17.272 -7.62)
+					(xy 9.652 -20.32) (xy 14.478 -19.558)
 				)
 				(stroke
 					(width 0)
@@ -1591,7 +1176,7 @@
 			)
 			(polyline
 				(pts
-					(xy 14.732 -5.08) (xy 17.272 -5.08)
+					(xy 9.652 -22.86) (xy 14.478 -22.098)
 				)
 				(stroke
 					(width 0)
@@ -1615,7 +1200,79 @@
 			)
 			(polyline
 				(pts
-					(xy 17.272 -15.24) (xy 22.098 -15.24)
+					(xy 14.732 -5.08) (xy 17.272 -5.08)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 14.732 -7.62) (xy 17.272 -7.62)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 14.732 -10.16) (xy 17.272 -10.16)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 14.732 -15.24) (xy 17.272 -15.24)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 14.732 -17.78) (xy 17.272 -17.78)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 14.732 -20.32) (xy 17.272 -20.32)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 14.732 -22.86) (xy 17.272 -22.86)
 				)
 				(stroke
 					(width 0)
@@ -1637,9 +1294,10 @@
 					(type none)
 				)
 			)
-			(rectangle
-				(start 0 0)
-				(end 25.4 -35.56)
+			(polyline
+				(pts
+					(xy 17.272 -15.24) (xy 22.098 -15.24)
+				)
 				(stroke
 					(width 0)
 					(type default)
@@ -1650,87 +1308,8 @@
 			)
 		)
 		(symbol "TMUX4052PWRQ1_1_1"
-			(polyline
-				(pts
-					(xy 17.272 -22.86) (xy 17.272 -15.24)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 17.272 -10.16) (xy 17.272 -2.54)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
 			(circle
-				(center 9.652 -22.86)
-				(radius 0.254)
-				(stroke
-					(width -0.0001)
-					(type default)
-				)
-				(fill
-					(type outline)
-				)
-			)
-			(circle
-				(center 9.652 -20.32)
-				(radius 0.254)
-				(stroke
-					(width -0.0001)
-					(type default)
-				)
-				(fill
-					(type outline)
-				)
-			)
-			(circle
-				(center 9.652 -17.78)
-				(radius 0.254)
-				(stroke
-					(width -0.0001)
-					(type default)
-				)
-				(fill
-					(type outline)
-				)
-			)
-			(circle
-				(center 9.652 -15.24)
-				(radius 0.254)
-				(stroke
-					(width -0.0001)
-					(type default)
-				)
-				(fill
-					(type outline)
-				)
-			)
-			(circle
-				(center 9.652 -10.16)
-				(radius 0.254)
-				(stroke
-					(width -0.0001)
-					(type default)
-				)
-				(fill
-					(type outline)
-				)
-			)
-			(circle
-				(center 9.652 -7.62)
+				(center 9.652 -2.54)
 				(radius 0.254)
 				(stroke
 					(width -0.0001)
@@ -1752,7 +1331,7 @@
 				)
 			)
 			(circle
-				(center 9.652 -2.54)
+				(center 9.652 -7.62)
 				(radius 0.254)
 				(stroke
 					(width -0.0001)
@@ -1763,7 +1342,7 @@
 				)
 			)
 			(circle
-				(center 14.732 -22.86)
+				(center 9.652 -10.16)
 				(radius 0.254)
 				(stroke
 					(width -0.0001)
@@ -1774,7 +1353,7 @@
 				)
 			)
 			(circle
-				(center 14.732 -20.32)
+				(center 9.652 -15.24)
 				(radius 0.254)
 				(stroke
 					(width -0.0001)
@@ -1785,7 +1364,7 @@
 				)
 			)
 			(circle
-				(center 14.732 -17.78)
+				(center 9.652 -17.78)
 				(radius 0.254)
 				(stroke
 					(width -0.0001)
@@ -1796,7 +1375,7 @@
 				)
 			)
 			(circle
-				(center 14.732 -15.24)
+				(center 9.652 -20.32)
 				(radius 0.254)
 				(stroke
 					(width -0.0001)
@@ -1807,7 +1386,7 @@
 				)
 			)
 			(circle
-				(center 14.732 -10.16)
+				(center 9.652 -22.86)
 				(radius 0.254)
 				(stroke
 					(width -0.0001)
@@ -1818,7 +1397,7 @@
 				)
 			)
 			(circle
-				(center 14.732 -7.62)
+				(center 14.732 -2.54)
 				(radius 0.254)
 				(stroke
 					(width -0.0001)
@@ -1840,7 +1419,7 @@
 				)
 			)
 			(circle
-				(center 14.732 -2.54)
+				(center 14.732 -7.62)
 				(radius 0.254)
 				(stroke
 					(width -0.0001)
@@ -1850,54 +1429,86 @@
 					(type outline)
 				)
 			)
-		)
-	)
-	(symbol "TS5A3357DCUR"
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(property "Reference" "U"
-			(at -4.064 3.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
+			(circle
+				(center 14.732 -10.16)
+				(radius 0.254)
+				(stroke
+					(width -0.0001)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(circle
+				(center 14.732 -15.24)
+				(radius 0.254)
+				(stroke
+					(width -0.0001)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(circle
+				(center 14.732 -17.78)
+				(radius 0.254)
+				(stroke
+					(width -0.0001)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(circle
+				(center 14.732 -20.32)
+				(radius 0.254)
+				(stroke
+					(width -0.0001)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(circle
+				(center 14.732 -22.86)
+				(radius 0.254)
+				(stroke
+					(width -0.0001)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(polyline
+				(pts
+					(xy 17.272 -10.16) (xy 17.272 -2.54)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 17.272 -22.86) (xy 17.272 -15.24)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
 				)
 			)
 		)
-		(property "Value" "TS5A3357DCUR"
-			(at -4.064 3.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at -4.064 3.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at -4.064 3.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "1 Circuit IC Switch 3:1 15Ohm 8-VSSOP"
-			(at -4.064 3.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
+		(embedded_fonts no)
 	)
 )

@@ -1,0 +1,159 @@
+(footprint "CB1-12V"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -12 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "4ec4b636-7c26-4757-9458-bf5e5398bec2")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.12)
+			)
+		)
+	)
+	(property "Value" "CB1-12V"
+		(at 0 0.3 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "34a83bed-5e23-4545-83f7-b135973992d5")
+		(effects
+			(font
+				(size 0.25 0.25)
+				(thickness 0.04)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0.2 -20 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "360c5950-6ee9-4b04-8064-753bfdf43b2d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0.2 -20 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ea2e8f49-f24c-4a86-aa22-2cab8fc1d5cc")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_rect
+		(start -13.1 -11.1)
+		(end 13.1 11.1)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "389fc330-0621-42d6-8698-b70e388ee6d2")
+	)
+	(fp_rect
+		(start -13.2 -11.2)
+		(end 13.2 11.2)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "66fca94e-2aa8-46de-86d1-4afcd990efbd")
+	)
+	(fp_rect
+		(start -13 -11)
+		(end 13 11)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "e88df0f2-8015-496a-a705-e92dd77e6ae8")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 -0.3 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "13d18963-b271-4318-8b03-21f3b23a1d95")
+		(effects
+			(font
+				(size 0.25 0.25)
+				(thickness 0.04)
+			)
+		)
+	)
+	(pad "30" thru_hole oval
+		(at -8.95 0 90)
+		(size 2.7 8.2)
+		(drill oval 1.2 6.7)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(thermal_bridge_angle 45)
+		(uuid "529e56ad-c239-43e8-af5b-70b5b2203d50")
+	)
+	(pad "85" thru_hole oval
+		(at 0 8.4 90)
+		(size 2.7 8.2)
+		(drill oval 1.2 6.7)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(thermal_bridge_angle 45)
+		(uuid "c7d701e6-1f63-47bc-877f-d906535c592b")
+	)
+	(pad "86" thru_hole oval
+		(at 0 -8.4 90)
+		(size 2.7 8.2)
+		(drill oval 1.2 6.7)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(thermal_bridge_angle 45)
+		(uuid "ab2b5a98-a4d4-46ae-a651-a7b8ddd06a4e")
+	)
+	(pad "87" thru_hole oval
+		(at 8.95 0)
+		(size 2.7 8.2)
+		(drill oval 1.2 6.7)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(thermal_bridge_angle 45)
+		(uuid "521875a6-cbc0-4b56-9e6b-7d0c66d9bd03")
+	)
+	(pad "87a" thru_hole oval
+		(at 0.4 0)
+		(size 2.7 8.2)
+		(drill oval 1.2 6.7)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(thermal_bridge_angle 45)
+		(uuid "e8612e79-21ca-4bdd-8e23-3695f5e18c0f")
+	)
+	(embedded_fonts no)
+	(model "${DAXXN}/Relays/CB1-12V.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

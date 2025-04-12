@@ -1,0 +1,150 @@
+(footprint "0432026105"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -11 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "40229ca5-083e-46df-a59d-2b879734ae4c")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.12)
+			)
+		)
+	)
+	(property "Value" "0432026105"
+		(at 0 -7.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "75edd6a6-c512-4129-837d-04963d24e312")
+		(effects
+			(font
+				(size 0.25 0.25)
+				(thickness 0.04)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at -2.04 -10.1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "74b31cab-cf12-4465-af27-0c56c6492fed")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at -2.04 -10.1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "488717e1-968e-4dfd-ba00-16b374e67356")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at -2.04 -10.1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "11896434-96f5-4301-b821-25074517839c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_rect
+		(start -6.65 -10.1)
+		(end 6.65 8)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "F.Fab")
+		(uuid "7834bd89-9082-4c2e-a6dd-f24775164261")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 -8 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "dab2867d-7305-47db-98d3-75571bb7d3bf")
+		(effects
+			(font
+				(size 0.25 0.25)
+				(thickness 0.04)
+			)
+		)
+	)
+	(pad "" np_thru_hole circle
+		(at -5.08 0)
+		(size 3.25 3.25)
+		(drill 3.25)
+		(layers "F&B.Cu" "*.Mask")
+		(uuid "fa964277-2894-4787-96a0-da81e3e5e0f8")
+	)
+	(pad "" np_thru_hole circle
+		(at 5.08 0)
+		(size 3.25 3.25)
+		(drill 3.25)
+		(layers "F&B.Cu" "*.Mask")
+		(uuid "c4008a9f-3209-4f92-ab35-93ae37081169")
+	)
+	(pad "1" thru_hole circle
+		(at -1.91 -6.35)
+		(size 1.4 1.4)
+		(drill 0.9)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "f6b0e8b3-225b-4fdf-afb8-cdd0128fa827")
+	)
+	(pad "2" thru_hole circle
+		(at -0.64 -8.89)
+		(size 1.4 1.4)
+		(drill 0.9)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "29b3ce17-7997-4e87-9294-7e0f326d806b")
+	)
+	(pad "3" thru_hole circle
+		(at 0.63 -6.35)
+		(size 1.4 1.4)
+		(drill 0.9)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "b235b55f-40c0-4f9e-8098-cd7fead5ae97")
+	)
+	(pad "4" thru_hole circle
+		(at 1.9 -8.89)
+		(size 1.4 1.4)
+		(drill 0.9)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "365a99f7-3646-4ad1-827c-b8402441044c")
+	)
+	(model "${DAXXN}/Connectors/Connector_Ethernet/432026105.stp"
+		(offset
+			(xyz 0 10.03 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 0)
+		)
+	)
+)

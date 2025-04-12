@@ -1,27 +1,31 @@
 (kicad_symbol_lib
-	(version 20231120)
+	(version 20241209)
 	(generator "kicad_symbol_editor")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(symbol "284512-4"
 		(pin_names
-			(offset 1.016) hide)
+			(offset 1.016)
+			(hide yes)
+		)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "J"
-			(at 0 5.08 0)
+			(at 1.778 3.048 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Value" "284512-4"
-			(at 0 -7.62 0)
+			(at 1.778 1.524 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Daxxn_Connectors_Phoenix:284512-4"
@@ -52,11 +56,12 @@
 			)
 		)
 		(property "PartNumber" "0313-0000-00006"
-			(at 0 -9.144 0)
+			(at 1.778 0.254 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1 1)
 				)
+				(justify left)
 			)
 		)
 		(property "ki_keywords" "connector"
@@ -79,19 +84,19 @@
 		)
 		(symbol "284512-4_1_1"
 			(rectangle
-				(start -1.27 -4.953)
-				(end 0 -5.207)
+				(start -1.27 3.81)
+				(end 1.27 -6.35)
 				(stroke
-					(width 0.1524)
+					(width 0.254)
 					(type default)
 				)
 				(fill
-					(type none)
+					(type background)
 				)
 			)
 			(rectangle
-				(start -1.27 -2.413)
-				(end 0 -2.667)
+				(start -1.27 2.667)
+				(end 0 2.413)
 				(stroke
 					(width 0.1524)
 					(type default)
@@ -112,8 +117,8 @@
 				)
 			)
 			(rectangle
-				(start -1.27 2.667)
-				(end 0 2.413)
+				(start -1.27 -2.413)
+				(end 0 -2.667)
 				(stroke
 					(width 0.1524)
 					(type default)
@@ -123,14 +128,14 @@
 				)
 			)
 			(rectangle
-				(start -1.27 3.81)
-				(end 1.27 -6.35)
+				(start -1.27 -4.953)
+				(end 0 -5.207)
 				(stroke
-					(width 0.254)
+					(width 0.1524)
 					(type default)
 				)
 				(fill
-					(type background)
+					(type none)
 				)
 			)
 			(pin passive line
@@ -206,27 +211,32 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "691321100002"
 		(pin_names
-			(offset 1.016) hide)
+			(offset 1.016)
+			(hide yes)
+		)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "J"
-			(at 0 2.54 0)
+			(at 1.778 0.508 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Value" "691321100002"
-			(at 0 -5.08 0)
+			(at 1.778 -1.016 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Daxxn_Connectors_Phoenix:691321100002"
@@ -257,11 +267,12 @@
 			)
 		)
 		(property "PartNumber" "0313-0000-00001"
-			(at 0 -6.858 0)
+			(at 1.778 -2.286 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1 1)
 				)
+				(justify left)
 			)
 		)
 		(property "ki_keywords" "connector"
@@ -284,14 +295,14 @@
 		)
 		(symbol "691321100002_1_1"
 			(rectangle
-				(start -1.27 -2.413)
-				(end 0 -2.667)
+				(start -1.27 1.27)
+				(end 1.27 -3.81)
 				(stroke
-					(width 0.1524)
+					(width 0.254)
 					(type default)
 				)
 				(fill
-					(type none)
+					(type background)
 				)
 			)
 			(rectangle
@@ -306,14 +317,14 @@
 				)
 			)
 			(rectangle
-				(start -1.27 1.27)
-				(end 1.27 -3.81)
+				(start -1.27 -2.413)
+				(end 0 -2.667)
 				(stroke
-					(width 0.254)
+					(width 0.1524)
 					(type default)
 				)
 				(fill
-					(type background)
+					(type none)
 				)
 			)
 			(pin passive line
@@ -353,27 +364,32 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "796644-3"
 		(pin_names
-			(offset 1.016) hide)
+			(offset 1.016)
+			(hide yes)
+		)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "J"
-			(at 0 5.08 0)
+			(at 1.778 3.048 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Value" "796644-3"
-			(at 0 -5.08 0)
+			(at 1.778 1.524 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Daxxn_Connectors_Phoenix:796644-3"
@@ -404,11 +420,12 @@
 			)
 		)
 		(property "PartNumber" "0313-0000-00004"
-			(at 0 -6.858 0)
+			(at 1.778 0.254 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1 1)
 				)
+				(justify left)
 			)
 		)
 		(property "ki_keywords" "connector"
@@ -431,8 +448,19 @@
 		)
 		(symbol "796644-3_1_1"
 			(rectangle
-				(start -1.27 -2.413)
-				(end 0 -2.667)
+				(start -1.27 3.81)
+				(end 1.27 -3.81)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(rectangle
+				(start -1.27 2.667)
+				(end 0 2.413)
 				(stroke
 					(width 0.1524)
 					(type default)
@@ -453,25 +481,14 @@
 				)
 			)
 			(rectangle
-				(start -1.27 2.667)
-				(end 0 2.413)
+				(start -1.27 -2.413)
+				(end 0 -2.667)
 				(stroke
 					(width 0.1524)
 					(type default)
 				)
 				(fill
 					(type none)
-				)
-			)
-			(rectangle
-				(start -1.27 3.81)
-				(end 1.27 -3.81)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type background)
 				)
 			)
 			(pin passive line
@@ -529,23 +546,26 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "1755529"
 		(extends "796644-3")
 		(property "Reference" "J"
-			(at 0 5.08 0)
+			(at 1.778 3.048 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Value" "1755529"
-			(at 0 -5.08 0)
+			(at 1.778 1.524 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Daxxn_Connectors_Phoenix:1755529"
@@ -576,11 +596,12 @@
 			)
 		)
 		(property "PartNumber" "0313-0000-00005"
-			(at 0 -6.858 0)
+			(at 1.778 0.254 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1 1)
 				)
+				(justify left)
 			)
 		)
 		(property "ki_keywords" "connector"
@@ -605,19 +626,21 @@
 	(symbol "1755736"
 		(extends "691321100002")
 		(property "Reference" "J"
-			(at 0 2.54 0)
+			(at 1.778 0.508 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Value" "1755736"
-			(at 0 -5.08 0)
+			(at 1.778 -1.016 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Daxxn_Connectors_Phoenix:1755736"
@@ -648,11 +671,12 @@
 			)
 		)
 		(property "PartNumber" "0313-0000-00002"
-			(at 0 -6.858 0)
+			(at 1.778 -2.286 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1 1)
 				)
+				(justify left)
 			)
 		)
 		(property "ki_keywords" "connector"
@@ -677,19 +701,21 @@
 	(symbol "2351886-4"
 		(extends "284512-4")
 		(property "Reference" "J"
-			(at 0 5.08 0)
+			(at 1.778 3.048 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Value" "2351886-4"
-			(at 0 -7.62 0)
+			(at 1.778 1.524 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Daxxn_Connectors_Phoenix:2351886-4"
@@ -720,11 +746,12 @@
 			)
 		)
 		(property "PartNumber" "0313-0000-00007"
-			(at 0 -9.398 0)
+			(at 1.778 0.254 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1 1)
 				)
+				(justify left)
 			)
 		)
 		(property "ki_keywords" "connector"
@@ -749,19 +776,21 @@
 	(symbol "691311400102"
 		(extends "691321100002")
 		(property "Reference" "J"
-			(at 0 2.54 0)
+			(at 1.778 0.508 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Value" "691311400102"
-			(at 0 -5.08 0)
+			(at 1.778 -1.016 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Daxxn_Connectors_Phoenix:691311400102"
@@ -792,11 +821,12 @@
 			)
 		)
 		(property "PartNumber" "0313-0000-00003"
-			(at 0 -6.858 0)
+			(at 1.778 -2.286 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1 1)
 				)
+				(justify left)
 			)
 		)
 		(property "ki_keywords" "connector"

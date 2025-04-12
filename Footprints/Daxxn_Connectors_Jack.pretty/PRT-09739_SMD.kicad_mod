@@ -1,0 +1,164 @@
+(footprint "PRT-09739_SMD"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -6.4 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "801252b9-f46f-40b1-bfcc-26d5261dfacd")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.12)
+			)
+		)
+	)
+	(property "Value" "PRT-09739_SMD"
+		(at 0 0.25 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "192269fc-32e5-460a-becb-2693b40d4429")
+		(effects
+			(font
+				(size 0.25 0.25)
+				(thickness 0.04)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at -0.25 -7 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "40add656-902e-4495-824b-ce28c689d268")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at -0.25 -7 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8903acd0-0618-44b7-bd9a-49d39d18d2c2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at -0.25 -7 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3e48914f-c5eb-4ed3-b3ab-64d8548dfa83")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -2.4 -3.2)
+		(end 2.4 -3.2)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "13123820-64a0-434c-9c16-660082588130")
+	)
+	(fp_line
+		(start -2.4 3.2)
+		(end 2.4 3.2)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "a447633a-2977-4264-9391-84b266c135c2")
+	)
+	(fp_arc
+		(start -2.4 3.2)
+		(mid -4 0)
+		(end -2.4 -3.2)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "87dc29dc-6dc5-4a5f-bc10-0e8105e8edef")
+	)
+	(fp_arc
+		(start 2.4 -3.2)
+		(mid 4 0)
+		(end 2.4 3.2)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "034fb655-b2ee-4585-b556-85fddf5063bb")
+	)
+	(fp_rect
+		(start 6.3 -1.7)
+		(end 9.7 1.7)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "098f0f6c-bc74-4e15-a7c7-fd876a7dad3f")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 5.5 0)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "15545e87-42a8-4d19-a2ef-598a563bb349")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 -0.25 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "d0a6ebd8-5a96-445e-a615-80c38e99e827")
+		(effects
+			(font
+				(size 0.25 0.25)
+				(thickness 0.04)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at 8 0)
+		(size 3.4 3.4)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.07352941176)
+		(uuid "cf43e77e-96c8-4aa4-88ec-9e7f990a838a")
+	)
+	(model "${DAXXN}/Connectors/Connector_Jack/PRT-09739.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

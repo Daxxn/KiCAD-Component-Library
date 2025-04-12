@@ -1,10 +1,152 @@
 (kicad_symbol_lib
-	(version 20231120)
+	(version 20241209)
 	(generator "kicad_symbol_editor")
-	(generator_version "8.0")
+	(generator_version "9.0")
+	(symbol "ECS-.327-12.5-34B-TR"
+		(pin_numbers
+			(hide yes)
+		)
+		(pin_names
+			(hide yes)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "X"
+			(at 0 4.826 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "32.768KHz"
+			(at 0 3.302 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Daxxn_Passives:Crystal_SMD_3215-2Pin_3.2x1.5mm"
+			(at 0 10.922 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "${DATASHEETS}/ECX-31B.pdf"
+			(at 0 7.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "32.768 KHz ±20ppm Crystal 12.5pF 70 kOhms 2-SMD, No Lead"
+			(at 0 9.144 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PartNumber" "1202-0000-00008"
+			(at 0 2.032 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(symbol "ECS-.327-12.5-34B-TR_0_1"
+			(polyline
+				(pts
+					(xy -1.27 -0.762) (xy -1.27 0.762)
+				)
+				(stroke
+					(width 0.381)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start -0.762 -1.524)
+				(end 0.762 1.524)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 1.27 -0.762) (xy 1.27 0.762)
+				)
+				(stroke
+					(width 0.381)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "ECS-.327-12.5-34B-TR_1_1"
+			(pin passive line
+				(at -2.54 0 0)
+				(length 1.27)
+				(name "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 2.54 0 180)
+				(length 1.27)
+				(name "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
 	(symbol "ECS-080-20-4X-DU"
-		(pin_numbers hide)
-		(pin_names hide)
+		(pin_numbers
+			(hide yes)
+		)
+		(pin_names
+			(hide yes)
+		)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -69,23 +211,23 @@
 			)
 		)
 		(symbol "ECS-080-20-4X-DU_0_1"
-			(rectangle
-				(start -0.762 -1.524)
-				(end 0.762 1.524)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
 			(polyline
 				(pts
 					(xy -1.27 -0.762) (xy -1.27 0.762)
 				)
 				(stroke
 					(width 0.381)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start -0.762 -1.524)
+				(end 0.762 1.524)
+				(stroke
+					(width 0)
 					(type default)
 				)
 				(fill
@@ -143,10 +285,15 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "RH100-16.000-8-1010-TR"
-		(pin_numbers hide)
-		(pin_names hide)
+		(pin_numbers
+			(hide yes)
+		)
+		(pin_names
+			(hide yes)
+		)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -211,9 +358,10 @@
 			)
 		)
 		(symbol "RH100-16.000-8-1010-TR_0_1"
-			(rectangle
-				(start -0.762 -1.524)
-				(end 0.762 1.524)
+			(polyline
+				(pts
+					(xy -1.27 1.27) (xy -1.27 1.905) (xy 1.27 1.905) (xy 1.27 1.27)
+				)
 				(stroke
 					(width 0)
 					(type default)
@@ -236,18 +384,6 @@
 			)
 			(polyline
 				(pts
-					(xy 1.27 -0.762) (xy 1.27 0.762)
-				)
-				(stroke
-					(width 0.381)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
 					(xy -1.27 -1.27) (xy -1.27 -1.905) (xy 1.27 -1.905) (xy 1.27 -1.27)
 				)
 				(stroke
@@ -258,12 +394,23 @@
 					(type none)
 				)
 			)
-			(polyline
-				(pts
-					(xy -1.27 1.27) (xy -1.27 1.905) (xy 1.27 1.905) (xy 1.27 1.27)
-				)
+			(rectangle
+				(start -0.762 -1.524)
+				(end 0.762 1.524)
 				(stroke
 					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 1.27 -0.762) (xy 1.27 0.762)
+				)
+				(stroke
+					(width 0.381)
 					(type default)
 				)
 				(fill
@@ -283,6 +430,24 @@
 					)
 				)
 				(number "1"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 2.54 270)
+				(length 0.635)
+				(name "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
 					(effects
 						(font
 							(size 0.762 0.762)
@@ -326,25 +491,8 @@
 					)
 				)
 			)
-			(pin passive line
-				(at 0 2.54 270)
-				(length 0.635)
-				(name "4"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "4"
-					(effects
-						(font
-							(size 0.762 0.762)
-						)
-					)
-				)
-			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "ABLS2-8.192MHZ-D4Y-T"
 		(extends "ECS-080-20-4X-DU")
@@ -535,69 +683,6 @@
 			)
 		)
 	)
-	(symbol "ECS-.327-12.5-34B-TR"
-		(extends "RH100-16.000-8-1010-TR")
-		(property "Reference" "X"
-			(at 0 7.366 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "32.768KHz"
-			(at 0 5.842 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Daxxn_Passives:Crystal_SMD_3215-2Pin_3.2x1.5mm"
-			(at 0 13.208 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "${DATASHEETS}/ECX-31B.pdf"
-			(at 0 11.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "32.768 KHz ±20ppm Crystal 12.5pF 70 kOhms 2-SMD, No Lead"
-			(at 0 14.732 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PartNumber" "1202-0000-00008"
-			(at 0 4.318 0)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(property "ki_keywords" "crystal oscillator smd"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-	)
 	(symbol "ECS-160-S-4X"
 		(extends "ECS-080-20-4X-DU")
 		(property "Reference" "X"
@@ -679,7 +764,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Daxxn_Passives:Crystal_SMD_4Pin_1.6x1.2mm"
 			(at 0 13.208 0)
 			(effects
 				(font
@@ -775,6 +860,72 @@
 				(font
 					(size 1 1)
 				)
+			)
+		)
+		(property "ki_keywords" "crystal oscillator smd"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(symbol "ECS-3225MV-320-CN-TR"
+		(extends "RH100-16.000-8-1010-TR")
+		(property "Reference" "X"
+			(at 0 7.366 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "32MHz"
+			(at 0 5.842 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Daxxn_Passives:Crystal_SMD_4Pin_3.2x2.5mm"
+			(at 0 13.208 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "${DATASHEETS}/ECS-3225MV.pdf"
+			(at 0 11.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "32 MHz XO (Standard) HCMOS Oscillator 1.62V ~ 3.63V Enable/Disable 4-SMD, No Lead"
+			(at 0 14.732 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PartNumber" "na"
+			(at 0 4.572 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
 			)
 		)
 		(property "ki_keywords" "crystal oscillator smd"

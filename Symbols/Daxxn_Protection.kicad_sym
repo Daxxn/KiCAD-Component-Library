@@ -1,7 +1,7 @@
 (kicad_symbol_lib
-	(version 20231120)
+	(version 20241209)
 	(generator "kicad_symbol_editor")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(symbol "IP4252CZ16-8-TTL"
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -31,7 +31,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "%LOCAL_DATASHEETS%/IP4251-TTL.pdf"
+		(property "Datasheet" "${DATASHEETS}/IP4251-TTL.pdf"
 			(at 0 10.922 0)
 			(effects
 				(font
@@ -126,6 +126,18 @@
 			)
 			(polyline
 				(pts
+					(xy -1.905 0) (xy -0.762 0) (xy -0.762 0.254)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
 					(xy -0.762 0) (xy -0.762 -0.254)
 				)
 				(stroke
@@ -139,18 +151,6 @@
 			(polyline
 				(pts
 					(xy 0.762 0) (xy 0.762 -0.254)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -1.905 0) (xy -0.762 0) (xy -0.762 0.254)
 				)
 				(stroke
 					(width 0)
@@ -183,24 +183,6 @@
 		)
 		(symbol "IP4252CZ16-8-TTL_2_0"
 			(pin passive line
-				(at 3.81 0 180)
-				(length 1.85)
-				(name "2B"
-					(effects
-						(font
-							(size 0 0)
-						)
-					)
-				)
-				(number "15"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
 				(at -3.81 0 0)
 				(length 1.85)
 				(name "2A"
@@ -218,11 +200,41 @@
 					)
 				)
 			)
+			(pin passive line
+				(at 3.81 0 180)
+				(length 1.85)
+				(name "2B"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+				(number "15"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
 		)
 		(symbol "IP4252CZ16-8-TTL_2_1"
 			(rectangle
 				(start -1.905 0.635)
 				(end 1.905 -0.635)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -1.905 0) (xy -0.762 0) (xy -0.762 0.254)
+				)
 				(stroke
 					(width 0)
 					(type default)
@@ -246,18 +258,6 @@
 			(polyline
 				(pts
 					(xy 0.762 0) (xy 0.762 -0.254)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -1.905 0) (xy -0.762 0) (xy -0.762 0.254)
 				)
 				(stroke
 					(width 0)
@@ -290,24 +290,6 @@
 		)
 		(symbol "IP4252CZ16-8-TTL_3_0"
 			(pin passive line
-				(at 3.81 0 180)
-				(length 1.85)
-				(name "3B"
-					(effects
-						(font
-							(size 0 0)
-						)
-					)
-				)
-				(number "14"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
 				(at -3.81 0 0)
 				(length 1.85)
 				(name "3A"
@@ -325,11 +307,41 @@
 					)
 				)
 			)
+			(pin passive line
+				(at 3.81 0 180)
+				(length 1.85)
+				(name "3B"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+				(number "14"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
 		)
 		(symbol "IP4252CZ16-8-TTL_3_1"
 			(rectangle
 				(start -1.905 0.635)
 				(end 1.905 -0.635)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -1.905 0) (xy -0.762 0) (xy -0.762 0.254)
+				)
 				(stroke
 					(width 0)
 					(type default)
@@ -353,18 +365,6 @@
 			(polyline
 				(pts
 					(xy 0.762 0) (xy 0.762 -0.254)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -1.905 0) (xy -0.762 0) (xy -0.762 0.254)
 				)
 				(stroke
 					(width 0)
@@ -397,24 +397,6 @@
 		)
 		(symbol "IP4252CZ16-8-TTL_4_0"
 			(pin passive line
-				(at 3.81 0 180)
-				(length 1.85)
-				(name "4B"
-					(effects
-						(font
-							(size 0 0)
-						)
-					)
-				)
-				(number "13"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
 				(at -3.81 0 0)
 				(length 1.85)
 				(name "4A"
@@ -432,11 +414,41 @@
 					)
 				)
 			)
+			(pin passive line
+				(at 3.81 0 180)
+				(length 1.85)
+				(name "4B"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+				(number "13"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
 		)
 		(symbol "IP4252CZ16-8-TTL_4_1"
 			(rectangle
 				(start -1.905 0.635)
 				(end 1.905 -0.635)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -1.905 0) (xy -0.762 0) (xy -0.762 0.254)
+				)
 				(stroke
 					(width 0)
 					(type default)
@@ -460,18 +472,6 @@
 			(polyline
 				(pts
 					(xy 0.762 0) (xy 0.762 -0.254)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -1.905 0) (xy -0.762 0) (xy -0.762 0.254)
 				)
 				(stroke
 					(width 0)
@@ -504,24 +504,6 @@
 		)
 		(symbol "IP4252CZ16-8-TTL_5_0"
 			(pin passive line
-				(at 3.81 0 180)
-				(length 1.85)
-				(name "5B"
-					(effects
-						(font
-							(size 0 0)
-						)
-					)
-				)
-				(number "12"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
 				(at -3.81 0 0)
 				(length 1.85)
 				(name "5A"
@@ -539,11 +521,41 @@
 					)
 				)
 			)
+			(pin passive line
+				(at 3.81 0 180)
+				(length 1.85)
+				(name "5B"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+				(number "12"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
 		)
 		(symbol "IP4252CZ16-8-TTL_5_1"
 			(rectangle
 				(start -1.905 0.635)
 				(end 1.905 -0.635)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -1.905 0) (xy -0.762 0) (xy -0.762 0.254)
+				)
 				(stroke
 					(width 0)
 					(type default)
@@ -567,18 +579,6 @@
 			(polyline
 				(pts
 					(xy 0.762 0) (xy 0.762 -0.254)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -1.905 0) (xy -0.762 0) (xy -0.762 0.254)
 				)
 				(stroke
 					(width 0)
@@ -611,24 +611,6 @@
 		)
 		(symbol "IP4252CZ16-8-TTL_6_0"
 			(pin passive line
-				(at 3.81 0 180)
-				(length 1.85)
-				(name "6B"
-					(effects
-						(font
-							(size 0 0)
-						)
-					)
-				)
-				(number "11"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
 				(at -3.81 0 0)
 				(length 1.85)
 				(name "6A"
@@ -646,11 +628,41 @@
 					)
 				)
 			)
+			(pin passive line
+				(at 3.81 0 180)
+				(length 1.85)
+				(name "6B"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+				(number "11"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
 		)
 		(symbol "IP4252CZ16-8-TTL_6_1"
 			(rectangle
 				(start -1.905 0.635)
 				(end 1.905 -0.635)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -1.905 0) (xy -0.762 0) (xy -0.762 0.254)
+				)
 				(stroke
 					(width 0)
 					(type default)
@@ -674,18 +686,6 @@
 			(polyline
 				(pts
 					(xy 0.762 0) (xy 0.762 -0.254)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -1.905 0) (xy -0.762 0) (xy -0.762 0.254)
 				)
 				(stroke
 					(width 0)
@@ -718,24 +718,6 @@
 		)
 		(symbol "IP4252CZ16-8-TTL_7_0"
 			(pin passive line
-				(at 3.81 0 180)
-				(length 1.85)
-				(name "7B"
-					(effects
-						(font
-							(size 0 0)
-						)
-					)
-				)
-				(number "10"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
 				(at -3.81 0 0)
 				(length 1.85)
 				(name "7A"
@@ -753,11 +735,41 @@
 					)
 				)
 			)
+			(pin passive line
+				(at 3.81 0 180)
+				(length 1.85)
+				(name "7B"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+				(number "10"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
 		)
 		(symbol "IP4252CZ16-8-TTL_7_1"
 			(rectangle
 				(start -1.905 0.635)
 				(end 1.905 -0.635)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -1.905 0) (xy -0.762 0) (xy -0.762 0.254)
+				)
 				(stroke
 					(width 0)
 					(type default)
@@ -781,18 +793,6 @@
 			(polyline
 				(pts
 					(xy 0.762 0) (xy 0.762 -0.254)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -1.905 0) (xy -0.762 0) (xy -0.762 0.254)
 				)
 				(stroke
 					(width 0)
@@ -875,6 +875,18 @@
 			)
 			(polyline
 				(pts
+					(xy -1.905 0) (xy -0.762 0) (xy -0.762 0.254)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
 					(xy -0.762 0) (xy -0.762 -0.254)
 				)
 				(stroke
@@ -888,18 +900,6 @@
 			(polyline
 				(pts
 					(xy 0.762 0) (xy 0.762 -0.254)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -1.905 0) (xy -0.762 0) (xy -0.762 0.254)
 				)
 				(stroke
 					(width 0)
@@ -964,7 +964,7 @@
 			)
 			(polyline
 				(pts
-					(xy -0.762 -1.016) (xy 0.762 -1.016)
+					(xy -1.905 0) (xy -0.762 0) (xy -0.762 0.254)
 				)
 				(stroke
 					(width 0)
@@ -988,7 +988,7 @@
 			)
 			(polyline
 				(pts
-					(xy 0.762 0) (xy 0.762 -0.254)
+					(xy -0.762 -1.016) (xy 0.762 -1.016)
 				)
 				(stroke
 					(width 0)
@@ -1000,7 +1000,7 @@
 			)
 			(polyline
 				(pts
-					(xy -1.905 0) (xy -0.762 0) (xy -0.762 0.254)
+					(xy 0.762 0) (xy 0.762 -0.254)
 				)
 				(stroke
 					(width 0)
@@ -1031,13 +1031,14 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "TPD12S016RKTR"
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "U"
-			(at 13.97 4.318 0)
+			(at 0 3.556 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1046,7 +1047,7 @@
 			)
 		)
 		(property "Value" "TPD12S016RKTR"
-			(at 13.97 2.54 0)
+			(at 0 2.032 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1055,37 +1056,34 @@
 			)
 		)
 		(property "Footprint" "Daxxn_Packages:UQFN-24_4x2mm_P0.5mm"
-			(at 0 11.176 0)
+			(at 0 9.652 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "%LOCAL_DATASHEETS%/TPD12S016.pdf"
-			(at 0 9.398 0)
+		(property "Datasheet" "${DATASHEETS}/TPD12S016.pdf"
+			(at 0 7.874 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 				(hide yes)
 			)
 		)
 		(property "Description" "HDMI, I²C Buffer, ESD Protection Interface 24-UQFN"
-			(at 0 7.62 0)
+			(at 0 6.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 				(hide yes)
 			)
 		)
 		(property "PartNumber" "1300-0000-00002"
-			(at 13.97 1.016 0)
+			(at 0 0.762 0)
 			(effects
 				(font
 					(size 1 1)
@@ -1104,25 +1102,7 @@
 		)
 		(symbol "TPD12S016RKTR_0_0"
 			(pin unspecified line
-				(at -2.54 -35.56 0)
-				(length 2.54)
-				(name "SCL-A"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin unspecified line
-				(at 12.7 2.54 270)
+				(at -2.54 -2.54 0)
 				(length 2.54)
 				(name "VCC"
 					(effects
@@ -1140,7 +1120,43 @@
 				)
 			)
 			(pin unspecified line
-				(at -2.54 -27.94 0)
+				(at -2.54 -5.08 0)
+				(length 2.54)
+				(name "VDD"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "23"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -2.54 -35.56 0)
+				(length 2.54)
+				(name "LS-OE"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -2.54 -38.1 0)
 				(length 2.54)
 				(name "CT-HPD"
 					(effects
@@ -1150,6 +1166,134 @@
 					)
 				)
 				(number "11"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -2.54 -40.64 0)
+				(length 2.54)
+				(name "SCL-A"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -2.54 -43.18 0)
+				(length 2.54)
+				(name "SDA-A"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -2.54 -48.26 0)
+				(length 2.54)
+				(name "CEC-A"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "24"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -2.54 -53.34 0)
+				(length 2.54)
+				(name "HPD-A"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 12.7 -58.42 90)
+				(length 2.54)
+				(hide yes)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "13"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 12.7 -58.42 90)
+				(length 2.54)
+				(hide yes)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "18"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 12.7 -58.42 90)
+				(length 2.54)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "5"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1176,43 +1320,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 12.7 -46.99 90)
-				(length 2.54) hide
-				(name "GND"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "13"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin unspecified line
-				(at 27.94 -24.13 180)
-				(length 2.54)
-				(name "CLK-"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "14"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin unspecified line
-				(at 27.94 -21.59 180)
+				(at 27.94 -7.62 180)
 				(length 2.54)
 				(name "CLK+"
 					(effects
@@ -1230,16 +1338,16 @@
 				)
 			)
 			(pin unspecified line
-				(at 27.94 -19.05 180)
+				(at 27.94 -10.16 180)
 				(length 2.54)
-				(name "D0-"
+				(name "CLK-"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "16"
+				(number "14"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1248,7 +1356,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 27.94 -16.51 180)
+				(at 27.94 -15.24 180)
 				(length 2.54)
 				(name "D0+"
 					(effects
@@ -1266,52 +1374,16 @@
 				)
 			)
 			(pin unspecified line
-				(at 12.7 -46.99 90)
-				(length 2.54) hide
-				(name "GND"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "18"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin unspecified line
-				(at 27.94 -13.97 180)
+				(at 27.94 -17.78 180)
 				(length 2.54)
-				(name "D1-"
+				(name "D0-"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "19"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin unspecified line
-				(at -2.54 -38.1 0)
-				(length 2.54)
-				(name "SDA-A"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "2"
+				(number "16"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1320,7 +1392,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 27.94 -11.43 180)
+				(at 27.94 -22.86 180)
 				(length 2.54)
 				(name "D1+"
 					(effects
@@ -1338,16 +1410,16 @@
 				)
 			)
 			(pin unspecified line
-				(at 27.94 -8.89 180)
+				(at 27.94 -25.4 180)
 				(length 2.54)
-				(name "D2-"
+				(name "D1-"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "21"
+				(number "19"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1356,7 +1428,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 27.94 -6.35 180)
+				(at 27.94 -30.48 180)
 				(length 2.54)
 				(name "D2+"
 					(effects
@@ -1374,16 +1446,16 @@
 				)
 			)
 			(pin unspecified line
-				(at -2.54 -2.54 0)
+				(at 27.94 -33.02 180)
 				(length 2.54)
-				(name "VDD"
+				(name "D2-"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "23"
+				(number "21"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1392,97 +1464,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -2.54 -31.75 0)
-				(length 2.54)
-				(name "CEC-A"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "24"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin unspecified line
-				(at -2.54 -41.91 0)
-				(length 2.54)
-				(name "HPD-A"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "3"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin unspecified line
-				(at -2.54 -25.4 0)
-				(length 2.54)
-				(name "LS-OE"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "4"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin unspecified line
-				(at 12.7 -46.99 90)
-				(length 2.54)
-				(name "GND"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "5"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin unspecified line
-				(at 27.94 -31.75 180)
-				(length 2.54)
-				(name "CEC-B"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "6"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin unspecified line
-				(at 27.94 -35.56 180)
+				(at 27.94 -40.64 180)
 				(length 2.54)
 				(name "SCL-B"
 					(effects
@@ -1500,7 +1482,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 27.94 -38.1 180)
+				(at 27.94 -43.18 180)
 				(length 2.54)
 				(name "SDA-B"
 					(effects
@@ -1518,7 +1500,25 @@
 				)
 			)
 			(pin unspecified line
-				(at 27.94 -41.91 180)
+				(at 27.94 -48.26 180)
+				(length 2.54)
+				(name "CEC-B"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 27.94 -53.34 180)
 				(length 2.54)
 				(name "HPD-B"
 					(effects
@@ -1539,7 +1539,7 @@
 		(symbol "TPD12S016RKTR_0_1"
 			(rectangle
 				(start 0 0)
-				(end 25.4 -44.45)
+				(end 25.4 -55.88)
 				(stroke
 					(width 0)
 					(type default)
@@ -1549,5 +1549,6 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 )

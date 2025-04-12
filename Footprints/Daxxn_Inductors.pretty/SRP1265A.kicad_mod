@@ -1,0 +1,161 @@
+(footprint "SRP1265A"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -7.2 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "b827a789-b22c-45f9-b592-64a341e910c8")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.12)
+			)
+		)
+	)
+	(property "Value" "SRP1265A"
+		(at 0 0.3 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "dd65c7bd-8170-40b7-a8f5-1f4c256b7704")
+		(effects
+			(font
+				(size 0.25 0.25)
+				(thickness 0.04)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at -0.1 -6 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3cdcb039-009b-420f-b800-2dc94b1e49c8")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at -0.1 -6 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3cdb9ef7-969c-4f83-92d6-5c1ccdbb9937")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at -0.1 -6 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d28932dc-3ded-4941-a5b9-2438246fb1f3")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -6.2 -6.4)
+		(end 6.2 -6.4)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "d6f734ca-bbca-4e07-94e6-2071a8bd0208")
+	)
+	(fp_line
+		(start -6.2 6.4)
+		(end 6.2 6.4)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "96b63529-5dab-46d9-a501-f194a3ba89cf")
+	)
+	(fp_poly
+		(pts
+			(xy -6.2 -6.4) (xy -5.7 -6.9) (xy -5.2 -6.4)
+		)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.SilkS")
+		(uuid "1bffc7c6-c057-49b7-9d20-d4e50fd11225")
+	)
+	(fp_rect
+		(start -7.2 -6.4)
+		(end 7.2 6.4)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "3a4c87f1-2eba-4560-a6a3-7e39ac24a3bf")
+	)
+	(fp_rect
+		(start -6.25 -6.25)
+		(end 6.25 6.25)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "F.Fab")
+		(uuid "7a9bd2b8-7949-47a6-961f-8c7128d25720")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 -0.3 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "9ae4d149-fd05-43c6-a550-468772c11ac9")
+		(effects
+			(font
+				(size 0.25 0.25)
+				(thickness 0.04)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at -5.55 0)
+		(size 3.1 5)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.1640419948)
+		(uuid "28f29948-f810-4021-ac4e-c12c18c2c054")
+	)
+	(pad "2" smd roundrect
+		(at 5.55 0)
+		(size 3.1 5)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.1640419948)
+		(uuid "f4e135d0-798c-4340-b70d-7c3a8d07a488")
+	)
+	(model "${DAXXN}/Passives/Inductors/SRP1265A.stp"
+		(offset
+			(xyz 0 0 4.75)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -180 0 0)
+		)
+	)
+)

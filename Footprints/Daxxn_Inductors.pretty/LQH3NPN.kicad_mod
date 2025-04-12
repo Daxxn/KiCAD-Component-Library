@@ -152,7 +152,7 @@
 		(roundrect_rratio 0.25)
 		(uuid "7787c204-8d9f-4954-a8bd-45e9c47256b3")
 	)
-	(model "${MY_FOLDER}/KiCad/Libraries/Models/Passives/Inductors/LQH3NPN.stp"
+	(model "${MY_FOLDER}/KiCad/Libraries/Models/Passives/Inductors/LQH3NPN2R2MMEL.step"
 		(offset
 			(xyz 0 0 0)
 		)
@@ -160,7 +160,7 @@
 			(xyz 1 1 1)
 		)
 		(rotate
-			(xyz 0 0 0)
+			(xyz -90 0 0)
 		)
 	)
 )

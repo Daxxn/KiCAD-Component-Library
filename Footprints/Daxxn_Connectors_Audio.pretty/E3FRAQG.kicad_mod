@@ -1,0 +1,155 @@
+(footprint "E3FRAQG"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -7.6 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "1f5e01c4-2a60-4cbc-b1a9-366565711ffa")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.12)
+			)
+		)
+	)
+	(property "Value" "E3FRAQG"
+		(at 0 0.4 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "687acfe2-db0f-4501-9732-f4b33fdf9be4")
+		(effects
+			(font
+				(size 0.25 0.25)
+				(thickness 0.04)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at -0.3 -12.1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "37d1a8f4-fd6f-486d-b85d-9ef95fde2582")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at -0.3 -12.1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ee5eb1e0-6e82-4da3-9f81-d85972d889d6")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at -0.3 -12.1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b848baff-6c9c-4421-a15d-b95a0a7563bf")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -13 20.3)
+		(end 13 20.3)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Dwgs.User")
+		(uuid "10a1241e-916e-4ee5-bb42-a4016d81a577")
+	)
+	(fp_text user "BOARD EDGE"
+		(at 0 19.8 0)
+		(unlocked yes)
+		(layer "Dwgs.User")
+		(uuid "50ed1873-d75e-4245-a0a6-bb5c08a50ea4")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.15)
+				(bold yes)
+			)
+		)
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 -0.3 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "c7f4144a-28ab-4c58-8274-2b001b38b3be")
+		(effects
+			(font
+				(size 0.25 0.25)
+				(thickness 0.04)
+			)
+		)
+	)
+	(pad "" np_thru_hole circle
+		(at 0 5.08)
+		(size 2.54 2.54)
+		(drill 2.54)
+		(layers "F&B.Cu" "*.Mask")
+		(uuid "421b9ea3-95ac-4eca-8fc8-eb71cb470c1e")
+	)
+	(pad "1" thru_hole circle
+		(at 4 0)
+		(size 2.8 2.8)
+		(drill 1.9)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "52e1f5e9-7445-4e12-a299-991dbc9a2506")
+	)
+	(pad "2" thru_hole circle
+		(at -4 0)
+		(size 2.8 2.8)
+		(drill 1.9)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "2e5fc234-0502-4cf4-ad92-4eff5758a9dc")
+	)
+	(pad "3" thru_hole circle
+		(at 0 0)
+		(size 2.8 2.8)
+		(drill 1.9)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "b62b4bea-f428-4d9e-9e8b-c440062d2f84")
+	)
+	(pad "4" thru_hole circle
+		(at 0 -5.08)
+		(size 2 2)
+		(drill 1.2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "722b2fa5-cece-42c7-9cd5-88218dd93aae")
+	)
+	(model "${DAXXN}/Connectors/E3FRA-XLR-F.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 180)
+		)
+	)
+)

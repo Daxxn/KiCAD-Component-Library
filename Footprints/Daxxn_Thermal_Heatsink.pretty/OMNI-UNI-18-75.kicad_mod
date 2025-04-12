@@ -1,0 +1,130 @@
+(footprint "OMNI-UNI-18-75"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at -0.1 -6.6 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "64e595e4-483f-42c5-ac9c-18f40d1d6b54")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.12)
+			)
+		)
+	)
+	(property "Value" "OMNI-UNI-18-75"
+		(at -0.1 -5.1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "648de10f-0abf-4f3d-9b2d-24273790d643")
+		(effects
+			(font
+				(size 0.25 0.25)
+				(thickness 0.04)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at -0.1 -6.1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5aeead3f-b9a6-4a66-993d-2649a23d04f4")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at -0.1 -6.1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9749d3ba-bf03-4d07-8450-3e31247f5e43")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr board_only allow_missing_courtyard)
+	(fp_circle
+		(center -35.2 -2.67)
+		(end -32.2 -2.67)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "5876e29e-12d6-4f57-844d-4ea2ff0a0f81")
+	)
+	(fp_circle
+		(center 35.2 -2.67)
+		(end 38.2 -2.67)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "8de89dc3-0f7a-4d13-82f6-18b9152ab60a")
+	)
+	(fp_rect
+		(start -37.5 -11.67)
+		(end 37.5 6.33)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "ea22d290-a1c9-467e-bdf7-2a8e0cf08386")
+	)
+	(fp_text user "${REFERENCE}"
+		(at -0.1 -3.6 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "f62d7689-6910-4e9d-b796-f61ab90e230a")
+		(effects
+			(font
+				(size 0.25 0.25)
+				(thickness 0.04)
+			)
+		)
+	)
+	(pad "MP" thru_hole circle
+		(at -35.2 -2.67)
+		(size 4 4)
+		(drill 2.67)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "475712ef-2926-4d83-9ecf-a14d33a38e9a")
+	)
+	(pad "MP" thru_hole circle
+		(at 35.2 -2.67)
+		(size 4 4)
+		(drill 2.67)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "662cfd71-aa2e-4228-9279-78bcf862adad")
+	)
+	(embedded_fonts no)
+	(model "${DAXXN}/Thermal/OMNI-UNI-18-75.step"
+		(offset
+			(xyz 0 1.67 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -0)
+		)
+	)
+)

@@ -1,7 +1,7 @@
 (kicad_symbol_lib
-	(version 20231120)
+	(version 20241209)
 	(generator "kicad_symbol_editor")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(symbol "ADA4691-4ACPZ-RL"
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -25,7 +25,7 @@
 			)
 		)
 		(property "Footprint" "Daxxn_Packages:QFN-16-1EP_3x3mm_P0.5mm_EP1.45x1.45mm"
-			(at 3.81 16.51 0)
+			(at 0 13.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33,7 +33,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "%LOCAL_DATASHEETS%\\ADA4691.pdf"
+		(property "Datasheet" "${DATASHEETS}/ADA4691.pdf"
 			(at 0 10.16 0)
 			(effects
 				(font
@@ -43,7 +43,7 @@
 			)
 		)
 		(property "Description" "Quad OPAMP General Purpose Single Supply optimized W/ Rail-To-Rail output"
-			(at 0 12.7 0)
+			(at 0 12.192 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -108,24 +108,6 @@
 					)
 				)
 			)
-			(pin output line
-				(at 10.16 0 180)
-				(length 2.54)
-				(name "OUTA"
-					(effects
-						(font
-							(size 0 0)
-						)
-					)
-				)
-				(number "15"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
 			(pin input line
 				(at -2.54 -2.54 0)
 				(length 2.54)
@@ -137,6 +119,24 @@
 					)
 				)
 				(number "16"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at 10.16 0 180)
+				(length 2.54)
+				(name "OUTA"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+				(number "15"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -280,24 +280,6 @@
 					)
 				)
 			)
-			(pin output line
-				(at 10.16 0 180)
-				(length 2.54)
-				(name "OUTC"
-					(effects
-						(font
-							(size 0 0)
-						)
-					)
-				)
-				(number "8"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
 			(pin input line
 				(at -2.54 -2.54 0)
 				(length 2.54)
@@ -309,6 +291,24 @@
 					)
 				)
 				(number "9"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at 10.16 0 180)
+				(length 2.54)
+				(name "OUTC"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+				(number "8"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -423,6 +423,24 @@
 		)
 		(symbol "ADA4691-4ACPZ-RL_5_0"
 			(pin power_in line
+				(at 0 5.08 270)
+				(length 2.54)
+				(name "V+"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
 				(at 0 -5.08 90)
 				(length 2.54)
 				(name "V-"
@@ -442,7 +460,8 @@
 			)
 			(pin power_in line
 				(at 0 -5.08 90)
-				(length 2.54) hide
+				(length 2.54)
+				(hide yes)
 				(name "GND"
 					(effects
 						(font
@@ -451,24 +470,6 @@
 					)
 				)
 				(number "17"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin power_in line
-				(at 0 5.08 270)
-				(length 2.54)
-				(name "V+"
-					(effects
-						(font
-							(size 0 0)
-						)
-					)
-				)
-				(number "2"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -567,6 +568,7 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "APX321WG-7"
 		(exclude_from_sim no)
@@ -591,7 +593,7 @@
 			)
 		)
 		(property "Footprint" "Daxxn_Packages:SOT-23-5"
-			(at 1.27 13.97 0)
+			(at 0 11.938 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -599,8 +601,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "%LOCAL_DATASHEETS%\\APX321.pdf"
-			(at 0 17.78 0)
+		(property "Datasheet" "${DATASHEETS}/APX321.pdf"
+			(at 0 13.462 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -609,7 +611,7 @@
 			)
 		)
 		(property "Description" "Low Voltage, Rail to Rail Opamp"
-			(at 0 11.43 0)
+			(at 0 10.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -654,6 +656,42 @@
 					)
 				)
 			)
+			(pin bidirectional line
+				(at -2.54 -2.54 0)
+				(length 2.54)
+				(name "IN-"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 3.81 5.08 270)
+				(length 3.1)
+				(name "V+"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
 			(pin power_in line
 				(at 3.81 -5.08 90)
 				(length 3.1)
@@ -673,24 +711,6 @@
 				)
 			)
 			(pin bidirectional line
-				(at -2.54 -2.54 0)
-				(length 2.54)
-				(name "IN-"
-					(effects
-						(font
-							(size 0 0)
-						)
-					)
-				)
-				(number "3"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin bidirectional line
 				(at 10.16 0 180)
 				(length 2.54)
 				(name "OUT"
@@ -701,24 +721,6 @@
 					)
 				)
 				(number "4"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin power_in line
-				(at 3.81 5.08 270)
-				(length 3.1)
-				(name "V+"
-					(effects
-						(font
-							(size 0 0)
-						)
-					)
-				)
-				(number "5"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -785,13 +787,14 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "AS321KTR-G1"
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "U"
-			(at 5.08 5.842 0)
+			(at 5.08 5.334 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -800,7 +803,7 @@
 			)
 		)
 		(property "Value" "AS321KTR-G1"
-			(at 5.08 4.064 0)
+			(at 5.08 3.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -809,7 +812,7 @@
 			)
 		)
 		(property "Footprint" "Daxxn_Packages:SOT-23-5"
-			(at 1.27 13.97 0)
+			(at 0 9.144 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -817,8 +820,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "%LOCAL_DATASHEETS%\\AS321.pdf"
-			(at 0 17.78 0)
+		(property "Datasheet" "${DATASHEETS}/AS321.pdf"
+			(at 0 10.668 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -827,7 +830,7 @@
 			)
 		)
 		(property "Description" "Low Power, Opamp"
-			(at 0 11.938 0)
+			(at 0 7.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -888,6 +891,42 @@
 					)
 				)
 			)
+			(pin bidirectional line
+				(at -2.54 -2.54 0)
+				(length 2.54)
+				(name "IN-"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 3.81 5.08 270)
+				(length 3.1)
+				(name "V+"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
 			(pin power_in line
 				(at 3.81 -5.08 90)
 				(length 3.1)
@@ -907,24 +946,6 @@
 				)
 			)
 			(pin bidirectional line
-				(at -2.54 -2.54 0)
-				(length 2.54)
-				(name "IN-"
-					(effects
-						(font
-							(size 0 0)
-						)
-					)
-				)
-				(number "3"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin bidirectional line
 				(at 10.16 0 180)
 				(length 2.54)
 				(name "OUT"
@@ -935,24 +956,6 @@
 					)
 				)
 				(number "4"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin power_in line
-				(at 3.81 5.08 270)
-				(length 3.1)
-				(name "V+"
-					(effects
-						(font
-							(size 0 0)
-						)
-					)
-				)
-				(number "5"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1001,13 +1004,14 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "AZV321KTR-G1"
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "U"
-			(at 5.08 5.842 0)
+			(at 5.08 5.334 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1016,7 +1020,7 @@
 			)
 		)
 		(property "Value" "AZV321KTR-G1"
-			(at 5.08 4.064 0)
+			(at 5.08 3.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1025,7 +1029,7 @@
 			)
 		)
 		(property "Footprint" "Daxxn_Packages:SOT-23-5"
-			(at 1.27 13.97 0)
+			(at 0 11.684 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1033,8 +1037,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "%LOCAL_DATASHEETS%\\AZV321.pdf"
-			(at 0 17.78 0)
+		(property "Datasheet" "${DATASHEETS}/AZV321.pdf"
+			(at 0 13.208 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1043,7 +1047,7 @@
 			)
 		)
 		(property "Description" "Low Voltage, Rail to Rail Opamp"
-			(at 0 11.684 0)
+			(at 0 10.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1104,6 +1108,42 @@
 					)
 				)
 			)
+			(pin bidirectional line
+				(at -2.54 -2.54 0)
+				(length 2.54)
+				(name "IN-"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 3.81 5.08 270)
+				(length 3.1)
+				(name "V+"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
 			(pin power_in line
 				(at 3.81 -5.08 90)
 				(length 3.1)
@@ -1123,24 +1163,6 @@
 				)
 			)
 			(pin bidirectional line
-				(at -2.54 -2.54 0)
-				(length 2.54)
-				(name "IN-"
-					(effects
-						(font
-							(size 0 0)
-						)
-					)
-				)
-				(number "3"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin bidirectional line
 				(at 10.16 0 180)
 				(length 2.54)
 				(name "OUT"
@@ -1151,24 +1173,6 @@
 					)
 				)
 				(number "4"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin power_in line
-				(at 3.81 5.08 270)
-				(length 3.1)
-				(name "V+"
-					(effects
-						(font
-							(size 0 0)
-						)
-					)
-				)
-				(number "5"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1217,6 +1221,1191 @@
 				)
 			)
 		)
+		(embedded_fonts no)
+	)
+	(symbol "INA1620RTWR"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "U"
+			(at 2.54 5.842 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "INA1620RTWR"
+			(at 2.54 4.318 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Daxxn_Packages:TQFN-24-1EP_4x4mm_P0.5mm_EP2.6x2.6mm"
+			(at 0 11.938 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "${DATASHEETS}/INA1620.pdf"
+			(at 0 13.716 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "IC AUDIO 2 CIRCUIT 24WQFN"
+			(at 0 10.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PartNumber" "0801-0400-00002"
+			(at 2.54 3.048 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
+			)
+		)
+		(property "ki_locked" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(symbol "INA1620RTWR_1_0"
+			(polyline
+				(pts
+					(xy 0 3.81) (xy 0 -3.81) (xy 7.62 0) (xy 0 3.81)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(pin input line
+				(at -2.54 2.54 0)
+				(length 2.54)
+				(name "INA+"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+				(number "22"
+					(effects
+						(font
+							(size 0.9906 0.9906)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -2.54 -2.54 0)
+				(length 2.54)
+				(name "INA-"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+				(number "21"
+					(effects
+						(font
+							(size 0.9906 0.9906)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at 10.16 0 180)
+				(length 2.54)
+				(name "OUTA"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+				(number "17"
+					(effects
+						(font
+							(size 0.9906 0.9906)
+						)
+					)
+				)
+			)
+		)
+		(symbol "INA1620RTWR_1_1"
+			(text "+"
+				(at 0.762 2.54 0)
+				(effects
+					(font
+						(size 1 1)
+					)
+				)
+			)
+			(text "-"
+				(at 0.762 -2.54 0)
+				(effects
+					(font
+						(size 1 1)
+					)
+				)
+			)
+		)
+		(symbol "INA1620RTWR_2_0"
+			(polyline
+				(pts
+					(xy 0 3.81) (xy 0 -3.81) (xy 7.62 0) (xy 0 3.81)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(pin input line
+				(at -2.54 2.54 0)
+				(length 2.54)
+				(name "INB+"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+				(number "9"
+					(effects
+						(font
+							(size 0.9906 0.9906)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -2.54 -2.54 0)
+				(length 2.54)
+				(name "INB-"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+				(number "10"
+					(effects
+						(font
+							(size 0.9906 0.9906)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at 10.16 0 180)
+				(length 2.54)
+				(name "OUTB"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+				(number "14"
+					(effects
+						(font
+							(size 0.9906 0.9906)
+						)
+					)
+				)
+			)
+		)
+		(symbol "INA1620RTWR_2_1"
+			(text "+"
+				(at 0.762 2.54 0)
+				(effects
+					(font
+						(size 1 1)
+					)
+				)
+			)
+			(text "-"
+				(at 0.762 -2.54 0)
+				(effects
+					(font
+						(size 1 1)
+					)
+				)
+			)
+		)
+		(symbol "INA1620RTWR_3_0"
+			(pin passive line
+				(at 0 7.62 270)
+				(length 1.27)
+				(name "R1A"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+				(number "24"
+					(effects
+						(font
+							(size 0.75 0.75)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -7.62 90)
+				(length 1.27)
+				(name "R1C"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 0.9906 0.9906)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 3.81 0 180)
+				(length 1.27)
+				(name "R1B"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+				(number "23"
+					(effects
+						(font
+							(size 0.75 0.75)
+						)
+					)
+				)
+			)
+		)
+		(symbol "INA1620RTWR_3_1"
+			(rectangle
+				(start -2.54 6.35)
+				(end 2.54 -6.35)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 6.35) (xy 0 6.096)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 6.096) (xy 1.016 5.715) (xy 0 5.334) (xy -1.016 4.953) (xy 0 4.572)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 4.572) (xy 1.016 4.191) (xy 0 3.81) (xy -1.016 3.429) (xy 0 3.048)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 3.048) (xy 1.016 2.667) (xy 0 2.286) (xy -1.016 1.905) (xy 0 1.524)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 1.524) (xy 0 -1.524)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 0 0)
+				(radius 0.254)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 -1.524) (xy 1.016 -1.905) (xy 0 -2.286) (xy -1.016 -2.667) (xy 0 -3.048)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 -3.048) (xy 1.016 -3.429) (xy 0 -3.81) (xy -1.016 -4.191) (xy 0 -4.572)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 -4.572) (xy 1.016 -4.953) (xy 0 -5.334) (xy -1.016 -5.715) (xy 0 -6.096)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 -6.096) (xy 0 -6.35)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 2.54 0) (xy 0 0)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "INA1620RTWR_4_0"
+			(pin passive line
+				(at 0 7.62 270)
+				(length 1.27)
+				(name "R2A"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+				(number "19"
+					(effects
+						(font
+							(size 0.75 0.75)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -7.62 90)
+				(length 1.27)
+				(name "R2C"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+				(number "18"
+					(effects
+						(font
+							(size 0.75 0.75)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 3.81 0 180)
+				(length 1.27)
+				(name "R2B"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+				(number "20"
+					(effects
+						(font
+							(size 0.75 0.75)
+						)
+					)
+				)
+			)
+		)
+		(symbol "INA1620RTWR_4_1"
+			(rectangle
+				(start -2.54 6.35)
+				(end 2.54 -6.35)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 6.35) (xy 0 6.096)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 6.096) (xy 1.016 5.715) (xy 0 5.334) (xy -1.016 4.953) (xy 0 4.572)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 4.572) (xy 1.016 4.191) (xy 0 3.81) (xy -1.016 3.429) (xy 0 3.048)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 3.048) (xy 1.016 2.667) (xy 0 2.286) (xy -1.016 1.905) (xy 0 1.524)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 1.524) (xy 0 -1.524)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 0 0)
+				(radius 0.254)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 -1.524) (xy 1.016 -1.905) (xy 0 -2.286) (xy -1.016 -2.667) (xy 0 -3.048)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 -3.048) (xy 1.016 -3.429) (xy 0 -3.81) (xy -1.016 -4.191) (xy 0 -4.572)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 -4.572) (xy 1.016 -4.953) (xy 0 -5.334) (xy -1.016 -5.715) (xy 0 -6.096)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 -6.096) (xy 0 -6.35)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 2.54 0) (xy 0 0)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "INA1620RTWR_5_0"
+			(pin passive line
+				(at 0 7.62 270)
+				(length 1.27)
+				(name "R3A"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+				(number "12"
+					(effects
+						(font
+							(size 0.75 0.75)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -7.62 90)
+				(length 1.27)
+				(name "R3C"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+				(number "13"
+					(effects
+						(font
+							(size 0.75 0.75)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 3.81 0 180)
+				(length 1.27)
+				(name "R3B"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+				(number "11"
+					(effects
+						(font
+							(size 0.75 0.75)
+						)
+					)
+				)
+			)
+		)
+		(symbol "INA1620RTWR_5_1"
+			(rectangle
+				(start -2.54 6.35)
+				(end 2.54 -6.35)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 6.35) (xy 0 6.096)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 6.096) (xy 1.016 5.715) (xy 0 5.334) (xy -1.016 4.953) (xy 0 4.572)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 4.572) (xy 1.016 4.191) (xy 0 3.81) (xy -1.016 3.429) (xy 0 3.048)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 3.048) (xy 1.016 2.667) (xy 0 2.286) (xy -1.016 1.905) (xy 0 1.524)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 1.524) (xy 0 -1.524)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 0 0)
+				(radius 0.254)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 -1.524) (xy 1.016 -1.905) (xy 0 -2.286) (xy -1.016 -2.667) (xy 0 -3.048)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 -3.048) (xy 1.016 -3.429) (xy 0 -3.81) (xy -1.016 -4.191) (xy 0 -4.572)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 -4.572) (xy 1.016 -4.953) (xy 0 -5.334) (xy -1.016 -5.715) (xy 0 -6.096)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 -6.096) (xy 0 -6.35)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 2.54 0) (xy 0 0)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "INA1620RTWR_6_0"
+			(pin passive line
+				(at 0 7.62 270)
+				(length 1.27)
+				(name "R4A"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+				(number "7"
+					(effects
+						(font
+							(size 0.9906 0.9906)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -7.62 90)
+				(length 1.27)
+				(name "R4C"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 0.9906 0.9906)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 3.81 0 180)
+				(length 1.27)
+				(name "R4B"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+				(number "8"
+					(effects
+						(font
+							(size 0.9906 0.9906)
+						)
+					)
+				)
+			)
+		)
+		(symbol "INA1620RTWR_6_1"
+			(rectangle
+				(start -2.54 6.35)
+				(end 2.54 -6.35)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 6.35) (xy 0 6.096)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 6.096) (xy 1.016 5.715) (xy 0 5.334) (xy -1.016 4.953) (xy 0 4.572)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 4.572) (xy 1.016 4.191) (xy 0 3.81) (xy -1.016 3.429) (xy 0 3.048)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 3.048) (xy 1.016 2.667) (xy 0 2.286) (xy -1.016 1.905) (xy 0 1.524)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 1.524) (xy 0 -1.524)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 0 0)
+				(radius 0.254)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 -1.524) (xy 1.016 -1.905) (xy 0 -2.286) (xy -1.016 -2.667) (xy 0 -3.048)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 -3.048) (xy 1.016 -3.429) (xy 0 -3.81) (xy -1.016 -4.191) (xy 0 -4.572)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 -4.572) (xy 1.016 -4.953) (xy 0 -5.334) (xy -1.016 -5.715) (xy 0 -6.096)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 -6.096) (xy 0 -6.35)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 2.54 0) (xy 0 0)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "INA1620RTWR_7_0"
+			(pin power_in line
+				(at -7.62 0 0)
+				(length 2.54)
+				(hide yes)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "25"
+					(effects
+						(font
+							(size 0.9906 0.9906)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -7.62 0 0)
+				(length 2.54)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 0.9906 0.9906)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 0 7.62 270)
+				(length 2.54)
+				(name "V+"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 0.9906 0.9906)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 0 -7.62 90)
+				(length 2.54)
+				(name "V-"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 0.9906 0.9906)
+						)
+					)
+				)
+			)
+			(pin no_connect line
+				(at 2.54 3.81 0)
+				(length 2.54)
+				(hide yes)
+				(name "NC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 0.9906 0.9906)
+						)
+					)
+				)
+			)
+			(pin no_connect line
+				(at 2.54 2.54 0)
+				(length 2.54)
+				(hide yes)
+				(name "NC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "15"
+					(effects
+						(font
+							(size 0.9906 0.9906)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 7.62 0 180)
+				(length 2.54)
+				(name "EN"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "16"
+					(effects
+						(font
+							(size 0.9906 0.9906)
+						)
+					)
+				)
+			)
+		)
+		(symbol "INA1620RTWR_7_1"
+			(rectangle
+				(start -5.08 5.08)
+				(end 5.08 -5.08)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(embedded_fonts no)
 	)
 	(symbol "INA826AIDRGR"
 		(pin_names
@@ -1226,7 +2415,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "U"
-			(at 0 9.906 0)
+			(at 0 9.398 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1235,7 +2424,7 @@
 			)
 		)
 		(property "Value" "INA826AIDRGR"
-			(at 0 8.128 0)
+			(at 0 7.874 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1244,7 +2433,7 @@
 			)
 		)
 		(property "Footprint" "Daxxn_Packages:Texas_S-PWSON-N8_EP1.2x2mm"
-			(at 0 15.494 0)
+			(at 0 16.002 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1253,7 +2442,7 @@
 			)
 		)
 		(property "Datasheet" "${DATASHEETS}/INA826.pdf"
-			(at 0 14.224 0)
+			(at 0 14.478 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1262,7 +2451,7 @@
 			)
 		)
 		(property "Description" "Instrumentation Amplifier 1 Circuit Rail-to-Rail 8-SON (3x3)"
-			(at 0 12.7 0)
+			(at 0 12.954 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1291,7 +2480,19 @@
 		(symbol "INA826AIDRGR_0_1"
 			(polyline
 				(pts
-					(xy -8.128 -7.62) (xy -7.112 -7.62)
+					(xy -8.89 10.16) (xy -8.89 -10.16) (xy 11.43 0) (xy -8.89 10.16)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(polyline
+				(pts
+					(xy -8.128 7.62) (xy -7.112 7.62)
 				)
 				(stroke
 					(width 0)
@@ -1303,7 +2504,7 @@
 			)
 			(polyline
 				(pts
-					(xy -8.128 7.62) (xy -7.112 7.62)
+					(xy -8.128 -7.62) (xy -7.112 -7.62)
 				)
 				(stroke
 					(width 0)
@@ -1323,18 +2524,6 @@
 				)
 				(fill
 					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -8.89 10.16) (xy -8.89 -10.16) (xy 11.43 0) (xy -8.89 10.16)
-				)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type background)
 				)
 			)
 		)
@@ -1412,6 +2601,24 @@
 				)
 			)
 			(pin power_in line
+				(at -2.54 10.16 270)
+				(length 3.2)
+				(name "V+"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "8"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
 				(at -2.54 -10.16 90)
 				(length 3.2)
 				(name "V-"
@@ -1422,6 +2629,25 @@
 					)
 				)
 				(number "5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -2.54 -10.16 90)
+				(length 3.2)
+				(hide yes)
+				(name "PAD"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "9"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1465,51 +2691,18 @@
 					)
 				)
 			)
-			(pin power_in line
-				(at -2.54 10.16 270)
-				(length 3.2)
-				(name "V+"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "8"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin power_in line
-				(at -2.54 -10.16 90)
-				(length 3.2) hide
-				(name "PAD"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "9"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "LM358PWRG4-JF"
-		(pin_names hide)
+		(pin_names
+			(hide yes)
+		)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "U"
-			(at 4.064 5.842 0)
+			(at 4.064 5.334 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1518,7 +2711,7 @@
 			)
 		)
 		(property "Value" "LM358PWRG4-JF"
-			(at 4.064 4.064 0)
+			(at 4.064 3.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1573,7 +2766,7 @@
 		(symbol "LM358PWRG4-JF_1_0"
 			(polyline
 				(pts
-					(xy 0.508 -2.54) (xy 1.016 -2.54)
+					(xy 0 3.81) (xy 0 -3.81) (xy 7.62 0) (xy 0 3.81)
 				)
 				(stroke
 					(width 0)
@@ -1597,7 +2790,7 @@
 			)
 			(polyline
 				(pts
-					(xy 0.762 2.794) (xy 0.762 2.286)
+					(xy 0.508 -2.54) (xy 1.016 -2.54)
 				)
 				(stroke
 					(width 0)
@@ -1609,7 +2802,7 @@
 			)
 			(polyline
 				(pts
-					(xy 0 3.81) (xy 0 -3.81) (xy 7.62 0) (xy 0 3.81)
+					(xy 0.762 2.794) (xy 0.762 2.286)
 				)
 				(stroke
 					(width 0)
@@ -1619,17 +2812,17 @@
 					(type none)
 				)
 			)
-			(pin output line
-				(at 10.16 0 180)
+			(pin input line
+				(at -2.54 2.54 0)
 				(length 2.54)
-				(name "OUT1"
+				(name "IN1+"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "1"
+				(number "3"
 					(effects
 						(font
 							(size 0.9906 0.9906)
@@ -1655,17 +2848,17 @@
 					)
 				)
 			)
-			(pin input line
-				(at -2.54 2.54 0)
+			(pin output line
+				(at 10.16 0 180)
 				(length 2.54)
-				(name "IN1+"
+				(name "OUT1"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "3"
+				(number "1"
 					(effects
 						(font
 							(size 0.9906 0.9906)
@@ -1677,7 +2870,7 @@
 		(symbol "LM358PWRG4-JF_2_0"
 			(polyline
 				(pts
-					(xy 0.508 -2.54) (xy 1.016 -2.54)
+					(xy 0 3.81) (xy 0 -3.81) (xy 7.62 0) (xy 0 3.81)
 				)
 				(stroke
 					(width 0)
@@ -1701,7 +2894,7 @@
 			)
 			(polyline
 				(pts
-					(xy 0.762 2.794) (xy 0.762 2.286)
+					(xy 0.508 -2.54) (xy 1.016 -2.54)
 				)
 				(stroke
 					(width 0)
@@ -1713,7 +2906,7 @@
 			)
 			(polyline
 				(pts
-					(xy 0 3.81) (xy 0 -3.81) (xy 7.62 0) (xy 0 3.81)
+					(xy 0.762 2.794) (xy 0.762 2.286)
 				)
 				(stroke
 					(width 0)
@@ -1780,24 +2973,6 @@
 		)
 		(symbol "LM358PWRG4-JF_3_0"
 			(pin power_in line
-				(at 0 -5.08 90)
-				(length 2.54)
-				(name "V-"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "4"
-					(effects
-						(font
-							(size 0.9906 0.9906)
-						)
-					)
-				)
-			)
-			(pin power_in line
 				(at 0 5.08 270)
 				(length 2.54)
 				(name "V+"
@@ -1808,6 +2983,24 @@
 					)
 				)
 				(number "8"
+					(effects
+						(font
+							(size 0.9906 0.9906)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 0 -5.08 90)
+				(length 2.54)
+				(name "V-"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
 					(effects
 						(font
 							(size 0.9906 0.9906)
@@ -1854,14 +3047,17 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "LM3900DR"
-		(pin_names hide)
+		(pin_names
+			(hide yes)
+		)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "U"
-			(at 3.81 5.842 0)
+			(at 3.81 5.334 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1870,7 +3066,7 @@
 			)
 		)
 		(property "Value" "LM3900DR"
-			(at 3.81 4.064 0)
+			(at 3.81 3.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1925,7 +3121,7 @@
 		(symbol "LM3900DR_1_0"
 			(polyline
 				(pts
-					(xy 0.508 -2.54) (xy 1.016 -2.54)
+					(xy 0 3.81) (xy 0 -3.81) (xy 7.62 0) (xy 0 3.81)
 				)
 				(stroke
 					(width 0)
@@ -1949,7 +3145,7 @@
 			)
 			(polyline
 				(pts
-					(xy 0.762 2.794) (xy 0.762 2.286)
+					(xy 0.508 -2.54) (xy 1.016 -2.54)
 				)
 				(stroke
 					(width 0)
@@ -1961,7 +3157,7 @@
 			)
 			(polyline
 				(pts
-					(xy 0 3.81) (xy 0 -3.81) (xy 7.62 0) (xy 0 3.81)
+					(xy 0.762 2.794) (xy 0.762 2.286)
 				)
 				(stroke
 					(width 0)
@@ -1989,24 +3185,6 @@
 					)
 				)
 			)
-			(pin output line
-				(at 10.16 0 180)
-				(length 2.54)
-				(name "OUT1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "5"
-					(effects
-						(font
-							(size 0.9906 0.9906)
-						)
-					)
-				)
-			)
 			(pin input line
 				(at -2.54 -2.54 0)
 				(length 2.54)
@@ -2025,11 +3203,29 @@
 					)
 				)
 			)
+			(pin output line
+				(at 10.16 0 180)
+				(length 2.54)
+				(name "OUT1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 0.9906 0.9906)
+						)
+					)
+				)
+			)
 		)
 		(symbol "LM3900DR_2_0"
 			(polyline
 				(pts
-					(xy 0.508 -2.54) (xy 1.016 -2.54)
+					(xy 0 3.81) (xy 0 -3.81) (xy 7.62 0) (xy 0 3.81)
 				)
 				(stroke
 					(width 0)
@@ -2053,7 +3249,7 @@
 			)
 			(polyline
 				(pts
-					(xy 0.762 2.794) (xy 0.762 2.286)
+					(xy 0.508 -2.54) (xy 1.016 -2.54)
 				)
 				(stroke
 					(width 0)
@@ -2065,7 +3261,7 @@
 			)
 			(polyline
 				(pts
-					(xy 0 3.81) (xy 0 -3.81) (xy 7.62 0) (xy 0 3.81)
+					(xy 0.762 2.794) (xy 0.762 2.286)
 				)
 				(stroke
 					(width 0)
@@ -2133,7 +3329,7 @@
 		(symbol "LM3900DR_3_0"
 			(polyline
 				(pts
-					(xy 0.508 -2.54) (xy 1.016 -2.54)
+					(xy 0 3.81) (xy 0 -3.81) (xy 7.62 0) (xy 0 3.81)
 				)
 				(stroke
 					(width 0)
@@ -2157,7 +3353,7 @@
 			)
 			(polyline
 				(pts
-					(xy 0.762 2.794) (xy 0.762 2.286)
+					(xy 0.508 -2.54) (xy 1.016 -2.54)
 				)
 				(stroke
 					(width 0)
@@ -2169,7 +3365,7 @@
 			)
 			(polyline
 				(pts
-					(xy 0 3.81) (xy 0 -3.81) (xy 7.62 0) (xy 0 3.81)
+					(xy 0.762 2.794) (xy 0.762 2.286)
 				)
 				(stroke
 					(width 0)
@@ -2237,7 +3433,7 @@
 		(symbol "LM3900DR_4_0"
 			(polyline
 				(pts
-					(xy 0.508 -2.54) (xy 1.016 -2.54)
+					(xy 0 3.81) (xy 0 -3.81) (xy 7.62 0) (xy 0 3.81)
 				)
 				(stroke
 					(width 0)
@@ -2261,7 +3457,7 @@
 			)
 			(polyline
 				(pts
-					(xy 0.762 2.794) (xy 0.762 2.286)
+					(xy 0.508 -2.54) (xy 1.016 -2.54)
 				)
 				(stroke
 					(width 0)
@@ -2273,7 +3469,7 @@
 			)
 			(polyline
 				(pts
-					(xy 0 3.81) (xy 0 -3.81) (xy 7.62 0) (xy 0 3.81)
+					(xy 0.762 2.794) (xy 0.762 2.286)
 				)
 				(stroke
 					(width 0)
@@ -2283,17 +3479,17 @@
 					(type none)
 				)
 			)
-			(pin output line
-				(at 10.16 0 180)
+			(pin input line
+				(at -2.54 2.54 0)
 				(length 2.54)
-				(name "OUT4"
+				(name "IN4+"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "10"
+				(number "12"
 					(effects
 						(font
 							(size 0.9906 0.9906)
@@ -2319,17 +3515,17 @@
 					)
 				)
 			)
-			(pin input line
-				(at -2.54 2.54 0)
+			(pin output line
+				(at 10.16 0 180)
 				(length 2.54)
-				(name "IN4+"
+				(name "OUT4"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "12"
+				(number "10"
 					(effects
 						(font
 							(size 0.9906 0.9906)
@@ -2414,14 +3610,17 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "LM833DT"
-		(pin_names hide)
+		(pin_names
+			(hide yes)
+		)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "U"
-			(at 5.08 4.318 0)
+			(at 5.08 5.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2430,7 +3629,7 @@
 			)
 		)
 		(property "Value" "LM833DT"
-			(at 5.08 2.54 0)
+			(at 5.08 3.556 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2439,7 +3638,7 @@
 			)
 		)
 		(property "Footprint" "Daxxn_Packages:SOIC-8_3.9x4.9mm_P1.27mm"
-			(at 2.54 8.382 0)
+			(at 0 10.922 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2448,7 +3647,7 @@
 			)
 		)
 		(property "Datasheet" "${DATASHEETS}/LM833.pdf"
-			(at 2.54 5.08 0)
+			(at 0 7.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2457,7 +3656,7 @@
 			)
 		)
 		(property "Description" "Audio Amplifier 2 Circuit SO-8"
-			(at 2.54 6.604 0)
+			(at 0 9.144 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2466,7 +3665,7 @@
 			)
 		)
 		(property "PartNumber" "na"
-			(at 5.08 1.27 0)
+			(at 5.08 2.286 0)
 			(effects
 				(font
 					(size 1 1)
@@ -2520,17 +3719,17 @@
 					)
 				)
 			)
-			(pin output line
-				(at 10.16 0 180)
+			(pin input line
+				(at -2.54 2.54 0)
 				(length 2.54)
-				(name "OUT1"
+				(name "IN1+"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "1"
+				(number "3"
 					(effects
 						(font
 							(size 0.9906 0.9906)
@@ -2556,17 +3755,17 @@
 					)
 				)
 			)
-			(pin input line
-				(at -2.54 2.54 0)
+			(pin output line
+				(at 10.16 0 180)
 				(length 2.54)
-				(name "IN1+"
+				(name "OUT1"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "3"
+				(number "1"
 					(effects
 						(font
 							(size 0.9906 0.9906)
@@ -2661,24 +3860,6 @@
 		)
 		(symbol "LM833DT_3_0"
 			(pin power_in line
-				(at 0 -5.08 90)
-				(length 2.54)
-				(name "V-"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "4"
-					(effects
-						(font
-							(size 0.9906 0.9906)
-						)
-					)
-				)
-			)
-			(pin power_in line
 				(at 0 5.08 270)
 				(length 2.54)
 				(name "V+"
@@ -2689,6 +3870,24 @@
 					)
 				)
 				(number "8"
+					(effects
+						(font
+							(size 0.9906 0.9906)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 0 -5.08 90)
+				(length 2.54)
+				(name "V-"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
 					(effects
 						(font
 							(size 0.9906 0.9906)
@@ -2735,13 +3934,14 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "LMV324DTBR2G"
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "U"
-			(at 2.54 6.096 0)
+			(at 2.54 5.842 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2750,7 +3950,7 @@
 			)
 		)
 		(property "Value" "LMV324DTBR2G"
-			(at 2.54 4.572 0)
+			(at 2.54 4.318 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2767,7 +3967,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.onsemi.com/pdf/datasheet/lmv321-d.pdf"
+		(property "Datasheet" "${DATASHEETS}/LMV321-D.PDF"
 			(at 0 10.922 0)
 			(effects
 				(font
@@ -2806,7 +4006,7 @@
 		(symbol "LMV324DTBR2G_1_0"
 			(polyline
 				(pts
-					(xy 0.508 -2.54) (xy 1.016 -2.54)
+					(xy 0 3.81) (xy 0 -3.81) (xy 7.62 0) (xy 0 3.81)
 				)
 				(stroke
 					(width 0)
@@ -2830,7 +4030,7 @@
 			)
 			(polyline
 				(pts
-					(xy 0.762 2.794) (xy 0.762 2.286)
+					(xy 0.508 -2.54) (xy 1.016 -2.54)
 				)
 				(stroke
 					(width 0)
@@ -2842,7 +4042,7 @@
 			)
 			(polyline
 				(pts
-					(xy 0 3.81) (xy 0 -3.81) (xy 7.62 0) (xy 0 3.81)
+					(xy 0.762 2.794) (xy 0.762 2.286)
 				)
 				(stroke
 					(width 0)
@@ -2852,17 +4052,17 @@
 					(type none)
 				)
 			)
-			(pin output line
-				(at 10.16 0 180)
+			(pin input line
+				(at -2.54 2.54 0)
 				(length 2.54)
-				(name "OUT1"
+				(name "IN1+"
 					(effects
 						(font
 							(size 0 0)
 						)
 					)
 				)
-				(number "1"
+				(number "3"
 					(effects
 						(font
 							(size 0.9906 0.9906)
@@ -2888,17 +4088,17 @@
 					)
 				)
 			)
-			(pin input line
-				(at -2.54 2.54 0)
+			(pin output line
+				(at 10.16 0 180)
 				(length 2.54)
-				(name "IN1+"
+				(name "OUT1"
 					(effects
 						(font
 							(size 0 0)
 						)
 					)
 				)
-				(number "3"
+				(number "1"
 					(effects
 						(font
 							(size 0.9906 0.9906)
@@ -2910,7 +4110,7 @@
 		(symbol "LMV324DTBR2G_2_0"
 			(polyline
 				(pts
-					(xy 0.508 -2.54) (xy 1.016 -2.54)
+					(xy 0 3.81) (xy 0 -3.81) (xy 7.62 0) (xy 0 3.81)
 				)
 				(stroke
 					(width 0)
@@ -2934,7 +4134,7 @@
 			)
 			(polyline
 				(pts
-					(xy 0.762 2.794) (xy 0.762 2.286)
+					(xy 0.508 -2.54) (xy 1.016 -2.54)
 				)
 				(stroke
 					(width 0)
@@ -2946,7 +4146,7 @@
 			)
 			(polyline
 				(pts
-					(xy 0 3.81) (xy 0 -3.81) (xy 7.62 0) (xy 0 3.81)
+					(xy 0.762 2.794) (xy 0.762 2.286)
 				)
 				(stroke
 					(width 0)
@@ -3014,7 +4214,7 @@
 		(symbol "LMV324DTBR2G_3_0"
 			(polyline
 				(pts
-					(xy 0.508 -2.54) (xy 1.016 -2.54)
+					(xy 0 3.81) (xy 0 -3.81) (xy 7.62 0) (xy 0 3.81)
 				)
 				(stroke
 					(width 0)
@@ -3038,7 +4238,7 @@
 			)
 			(polyline
 				(pts
-					(xy 0.762 2.794) (xy 0.762 2.286)
+					(xy 0.508 -2.54) (xy 1.016 -2.54)
 				)
 				(stroke
 					(width 0)
@@ -3050,7 +4250,7 @@
 			)
 			(polyline
 				(pts
-					(xy 0 3.81) (xy 0 -3.81) (xy 7.62 0) (xy 0 3.81)
+					(xy 0.762 2.794) (xy 0.762 2.286)
 				)
 				(stroke
 					(width 0)
@@ -3078,24 +4278,6 @@
 					)
 				)
 			)
-			(pin output line
-				(at 10.16 0 180)
-				(length 2.54)
-				(name "OUT3"
-					(effects
-						(font
-							(size 0 0)
-						)
-					)
-				)
-				(number "8"
-					(effects
-						(font
-							(size 0.9906 0.9906)
-						)
-					)
-				)
-			)
 			(pin input line
 				(at -2.54 -2.54 0)
 				(length 2.54)
@@ -3114,11 +4296,29 @@
 					)
 				)
 			)
+			(pin output line
+				(at 10.16 0 180)
+				(length 2.54)
+				(name "OUT3"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+				(number "8"
+					(effects
+						(font
+							(size 0.9906 0.9906)
+						)
+					)
+				)
+			)
 		)
 		(symbol "LMV324DTBR2G_4_0"
 			(polyline
 				(pts
-					(xy 0.508 -2.54) (xy 1.016 -2.54)
+					(xy 0 3.81) (xy 0 -3.81) (xy 7.62 0) (xy 0 3.81)
 				)
 				(stroke
 					(width 0)
@@ -3142,7 +4342,7 @@
 			)
 			(polyline
 				(pts
-					(xy 0.762 2.794) (xy 0.762 2.286)
+					(xy 0.508 -2.54) (xy 1.016 -2.54)
 				)
 				(stroke
 					(width 0)
@@ -3154,7 +4354,7 @@
 			)
 			(polyline
 				(pts
-					(xy 0 3.81) (xy 0 -3.81) (xy 7.62 0) (xy 0 3.81)
+					(xy 0.762 2.794) (xy 0.762 2.286)
 				)
 				(stroke
 					(width 0)
@@ -3221,24 +4421,6 @@
 		)
 		(symbol "LMV324DTBR2G_5_0"
 			(pin power_in line
-				(at 0 -5.08 90)
-				(length 2.54)
-				(name "V-"
-					(effects
-						(font
-							(size 0 0)
-						)
-					)
-				)
-				(number "11"
-					(effects
-						(font
-							(size 0.9906 0.9906)
-						)
-					)
-				)
-			)
-			(pin power_in line
 				(at 0 5.08 270)
 				(length 2.54)
 				(name "V+"
@@ -3249,6 +4431,24 @@
 					)
 				)
 				(number "4"
+					(effects
+						(font
+							(size 0.9906 0.9906)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 0 -5.08 90)
+				(length 2.54)
+				(name "V-"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+				(number "11"
 					(effects
 						(font
 							(size 0.9906 0.9906)
@@ -3295,14 +4495,17 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "MC33074ADTBR2G"
-		(pin_names hide)
+		(pin_names
+			(hide yes)
+		)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "U"
-			(at 5.08 5.842 0)
+			(at 5.08 5.334 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3311,7 +4514,7 @@
 			)
 		)
 		(property "Value" "MC33074ADTBR2G"
-			(at 5.08 4.064 0)
+			(at 5.08 3.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3320,7 +4523,7 @@
 			)
 		)
 		(property "Footprint" "Daxxn_Packages:TSSOP-14_4.4x5mm_P0.65mm"
-			(at 2.54 7.62 0)
+			(at 0 7.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3329,7 +4532,7 @@
 			)
 		)
 		(property "Datasheet" "${DATASHEETS}/MC34071.PDF"
-			(at 5.08 9.144 0)
+			(at 0 9.144 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3338,7 +4541,7 @@
 			)
 		)
 		(property "Description" "General Purpose Amplifier 4 Circuit Single-Ended 14-TSSOP"
-			(at 5.08 10.668 0)
+			(at 0 10.668 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3401,17 +4604,17 @@
 					)
 				)
 			)
-			(pin output line
-				(at 10.16 0 180)
+			(pin input line
+				(at -2.54 2.54 0)
 				(length 2.54)
-				(name "OUT1"
+				(name "IN1+"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "1"
+				(number "3"
 					(effects
 						(font
 							(size 0.9906 0.9906)
@@ -3437,17 +4640,17 @@
 					)
 				)
 			)
-			(pin input line
-				(at -2.54 2.54 0)
+			(pin output line
+				(at 10.16 0 180)
 				(length 2.54)
-				(name "IN1+"
+				(name "OUT1"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "3"
+				(number "1"
 					(effects
 						(font
 							(size 0.9906 0.9906)
@@ -3587,24 +4790,6 @@
 					)
 				)
 			)
-			(pin output line
-				(at 10.16 0 180)
-				(length 2.54)
-				(name "OUT3"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "8"
-					(effects
-						(font
-							(size 0.9906 0.9906)
-						)
-					)
-				)
-			)
 			(pin input line
 				(at -2.54 -2.54 0)
 				(length 2.54)
@@ -3616,6 +4801,24 @@
 					)
 				)
 				(number "9"
+					(effects
+						(font
+							(size 0.9906 0.9906)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at 10.16 0 180)
+				(length 2.54)
+				(name "OUT3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "8"
 					(effects
 						(font
 							(size 0.9906 0.9906)
@@ -3710,24 +4913,6 @@
 		)
 		(symbol "MC33074ADTBR2G_5_0"
 			(pin power_in line
-				(at 0 -5.08 90)
-				(length 2.54)
-				(name "V-"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "11"
-					(effects
-						(font
-							(size 0.9906 0.9906)
-						)
-					)
-				)
-			)
-			(pin power_in line
 				(at 0 5.08 270)
 				(length 2.54)
 				(name "V+"
@@ -3738,6 +4923,24 @@
 					)
 				)
 				(number "4"
+					(effects
+						(font
+							(size 0.9906 0.9906)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 0 -5.08 90)
+				(length 2.54)
+				(name "V-"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "11"
 					(effects
 						(font
 							(size 0.9906 0.9906)
@@ -3784,9 +4987,12 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "NCS20071SN2T1G"
-		(pin_names hide)
+		(pin_names
+			(hide yes)
+		)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -3800,7 +5006,7 @@
 			)
 		)
 		(property "Value" "NCS20071SN2T1G"
-			(at 5.08 -4.572 0)
+			(at 5.08 -4.318 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3836,7 +5042,7 @@
 			)
 		)
 		(property "PartNumber" "0801-0400-00007"
-			(at 5.08 -6.096 0)
+			(at 5.08 -5.588 0)
 			(effects
 				(font
 					(size 1 1)
@@ -3854,42 +5060,6 @@
 			)
 		)
 		(symbol "NCS20071SN2T1G_0_0"
-			(pin output line
-				(at 10.16 0 180)
-				(length 2.54)
-				(name "OUT"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "1"
-					(effects
-						(font
-							(size 0.9906 0.9906)
-						)
-					)
-				)
-			)
-			(pin power_in line
-				(at 3.81 -5.08 90)
-				(length 3.1)
-				(name "V-"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "2"
-					(effects
-						(font
-							(size 0.9906 0.9906)
-						)
-					)
-				)
-			)
 			(pin input line
 				(at -2.54 2.54 0)
 				(length 2.54)
@@ -3937,6 +5107,42 @@
 					)
 				)
 				(number "5"
+					(effects
+						(font
+							(size 0.9906 0.9906)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 3.81 -5.08 90)
+				(length 3.1)
+				(name "V-"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 0.9906 0.9906)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at 10.16 0 180)
+				(length 2.54)
+				(name "OUT"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
 					(effects
 						(font
 							(size 0.9906 0.9906)
@@ -4003,13 +5209,14 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "OPA1652AIDGK"
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "U"
-			(at 1.27 7.366 0)
+			(at 1.27 6.858 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4018,7 +5225,7 @@
 			)
 		)
 		(property "Value" "OPA1652AIDGK"
-			(at 1.27 5.588 0)
+			(at 1.27 5.334 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4035,7 +5242,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "%LOCAL_DATASHEETS%\\OPA1654.pdf"
+		(property "Datasheet" "${DATASHEETS}/OPA1654.pdf"
 			(at 0 8.89 0)
 			(effects
 				(font
@@ -4092,24 +5299,6 @@
 					(type none)
 				)
 			)
-			(pin output line
-				(at 10.16 0 180)
-				(length 2.54)
-				(name "OUTA"
-					(effects
-						(font
-							(size 0 0)
-						)
-					)
-				)
-				(number "1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
 			(pin input line
 				(at -2.54 2.54 0)
 				(length 2.54)
@@ -4146,18 +5335,36 @@
 					)
 				)
 			)
+			(pin output line
+				(at 10.16 0 180)
+				(length 2.54)
+				(name "OUTA"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
 		)
 		(symbol "OPA1652AIDGK_1_1"
-			(text "+"
-				(at 0.762 -2.54 0)
+			(text "-"
+				(at 0.762 2.54 0)
 				(effects
 					(font
 						(size 1 1)
 					)
 				)
 			)
-			(text "-"
-				(at 0.762 2.54 0)
+			(text "+"
+				(at 0.762 -2.54 0)
 				(effects
 					(font
 						(size 1 1)
@@ -4179,24 +5386,6 @@
 				)
 			)
 			(pin input line
-				(at -2.54 -2.54 0)
-				(length 2.54)
-				(name "+INB"
-					(effects
-						(font
-							(size 0 0)
-						)
-					)
-				)
-				(number "5"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input line
 				(at -2.54 2.54 0)
 				(length 2.54)
 				(name "-INB"
@@ -4207,6 +5396,24 @@
 					)
 				)
 				(number "6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -2.54 -2.54 0)
+				(length 2.54)
+				(name "+INB"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+				(number "5"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -4234,14 +5441,6 @@
 			)
 		)
 		(symbol "OPA1652AIDGK_2_1"
-			(text "+"
-				(at 0.762 -2.54 0)
-				(effects
-					(font
-						(size 1 1)
-					)
-				)
-			)
 			(text "-"
 				(at 0.762 2.54 0)
 				(effects
@@ -4250,26 +5449,16 @@
 					)
 				)
 			)
-		)
-		(symbol "OPA1652AIDGK_3_0"
-			(pin power_in line
-				(at 0 -5.08 90)
-				(length 2.54)
-				(name "V-"
-					(effects
-						(font
-							(size 0 0)
-						)
-					)
-				)
-				(number "4"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
+			(text "+"
+				(at 0.762 -2.54 0)
+				(effects
+					(font
+						(size 1 1)
 					)
 				)
 			)
+		)
+		(symbol "OPA1652AIDGK_3_0"
 			(pin power_in line
 				(at 0 5.08 270)
 				(length 2.54)
@@ -4281,6 +5470,24 @@
 					)
 				)
 				(number "8"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 0 -5.08 90)
+				(length 2.54)
+				(name "V-"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+				(number "4"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -4327,13 +5534,14 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "OPA1654AIPW"
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "U"
-			(at 1.27 7.366 0)
+			(at 1.27 6.858 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4342,7 +5550,7 @@
 			)
 		)
 		(property "Value" "OPA1654AIPW"
-			(at 1.27 5.588 0)
+			(at 1.27 5.334 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4351,7 +5559,7 @@
 			)
 		)
 		(property "Footprint" "Daxxn_Packages:TSSOP-14_4.4x5mm_P0.65mm"
-			(at 0 10.16 0)
+			(at 0 9.144 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4359,8 +5567,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "%LOCAL_DATASHEETS%\\OPA1654.pdf"
-			(at 0 11.43 0)
+		(property "Datasheet" "${DATASHEETS}/OPA1654.pdf"
+			(at 0 10.668 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4369,7 +5577,7 @@
 			)
 		)
 		(property "Description" "Audio Amplifier 4 Circuit Rail-to-Rail 14-TSSOP"
-			(at 0 12.954 0)
+			(at 0 12.192 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4416,24 +5624,6 @@
 					(type none)
 				)
 			)
-			(pin output line
-				(at 10.16 0 180)
-				(length 2.54)
-				(name "OUTA"
-					(effects
-						(font
-							(size 0 0)
-						)
-					)
-				)
-				(number "1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
 			(pin input line
 				(at -2.54 2.54 0)
 				(length 2.54)
@@ -4470,18 +5660,36 @@
 					)
 				)
 			)
+			(pin output line
+				(at 10.16 0 180)
+				(length 2.54)
+				(name "OUTA"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
 		)
 		(symbol "OPA1654AIPW_1_1"
-			(text "+"
-				(at 0.762 -2.54 0)
+			(text "-"
+				(at 0.762 2.54 0)
 				(effects
 					(font
 						(size 1 1)
 					)
 				)
 			)
-			(text "-"
-				(at 0.762 2.54 0)
+			(text "+"
+				(at 0.762 -2.54 0)
 				(effects
 					(font
 						(size 1 1)
@@ -4503,24 +5711,6 @@
 				)
 			)
 			(pin input line
-				(at -2.54 -2.54 0)
-				(length 2.54)
-				(name "+INB"
-					(effects
-						(font
-							(size 0 0)
-						)
-					)
-				)
-				(number "5"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input line
 				(at -2.54 2.54 0)
 				(length 2.54)
 				(name "-INB"
@@ -4531,6 +5721,24 @@
 					)
 				)
 				(number "6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -2.54 -2.54 0)
+				(length 2.54)
+				(name "+INB"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+				(number "5"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -4558,14 +5766,6 @@
 			)
 		)
 		(symbol "OPA1654AIPW_2_1"
-			(text "+"
-				(at 0.762 -2.54 0)
-				(effects
-					(font
-						(size 1 1)
-					)
-				)
-			)
 			(text "-"
 				(at 0.762 2.54 0)
 				(effects
@@ -4574,26 +5774,16 @@
 					)
 				)
 			)
-		)
-		(symbol "OPA1654AIPW_3_0"
-			(pin power_in line
-				(at 0 -5.08 90)
-				(length 2.54)
-				(name "V-"
-					(effects
-						(font
-							(size 0 0)
-						)
-					)
-				)
-				(number "11"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
+			(text "+"
+				(at 0.762 -2.54 0)
+				(effects
+					(font
+						(size 1 1)
 					)
 				)
 			)
+		)
+		(symbol "OPA1654AIPW_3_0"
 			(pin power_in line
 				(at 0 5.08 270)
 				(length 2.54)
@@ -4605,6 +5795,24 @@
 					)
 				)
 				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 0 -5.08 90)
+				(length 2.54)
+				(name "V-"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+				(number "11"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -4665,6 +5873,24 @@
 				)
 			)
 			(pin input line
+				(at -2.54 2.54 0)
+				(length 2.54)
+				(name "-INC"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+				(number "9"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
 				(at -2.54 -2.54 0)
 				(length 2.54)
 				(name "+INC"
@@ -4700,36 +5926,18 @@
 					)
 				)
 			)
-			(pin input line
-				(at -2.54 2.54 0)
-				(length 2.54)
-				(name "-INC"
-					(effects
-						(font
-							(size 0 0)
-						)
-					)
-				)
-				(number "9"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
 		)
 		(symbol "OPA1654AIPW_4_1"
-			(text "+"
-				(at 0.762 -2.54 0)
+			(text "-"
+				(at 0.762 2.54 0)
 				(effects
 					(font
 						(size 1 1)
 					)
 				)
 			)
-			(text "-"
-				(at 0.762 2.54 0)
+			(text "+"
+				(at 0.762 -2.54 0)
 				(effects
 					(font
 						(size 1 1)
@@ -4751,24 +5959,6 @@
 				)
 			)
 			(pin input line
-				(at -2.54 -2.54 0)
-				(length 2.54)
-				(name "+IND"
-					(effects
-						(font
-							(size 0 0)
-						)
-					)
-				)
-				(number "12"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input line
 				(at -2.54 2.54 0)
 				(length 2.54)
 				(name "-IND"
@@ -4779,6 +5969,24 @@
 					)
 				)
 				(number "13"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -2.54 -2.54 0)
+				(length 2.54)
+				(name "+IND"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+				(number "12"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -4806,14 +6014,6 @@
 			)
 		)
 		(symbol "OPA1654AIPW_5_1"
-			(text "+"
-				(at 0.762 -2.54 0)
-				(effects
-					(font
-						(size 1 1)
-					)
-				)
-			)
 			(text "-"
 				(at 0.762 2.54 0)
 				(effects
@@ -4822,15 +6022,26 @@
 					)
 				)
 			)
+			(text "+"
+				(at 0.762 -2.54 0)
+				(effects
+					(font
+						(size 1 1)
+					)
+				)
+			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "OPA1671IDBVT"
-		(pin_names hide)
+		(pin_names
+			(hide yes)
+		)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "U"
-			(at 4.572 5.588 0)
+			(at 4.572 5.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4839,7 +6050,7 @@
 			)
 		)
 		(property "Value" "OPA1671IDBVT"
-			(at 4.572 3.81 0)
+			(at 4.572 3.556 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4884,42 +6095,6 @@
 			)
 		)
 		(symbol "OPA1671IDBVT_0_0"
-			(pin output line
-				(at 10.16 0 180)
-				(length 2.54)
-				(name "OUT"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "1"
-					(effects
-						(font
-							(size 0.9906 0.9906)
-						)
-					)
-				)
-			)
-			(pin power_in line
-				(at 3.81 -5.08 90)
-				(length 3.1)
-				(name "V-"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "2"
-					(effects
-						(font
-							(size 0.9906 0.9906)
-						)
-					)
-				)
-			)
 			(pin input line
 				(at -2.54 2.54 0)
 				(length 2.54)
@@ -4974,6 +6149,42 @@
 					)
 				)
 			)
+			(pin power_in line
+				(at 3.81 -5.08 90)
+				(length 3.1)
+				(name "V-"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 0.9906 0.9906)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at 10.16 0 180)
+				(length 2.54)
+				(name "OUT"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 0.9906 0.9906)
+						)
+					)
+				)
+			)
 		)
 		(symbol "OPA1671IDBVT_0_1"
 			(polyline
@@ -5004,7 +6215,7 @@
 		(symbol "OPA1671IDBVT_1_0"
 			(polyline
 				(pts
-					(xy 0.508 -2.54) (xy 1.016 -2.54)
+					(xy 0 3.81) (xy 0 -3.81) (xy 7.62 0) (xy 0 3.81)
 				)
 				(stroke
 					(width 0)
@@ -5028,7 +6239,7 @@
 			)
 			(polyline
 				(pts
-					(xy 0.762 2.794) (xy 0.762 2.286)
+					(xy 0.508 -2.54) (xy 1.016 -2.54)
 				)
 				(stroke
 					(width 0)
@@ -5040,7 +6251,7 @@
 			)
 			(polyline
 				(pts
-					(xy 0 3.81) (xy 0 -3.81) (xy 7.62 0) (xy 0 3.81)
+					(xy 0.762 2.794) (xy 0.762 2.286)
 				)
 				(stroke
 					(width 0)
@@ -5051,13 +6262,14 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "THS4531IDGKR"
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "U"
-			(at 8.89 -0.254 0)
+			(at 8.89 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5066,7 +6278,7 @@
 			)
 		)
 		(property "Value" "THS4531IDGKR"
-			(at 8.89 -2.54 0)
+			(at 8.89 -1.524 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5101,6 +6313,15 @@
 				(hide yes)
 			)
 		)
+		(property "PartNumber" "na"
+			(at 8.89 -2.794 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
+			)
+		)
 		(property "ki_keywords" "opamp differential rail-to-rail 1ch amplifier"
 			(at 0 0 0)
 			(effects
@@ -5113,7 +6334,7 @@
 		(symbol "THS4531IDGKR_0_1"
 			(polyline
 				(pts
-					(xy 0.508 -12.7) (xy 1.524 -12.7)
+					(xy 0.508 -2.54) (xy 1.524 -2.54)
 				)
 				(stroke
 					(width 0)
@@ -5125,7 +6346,7 @@
 			)
 			(polyline
 				(pts
-					(xy 0.508 -2.54) (xy 1.524 -2.54)
+					(xy 0.508 -12.7) (xy 1.524 -12.7)
 				)
 				(stroke
 					(width 0)
@@ -5173,7 +6394,7 @@
 			)
 			(polyline
 				(pts
-					(xy 12.7 -10.16) (xy 10.16 -9.144)
+					(xy 12.7 -5.08) (xy 10.16 -6.096)
 				)
 				(stroke
 					(width 0)
@@ -5185,7 +6406,7 @@
 			)
 			(polyline
 				(pts
-					(xy 12.7 -5.08) (xy 10.16 -6.096)
+					(xy 12.7 -10.16) (xy 10.16 -9.144)
 				)
 				(stroke
 					(width 0)
@@ -5198,16 +6419,16 @@
 		)
 		(symbol "THS4531IDGKR_1_0"
 			(pin input line
-				(at -2.54 -12.7 0)
+				(at -2.54 -2.54 0)
 				(length 2.54)
-				(name "IN-"
+				(name "IN+"
 					(effects
 						(font
 							(size 0 0)
 						)
 					)
 				)
-				(number "1"
+				(number "8"
 					(effects
 						(font
 							(size 0.9906 0.9906)
@@ -5233,6 +6454,24 @@
 					)
 				)
 			)
+			(pin input line
+				(at -2.54 -12.7 0)
+				(length 2.54)
+				(name "IN-"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 0.9906 0.9906)
+						)
+					)
+				)
+			)
 			(pin power_in line
 				(at 5.08 0 270)
 				(length 3)
@@ -5244,42 +6483,6 @@
 					)
 				)
 				(number "3"
-					(effects
-						(font
-							(size 0.9906 0.9906)
-						)
-					)
-				)
-			)
-			(pin output line
-				(at 15.24 -10.16 180)
-				(length 2.54)
-				(name "VOUT+"
-					(effects
-						(font
-							(size 0 0)
-						)
-					)
-				)
-				(number "4"
-					(effects
-						(font
-							(size 0.9906 0.9906)
-						)
-					)
-				)
-			)
-			(pin output line
-				(at 15.24 -5.08 180)
-				(length 2.54)
-				(name "VOUT-"
-					(effects
-						(font
-							(size 0 0)
-						)
-					)
-				)
-				(number "5"
 					(effects
 						(font
 							(size 0.9906 0.9906)
@@ -5323,17 +6526,35 @@
 					)
 				)
 			)
-			(pin input line
-				(at -2.54 -2.54 0)
+			(pin output line
+				(at 15.24 -5.08 180)
 				(length 2.54)
-				(name "IN+"
+				(name "VOUT-"
 					(effects
 						(font
 							(size 0 0)
 						)
 					)
 				)
-				(number "8"
+				(number "5"
+					(effects
+						(font
+							(size 0.9906 0.9906)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at 15.24 -10.16 180)
+				(length 2.54)
+				(name "VOUT+"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+				(number "4"
 					(effects
 						(font
 							(size 0.9906 0.9906)
@@ -5356,14 +6577,17 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "TLV172IDR"
-		(pin_names hide)
+		(pin_names
+			(hide yes)
+		)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "U"
-			(at 4.572 5.842 0)
+			(at 4.826 5.334 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5372,7 +6596,7 @@
 			)
 		)
 		(property "Value" "TLV172IDR"
-			(at 4.572 4.064 0)
+			(at 4.826 3.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5381,7 +6605,7 @@
 			)
 		)
 		(property "Footprint" "Daxxn_Packages:SOIC-8_3.9x4.9mm_P1.27mm"
-			(at 0 16.256 0)
+			(at 0 11.176 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5390,7 +6614,7 @@
 			)
 		)
 		(property "Datasheet" "${DATASHEETS}/TLV172.pdf"
-			(at 0 12.7 0)
+			(at 0 7.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5399,7 +6623,7 @@
 			)
 		)
 		(property "Description" "IC OPAMP GP 1 CIRCUIT 8SOIC"
-			(at 0 14.478 0)
+			(at 0 9.398 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5408,7 +6632,7 @@
 			)
 		)
 		(property "PartNumber" "0801-0400-00019"
-			(at 4.572 2.54 0)
+			(at 4.826 2.54 0)
 			(effects
 				(font
 					(size 1 1)
@@ -5417,17 +6641,17 @@
 			)
 		)
 		(symbol "TLV172IDR_0_0"
-			(pin no_connect line
-				(at 1.27 0 0)
-				(length 2.54) hide
-				(name "NC"
+			(pin input line
+				(at -2.54 2.54 0)
+				(length 2.54)
+				(name "IN+"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "1"
+				(number "3"
 					(effects
 						(font
 							(size 0.9906 0.9906)
@@ -5453,35 +6677,18 @@
 					)
 				)
 			)
-			(pin input line
-				(at -2.54 2.54 0)
+			(pin no_connect line
+				(at 1.27 0 0)
 				(length 2.54)
-				(name "IN+"
+				(hide yes)
+				(name "NC"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "3"
-					(effects
-						(font
-							(size 0.9906 0.9906)
-						)
-					)
-				)
-			)
-			(pin power_in line
-				(at 3.81 -5.08 90)
-				(length 3.1)
-				(name "V-"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "4"
+				(number "1"
 					(effects
 						(font
 							(size 0.9906 0.9906)
@@ -5491,7 +6698,8 @@
 			)
 			(pin no_connect line
 				(at 1.27 0 0)
-				(length 2.54) hide
+				(length 2.54)
+				(hide yes)
 				(name "NC"
 					(effects
 						(font
@@ -5507,17 +6715,18 @@
 					)
 				)
 			)
-			(pin output line
-				(at 10.16 0 180)
+			(pin no_connect line
+				(at 1.27 0 0)
 				(length 2.54)
-				(name "OUT"
+				(hide yes)
+				(name "NC"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "6"
+				(number "8"
 					(effects
 						(font
 							(size 0.9906 0.9906)
@@ -5543,17 +6752,35 @@
 					)
 				)
 			)
-			(pin no_connect line
-				(at 1.27 0 0)
-				(length 2.54) hide
-				(name "NC"
+			(pin power_in line
+				(at 3.81 -5.08 90)
+				(length 3.1)
+				(name "V-"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "8"
+				(number "4"
+					(effects
+						(font
+							(size 0.9906 0.9906)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at 10.16 0 180)
+				(length 2.54)
+				(name "OUT"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "6"
 					(effects
 						(font
 							(size 0.9906 0.9906)
@@ -5591,7 +6818,7 @@
 		(symbol "TLV172IDR_1_0"
 			(polyline
 				(pts
-					(xy 0.508 -2.54) (xy 1.016 -2.54)
+					(xy 0 3.81) (xy 0 -3.81) (xy 7.62 0) (xy 0 3.81)
 				)
 				(stroke
 					(width 0)
@@ -5615,7 +6842,7 @@
 			)
 			(polyline
 				(pts
-					(xy 0.762 2.794) (xy 0.762 2.286)
+					(xy 0.508 -2.54) (xy 1.016 -2.54)
 				)
 				(stroke
 					(width 0)
@@ -5627,7 +6854,7 @@
 			)
 			(polyline
 				(pts
-					(xy 0 3.81) (xy 0 -3.81) (xy 7.62 0) (xy 0 3.81)
+					(xy 0.762 2.794) (xy 0.762 2.286)
 				)
 				(stroke
 					(width 0)
@@ -5638,13 +6865,14 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "TLV9161IDBVR"
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "U"
-			(at 4.572 5.842 0)
+			(at 4.572 5.334 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5653,7 +6881,7 @@
 			)
 		)
 		(property "Value" "TLV9161IDBVR"
-			(at 4.572 4.064 0)
+			(at 4.572 3.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5670,7 +6898,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "%LOCAL_DATASHEETS%/TLV9161.pdf"
+		(property "Datasheet" "${DATASHEETS}/TLV9161.pdf"
 			(at 0 10.922 0)
 			(effects
 				(font
@@ -5723,42 +6951,6 @@
 					)
 				)
 			)
-			(pin output line
-				(at 10.16 0 180)
-				(length 2.54)
-				(name "OUT"
-					(effects
-						(font
-							(size 0 0)
-						)
-					)
-				)
-				(number "1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin power_in line
-				(at 3.81 -5.08 90)
-				(length 3.1)
-				(name "V-"
-					(effects
-						(font
-							(size 0 0)
-						)
-					)
-				)
-				(number "2"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
 			(pin input line
 				(at -2.54 2.54 0)
 				(length 2.54)
@@ -5813,6 +7005,42 @@
 					)
 				)
 			)
+			(pin power_in line
+				(at 3.81 -5.08 90)
+				(length 3.1)
+				(name "V-"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at 10.16 0 180)
+				(length 2.54)
+				(name "OUT"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
 		)
 		(symbol "TLV9161IDBVR_0_1"
 			(polyline
@@ -5854,11 +7082,12 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "LMV324IPWR"
 		(extends "LMV324DTBR2G")
 		(property "Reference" "U"
-			(at 2.54 6.35 0)
+			(at 2.54 6.096 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5867,7 +7096,7 @@
 			)
 		)
 		(property "Value" "LMV324IPWR"
-			(at 2.54 4.826 0)
+			(at 2.54 4.572 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5924,7 +7153,7 @@
 	(symbol "LMV821M5X/NOPB"
 		(extends "AS321KTR-G1")
 		(property "Reference" "U"
-			(at 5.08 6.096 0)
+			(at 5.08 5.842 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5933,7 +7162,7 @@
 			)
 		)
 		(property "Value" "LMV821M5X/NOPB"
-			(at 5.08 4.572 0)
+			(at 5.08 4.318 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5942,7 +7171,7 @@
 			)
 		)
 		(property "Footprint" "Daxxn_Packages:SOT-23-5"
-			(at 1.27 13.97 0)
+			(at 0 9.398 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5951,7 +7180,7 @@
 			)
 		)
 		(property "Datasheet" "${DATASHEETS}/LMV821.pdf"
-			(at 0 17.78 0)
+			(at 0 10.922 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5960,7 +7189,7 @@
 			)
 		)
 		(property "Description" "IC OPAMP GP 1 CIRCUIT SOT23-5"
-			(at 0 11.938 0)
+			(at 0 7.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5990,7 +7219,7 @@
 	(symbol "TLV9351IDBVR"
 		(extends "TLV9161IDBVR")
 		(property "Reference" "U"
-			(at 5.08 6.35 0)
+			(at 5.08 5.842 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5999,7 +7228,7 @@
 			)
 		)
 		(property "Value" "TLV9351IDBVR"
-			(at 5.08 4.572 0)
+			(at 5.08 4.318 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6007,8 +7236,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 3.81 12.7 0)
+		(property "Footprint" "Daxxn_Packages:SOT-23-5"
+			(at 0 10.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6016,8 +7245,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 3.81 15.24 0)
+		(property "Datasheet" "${DATASHEETS}/TLV9351.pdf"
+			(at 0 11.684 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6026,7 +7255,7 @@
 			)
 		)
 		(property "Description" "16-V, 11-MHz, Rail-to-Rail Input/Output, Low Offset Voltage, Low Noise Op Amp - SMD SOT23-5"
-			(at 1.016 10.414 0)
+			(at 0 8.382 0)
 			(effects
 				(font
 					(size 1.27 1.27)

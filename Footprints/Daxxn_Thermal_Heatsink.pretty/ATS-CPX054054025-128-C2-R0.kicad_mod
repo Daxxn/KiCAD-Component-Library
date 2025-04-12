@@ -1,0 +1,164 @@
+(footprint "ATS-CPX054054025-128-C2-R0"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -27.7 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "14aedbf5-cf13-4e53-8c79-1893d2172c73")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.12)
+			)
+		)
+	)
+	(property "Value" "ATS-CPX054054025-128-C2-R0"
+		(at 0 0.3 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "56f8f2cf-65d6-412f-b2ee-8bea437b4f0b")
+		(effects
+			(font
+				(size 0.25 0.25)
+				(thickness 0.04)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at -0.3 -8.6 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "32e7a0b5-70f8-434d-8cd1-c562bfdd3b44")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at -0.3 -8.6 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "72b07d64-30e6-42ef-bde0-a91ac286973e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr board_only allow_missing_courtyard)
+	(fp_circle
+		(center -23.5 -23.5)
+		(end -20.5 -23.5)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "e0d0f713-0665-4cfa-90a0-671579ff606d")
+	)
+	(fp_circle
+		(center -23.5 23.5)
+		(end -20.5 23.5)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "aa426151-f09f-4cfc-85aa-6a78bce64019")
+	)
+	(fp_circle
+		(center 23.5 -23.5)
+		(end 26.5 -23.5)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "54404cd2-8c57-4046-8820-65c05d451ed7")
+	)
+	(fp_circle
+		(center 23.5 23.5)
+		(end 26.5 23.5)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "b55581d6-cafc-463d-a33e-2f49e608aebf")
+	)
+	(fp_rect
+		(start -27 -27)
+		(end 27 27)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "3eda0e3a-e6fc-4cb2-928e-35a6c690d162")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 -0.4 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "bf2aad07-adcb-4089-8866-b6e26d9540da")
+		(effects
+			(font
+				(size 0.25 0.25)
+				(thickness 0.04)
+			)
+		)
+	)
+	(pad "" np_thru_hole circle
+		(at -23.5 -23.5)
+		(size 3.175 3.175)
+		(drill 3.175)
+		(layers "F&B.Cu" "*.Mask")
+		(uuid "1a3c58d4-0eca-4eb7-9399-910a8988bae4")
+	)
+	(pad "" np_thru_hole circle
+		(at -23.5 23.5)
+		(size 3.175 3.175)
+		(drill 3.175)
+		(layers "F&B.Cu" "*.Mask")
+		(uuid "00ff6076-4e6f-4c98-a2c4-e3c5ccc3d3a7")
+	)
+	(pad "" np_thru_hole circle
+		(at 23.5 -23.5)
+		(size 3.175 3.175)
+		(drill 3.175)
+		(layers "F&B.Cu" "*.Mask")
+		(uuid "d6754c01-6945-4a7c-80fc-adaadba0906e")
+	)
+	(pad "" np_thru_hole circle
+		(at 23.5 23.5)
+		(size 3.175 3.175)
+		(drill 3.175)
+		(layers "F&B.Cu" "*.Mask")
+		(uuid "f8d07cd9-9612-49eb-9c78-bbedc73f6c38")
+	)
+	(embedded_fonts no)
+	(model "${DAXXN}/Thermal/ATS-CPX054054025-128-C2-R0.step"
+		(offset
+			(xyz 0 0 1)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -0)
+		)
+	)
+)

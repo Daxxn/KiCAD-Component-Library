@@ -1,8 +1,14 @@
 (kicad_symbol_lib
-	(version 20231120)
+	(version 20241209)
 	(generator "kicad_symbol_editor")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(symbol "C1812C474K5JACTU"
+		(pin_numbers
+			(hide yes)
+		)
+		(pin_names
+			(hide yes)
+		)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -42,8 +48,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "CAP CER 0.47 µF 50V ±10% U2J 1812"
-			(at 6.604 11.684 0)
+		(property "Description" "CAP CER 470nF 0.47 µF 50V ±10% U2J 1812"
+			(at 0 11.684 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -52,21 +58,21 @@
 			)
 		)
 		(property "PartNumber" "0201-0100-00024"
-			(at 2.794 -1.524 0)
+			(at 0 6.604 0)
 			(effects
 				(font
 					(size 1 1)
 				)
-				(justify left)
+				(hide yes)
 			)
 		)
 		(symbol "C1812C474K5JACTU_0_1"
 			(polyline
 				(pts
-					(xy -2.032 -0.762) (xy 2.032 -0.762)
+					(xy -1.524 0.508) (xy 1.524 0.508)
 				)
 				(stroke
-					(width 0.508)
+					(width 0.3048)
 					(type default)
 				)
 				(fill
@@ -75,10 +81,10 @@
 			)
 			(polyline
 				(pts
-					(xy -2.032 0.762) (xy 2.032 0.762)
+					(xy -1.524 -0.508) (xy 1.524 -0.508)
 				)
 				(stroke
-					(width 0.508)
+					(width 0.3302)
 					(type default)
 				)
 				(fill
@@ -88,45 +94,48 @@
 		)
 		(symbol "C1812C474K5JACTU_1_1"
 			(pin passive line
-				(at 0 3.81 270)
-				(length 2.794)
+				(at 0 2.54 270)
+				(length 2.032)
 				(name "~"
 					(effects
 						(font
-							(size 0 0)
+							(size 1.27 1.27)
 						)
 					)
 				)
 				(number "1"
 					(effects
 						(font
-							(size 0 0)
+							(size 1.27 1.27)
 						)
 					)
 				)
 			)
 			(pin passive line
-				(at 0 -3.81 90)
-				(length 2.794)
+				(at 0 -2.54 90)
+				(length 2.032)
 				(name "~"
 					(effects
 						(font
-							(size 0 0)
+							(size 1.27 1.27)
 						)
 					)
 				)
 				(number "2"
 					(effects
 						(font
-							(size 0 0)
+							(size 1.27 1.27)
 						)
 					)
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "W2A4ZC104MAT2A"
-		(pin_names hide)
+		(pin_names
+			(hide yes)
+		)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -176,12 +185,12 @@
 			)
 		)
 		(property "PartNumber" "0201-0100-00006"
-			(at 3.048 -1.524 0)
+			(at 0 6.096 0)
 			(effects
 				(font
 					(size 1 1)
 				)
-				(justify left)
+				(hide yes)
 			)
 		)
 		(property "ki_keywords" "passive cap array 4ch"
@@ -196,7 +205,7 @@
 		(symbol "W2A4ZC104MAT2A_0_1"
 			(polyline
 				(pts
-					(xy -2.032 -0.762) (xy 2.032 -0.762)
+					(xy -2.032 0.762) (xy 2.032 0.762)
 				)
 				(stroke
 					(width 0.508)
@@ -208,7 +217,7 @@
 			)
 			(polyline
 				(pts
-					(xy -2.032 0.762) (xy 2.032 0.762)
+					(xy -2.032 -0.762) (xy 2.032 -0.762)
 				)
 				(stroke
 					(width 0.508)
@@ -371,6 +380,121 @@
 				)
 			)
 		)
+		(embedded_fonts no)
+	)
+	(symbol "0201B103K100CT"
+		(extends "C1812C474K5JACTU")
+		(property "Reference" "C"
+			(at 2.794 1.778 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10n"
+			(at 2.794 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Daxxn_Standard_Capacitors:CAP_0201"
+			(at 1.016 8.128 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "${DATASHEETS}/0201B103K100CT.pdf"
+			(at 1.016 9.906 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "CAP CER 10nF 10000PF 10V X7R 0201"
+			(at 0 11.684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PartNumber" "0201-0100-00028"
+			(at 0 6.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(symbol "0402ZD225MAT2A"
+		(extends "C1812C474K5JACTU")
+		(property "Reference" "C"
+			(at 2.794 1.778 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "2u2"
+			(at 2.794 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Daxxn_Standard_Capacitors:CAP_0402"
+			(at 1.016 8.128 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "${DATASHEETS}/0402ZD225MAT2A.pdf"
+			(at 1.016 9.906 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "CAP CER 2.2UF 10V X5R 0402"
+			(at 0 11.684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PartNumber" "0201-0100-00054"
+			(at 0 6.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 	)
 	(symbol "06035A221FAT2A"
 		(extends "C1812C474K5JACTU")
@@ -401,7 +525,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "${DATASHEETS}/06035A221FAT2A.pdf"
 			(at 1.016 9.906 0)
 			(effects
 				(font
@@ -411,7 +535,7 @@
 			)
 		)
 		(property "Description" "CAP CER 220PF 50V C0G/NP0 0603"
-			(at 6.604 11.684 0)
+			(at 0 11.684 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -420,12 +544,69 @@
 			)
 		)
 		(property "PartNumber" "0201-0100-00058"
-			(at 2.794 -1.524 0)
+			(at 0 6.604 0)
 			(effects
 				(font
 					(size 1 1)
 				)
+				(hide yes)
+			)
+		)
+	)
+	(symbol "08051C474KAT2A"
+		(extends "C1812C474K5JACTU")
+		(property "Reference" "C"
+			(at 2.794 1.778 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(justify left)
+			)
+		)
+		(property "Value" "470n"
+			(at 2.794 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Daxxn_Standard_Capacitors:CAP_0805"
+			(at 1.016 8.128 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "${DATASHEETS}/08051C474KAT2A.pdf"
+			(at 1.016 9.906 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "CAP CER 470nF 0.47UF 100V X7R 0805"
+			(at 0 11.684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PartNumber" "0201-0100-00022"
+			(at 0 6.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 	)
@@ -458,7 +639,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "${DATASHEETS}/08055A330JAT2A.pdf"
 			(at 1.016 9.906 0)
 			(effects
 				(font
@@ -468,7 +649,7 @@
 			)
 		)
 		(property "Description" "CAP CER 33PF 50V C0G/NP0 0805"
-			(at 6.604 11.684 0)
+			(at 0 11.684 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -477,12 +658,468 @@
 			)
 		)
 		(property "PartNumber" "0201-0100-00071"
-			(at 2.794 -1.524 0)
+			(at 0 6.35 0)
 			(effects
 				(font
 					(size 1 1)
 				)
+				(hide yes)
+			)
+		)
+	)
+	(symbol "08055C333K4T2A"
+		(extends "C1812C474K5JACTU")
+		(property "Reference" "C"
+			(at 2.794 1.778 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(justify left)
+			)
+		)
+		(property "Value" "33n"
+			(at 2.794 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Daxxn_Standard_Capacitors:CAP_0805"
+			(at 1.016 8.128 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "${DATASHEETS}/08055C333K4T2A.pdf"
+			(at 1.016 9.906 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "CAP CER 33nF 0.033UF 50V X7R 0805"
+			(at 0 11.684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PartNumber" "0201-0100-00015"
+			(at 0 6.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(symbol "08055C563JAT2A"
+		(extends "C1812C474K5JACTU")
+		(property "Reference" "C"
+			(at 2.794 1.778 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "56n"
+			(at 2.794 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Daxxn_Standard_Capacitors:CAP_0805"
+			(at 1.016 8.128 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "${DATASHEETS}/08055C563JAT2A.pdf"
+			(at 1.016 9.906 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "CAP CER 56nF 0.056UF 50V X7R 0805"
+			(at 0 11.684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PartNumber" "0201-0100-00013"
+			(at 0 6.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(symbol "08055C823JAT2A"
+		(extends "C1812C474K5JACTU")
+		(property "Reference" "C"
+			(at 2.794 1.778 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "82n"
+			(at 2.794 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Daxxn_Standard_Capacitors:CAP_0805"
+			(at 1.016 8.128 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "${DATASHEETS}/08055C563JAT2A.pdf"
+			(at 1.016 9.906 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "CAP CER 82nF 0.082UF 50V X7R 0805"
+			(at 0 11.684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PartNumber" "0201-0100-00012"
+			(at 0 6.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(symbol "12065C502JAT2A"
+		(extends "C1812C474K5JACTU")
+		(property "Reference" "C"
+			(at 2.794 1.778 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "5n"
+			(at 2.794 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Daxxn_Standard_Capacitors:CAP_1206"
+			(at 1.016 8.128 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "${DATASHEETS}/12065C502JAT2A.pdf"
+			(at 1.016 9.906 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "CAP CER 5nF 5000PF 50V X7R 1206"
+			(at 0 11.684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PartNumber" "0201-0100-00081"
+			(at 0 6.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(symbol "12101C104K4T2A"
+		(extends "C1812C474K5JACTU")
+		(property "Reference" "C"
+			(at 2.794 1.778 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 2.794 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Daxxn_Standard_Capacitors:CAP_1210"
+			(at 1.016 8.128 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "${DATASHEETS}/12101C104K4T2A.pdf"
+			(at 1.016 9.906 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "CAP CER 100nF 0.1UF 100V X7R 1210"
+			(at 0 11.684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PartNumber" "0201-0100-00011"
+			(at 0 6.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(symbol "12101C223KAT2A"
+		(extends "C1812C474K5JACTU")
+		(property "Reference" "C"
+			(at 2.794 1.778 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "22n"
+			(at 2.794 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Daxxn_Standard_Capacitors:CAP_1210"
+			(at 1.016 8.128 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "${DATASHEETS}/12101C223KAT2A.pdf"
+			(at 1.016 9.906 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Kyocera AVX 100V 0.022uF X7R 1210 / Multilayer Ceramic Capacitors MLCC - SMD/SMT"
+			(at 0 11.684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PartNumber" "0201-0100-00092"
+			(at 0 13.208 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(symbol "12101C334JAT2A"
+		(extends "C1812C474K5JACTU")
+		(property "Reference" "C"
+			(at 2.794 1.778 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "330n"
+			(at 2.794 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Daxxn_Standard_Capacitors:CAP_1210"
+			(at 1.016 8.128 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "${DATASHEETS}/12101C334JAT2A.pdf"
+			(at 1.016 9.906 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Kyocera AVX 100V 0.33uF X7R 1210 / Multilayer Ceramic Capacitors MLCC - SMD/SMT"
+			(at 0 11.684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PartNumber" "0201-0100-00091"
+			(at 0 13.462 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(symbol "12102C103KAT2A"
+		(extends "C1812C474K5JACTU")
+		(property "Reference" "C"
+			(at 2.794 1.778 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10n"
+			(at 2.794 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Daxxn_Standard_Capacitors:CAP_1210"
+			(at 1.016 8.128 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "${DATASHEETS}/KGM32RR72D103KU.pdf"
+			(at 1.016 9.906 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "CAP CER 10nF 10000PF 200V X7R 1210"
+			(at 0 11.684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PartNumber" "0201-0100-00029"
+			(at 0 6.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 	)
@@ -515,7 +1152,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "${DATASHEETS}/885342208024.pdf"
 			(at 1.016 9.906 0)
 			(effects
 				(font
@@ -525,7 +1162,7 @@
 			)
 		)
 		(property "Description" "CAP CER 1000pF ±10% 2000V (2kV) X7R 1206"
-			(at 6.604 11.684 0)
+			(at 0 11.684 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -534,12 +1171,69 @@
 			)
 		)
 		(property "PartNumber" "0201-0100-00085"
-			(at 2.794 -1.524 0)
+			(at 0 6.35 0)
 			(effects
 				(font
 					(size 1 1)
 				)
+				(hide yes)
+			)
+		)
+	)
+	(symbol "AMK325AC6157MM-P"
+		(extends "C1812C474K5JACTU")
+		(property "Reference" "C"
+			(at 2.794 1.778 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(justify left)
+			)
+		)
+		(property "Value" "150u"
+			(at 2.794 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Daxxn_Standard_Capacitors:CAP_1210"
+			(at 1.016 8.128 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "${DATASHEETS}/AMK325AC6157MM-P.pdf"
+			(at 1.016 9.906 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "CAP CER 150UF 4V X6S 1210"
+			(at 0 11.684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PartNumber" "0201-0100-00044"
+			(at 0 6.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 	)
@@ -572,7 +1266,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "${DATASHEETS}/C0402C100K5GAC7867.pdf"
 			(at 1.016 9.906 0)
 			(effects
 				(font
@@ -582,7 +1276,7 @@
 			)
 		)
 		(property "Description" "CAP CER 10PF 50V C0G/NP0 0402"
-			(at 6.604 11.684 0)
+			(at 0 11.684 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -591,12 +1285,69 @@
 			)
 		)
 		(property "PartNumber" "0201-0100-00036"
-			(at 2.794 -1.524 0)
+			(at 0 6.35 0)
 			(effects
 				(font
 					(size 1 1)
 				)
+				(hide yes)
+			)
+		)
+	)
+	(symbol "C0402C150G5HACAUTO"
+		(extends "C1812C474K5JACTU")
+		(property "Reference" "C"
+			(at 2.794 1.778 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(justify left)
+			)
+		)
+		(property "Value" "15p"
+			(at 2.794 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Daxxn_Standard_Capacitors:CAP_0402"
+			(at 1.016 8.128 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "${DATASHEETS}/C0402C150G5HACAUTO.pdf"
+			(at 1.016 9.906 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "CAP CER 15PF 50V ULTRA STAB 0402"
+			(at 0 11.684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PartNumber" "0201-0100-00089"
+			(at 0 6.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 	)
@@ -621,42 +1372,96 @@
 			)
 		)
 		(property "Footprint" "Daxxn_Standard_Capacitors:CAP_0603"
-			(at 2.54 8.382 0)
+			(at 0 8.382 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "${DATASHEETS}/C0603C150K1HACAUTO.pdf"
+			(at 0 11.938 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "CAP CER 0603 15PF 100V ULTRA STA"
+			(at 0 10.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PartNumber" "0201-0100-00026"
+			(at 0 6.604 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(symbol "C0603C220K3RACAUTO"
+		(extends "C1812C474K5JACTU")
+		(property "Reference" "C"
+			(at 2.794 1.778 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+		(property "Value" "10p"
+			(at 2.794 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Daxxn_Standard_Capacitors:CAP_0603"
+			(at 1.016 8.128 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "${DATASHEETS}/C0603C220K3RACAUTO.pdf"
 			(at 1.016 9.906 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 				(hide yes)
 			)
 		)
-		(property "Description" "CAP CER 0603 15PF 100V ULTRA STA"
-			(at 2.54 10.16 0)
+		(property "Description" "KEMET 25V 10pF X7R 0603 / Multilayer Ceramic Capacitors MLCC - SMD/SMT"
+			(at 0 11.684 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 				(hide yes)
 			)
 		)
-		(property "PartNumber" "0201-0100-00026"
-			(at 2.794 -1.524 0)
+		(property "PartNumber" "0201-0100-00093"
+			(at 0 13.208 0)
 			(effects
 				(font
-					(size 1 1)
+					(size 1.27 1.27)
 				)
-				(justify left)
+				(hide yes)
 			)
 		)
 	)
@@ -681,7 +1486,7 @@
 			)
 		)
 		(property "Footprint" "Daxxn_Standard_Capacitors:CAP_0805"
-			(at 1.016 8.128 0)
+			(at 0 8.128 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -689,8 +1494,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 1.016 9.906 0)
+		(property "Datasheet" "${DATASHEETS}/C0805C512F4HACAUTO.pdf"
+			(at 0 9.906 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -699,7 +1504,7 @@
 			)
 		)
 		(property "Description" "CAP CER 0805 5.1NF 16V ULTRA STA"
-			(at 6.604 11.684 0)
+			(at 0 11.684 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -708,12 +1513,126 @@
 			)
 		)
 		(property "PartNumber" "0201-0100-00027"
-			(at 2.54 -1.524 0)
+			(at 0 6.35 0)
 			(effects
 				(font
 					(size 1 1)
 				)
+				(hide yes)
+			)
+		)
+	)
+	(symbol "C1005X5R1E474K050BB"
+		(extends "C1812C474K5JACTU")
+		(property "Reference" "C"
+			(at 2.794 1.778 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(justify left)
+			)
+		)
+		(property "Value" "470n"
+			(at 2.794 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Daxxn_Standard_Capacitors:CAP_0402"
+			(at 1.016 8.128 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "${DATASHEETS}/C1005X5R1E474K050BB.pdf"
+			(at 1.016 9.906 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "CAP CER 470nF 0.47UF 25V X5R 0402"
+			(at 0 11.684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PartNumber" "0201-0100-00023"
+			(at 0 6.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(symbol "C1210C104K5RAC7210"
+		(extends "C1812C474K5JACTU")
+		(property "Reference" "C"
+			(at 2.794 1.778 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 2.794 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Daxxn_Standard_Capacitors:CAP_1210"
+			(at 1.016 8.128 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "${DATASHEETS}/C1210C104K5RAC7210.pdf"
+			(at 1.016 9.906 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "CAP CER 100nF 0.1UF 50V X7R 1210"
+			(at 0 11.684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PartNumber" "0201-0100-00019"
+			(at 0 6.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 	)
@@ -738,7 +1657,7 @@
 			)
 		)
 		(property "Footprint" "Daxxn_Standard_Capacitors:CAP_1210"
-			(at 1.016 8.128 0)
+			(at 0 8.128 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -746,8 +1665,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 1.016 9.906 0)
+		(property "Datasheet" "${DATASHEETS}/C1210C220J5GAC7800.pdf"
+			(at 0 9.906 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -756,7 +1675,7 @@
 			)
 		)
 		(property "Description" "CAP CER 22PF 50V C0G/NP0 1210"
-			(at 6.604 11.684 0)
+			(at 0 11.684 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -765,16 +1684,1213 @@
 			)
 		)
 		(property "PartNumber" "0201-0100-00064"
-			(at 2.794 -1.524 0)
+			(at 0 6.35 0)
 			(effects
 				(font
 					(size 1 1)
 				)
-				(justify left)
+				(hide yes)
 			)
 		)
 	)
 	(symbol "C1608C0G1H103J080AA"
+		(extends "C1812C474K5JACTU")
+		(property "Reference" "C"
+			(at 2.794 1.778 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10n"
+			(at 2.794 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Daxxn_Standard_Capacitors:CAP_0603"
+			(at 0 8.128 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "${DATASHEETS}/C1608C0G1H103J080AA.pdf"
+			(at 0 9.906 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "CAP CER 10nF 10000PF 50V C0G 0603"
+			(at 0 11.684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PartNumber" "0201-0100-00030"
+			(at 0 6.604 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(symbol "C3216C0G1H104J160AA"
+		(extends "C1812C474K5JACTU")
+		(property "Reference" "C"
+			(at 2.794 1.778 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 2.794 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Daxxn_Standard_Capacitors:CAP_1206"
+			(at 1.016 8.128 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "${DATASHEETS}/C3216C0G1H104J160AA.pdf"
+			(at 1.016 9.906 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "CAP CER 100n 0.1UF 50V C0G 1206"
+			(at 0 11.684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PartNumber" "0201-0100-00007"
+			(at 0 6.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(symbol "C3216X5R0J686M160AB"
+		(extends "C1812C474K5JACTU")
+		(property "Reference" "C"
+			(at 2.794 1.778 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "68u"
+			(at 2.794 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Daxxn_Standard_Capacitors:CAP_1206"
+			(at 1.016 8.128 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "${DATASHEETS}/C3216X5R0J686M160AB.pdf"
+			(at 1.016 9.906 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "CAP CER 68UF 6.3V X5R 1206"
+			(at 0 11.684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PartNumber" "0201-0100-00082"
+			(at 0 6.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(symbol "C3216X5R1V226M160AC"
+		(extends "C1812C474K5JACTU")
+		(property "Reference" "C"
+			(at 2.794 1.778 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "22u"
+			(at 2.794 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Daxxn_Standard_Capacitors:CAP_1206"
+			(at 1.016 8.128 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "${DATASHEETS}/C3216X5R1V226M160AC.pdf"
+			(at 1.016 9.906 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "CAP CER 22UF 35V X5R 1206"
+			(at 0 11.684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PartNumber" "0201-0100-00067"
+			(at 0 6.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(symbol "CC0402JRNPO9BN101"
+		(extends "C1812C474K5JACTU")
+		(property "Reference" "C"
+			(at 2.794 1.778 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100p"
+			(at 2.794 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Daxxn_Standard_Capacitors:CAP_0402"
+			(at 0 8.128 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "${DATASHEETS}/CC0402JRNPO9BN101.pdf"
+			(at 0 9.906 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "CAP CER 100PF 50V C0G/NPO 0402"
+			(at 0 11.684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PartNumber" "0201-0100-00033"
+			(at 0 6.35 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(symbol "CC0402KRX7R9BB102"
+		(extends "C1812C474K5JACTU")
+		(property "Reference" "C"
+			(at 2.794 1.778 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "470n"
+			(at 2.794 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Daxxn_Standard_Capacitors:CAP_0402"
+			(at 1.016 8.128 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "${DATASHEETS}/CC0402KRX7R9BB102.pdf"
+			(at 1.016 9.906 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "CAP CER 50V 1nF X7R ±10% 0402 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
+			(at 0 11.684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PartNumber" "0201-0100-00005"
+			(at 0 6.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(symbol "CC0805KRX7R9BB104"
+		(extends "C1812C474K5JACTU")
+		(property "Reference" "C"
+			(at 2.794 1.778 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 2.794 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Daxxn_Standard_Capacitors:CAP_0805"
+			(at 1.016 8.128 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "${DATASHEETS}/CC0805KRX7R9BB104.pdf"
+			(at 1.016 9.906 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "CAP CER 50V 100nF X7R ±10% 0805 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
+			(at 0 11.684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PartNumber" "0201-0100-00003"
+			(at 0 6.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(symbol "CL03A104KP3NNNC"
+		(extends "C1812C474K5JACTU")
+		(property "Reference" "C"
+			(at 2.794 1.778 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 2.794 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Daxxn_Standard_Capacitors:CAP_0201"
+			(at 1.016 8.128 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "${DATASHEETS}/CL03A104KP3NNNC.pdf"
+			(at 1.016 9.906 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "CAP CER 100nF 0.1UF 10V X5R 0201"
+			(at 0 11.684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PartNumber" "0201-0100-00009"
+			(at 0 6.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(symbol "CL03A105KQ3CSNC"
+		(extends "C1812C474K5JACTU")
+		(property "Reference" "C"
+			(at 2.794 1.778 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1u"
+			(at 2.794 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Daxxn_Standard_Capacitors:CAP_0201"
+			(at 1.016 8.128 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "${DATASHEETS}/CL03A105KQ3CSNC.pdf"
+			(at 1.016 9.906 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "CAP CER 1UF 6.3V X5R 0201"
+			(at 0 11.684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PartNumber" "0201-0100-00053"
+			(at 0 6.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(symbol "CL05A104KA5NNNC"
+		(extends "C1812C474K5JACTU")
+		(property "Reference" "C"
+			(at 2.794 1.778 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 2.794 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Daxxn_Standard_Capacitors:CAP_0402"
+			(at 1.016 8.128 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "${DATASHEETS}/CL05A104KA5NNNC.pdf"
+			(at 1.016 9.906 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "CAP CER 100nF 0.1UF 25V X5R 0402"
+			(at 0 11.684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PartNumber" "0201-0100-00086"
+			(at 0 6.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(symbol "CL05A105KO5NNNC"
+		(extends "C1812C474K5JACTU")
+		(property "Reference" "C"
+			(at 2.794 1.778 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1u"
+			(at 2.794 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Daxxn_Standard_Capacitors:CAP_0402"
+			(at 1.016 8.128 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "${DATASHEETS}/CL05A105KO5NNNC.pdf"
+			(at 1.016 9.906 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "CAP CER 1UF 16V X5R 0402"
+			(at 0 11.684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PartNumber" "0201-0100-00050"
+			(at 0 6.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(symbol "CL05A225KP5NSNC"
+		(extends "C1812C474K5JACTU")
+		(property "Reference" "C"
+			(at 2.794 1.778 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "2u2"
+			(at 2.794 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Daxxn_Standard_Capacitors:CAP_0402"
+			(at 1.016 8.128 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "${DATASHEETS}/CL05A225KP5NSNC.pdf"
+			(at 1.016 9.906 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "CAP CER 2.2UF 10V X5R 0402"
+			(at 0 11.684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PartNumber" "0201-0100-00055"
+			(at 0 6.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(symbol "CL05A475MP5NRNC"
+		(extends "C1812C474K5JACTU")
+		(property "Reference" "C"
+			(at 2.794 1.778 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "4u7"
+			(at 2.794 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Daxxn_Standard_Capacitors:CAP_0402"
+			(at 1.016 8.128 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "${DATASHEETS}/CL05A475MP5NRNC.pdf"
+			(at 1.016 9.906 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "CAP CER 4.7UF 10V X5R 0402"
+			(at 0 11.684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PartNumber" "0201-0100-00072"
+			(at 0 6.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(symbol "CL05B103KB5NNNC"
+		(extends "C1812C474K5JACTU")
+		(property "Reference" "C"
+			(at 2.794 1.778 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10n"
+			(at 2.794 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Daxxn_Standard_Capacitors:CAP_0402"
+			(at 1.016 8.128 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "${DATASHEETS}/CL05B103KB5NNNC.pdf"
+			(at 1.016 9.906 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "CAP CER 10nF 10000PF 50V X7R 0402"
+			(at 0 11.684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PartNumber" "0201-0100-00031"
+			(at 0 6.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(symbol "CL05B104KA5NNNC"
+		(extends "C1812C474K5JACTU")
+		(property "Reference" "C"
+			(at 2.794 1.778 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 2.794 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Daxxn_Standard_Capacitors:CAP_0402"
+			(at 1.016 8.128 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "${DATASHEETS}/CL05B104KA5NNNC.pdf"
+			(at 1.016 9.906 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "CAP CER 100nF 0.1UF 25V X7R 0402"
+			(at 0 11.684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PartNumber" "0201-0100-00088"
+			(at 0 6.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(symbol "CL05C470JB51PNC"
+		(extends "C1812C474K5JACTU")
+		(property "Reference" "C"
+			(at 2.794 1.778 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "47p"
+			(at 2.794 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Daxxn_Standard_Capacitors:CAP_0402"
+			(at 0 8.128 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "${DATASHEETS}/CL05C470JB51PNC.pdf"
+			(at 0 9.906 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "CAP CER 47PF 50V C0G/NP0 0402"
+			(at 0 11.684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PartNumber" "0201-0100-00077"
+			(at 0 6.604 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(symbol "CL05C471JB5NNNC"
+		(extends "C1812C474K5JACTU")
+		(property "Reference" "C"
+			(at 2.794 1.778 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "470p"
+			(at 2.794 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Daxxn_Standard_Capacitors:CAP_0402"
+			(at 0 8.128 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "${DATASHEETS}/CL05C471JB5NNNC.pdf"
+			(at 0 9.906 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "CAP CER 470PF 50V C0G/NP0 0402"
+			(at 0 11.684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PartNumber" "0201-0100-00076"
+			(at 0 6.35 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(symbol "CL10A105KA8NNNC"
+		(extends "C1812C474K5JACTU")
+		(property "Reference" "C"
+			(at 2.794 1.778 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1u"
+			(at 2.794 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Daxxn_Standard_Capacitors:CAP_0603"
+			(at 1.016 8.128 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "${DATASHEETS}/CL10A105KA8NNNC.pdf"
+			(at 1.016 9.906 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "CAP CER 1UF 25V X5R 0603"
+			(at 0 11.684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PartNumber" "0201-0100-00051"
+			(at 0 6.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(symbol "CL10A106MQ8NNNC"
+		(extends "C1812C474K5JACTU")
+		(property "Reference" "C"
+			(at 2.794 1.778 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10u"
+			(at 2.794 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Daxxn_Standard_Capacitors:CAP_0603"
+			(at 1.016 8.128 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "${DATASHEETS}/CL10A106MQ8NNNC.pdf"
+			(at 1.016 9.906 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "CAP CER 10UF 6.3V X5R 0603"
+			(at 0 11.684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PartNumber" "0201-0100-00042"
+			(at 0 6.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(symbol "CL10A226MP8NUNE"
+		(extends "C1812C474K5JACTU")
+		(property "Reference" "C"
+			(at 2.794 1.778 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "22u"
+			(at 2.794 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Daxxn_Standard_Capacitors:CAP_0603"
+			(at 1.016 8.128 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "${DATASHEETS}/CL10A226MP8NUNE.pdf"
+			(at 1.016 9.906 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "CAP CER 22UF 10V X5R 0603"
+			(at 0 11.684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PartNumber" "0201-0100-00065"
+			(at 0 6.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(symbol "CL10A475KO8NNNC"
+		(extends "C1812C474K5JACTU")
+		(property "Reference" "C"
+			(at 2.794 1.778 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "4u7"
+			(at 2.794 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Daxxn_Standard_Capacitors:CAP_0603"
+			(at 1.016 8.128 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "${DATASHEETS}/CL10A475KO8NNNC.pdf"
+			(at 1.016 9.906 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "CAP CER 16V 4.7uF X5R ±10% 0603 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
+			(at 0 11.684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PartNumber" "0201-0100-00002"
+			(at 0 6.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(symbol "CL10B103KB8NNNC"
 		(extends "C1812C474K5JACTU")
 		(property "Reference" "C"
 			(at 2.794 1.778 0)
@@ -803,7 +2919,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "${DATASHEETS}/CL10B103KB8NNNC.pdf"
 			(at 1.016 9.906 0)
 			(effects
 				(font
@@ -812,8 +2928,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "CAP CER 10000PF 50V C0G 0603"
-			(at 6.604 11.684 0)
+		(property "Description" "CAP CER 10nF 10000PF 50V X7R 0603"
+			(at 0 11.684 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -821,17 +2937,17 @@
 				(hide yes)
 			)
 		)
-		(property "PartNumber" "0201-0100-00030"
-			(at 2.794 -1.524 0)
+		(property "PartNumber" "0201-0100-00032"
+			(at 0 6.35 0)
 			(effects
 				(font
-					(size 1 1)
+					(size 1.27 1.27)
 				)
-				(justify left)
+				(hide yes)
 			)
 		)
 	)
-	(symbol "CC0402JRNPO9BN101"
+	(symbol "CL10B104KB8NNWC"
 		(extends "C1812C474K5JACTU")
 		(property "Reference" "C"
 			(at 2.794 1.778 0)
@@ -842,7 +2958,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100p"
+		(property "Value" "100n"
 			(at 2.794 0 0)
 			(effects
 				(font
@@ -851,7 +2967,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Daxxn_Standard_Capacitors:CAP_0402"
+		(property "Footprint" "Daxxn_Standard_Capacitors:CAP_0603"
 			(at 1.016 8.128 0)
 			(effects
 				(font
@@ -860,7 +2976,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "${DATASHEETS}/CL10B104KB8NNWC.pdf"
 			(at 1.016 9.906 0)
 			(effects
 				(font
@@ -869,8 +2985,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "CAP CER 100PF 50V C0G/NPO 0402"
-			(at 6.604 11.684 0)
+		(property "Description" "CAP CER 100nF 0.1UF 50V X7R 0603"
+			(at 0 11.684 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -878,17 +2994,17 @@
 				(hide yes)
 			)
 		)
-		(property "PartNumber" "0201-0100-00033"
-			(at 2.794 -1.524 0)
+		(property "PartNumber" "0201-0100-00017"
+			(at 0 6.35 0)
 			(effects
 				(font
-					(size 1 1)
+					(size 1.27 1.27)
 				)
-				(justify left)
+				(hide yes)
 			)
 		)
 	)
-	(symbol "CL05C470JB51PNC"
+	(symbol "CL10B474KA8NFNC"
 		(extends "C1812C474K5JACTU")
 		(property "Reference" "C"
 			(at 2.794 1.778 0)
@@ -899,7 +3015,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "47p"
+		(property "Value" "470n"
 			(at 2.794 0 0)
 			(effects
 				(font
@@ -908,7 +3024,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Daxxn_Standard_Capacitors:CAP_0402"
+		(property "Footprint" "Daxxn_Standard_Capacitors:CAP_0603"
 			(at 1.016 8.128 0)
 			(effects
 				(font
@@ -917,7 +3033,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "${DATASHEETS}/CL10B474KA8NFNC.pdf"
 			(at 1.016 9.906 0)
 			(effects
 				(font
@@ -926,8 +3042,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "CAP CER 47PF 50V C0G/NP0 0402"
-			(at 6.604 11.684 0)
+		(property "Description" "CAP CER 470nF 0.47UF 25V X7R 0603"
+			(at 0 11.684 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -935,17 +3051,17 @@
 				(hide yes)
 			)
 		)
-		(property "PartNumber" "0201-0100-00077"
-			(at 2.794 -1.524 0)
+		(property "PartNumber" "0201-0100-00090"
+			(at 0 6.35 0)
 			(effects
 				(font
-					(size 1 1)
+					(size 1.27 1.27)
 				)
-				(justify left)
+				(hide yes)
 			)
 		)
 	)
-	(symbol "CL05C471JB5NNNC"
+	(symbol "CL21A106KOQNNNE"
 		(extends "C1812C474K5JACTU")
 		(property "Reference" "C"
 			(at 2.794 1.778 0)
@@ -956,7 +3072,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "470p"
+		(property "Value" "10u"
 			(at 2.794 0 0)
 			(effects
 				(font
@@ -965,7 +3081,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Daxxn_Standard_Capacitors:CAP_0402"
+		(property "Footprint" "Daxxn_Standard_Capacitors:CAP_0805"
 			(at 1.016 8.128 0)
 			(effects
 				(font
@@ -974,7 +3090,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "${DATASHEETS}/CL21A106KOQNNNE.pdf"
 			(at 1.016 9.906 0)
 			(effects
 				(font
@@ -983,8 +3099,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "CAP CER 470PF 50V C0G/NP0 0402"
-			(at 6.604 11.684 0)
+		(property "Description" "CAP CER 10UF 16V X5R 0805"
+			(at 0 11.684 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -992,13 +3108,469 @@
 				(hide yes)
 			)
 		)
-		(property "PartNumber" "0201-0100-00076"
-			(at 2.794 -1.524 0)
+		(property "PartNumber" "0201-0100-00039"
+			(at 0 6.35 0)
 			(effects
 				(font
-					(size 1 1)
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(symbol "CL21A106KOQNNNG"
+		(extends "C1812C474K5JACTU")
+		(property "Reference" "C"
+			(at 2.794 1.778 0)
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+		(property "Value" "10u"
+			(at 2.794 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Daxxn_Standard_Capacitors:CAP_0805"
+			(at 1.016 8.128 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "${DATASHEETS}/CL21A106KOQNNNG.pdf"
+			(at 1.016 9.906 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "CAP CER 10UF 16V X5R 0805"
+			(at 0 11.684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PartNumber" "0201-0100-00038"
+			(at 0 6.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(symbol "CL21A226MQQNNNE"
+		(extends "C1812C474K5JACTU")
+		(property "Reference" "C"
+			(at 2.794 1.778 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "22u"
+			(at 2.794 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Daxxn_Standard_Capacitors:CAP_0805"
+			(at 1.016 8.128 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "${DATASHEETS}/CL21A226MQQNNNE.pdf"
+			(at 1.016 9.906 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "CAP CER 22UF 6.3V X5R 0805"
+			(at 0 11.684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PartNumber" "0201-0100-00068"
+			(at 0 6.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(symbol "CL21A475KAQNNNE"
+		(extends "C1812C474K5JACTU")
+		(property "Reference" "C"
+			(at 2.794 1.778 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "4u7"
+			(at 2.794 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Daxxn_Standard_Capacitors:CAP_0805"
+			(at 1.016 8.128 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "${DATASHEETS}/CL21A475KAQNNNE.pdf"
+			(at 1.016 9.906 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "CAP CER 4.7UF 25V X5R 0805"
+			(at 0 11.684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PartNumber" "0201-0100-00073"
+			(at 0 6.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(symbol "CL21A475KLCLQNC"
+		(extends "C1812C474K5JACTU")
+		(property "Reference" "C"
+			(at 2.794 1.778 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "4u7"
+			(at 2.794 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Daxxn_Standard_Capacitors:CAP_0805"
+			(at 1.016 8.128 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "${DATASHEETS}/CL21A475KLCLQNC.pdf"
+			(at 1.016 9.906 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "CAP CER 4.7UF 35V X5R 0805"
+			(at 0 11.684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PartNumber" "0201-0100-00074"
+			(at 0 6.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(symbol "CL21B104KACNNNC"
+		(extends "C1812C474K5JACTU")
+		(property "Reference" "C"
+			(at 2.794 1.778 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 2.794 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Daxxn_Standard_Capacitors:CAP_0805"
+			(at 1.016 8.128 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "${DATASHEETS}/CL21B104KACNNNC.pdf"
+			(at 1.016 9.906 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "CAP CER 100nF 0.1UF 25V X7R 0805"
+			(at 0 11.684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PartNumber" "0201-0100-00008"
+			(at 0 6.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(symbol "CL21B105KPFNNNE"
+		(extends "C1812C474K5JACTU")
+		(property "Reference" "C"
+			(at 2.794 1.778 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1u"
+			(at 2.794 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Daxxn_Standard_Capacitors:CAP_0805"
+			(at 1.016 8.128 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "${DATASHEETS}/CL21B105KPFNNNE.pdf"
+			(at 1.016 9.906 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "CAP CER 1UF 10V X7R 0805"
+			(at 0 11.684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PartNumber" "0201-0100-00049"
+			(at 0 6.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(symbol "CL21B225KAFNFNE"
+		(extends "C1812C474K5JACTU")
+		(property "Reference" "C"
+			(at 2.794 1.778 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "2u2"
+			(at 2.794 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Daxxn_Standard_Capacitors:CAP_0805"
+			(at 1.016 8.128 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "${DATASHEETS}/CL21B225KAFNFNE.pdf"
+			(at 1.016 9.906 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "CAP CER 2.2UF 25V X7R 0805"
+			(at 0 11.684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PartNumber" "0201-0100-00056"
+			(at 0 6.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(symbol "CL21B684JOFNNNE"
+		(extends "C1812C474K5JACTU")
+		(property "Reference" "C"
+			(at 2.794 1.778 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "680n"
+			(at 2.794 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Daxxn_Standard_Capacitors:CAP_0805"
+			(at 1.016 8.128 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "${DATASHEETS}/CL21B684JOFNNNE.pdf"
+			(at 1.016 9.906 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "CAP CER 680nF 0.68UF 16V X7R 0805"
+			(at 0 11.684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PartNumber" "0201-0100-00025"
+			(at 0 6.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 	)
@@ -1023,7 +3595,7 @@
 			)
 		)
 		(property "Footprint" "Daxxn_Standard_Capacitors:CAP_0805"
-			(at 1.016 8.128 0)
+			(at 0 8.128 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1031,8 +3603,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 1.016 9.906 0)
+		(property "Datasheet" "${DATASHEETS}/CL21C220JB61PNC.pdf"
+			(at 0 9.906 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1041,7 +3613,7 @@
 			)
 		)
 		(property "Description" "CAP CER 22PF 50V C0G/NP0 0805"
-			(at 6.604 11.684 0)
+			(at 0 11.684 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1050,12 +3622,12 @@
 			)
 		)
 		(property "PartNumber" "0201-0100-00063"
-			(at 2.794 -1.524 0)
+			(at 0 6.604 0)
 			(effects
 				(font
 					(size 1 1)
 				)
-				(justify left)
+				(hide yes)
 			)
 		)
 	)
@@ -1080,7 +3652,7 @@
 			)
 		)
 		(property "Footprint" "Daxxn_Standard_Capacitors:CAP_0805"
-			(at 1.016 8.128 0)
+			(at 0 8.128 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1088,8 +3660,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 1.016 9.906 0)
+		(property "Datasheet" "${DATASHEETS}/CL21C220JBANFNC.pdf"
+			(at 0 9.906 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1098,7 +3670,7 @@
 			)
 		)
 		(property "Description" "CAP CER 22PF 50V C0G/NP0 0805"
-			(at 6.604 11.684 0)
+			(at 0 11.684 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1107,12 +3679,696 @@
 			)
 		)
 		(property "PartNumber" "0201-0100-00062"
-			(at 2.794 -1.524 0)
+			(at 0 6.35 0)
 			(effects
 				(font
 					(size 1 1)
 				)
+				(hide yes)
+			)
+		)
+	)
+	(symbol "CL31A106KQHNNWE"
+		(extends "C1812C474K5JACTU")
+		(property "Reference" "C"
+			(at 2.794 1.778 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(justify left)
+			)
+		)
+		(property "Value" "10u"
+			(at 2.794 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Daxxn_Standard_Capacitors:CAP_1206"
+			(at 1.016 8.128 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "${DATASHEETS}/CL05Y105KP6VPN.pdf"
+			(at 1.016 9.906 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "CAP CER 10UF 6.3V X5R 1206"
+			(at 0 11.684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PartNumber" "0201-0100-00043"
+			(at 0 6.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(symbol "CL31B104KBCNNNC"
+		(extends "C1812C474K5JACTU")
+		(property "Reference" "C"
+			(at 2.794 1.778 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 2.794 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Daxxn_Standard_Capacitors:CAP_1206"
+			(at 1.016 8.128 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "${DATASHEETS}/CL31B104KBCNNNC.pdf"
+			(at 1.016 9.906 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "CAP CER 100nF 0.1UF 50V X7R 1206"
+			(at 0 11.684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PartNumber" "0201-0100-00018"
+			(at 0 6.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(symbol "CL31B105KCHNNNE"
+		(extends "C1812C474K5JACTU")
+		(property "Reference" "C"
+			(at 2.794 1.778 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1u"
+			(at 2.794 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Daxxn_Standard_Capacitors:CAP_1206"
+			(at 1.016 8.128 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "${DATASHEETS}/CL31B105KCHNNNE.pdf"
+			(at 1.016 9.906 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "CAP CER 1UF 100V X7R 1206"
+			(at 0 11.684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PartNumber" "0201-0100-00048"
+			(at 0 6.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(symbol "CL31B225KBHNNNE"
+		(extends "C1812C474K5JACTU")
+		(property "Reference" "C"
+			(at 2.794 1.778 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "2u2"
+			(at 2.794 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Daxxn_Standard_Capacitors:CAP_1206"
+			(at 1.016 8.128 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "${DATASHEETS}/CL31B225KBHNNNE.pdf"
+			(at 1.016 9.906 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "CAP CER 2.2UF 50V X7R 1206"
+			(at 0 11.684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PartNumber" "0201-0100-00057"
+			(at 0 6.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(symbol "CL32A106KAULNNE"
+		(extends "C1812C474K5JACTU")
+		(property "Reference" "C"
+			(at 2.794 1.778 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10u"
+			(at 2.794 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Daxxn_Standard_Capacitors:CAP_1210"
+			(at 1.016 8.128 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "${DATASHEETS}/CL32A106KAULNNE.pdf"
+			(at 1.016 9.906 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "CAP CER 10UF 25V X5R 1210"
+			(at 0 11.684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PartNumber" "0201-0100-00040"
+			(at 0 6.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(symbol "CL32A107MQVNNNE"
+		(extends "C1812C474K5JACTU")
+		(property "Reference" "C"
+			(at 2.794 1.778 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100u"
+			(at 2.794 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Daxxn_Standard_Capacitors:CAP_1210"
+			(at 1.016 8.128 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "${DATASHEETS}/CL32A107MQVNNNE.pdf"
+			(at 1.016 9.906 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "CAP CER 100UF 6.3V X5R 1210"
+			(at 0 11.684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PartNumber" "0201-0100-00034"
+			(at 0 6.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(symbol "CL32A157MQVNNNE"
+		(extends "C1812C474K5JACTU")
+		(property "Reference" "C"
+			(at 2.794 1.778 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "150u"
+			(at 2.794 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Daxxn_Standard_Capacitors:CAP_1210"
+			(at 1.016 8.128 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "${DATASHEETS}/CL32A157MQVNNNE.pdf"
+			(at 1.016 9.906 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "CAP CER 150UF 6.3V X5R 1210"
+			(at 0 11.684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PartNumber" "0201-0100-00045"
+			(at 0 6.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(symbol "CL32A476KOJNNNE"
+		(extends "C1812C474K5JACTU")
+		(property "Reference" "C"
+			(at 2.794 1.778 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "47u"
+			(at 2.794 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Daxxn_Standard_Capacitors:CAP_1210"
+			(at 1.016 8.128 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "${DATASHEETS}/CL32A476KOJNNNE.pdf"
+			(at 1.016 9.906 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "CAP CER 47UF 16V X5R 1210"
+			(at 0 11.684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PartNumber" "0201-0100-00087"
+			(at 0 6.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(symbol "CL32B105KBHNNNE"
+		(extends "C1812C474K5JACTU")
+		(property "Reference" "C"
+			(at 2.794 1.778 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1u"
+			(at 2.794 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Daxxn_Standard_Capacitors:CAP_1210"
+			(at 1.016 8.128 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "${DATASHEETS}/CL32B105KBHNNNE.pdf"
+			(at 1.016 9.906 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "CAP CER 1UF 50V X7R 1210"
+			(at 0 11.684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PartNumber" "0201-0100-00052"
+			(at 0 6.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(symbol "CL32B226MOJNNNE"
+		(extends "C1812C474K5JACTU")
+		(property "Reference" "C"
+			(at 2.794 1.778 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "22u"
+			(at 2.794 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Daxxn_Standard_Capacitors:CAP_1210"
+			(at 1.016 8.128 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "${DATASHEETS}/CL32B226MOJNNNE.pdf"
+			(at 1.016 9.906 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "CAP CER 22UF 16V X7R 1210"
+			(at 0 11.684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PartNumber" "0201-0100-00066"
+			(at 0 6.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(symbol "CL32B475KBUYNNE"
+		(extends "C1812C474K5JACTU")
+		(property "Reference" "C"
+			(at 2.794 1.778 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "4u7"
+			(at 2.794 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Daxxn_Standard_Capacitors:CAP_1210"
+			(at 1.016 8.128 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "${DATASHEETS}/CL32B475KBUYNNE.pdf"
+			(at 1.016 9.906 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "CAP CER 4.7UF 50V X7R 1210"
+			(at 0 11.684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PartNumber" "0201-0100-00075"
+			(at 0 6.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(symbol "CL32Y476MQVVPJE"
+		(extends "C1812C474K5JACTU")
+		(property "Reference" "C"
+			(at 2.794 1.778 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "47u"
+			(at 2.794 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Daxxn_Standard_Capacitors:CAP_1210"
+			(at 1.016 8.128 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "${DATASHEETS}/CL32Y476MQVVPJE.pdf"
+			(at 1.016 9.906 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "CAP CER 47UF 6.3V X7S 1210"
+			(at 0 11.684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PartNumber" "0201-0100-00079"
+			(at 0 6.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 	)
@@ -1137,7 +4393,7 @@
 			)
 		)
 		(property "Footprint" "Daxxn_Standard_Capacitors:CAP_0402"
-			(at 1.016 8.128 0)
+			(at 0 8.128 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1145,8 +4401,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 1.016 9.906 0)
+		(property "Datasheet" "${DATASHEETS}/GCM1555C1H220JA16D.pdf"
+			(at 0 9.906 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1155,7 +4411,7 @@
 			)
 		)
 		(property "Description" "CAP CER 22PF 50V C0G/NP0 0402"
-			(at 6.604 11.684 0)
+			(at 0 11.684 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1164,12 +4420,12 @@
 			)
 		)
 		(property "PartNumber" "0201-0100-00061"
-			(at 2.794 -1.524 0)
+			(at 0 6.35 0)
 			(effects
 				(font
 					(size 1 1)
 				)
-				(justify left)
+				(hide yes)
 			)
 		)
 	)
@@ -1194,7 +4450,7 @@
 			)
 		)
 		(property "Footprint" "Daxxn_Standard_Capacitors:CAP_0402"
-			(at 1.016 8.128 0)
+			(at 0 8.128 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1202,8 +4458,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 1.016 9.906 0)
+		(property "Datasheet" "${DATASHEETS}/GCM1555C1H750JA16D.pdf"
+			(at 0 9.906 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1212,7 +4468,7 @@
 			)
 		)
 		(property "Description" "CAP CER 75PF 50V C0G/NP0 0402"
-			(at 6.604 11.684 0)
+			(at 0 11.684 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1221,12 +4477,126 @@
 			)
 		)
 		(property "PartNumber" "0201-0100-00083"
-			(at 2.794 -1.524 0)
+			(at 0 6.35 0)
 			(effects
 				(font
 					(size 1 1)
 				)
+				(hide yes)
+			)
+		)
+	)
+	(symbol "GCM155R71H272KA37D"
+		(extends "C1812C474K5JACTU")
+		(property "Reference" "C"
+			(at 2.794 1.778 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(justify left)
+			)
+		)
+		(property "Value" "27n"
+			(at 2.794 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Daxxn_Standard_Capacitors:CAP_0402"
+			(at 1.016 8.128 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "${DATASHEETS}/GCM155R71H272KA37D.pdf"
+			(at 1.016 9.906 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "CAP CER 27nF 2700PF 50V X7R 0402"
+			(at 0 11.684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PartNumber" "0201-0100-00069"
+			(at 0 6.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(symbol "GCM155R71H473KE02D"
+		(extends "C1812C474K5JACTU")
+		(property "Reference" "C"
+			(at 2.794 1.778 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "47n"
+			(at 2.794 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Daxxn_Standard_Capacitors:CAP_0402"
+			(at 1.016 8.128 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "${DATASHEETS}/GCM155R71H473KE02D.pdf"
+			(at 1.016 9.906 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "CAP CER 47nF 0.047UF 50V X7R 0402"
+			(at 0 11.684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PartNumber" "0201-0100-00014"
+			(at 0 6.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 	)
@@ -1251,7 +4621,7 @@
 			)
 		)
 		(property "Footprint" "Daxxn_Standard_Capacitors:CAP_0402"
-			(at 1.016 8.128 0)
+			(at 0 8.128 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1259,8 +4629,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 1.016 9.906 0)
+		(property "Datasheet" "${DATASHEETS}/GJM1555C1H100FB01D.pdf"
+			(at 0 9.906 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1269,7 +4639,7 @@
 			)
 		)
 		(property "Description" "CAP CER 10PF 50V C0G/NP0 0402"
-			(at 6.604 11.684 0)
+			(at 0 11.684 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1278,12 +4648,12 @@
 			)
 		)
 		(property "PartNumber" "0201-0100-00035"
-			(at 2.794 -1.524 0)
+			(at 0 6.35 0)
 			(effects
 				(font
 					(size 1 1)
 				)
-				(justify left)
+				(hide yes)
 			)
 		)
 	)
@@ -1308,7 +4678,7 @@
 			)
 		)
 		(property "Footprint" "Daxxn_Standard_Capacitors:CAP_0402"
-			(at 1.016 8.128 0)
+			(at 0 8.128 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1316,8 +4686,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 1.016 9.906 0)
+		(property "Datasheet" "${DATASHEETS}/GJM1555C1H150FB01D.pdf"
+			(at 0 9.906 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1326,7 +4696,7 @@
 			)
 		)
 		(property "Description" "CAP CER 15pF 50V C0G ±1% 0402"
-			(at 6.604 11.684 0)
+			(at 0 11.684 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1335,12 +4705,126 @@
 			)
 		)
 		(property "PartNumber" "0201-0100-00004"
-			(at 2.794 -1.524 0)
+			(at 0 6.35 0)
 			(effects
 				(font
 					(size 1 1)
 				)
+				(hide yes)
+			)
+		)
+	)
+	(symbol "GJM1555C1H1R0WB01D"
+		(extends "C1812C474K5JACTU")
+		(property "Reference" "C"
+			(at 2.794 1.778 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(justify left)
+			)
+		)
+		(property "Value" "1p"
+			(at 2.794 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Daxxn_Standard_Capacitors:CAP_0402"
+			(at 1.016 8.128 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "${DATASHEETS}/GJM1555C1H1R0WB01D.pdf"
+			(at 1.016 9.906 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "1 pF ±0.05pF 50V Ceramic Capacitor C0G, NP0 0402 (1005 Metric)"
+			(at 0 11.684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PartNumber" "na"
+			(at 0 6.35 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(symbol "GJM1555C1HR47BB01D"
+		(extends "C1812C474K5JACTU")
+		(property "Reference" "C"
+			(at 2.794 1.778 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0p47"
+			(at 2.794 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Daxxn_Standard_Capacitors:CAP_0402"
+			(at 1.016 8.128 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "${DATASHEETS}/GJM1555C1HR47BB01D.pdf"
+			(at 1.016 9.906 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "0.47 pF ±0.1pF 50V Ceramic Capacitor C0G, NP0 0402 (1005 Metric)"
+			(at 0 11.684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PartNumber" "na"
+			(at 0 6.35 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
 			)
 		)
 	)
@@ -1365,7 +4849,7 @@
 			)
 		)
 		(property "Footprint" "Daxxn_Standard_Capacitors:CAP_0805"
-			(at 0 5.08 0)
+			(at 0 7.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1373,8 +4857,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 1.016 9.906 0)
+		(property "Datasheet" "${DATASHEETS}/GMC21X5R226M35NT.pdf"
+			(at 0 10.668 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1383,7 +4867,7 @@
 			)
 		)
 		(property "Description" "CAP CER 22UF 35V 20% X5R 0805"
-			(at 0 6.604 0)
+			(at 0 9.144 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1392,12 +4876,12 @@
 			)
 		)
 		(property "PartNumber" "0201-0100-00084"
-			(at 2.794 -1.524 0)
+			(at 0 5.842 0)
 			(effects
 				(font
 					(size 1 1)
 				)
-				(justify left)
+				(hide yes)
 			)
 		)
 	)
@@ -1422,7 +4906,7 @@
 			)
 		)
 		(property "Footprint" "Daxxn_Standard_Capacitors:CAP_0201"
-			(at 1.016 8.128 0)
+			(at 0 8.128 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1430,8 +4914,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 1.016 9.906 0)
+		(property "Datasheet" "${DATASHEETS}/GRM0335C1H150FA01D.pdf"
+			(at 0 9.906 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1440,7 +4924,7 @@
 			)
 		)
 		(property "Description" "CAP CER 15PF 50V C0G/NP0 0201"
-			(at 6.604 11.684 0)
+			(at 0 11.684 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1449,12 +4933,12 @@
 			)
 		)
 		(property "PartNumber" "0201-0100-00046"
-			(at 2.794 -1.524 0)
+			(at 0 6.35 0)
 			(effects
 				(font
 					(size 1 1)
 				)
-				(justify left)
+				(hide yes)
 			)
 		)
 	)
@@ -1479,7 +4963,7 @@
 			)
 		)
 		(property "Footprint" "Daxxn_Standard_Capacitors:CAP_0201"
-			(at 1.016 8.128 0)
+			(at 0 8.128 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1487,8 +4971,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 1.016 9.906 0)
+		(property "Datasheet" "${DATASHEETS}/GRM0335C1H150JA01D.pdf"
+			(at 0 9.906 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1497,7 +4981,7 @@
 			)
 		)
 		(property "Description" "CAP CER 15PF 50V C0G/NP0 0201"
-			(at 6.604 11.684 0)
+			(at 0 11.684 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1506,12 +4990,12 @@
 			)
 		)
 		(property "PartNumber" "0201-0100-00047"
-			(at 2.794 -1.524 0)
+			(at 0 6.35 0)
 			(effects
 				(font
 					(size 1 1)
 				)
-				(justify left)
+				(hide yes)
 			)
 		)
 	)
@@ -1536,7 +5020,7 @@
 			)
 		)
 		(property "Footprint" "Daxxn_Standard_Capacitors:CAP_0201"
-			(at 1.016 8.128 0)
+			(at 0 8.128 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1544,8 +5028,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 1.016 9.906 0)
+		(property "Datasheet" "${DATASHEETS}/GRM0335C1H220JA01D.pdf"
+			(at 0 9.906 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1554,7 +5038,7 @@
 			)
 		)
 		(property "Description" "CAP CER 22PF 50V C0G/NP0 0201"
-			(at 6.604 11.684 0)
+			(at 0 11.684 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1563,12 +5047,183 @@
 			)
 		)
 		(property "PartNumber" "0201-0100-00060"
-			(at 2.794 -1.524 0)
+			(at 0 6.35 0)
 			(effects
 				(font
 					(size 1 1)
 				)
+				(hide yes)
+			)
+		)
+	)
+	(symbol "GRM155R60J106ME15D"
+		(extends "C1812C474K5JACTU")
+		(property "Reference" "C"
+			(at 2.794 1.778 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(justify left)
+			)
+		)
+		(property "Value" "10u"
+			(at 2.794 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Daxxn_Standard_Capacitors:CAP_0402"
+			(at 1.016 8.128 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "${DATASHEETS}/GRM155R60J106ME15D.pdf"
+			(at 1.016 9.906 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "CAP CER 10UF 6.3V X5R 0402"
+			(at 0 11.684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PartNumber" "0201-0100-00041"
+			(at 0 6.096 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(symbol "GRM155R61A106ME11D"
+		(extends "C1812C474K5JACTU")
+		(property "Reference" "C"
+			(at 2.794 1.778 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10u"
+			(at 2.794 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Daxxn_Standard_Capacitors:CAP_0402"
+			(at 1.016 8.128 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "${DATASHEETS}/GRM155R61A106ME11D.pdf"
+			(at 1.016 9.906 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "CAP CER 10UF 10V X5R 0402"
+			(at 0 11.684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PartNumber" "0201-0100-00037"
+			(at 0 6.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(symbol "GRM155R71H104KE14J"
+		(extends "C1812C474K5JACTU")
+		(property "Reference" "C"
+			(at 2.794 1.778 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 2.794 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Daxxn_Standard_Capacitors:CAP_0402"
+			(at 1.016 8.128 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "${DATASHEETS}/GRM155R71H104KE14J.pdf"
+			(at 1.016 9.906 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "CAP CER 100nF 0.1UF 50V X7R 0402"
+			(at 0 11.684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PartNumber" "0201-0100-00001"
+			(at 0 6.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 	)
@@ -1593,7 +5248,7 @@
 			)
 		)
 		(property "Footprint" "Daxxn_Standard_Capacitors:CAP_0603"
-			(at 1.016 8.128 0)
+			(at 0 8.128 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1601,8 +5256,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 1.016 9.906 0)
+		(property "Datasheet" "${DATASHEETS}/GRM1885C1H302JA01D.pdf"
+			(at 0 9.906 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1611,7 +5266,7 @@
 			)
 		)
 		(property "Description" "CAP CER 3000PF 50V C0G/NP0 0603"
-			(at 6.604 11.684 0)
+			(at 0 11.684 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1620,12 +5275,12 @@
 			)
 		)
 		(property "PartNumber" "0201-0100-00070"
-			(at 2.794 -1.524 0)
+			(at 0 6.35 0)
 			(effects
 				(font
 					(size 1 1)
 				)
-				(justify left)
+				(hide yes)
 			)
 		)
 	)
@@ -1650,7 +5305,7 @@
 			)
 		)
 		(property "Footprint" "Daxxn_Standard_Capacitors:CAP_1206"
-			(at 1.016 8.128 0)
+			(at 0 8.128 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1658,8 +5313,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 1.016 9.906 0)
+		(property "Datasheet" "${DATASHEETS}/GRM31C5C1E224JE02L.pdf"
+			(at 0 9.906 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1668,7 +5323,7 @@
 			)
 		)
 		(property "Description" "CAP CER 0.22UF 25V C0G/NP0 1206"
-			(at 6.604 11.684 0)
+			(at 0 11.684 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1677,12 +5332,354 @@
 			)
 		)
 		(property "PartNumber" "0201-0100-00020"
-			(at 2.794 -1.524 0)
+			(at 0 6.604 0)
 			(effects
 				(font
 					(size 1 1)
 				)
+				(hide yes)
+			)
+		)
+	)
+	(symbol "GRM31CE70J476ME15K"
+		(extends "C1812C474K5JACTU")
+		(property "Reference" "C"
+			(at 2.794 1.778 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(justify left)
+			)
+		)
+		(property "Value" "47u"
+			(at 2.794 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Daxxn_Standard_Capacitors:CAP_1206"
+			(at 1.016 8.128 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "${DATASHEETS}/GRM31CE70J476ME15K.pdf"
+			(at 1.016 9.906 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "CAP CER 47UF 6.3V X7U 1206"
+			(at 0 11.684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PartNumber" "0201-0100-00080"
+			(at 0 6.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(symbol "GRM32EC80G227ME05L"
+		(extends "C1812C474K5JACTU")
+		(property "Reference" "C"
+			(at 2.794 1.778 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "220u"
+			(at 2.794 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Daxxn_Standard_Capacitors:CAP_1210"
+			(at 1.016 8.128 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "${DATASHEETS}/GRM32EC80G227ME05L.pdf"
+			(at 1.016 9.906 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "CAP CER 220UF 4V X6S 1210"
+			(at 0 11.684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PartNumber" "0201-0100-00059"
+			(at 0 6.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(symbol "GRM32EC81C476KE15L"
+		(extends "C1812C474K5JACTU")
+		(property "Reference" "C"
+			(at 2.794 1.778 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "47u"
+			(at 2.794 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Daxxn_Standard_Capacitors:CAP_1210"
+			(at 1.016 8.128 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "${DATASHEETS}/GRM32EC81C476KE15L.pdf"
+			(at 1.016 9.906 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "CAP CER 47UF 16V X6S 1210"
+			(at 0 11.684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PartNumber" "0201-0100-00078"
+			(at 0 6.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(symbol "K104K20X7RH5TL2"
+		(extends "C1812C474K5JACTU")
+		(property "Reference" "C"
+			(at 2.794 1.778 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 2.794 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_THT:C_Disc_D3.0mm_W1.6mm_P2.50mm"
+			(at 0 8.128 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "${DATASHEETS}/K-Series.pdf"
+			(at 1.016 9.906 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "CAP CER 100nF 0.1uF 100V X7R RADIAL"
+			(at 0 11.684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PartNumber" "0201-0100-00010"
+			(at 0 6.096 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(symbol "UMK107B7104KA-T"
+		(extends "C1812C474K5JACTU")
+		(property "Reference" "C"
+			(at 2.794 1.778 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 2.794 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Daxxn_Standard_Capacitors:CAP_0603"
+			(at 1.016 8.128 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "${DATASHEETS}/UMK107B7104KA-T.pdf"
+			(at 1.016 9.906 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "CAP CER 0.47 µF 50V ±10% U2J 1812"
+			(at 0 11.684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PartNumber" "0201-0100-00016"
+			(at 0 6.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(symbol "UMK212B7224KG-T"
+		(extends "C1812C474K5JACTU")
+		(property "Reference" "C"
+			(at 2.794 1.778 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "220n"
+			(at 2.794 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Daxxn_Standard_Capacitors:CAP_0805"
+			(at 1.016 8.128 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "${DATASHEETS}/UMK212B7224KG-T.pdf"
+			(at 1.016 9.906 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "CAP CER 220nF 0.22UF 50V X7R 0805"
+			(at 0 11.684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PartNumber" "0201-0100-00021"
+			(at 0 6.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 	)

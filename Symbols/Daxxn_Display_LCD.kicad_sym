@@ -1,13 +1,73 @@
 (kicad_symbol_lib
-	(version 20231120)
+	(version 20241209)
 	(generator "kicad_symbol_editor")
-	(generator_version "8.0")
+	(generator_version "9.0")
+	(symbol "2864KSYM"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "DS"
+			(at -3.302 10.922 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "2864KSYM"
+			(at -3.048 9.144 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "${DATASHEETS}/SSD1309.pdf"
+			(at -0.762 14.478 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Display 1.54\" Monochrome OLED SSD1309 - AliExpress"
+			(at 0 16.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PartNumber" "0601-0000-00004"
+			(at -1.778 7.874 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
+			)
+		)
+		(embedded_fonts no)
+	)
 	(symbol "DM-2.42IN-OLED"
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "DS"
-			(at 0 4.572 0)
+			(at 0 3.556 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16,7 +76,7 @@
 			)
 		)
 		(property "Value" "DM-2.42IN-OLED"
-			(at 0 2.794 0)
+			(at 0 2.032 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25,7 +85,7 @@
 			)
 		)
 		(property "Footprint" "Daxxn_Displays:DM-2.42IN-OLED"
-			(at -1.778 4.318 0)
+			(at 0 10.922 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -52,33 +112,15 @@
 			)
 		)
 		(property "PartNumber" "0601-0000-00005"
-			(at 0 1.016 0)
+			(at 0 0.762 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1 1)
 				)
 				(justify left)
 			)
 		)
 		(symbol "DM-2.42IN-OLED_0_0"
-			(pin power_in line
-				(at -2.54 -25.4 0)
-				(length 2.54)
-				(name "GND"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "1"
-					(effects
-						(font
-							(size 0.9906 0.9906)
-						)
-					)
-				)
-			)
 			(pin power_in line
 				(at -2.54 -2.54 0)
 				(length 2.54)
@@ -134,6 +176,24 @@
 				)
 			)
 			(pin input line
+				(at -2.54 -12.7 0)
+				(length 2.54)
+				(name "CS"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "7"
+					(effects
+						(font
+							(size 0.9906 0.9906)
+						)
+					)
+				)
+			)
+			(pin input line
 				(at -2.54 -17.78 0)
 				(length 2.54)
 				(name "RESET"
@@ -169,17 +229,17 @@
 					)
 				)
 			)
-			(pin input line
-				(at -2.54 -12.7 0)
+			(pin power_in line
+				(at -2.54 -25.4 0)
 				(length 2.54)
-				(name "CS"
+				(name "GND"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "7"
+				(number "1"
 					(effects
 						(font
 							(size 0.9906 0.9906)
@@ -232,6 +292,187 @@
 				)
 			)
 		)
+		(embedded_fonts no)
+	)
+	(symbol "DONG-1.28IN-LCD-SPI"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "DS"
+			(at -2.032 5.588 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "DONG-1.28IN-LCD-SPI"
+			(at -1.778 4.064 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "${DATASHEETS}/GC9A01A.pdf"
+			(at 0 9.144 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Display 1.28\" Circular LCD IPS GC9A01 SPI - Amazon Special"
+			(at -0.254 10.922 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PartNumber" "0601-0000-00010"
+			(at -1.778 2.54 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "HL-1.3IN-OLED-I2C"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "DS"
+			(at -2.032 7.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "HL-1.3IN-OLED-I2C"
+			(at -3.302 4.826 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "${DATASHEETS}/SSH1106.pdf"
+			(at 0.508 15.494 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Display 1.3\" Monochrome OLED SSH1106 I2C - Amazon Special"
+			(at 0.254 13.716 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PartNumber" "0601-0000-00006"
+			(at -0.762 2.794 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "HL-1.3IN-OLED-SPI"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "DS"
+			(at -1.016 8.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "HL-1.3IN-OLED-SPI"
+			(at -0.508 3.302 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "${DATASHEETS}/SSH1106.pdf"
+			(at -0.254 14.986 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Display 1.3\" Monochrome OLED SSH1106 SPI - Amazon Special"
+			(at -0.762 18.034 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PartNumber" "0601-0000-00008"
+			(at -0.508 5.08 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
+			)
+		)
+		(embedded_fonts no)
 	)
 	(symbol "NHD-0440WH-ATMI-JT#"
 		(exclude_from_sim no)
@@ -293,6 +534,132 @@
 		)
 		(symbol "NHD-0440WH-ATMI-JT#_0_0"
 			(pin bidirectional line
+				(at -2.54 -2.54 0)
+				(length 2.54)
+				(name "D0"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "8"
+					(effects
+						(font
+							(size 0.9906 0.9906)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -2.54 -5.08 0)
+				(length 2.54)
+				(name "D1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "7"
+					(effects
+						(font
+							(size 0.9906 0.9906)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -2.54 -7.62 0)
+				(length 2.54)
+				(name "D2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 0.9906 0.9906)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -2.54 -10.16 0)
+				(length 2.54)
+				(name "D3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 0.9906 0.9906)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -2.54 -12.7 0)
+				(length 2.54)
+				(name "D4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 0.9906 0.9906)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -2.54 -15.24 0)
+				(length 2.54)
+				(name "D5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 0.9906 0.9906)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -2.54 -17.78 0)
+				(length 2.54)
+				(name "D6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 0.9906 0.9906)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
 				(at -2.54 -20.32 0)
 				(length 2.54)
 				(name "D7"
@@ -329,52 +696,16 @@
 				)
 			)
 			(pin input line
-				(at 27.94 -22.86 180)
+				(at -2.54 -29.21 0)
 				(length 2.54)
-				(name "VO"
+				(name "E1"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "12"
-					(effects
-						(font
-							(size 0.9906 0.9906)
-						)
-					)
-				)
-			)
-			(pin power_in line
-				(at 27.94 -31.75 180)
-				(length 2.54)
-				(name "GND"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "13"
-					(effects
-						(font
-							(size 0.9906 0.9906)
-						)
-					)
-				)
-			)
-			(pin power_in line
-				(at 27.94 -2.54 180)
-				(length 2.54)
-				(name "VCC"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "14"
+				(number "9"
 					(effects
 						(font
 							(size 0.9906 0.9906)
@@ -393,6 +724,24 @@
 					)
 				)
 				(number "15"
+					(effects
+						(font
+							(size 0.9906 0.9906)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 27.94 -2.54 180)
+				(length 2.54)
+				(name "VCC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "14"
 					(effects
 						(font
 							(size 0.9906 0.9906)
@@ -436,143 +785,35 @@
 					)
 				)
 			)
-			(pin bidirectional line
-				(at -2.54 -17.78 0)
-				(length 2.54)
-				(name "D6"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "2"
-					(effects
-						(font
-							(size 0.9906 0.9906)
-						)
-					)
-				)
-			)
-			(pin bidirectional line
-				(at -2.54 -15.24 0)
-				(length 2.54)
-				(name "D5"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "3"
-					(effects
-						(font
-							(size 0.9906 0.9906)
-						)
-					)
-				)
-			)
-			(pin bidirectional line
-				(at -2.54 -12.7 0)
-				(length 2.54)
-				(name "D4"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "4"
-					(effects
-						(font
-							(size 0.9906 0.9906)
-						)
-					)
-				)
-			)
-			(pin bidirectional line
-				(at -2.54 -10.16 0)
-				(length 2.54)
-				(name "D3"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "5"
-					(effects
-						(font
-							(size 0.9906 0.9906)
-						)
-					)
-				)
-			)
-			(pin bidirectional line
-				(at -2.54 -7.62 0)
-				(length 2.54)
-				(name "D2"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "6"
-					(effects
-						(font
-							(size 0.9906 0.9906)
-						)
-					)
-				)
-			)
-			(pin bidirectional line
-				(at -2.54 -5.08 0)
-				(length 2.54)
-				(name "D1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "7"
-					(effects
-						(font
-							(size 0.9906 0.9906)
-						)
-					)
-				)
-			)
-			(pin bidirectional line
-				(at -2.54 -2.54 0)
-				(length 2.54)
-				(name "D0"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "8"
-					(effects
-						(font
-							(size 0.9906 0.9906)
-						)
-					)
-				)
-			)
 			(pin input line
-				(at -2.54 -29.21 0)
+				(at 27.94 -22.86 180)
 				(length 2.54)
-				(name "E1"
+				(name "VO"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "9"
+				(number "12"
+					(effects
+						(font
+							(size 0.9906 0.9906)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 27.94 -31.75 180)
+				(length 2.54)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "13"
 					(effects
 						(font
 							(size 0.9906 0.9906)
@@ -615,7 +856,8 @@
 			)
 			(pin no_connect line
 				(at 10.16 -26.67 0)
-				(length 2.54) hide
+				(length 2.54)
+				(hide yes)
 				(name "NC"
 					(effects
 						(font
@@ -632,13 +874,740 @@
 				)
 			)
 		)
+		(embedded_fonts no)
+	)
+	(symbol "NHD-3.12-25664UCB2"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "DS"
+			(at 0 3.556 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "NHD-3.12-25664UCB2"
+			(at 0 2.032 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "${DATASHEETS}/NHD-3.12-25664UCB2.pdf"
+			(at 0 9.144 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Graphic LCD Display Module Blue OLED - Passive Matrix Parallel, 8-Bit, SPI 3.12\" (79.25mm) 256 x 64"
+			(at 0 7.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PartNumber" "0601-0000-00002"
+			(at 0 0.762 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
+			)
+		)
+		(symbol "NHD-3.12-25664UCB2_0_0"
+			(pin input line
+				(at -2.54 -2.54 0)
+				(length 2.54)
+				(name "RESET"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "16"
+					(effects
+						(font
+							(size 0.9906 0.9906)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -2.54 -5.08 0)
+				(length 2.54)
+				(name "WR"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 0.9906 0.9906)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -2.54 -7.62 0)
+				(length 2.54)
+				(name "RD"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 0.9906 0.9906)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -2.54 -10.16 0)
+				(length 2.54)
+				(name "D/C"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 0.9906 0.9906)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -2.54 -12.7 0)
+				(length 2.54)
+				(name "CS"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "17"
+					(effects
+						(font
+							(size 0.9906 0.9906)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -2.54 -17.78 0)
+				(length 2.54)
+				(name "D0"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "7"
+					(effects
+						(font
+							(size 0.9906 0.9906)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -2.54 -20.32 0)
+				(length 2.54)
+				(name "D1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "8"
+					(effects
+						(font
+							(size 0.9906 0.9906)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -2.54 -22.86 0)
+				(length 2.54)
+				(name "D2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "9"
+					(effects
+						(font
+							(size 0.9906 0.9906)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -2.54 -25.4 0)
+				(length 2.54)
+				(name "D3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "10"
+					(effects
+						(font
+							(size 0.9906 0.9906)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -2.54 -27.94 0)
+				(length 2.54)
+				(name "D4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "11"
+					(effects
+						(font
+							(size 0.9906 0.9906)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -2.54 -30.48 0)
+				(length 2.54)
+				(name "D5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "12"
+					(effects
+						(font
+							(size 0.9906 0.9906)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -2.54 -33.02 0)
+				(length 2.54)
+				(name "D6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "13"
+					(effects
+						(font
+							(size 0.9906 0.9906)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -2.54 -35.56 0)
+				(length 2.54)
+				(name "D7"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "14"
+					(effects
+						(font
+							(size 0.9906 0.9906)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -2.54 -40.64 0)
+				(length 2.54)
+				(name "BS1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "19"
+					(effects
+						(font
+							(size 0.9906 0.9906)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -2.54 -43.18 0)
+				(length 2.54)
+				(name "BS0"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "20"
+					(effects
+						(font
+							(size 0.9906 0.9906)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 22.86 -2.54 180)
+				(length 2.54)
+				(name "VDD"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 0.9906 0.9906)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 22.86 -43.18 180)
+				(length 2.54)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 0.9906 0.9906)
+						)
+					)
+				)
+			)
+		)
+		(symbol "NHD-3.12-25664UCB2_0_1"
+			(rectangle
+				(start 0 0)
+				(end 20.32 -45.72)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "NHD-3.12-25664UCB2_1_0"
+			(pin power_in line
+				(at 22.86 -7.62 180)
+				(length 2.54)
+				(name "BC-VDD"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 0.9906 0.9906)
+						)
+					)
+				)
+				(alternate "NC" no_connect line)
+			)
+			(pin power_in line
+				(at 22.86 -10.16 180)
+				(length 2.54)
+				(name "VCC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "15"
+					(effects
+						(font
+							(size 0.9906 0.9906)
+						)
+					)
+				)
+				(alternate "NC" no_connect line)
+			)
+			(pin power_in line
+				(at 22.86 -12.7 180)
+				(length 2.54)
+				(name "G-VDD"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "18"
+					(effects
+						(font
+							(size 0.9906 0.9906)
+						)
+					)
+				)
+				(alternate "NC" no_connect line)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "NHD-C0220BIZ-FSW-FBW-3V3M"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "DS"
+			(at 0 3.556 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "NHD-C0220BIZ-FSW-FBW-3V3M"
+			(at 0 2.032 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Daxxn_Displays:NHD-C0220BIZ-FSW-FBW-3V3M"
+			(at 0 11.176 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "${DATASHEETS}/NHD-C0220BiZ-FSW-FBW-3V3M.pdf"
+			(at 0 9.398 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Character Display Module Transflective 5 x 8 Dots FSTN - Film Super-Twisted Nematic LED - White I2C 75.70mm x 27.10mm x 6.80mm"
+			(at 0 7.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PartNumber" "0601-0000-00011"
+			(at 0 0.762 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
+			)
+		)
+		(symbol "NHD-C0220BIZ-FSW-FBW-3V3M_0_0"
+			(pin input line
+				(at -2.54 -2.54 0)
+				(length 2.54)
+				(name "RESET"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 0.9906 0.9906)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -2.54 -7.62 0)
+				(length 2.54)
+				(name "SCL"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 0.9906 0.9906)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -2.54 -10.16 0)
+				(length 2.54)
+				(name "SDA"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 0.9906 0.9906)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 27.94 -2.54 180)
+				(length 2.54)
+				(name "VDD"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 0.9906 0.9906)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 27.94 -7.62 180)
+				(length 2.54)
+				(name "C1+"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "7"
+					(effects
+						(font
+							(size 0.9906 0.9906)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 27.94 -12.7 180)
+				(length 2.54)
+				(name "C1-"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "8"
+					(effects
+						(font
+							(size 0.9906 0.9906)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 27.94 -17.78 180)
+				(length 2.54)
+				(name "VOUT"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 0.9906 0.9906)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 27.94 -25.4 180)
+				(length 2.54)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 0.9906 0.9906)
+						)
+					)
+				)
+			)
+		)
+		(symbol "NHD-C0220BIZ-FSW-FBW-3V3M_0_1"
+			(rectangle
+				(start 0 0)
+				(end 25.4 -27.94)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start 7.62 -2.54)
+				(end 17.78 -25.4)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "NHD-C0220BIZ-FSW-FBW-3V3M_1_0"
+			(pin passive line
+				(at -2.54 -17.78 0)
+				(length 2.54)
+				(name "BL-AN"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "9"
+					(effects
+						(font
+							(size 0.9906 0.9906)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -2.54 -25.4 0)
+				(length 2.54)
+				(name "BL-CA"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "10"
+					(effects
+						(font
+							(size 0.9906 0.9906)
+						)
+					)
+				)
+			)
+		)
+		(symbol "NHD-C0220BIZ-FSW-FBW-3V3M_1_1"
+			(text "DISPLAY"
+				(at 12.7 -1.27 0)
+				(effects
+					(font
+						(size 1 1)
+					)
+				)
+			)
+			(text "MODULE"
+				(at 12.7 -26.924 0)
+				(effects
+					(font
+						(size 1 1)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
 	)
 	(symbol "NHD-C12832A1Z-NSW-BBW-3V3"
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "DS"
-			(at 10.922 11.684 0)
+			(at 10.922 11.176 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -647,7 +1616,7 @@
 			)
 		)
 		(property "Value" "NHD-C12832A1Z-NSW-BBW-3V3"
-			(at 10.922 9.906 0)
+			(at 10.922 9.652 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -656,7 +1625,7 @@
 			)
 		)
 		(property "Footprint" "Daxxn_Displays:NHD-C12832A1Z"
-			(at 0 24.13 0)
+			(at 0 18.034 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -664,8 +1633,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "%LOCAL_DATASHEETS%\\NHD-C12832A1Z.pdf"
-			(at 0 21.59 0)
+		(property "Datasheet" "${DATASHEETS}\\NHD-C12832A1Z.pdf"
+			(at 0 16.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -674,7 +1643,7 @@
 			)
 		)
 		(property "Description" "Graphic LCD Display Module Transmissive White (Blue - Inverted) STN - Super-Twisted Nematic SPI 128 x 32"
-			(at 0 19.812 0)
+			(at 0 15.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -701,78 +1670,6 @@
 			)
 		)
 		(symbol "NHD-C12832A1Z-NSW-BBW-3V3_0_0"
-			(pin power_out line
-				(at -11.43 10.16 270)
-				(length 2.54)
-				(name "V_{0}"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin power_out line
-				(at 3.81 10.16 270)
-				(length 2.54)
-				(name "V_{OUT}"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "10"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin power_in line
-				(at 5.08 -11.43 90)
-				(length 2.54)
-				(name "GND"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "11"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin power_in line
-				(at 10.16 10.16 270)
-				(length 2.54)
-				(name "VCC"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "12"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
 			(pin bidirectional line
 				(at -20.32 3.81 0)
 				(length 2.54)
@@ -864,6 +1761,24 @@
 				)
 			)
 			(pin power_out line
+				(at -11.43 10.16 270)
+				(length 2.54)
+				(name "V_{0}"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_out line
 				(at -8.89 10.16 270)
 				(length 2.54)
 				(name "V_{1}"
@@ -899,6 +1814,24 @@
 					)
 				)
 			)
+			(pin passive line
+				(at -6.35 -11.43 90)
+				(length 2.54)
+				(name "LED-"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "K"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
 			(pin power_out line
 				(at -3.81 10.16 270)
 				(length 2.54)
@@ -917,6 +1850,24 @@
 					)
 				)
 			)
+			(pin passive line
+				(at -3.81 -11.43 90)
+				(length 2.54)
+				(name "LED+"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "A"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
 			(pin power_out line
 				(at -1.27 10.16 270)
 				(length 2.54)
@@ -928,6 +1879,60 @@
 					)
 				)
 				(number "5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_out line
+				(at 3.81 10.16 270)
+				(length 2.54)
+				(name "V_{OUT}"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "10"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 5.08 -11.43 90)
+				(length 2.54)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "11"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 10.16 10.16 270)
+				(length 2.54)
+				(name "VCC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "12"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1007,42 +2012,6 @@
 					)
 				)
 			)
-			(pin passive line
-				(at -3.81 -11.43 90)
-				(length 2.54)
-				(name "LED+"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "A"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at -6.35 -11.43 90)
-				(length 2.54)
-				(name "LED-"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "K"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
 		)
 		(symbol "NHD-C12832A1Z-NSW-BBW-3V3_0_1"
 			(rectangle
@@ -1068,29 +2037,32 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "NX4024T032"
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "DS"
-			(at 13.97 0 0)
+			(at 0 6.096 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Value" "NX4024T032"
-			(at 13.97 -1.905 0)
+			(at 0 4.699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Daxxn_Displays:NX4024T032_10mm"
-			(at 13.97 3.81 0)
+			(at 0 8.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1098,7 +2070,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at -13.97 6.35 0)
 			(effects
 				(font
@@ -1108,12 +2080,21 @@
 			)
 		)
 		(property "Description" "3.4\" LCD Display"
-			(at 3.556 6.35 0)
+			(at 0 10.414 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "PartNumber" "0603-0000-00009"
+			(at 0 3.302 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
 			)
 		)
 		(property "ki_keywords" "display lcd"
@@ -1126,8 +2107,16 @@
 			)
 		)
 		(symbol "NX4024T032_0_0"
-			(text "100mA MAX"
-				(at 13.97 -7.62 0)
+			(text "3.4\" DISPLAY"
+				(at 13.97 -3.81 0)
+				(effects
+					(font
+						(size 1 1)
+					)
+				)
+			)
+			(text "SERIAL INTERFACE"
+				(at 13.97 -5.08 0)
 				(effects
 					(font
 						(size 1 1)
@@ -1142,16 +2131,8 @@
 					)
 				)
 			)
-			(text "3.4\" DISPLAY"
-				(at 13.97 -3.81 0)
-				(effects
-					(font
-						(size 1 1)
-					)
-				)
-			)
-			(text "SERIAL INTERFACE"
-				(at 13.97 -5.08 0)
+			(text "100mA MAX"
+				(at 13.97 -7.62 0)
 				(effects
 					(font
 						(size 1 1)
@@ -1257,29 +2238,32 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "NX4827P043"
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "DS"
-			(at 13.97 0 0)
+			(at 0 6.096 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Value" "NX4827P043"
-			(at 13.97 -1.905 0)
+			(at 0 4.572 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Daxxn_Displays:NX4827P043_10mm_Harness"
-			(at 13.97 3.81 0)
+			(at 0 10.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1287,7 +2271,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at -13.97 6.35 0)
 			(effects
 				(font
@@ -1297,12 +2281,21 @@
 			)
 		)
 		(property "Description" "4.3\" LCD Display"
-			(at 4.318 5.842 0)
+			(at 0 11.684 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "PartNumber" "0603-0000-00011"
+			(at 0 3.302 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
 			)
 		)
 		(property "ki_keywords" "display lcd"
@@ -1315,8 +2308,16 @@
 			)
 		)
 		(symbol "NX4827P043_0_0"
-			(text "100mA MAX"
-				(at 13.97 -7.62 0)
+			(text "4.3\" DISPLAY"
+				(at 13.97 -3.81 0)
+				(effects
+					(font
+						(size 1 1)
+					)
+				)
+			)
+			(text "SERIAL INTERFACE"
+				(at 13.97 -5.08 0)
 				(effects
 					(font
 						(size 1 1)
@@ -1331,16 +2332,8 @@
 					)
 				)
 			)
-			(text "4.3\" DISPLAY"
-				(at 13.97 -3.81 0)
-				(effects
-					(font
-						(size 1 1)
-					)
-				)
-			)
-			(text "SERIAL INTERFACE"
-				(at 13.97 -5.08 0)
+			(text "100mA MAX"
+				(at 13.97 -7.62 0)
 				(effects
 					(font
 						(size 1 1)
@@ -1446,11 +2439,132 @@
 				)
 			)
 		)
+		(embedded_fonts no)
+	)
+	(symbol "UNKNOWN-1.3IN-OLED-I2C"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "DS"
+			(at 0.254 7.366 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "UNKNOWN-1.3IN-OLED-I2C"
+			(at 0.508 5.334 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "${DATASHEETS}/SSH1106.pdf"
+			(at -0.254 14.732 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Display 1.3\" Monochrome OLED SSH1106 I2C - Old Amazon Special"
+			(at 0.762 13.208 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PartNumber" "0601-0000-00007"
+			(at 1.27 3.302 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "WS-1.5IN-OLED-SPI"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "DS"
+			(at -1.016 8.128 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "WS-1.5IN-OLED-SPI"
+			(at -1.27 6.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "${DATASHEETS}/SSD1351.pdf"
+			(at 0.508 17.526 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Display 1.5\" RGB OLED SSD1351 SPI - Amazon Special"
+			(at 0.762 14.478 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PartNumber" "0601-0000-00009"
+			(at -1.27 4.826 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
+			)
+		)
+		(embedded_fonts no)
 	)
 	(symbol "NHD-C12832A1Z-FSW-FBW-3V3"
 		(extends "NHD-C12832A1Z-NSW-BBW-3V3")
 		(property "Reference" "DS"
-			(at 10.922 11.684 0)
+			(at 10.922 11.176 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1459,7 +2573,7 @@
 			)
 		)
 		(property "Value" "NHD-C12832A1Z-NSW-BBW-3V3"
-			(at 10.922 9.906 0)
+			(at 10.922 9.652 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1468,7 +2582,7 @@
 			)
 		)
 		(property "Footprint" "Daxxn_Displays:NHD-C12832A1Z"
-			(at 0 24.13 0)
+			(at 0 18.288 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1477,7 +2591,7 @@
 			)
 		)
 		(property "Datasheet" "${DATASHEETS}/NHD-C12832A1Z.pdf"
-			(at 0 21.59 0)
+			(at 0 16.764 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1486,7 +2600,7 @@
 			)
 		)
 		(property "Description" "Graphic LCD Display Module Transmissive White (Blue - Inverted) STN - Super-Twisted Nematic SPI 128 x 32"
-			(at 0 19.812 0)
+			(at 0 15.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1495,7 +2609,7 @@
 			)
 		)
 		(property "PartNumber" "0601-0000-00003"
-			(at 0 0 0)
+			(at 10.922 8.382 0)
 			(effects
 				(font
 					(size 1 1)

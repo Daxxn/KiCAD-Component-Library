@@ -1,7 +1,7 @@
 (kicad_symbol_lib
-	(version 20231120)
+	(version 20241209)
 	(generator "kicad_symbol_editor")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(symbol "ADP7182ACPZN-R7"
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -61,78 +61,6 @@
 			)
 		)
 		(symbol "ADP7182ACPZN-R7_0_0"
-			(pin power_out line
-				(at 15.24 -10.16 180)
-				(length 2.54)
-				(name "VOUT"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "1"
-					(effects
-						(font
-							(size 0.9906 0.9906)
-						)
-					)
-				)
-			)
-			(pin no_connect line
-				(at 5.08 -5.08 0)
-				(length 2.54) hide
-				(name "NC"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "2"
-					(effects
-						(font
-							(size 0.9906 0.9906)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at 15.24 -2.54 180)
-				(length 2.54)
-				(name "EN"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "3"
-					(effects
-						(font
-							(size 0.9906 0.9906)
-						)
-					)
-				)
-			)
-			(pin no_connect line
-				(at 5.08 -6.35 0)
-				(length 2.54) hide
-				(name "NC"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "4"
-					(effects
-						(font
-							(size 0.9906 0.9906)
-						)
-					)
-				)
-			)
 			(pin power_in line
 				(at -2.54 -2.54 0)
 				(length 2.54)
@@ -171,7 +99,8 @@
 			)
 			(pin power_out line
 				(at -2.54 -10.16 0)
-				(length 2.54) hide
+				(length 2.54)
+				(hide yes)
 				(name "VIN"
 					(effects
 						(font
@@ -180,6 +109,80 @@
 					)
 				)
 				(number "7"
+					(effects
+						(font
+							(size 0.9906 0.9906)
+						)
+					)
+				)
+			)
+			(pin no_connect line
+				(at 5.08 -5.08 0)
+				(length 2.54)
+				(hide yes)
+				(name "NC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 0.9906 0.9906)
+						)
+					)
+				)
+			)
+			(pin no_connect line
+				(at 5.08 -6.35 0)
+				(length 2.54)
+				(hide yes)
+				(name "NC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 0.9906 0.9906)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 15.24 -2.54 180)
+				(length 2.54)
+				(name "EN"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 0.9906 0.9906)
+						)
+					)
+				)
+			)
+			(pin power_out line
+				(at 15.24 -10.16 180)
+				(length 2.54)
+				(name "VOUT"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
 					(effects
 						(font
 							(size 0.9906 0.9906)
@@ -201,6 +204,7 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "AP2112K-1.8TRG1"
 		(exclude_from_sim no)
@@ -225,7 +229,7 @@
 			)
 		)
 		(property "Footprint" "Daxxn_Packages:SOT-23-5"
-			(at -0.762 15.24 0)
+			(at 0 9.398 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -234,7 +238,7 @@
 			)
 		)
 		(property "Datasheet" "${DATASHEETS}/AP2112.pdf"
-			(at 0 13.716 0)
+			(at 0 7.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -243,7 +247,7 @@
 			)
 		)
 		(property "Description" "IC REG LINEAR 1.8V 600MA SOT25"
-			(at -0.762 17.526 0)
+			(at 0 10.668 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -279,24 +283,6 @@
 					)
 				)
 			)
-			(pin power_in line
-				(at 17.78 -10.16 180)
-				(length 2.54)
-				(name "GND"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "2"
-					(effects
-						(font
-							(size 0.9906 0.9906)
-						)
-					)
-				)
-			)
 			(pin input line
 				(at -2.54 -10.16 0)
 				(length 2.54)
@@ -317,7 +303,8 @@
 			)
 			(pin no_connect line
 				(at 3.81 -5.08 0)
-				(length 2.54) hide
+				(length 2.54)
+				(hide yes)
 				(name "NC"
 					(effects
 						(font
@@ -351,6 +338,24 @@
 					)
 				)
 			)
+			(pin power_in line
+				(at 17.78 -10.16 180)
+				(length 2.54)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 0.9906 0.9906)
+						)
+					)
+				)
+			)
 		)
 		(symbol "AP2112K-1.8TRG1_0_1"
 			(rectangle
@@ -365,6 +370,7 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "AP2127K-1.2TRG1"
 		(exclude_from_sim no)
@@ -397,7 +403,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "${DATASHEETS}/${DATASHEETS}/AP2127.pdf"
+		(property "Datasheet" "${DATASHEETS}/AP2127.pdf"
 			(at 0 10.668 0)
 			(effects
 				(font
@@ -443,24 +449,6 @@
 					)
 				)
 			)
-			(pin power_in line
-				(at 17.78 -7.62 180)
-				(length 2.54)
-				(name "GND"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "2"
-					(effects
-						(font
-							(size 0.9906 0.9906)
-						)
-					)
-				)
-			)
 			(pin input line
 				(at -2.54 -7.62 0)
 				(length 2.54)
@@ -481,7 +469,8 @@
 			)
 			(pin no_connect line
 				(at 5.08 -5.08 0)
-				(length 2.54) hide
+				(length 2.54)
+				(hide yes)
 				(name "NC"
 					(effects
 						(font
@@ -515,6 +504,24 @@
 					)
 				)
 			)
+			(pin power_in line
+				(at 17.78 -7.62 180)
+				(length 2.54)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 0.9906 0.9906)
+						)
+					)
+				)
+			)
 		)
 		(symbol "AP2127K-1.2TRG1_0_1"
 			(rectangle
@@ -529,6 +536,7 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "AP2127K-1.8TRG1"
 		(exclude_from_sim no)
@@ -607,24 +615,6 @@
 					)
 				)
 			)
-			(pin power_in line
-				(at 20.32 -10.16 180)
-				(length 2.54)
-				(name "GND"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "2"
-					(effects
-						(font
-							(size 0.9906 0.9906)
-						)
-					)
-				)
-			)
 			(pin input line
 				(at -2.54 -10.16 0)
 				(length 2.54)
@@ -645,7 +635,8 @@
 			)
 			(pin no_connect line
 				(at 5.08 -6.35 0)
-				(length 2.54) hide
+				(length 2.54)
+				(hide yes)
 				(name "NC"
 					(effects
 						(font
@@ -679,6 +670,24 @@
 					)
 				)
 			)
+			(pin power_in line
+				(at 20.32 -10.16 180)
+				(length 2.54)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 0.9906 0.9906)
+						)
+					)
+				)
+			)
 		)
 		(symbol "AP2127K-1.8TRG1_0_1"
 			(rectangle
@@ -693,6 +702,7 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "AP7366-W5-7"
 		(exclude_from_sim no)
@@ -717,7 +727,7 @@
 			)
 		)
 		(property "Footprint" "Daxxn_Packages:SOT-23-5"
-			(at -2.032 6.35 0)
+			(at 0 6.096 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -726,7 +736,7 @@
 			)
 		)
 		(property "Datasheet" "${DATASHEETS}/AP7366.pdf"
-			(at -0.508 9.906 0)
+			(at 0 9.144 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -735,7 +745,7 @@
 			)
 		)
 		(property "Description" "IC REG LIN POS ADJ 600MA SOT25"
-			(at -2.032 8.382 0)
+			(at 0 7.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -771,24 +781,6 @@
 					)
 				)
 			)
-			(pin power_in line
-				(at 5.08 -12.7 90)
-				(length 2.54)
-				(name "GND"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "2"
-					(effects
-						(font
-							(size 0.9906 0.9906)
-						)
-					)
-				)
-			)
 			(pin input line
 				(at -2.54 -7.62 0)
 				(length 2.54)
@@ -807,17 +799,17 @@
 					)
 				)
 			)
-			(pin input line
-				(at 12.7 -7.62 180)
+			(pin power_in line
+				(at 5.08 -12.7 90)
 				(length 2.54)
-				(name "ADJ"
+				(name "GND"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "4"
+				(number "2"
 					(effects
 						(font
 							(size 0.9906 0.9906)
@@ -843,6 +835,24 @@
 					)
 				)
 			)
+			(pin input line
+				(at 12.7 -7.62 180)
+				(length 2.54)
+				(name "ADJ"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 0.9906 0.9906)
+						)
+					)
+				)
+			)
 		)
 		(symbol "AP7366-W5-7_0_1"
 			(rectangle
@@ -857,6 +867,7 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "AZ1117CH2-3.3TRG1"
 		(exclude_from_sim no)
@@ -881,7 +892,7 @@
 			)
 		)
 		(property "Footprint" "Daxxn_Packages:SOT-223"
-			(at 1.016 11.938 0)
+			(at 0 6.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -890,7 +901,7 @@
 			)
 		)
 		(property "Datasheet" "${DATASHEETS}/AZ1117C.pdf"
-			(at 2.54 13.97 0)
+			(at 0 7.874 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -899,7 +910,7 @@
 			)
 		)
 		(property "Description" "IC REG LINEAR 3.3V 1A SOT223"
-			(at 1.016 16.002 0)
+			(at 0 9.398 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -953,6 +964,25 @@
 					)
 				)
 			)
+			(pin power_in line
+				(at 5.08 -10.16 90)
+				(length 2.54)
+				(hide yes)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 0.9906 0.9906)
+						)
+					)
+				)
+			)
 			(pin power_out line
 				(at 12.7 -2.54 180)
 				(length 2.54)
@@ -964,24 +994,6 @@
 					)
 				)
 				(number "3"
-					(effects
-						(font
-							(size 0.9906 0.9906)
-						)
-					)
-				)
-			)
-			(pin power_in line
-				(at 5.08 -10.16 90)
-				(length 2.54) hide
-				(name "GND"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "4"
 					(effects
 						(font
 							(size 0.9906 0.9906)
@@ -1003,6 +1015,7 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "AZ1117IH-3.3TRG1"
 		(exclude_from_sim no)
@@ -1064,6 +1077,24 @@
 		)
 		(symbol "AZ1117IH-3.3TRG1_0_0"
 			(pin power_in line
+				(at -2.54 -2.54 0)
+				(length 2.54)
+				(name "IN"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 0.9906 0.9906)
+						)
+					)
+				)
+			)
+			(pin power_in line
 				(at 5.08 -10.16 90)
 				(length 2.54)
 				(name "GND"
@@ -1099,24 +1130,6 @@
 					)
 				)
 			)
-			(pin power_in line
-				(at -2.54 -2.54 0)
-				(length 2.54)
-				(name "IN"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "3"
-					(effects
-						(font
-							(size 0.9906 0.9906)
-						)
-					)
-				)
-			)
 		)
 		(symbol "AZ1117IH-3.3TRG1_0_1"
 			(rectangle
@@ -1134,7 +1147,8 @@
 		(symbol "AZ1117IH-3.3TRG1_1_0"
 			(pin power_out line
 				(at 12.7 -2.54 180)
-				(length 2.54) hide
+				(length 2.54)
+				(hide yes)
 				(name "OUT"
 					(effects
 						(font
@@ -1151,6 +1165,7 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "AZ1117IH-5.0TRG1"
 		(exclude_from_sim no)
@@ -1212,6 +1227,24 @@
 		)
 		(symbol "AZ1117IH-5.0TRG1_0_0"
 			(pin unspecified line
+				(at -2.54 -2.54 0)
+				(length 2.54)
+				(name "IN"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 0.9906 0.9906)
+						)
+					)
+				)
+			)
+			(pin unspecified line
 				(at 5.08 -10.16 90)
 				(length 2.54)
 				(name "GND"
@@ -1248,26 +1281,9 @@
 				)
 			)
 			(pin unspecified line
-				(at -2.54 -2.54 0)
-				(length 2.54)
-				(name "IN"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "3"
-					(effects
-						(font
-							(size 0.9906 0.9906)
-						)
-					)
-				)
-			)
-			(pin unspecified line
 				(at 12.7 -2.54 180)
-				(length 2.54) hide
+				(length 2.54)
+				(hide yes)
 				(name "OUT"
 					(effects
 						(font
@@ -1297,6 +1313,7 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "LM317-JCET"
 		(exclude_from_sim no)
@@ -1357,6 +1374,24 @@
 			)
 		)
 		(symbol "LM317-JCET_0_0"
+			(pin power_in line
+				(at -2.54 -2.54 0)
+				(length 2.54)
+				(name "IN"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 0.9906 0.9906)
+						)
+					)
+				)
+			)
 			(pin input line
 				(at 5.08 -10.16 90)
 				(length 2.54)
@@ -1393,27 +1428,10 @@
 					)
 				)
 			)
-			(pin power_in line
-				(at -2.54 -2.54 0)
-				(length 2.54)
-				(name "IN"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "3"
-					(effects
-						(font
-							(size 0.9906 0.9906)
-						)
-					)
-				)
-			)
 			(pin power_out line
 				(at 12.7 -2.54 180)
-				(length 2.54) hide
+				(length 2.54)
+				(hide yes)
 				(name "OUT"
 					(effects
 						(font
@@ -1443,6 +1461,7 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "LM317DCYG3"
 		(exclude_from_sim no)
@@ -1503,6 +1522,24 @@
 			)
 		)
 		(symbol "LM317DCYG3_0_0"
+			(pin power_in line
+				(at -2.54 -2.54 0)
+				(length 2.54)
+				(name "IN"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 0.9906 0.9906)
+						)
+					)
+				)
+			)
 			(pin input line
 				(at 5.08 -10.16 90)
 				(length 2.54)
@@ -1539,27 +1576,10 @@
 					)
 				)
 			)
-			(pin power_in line
-				(at -2.54 -2.54 0)
-				(length 2.54)
-				(name "IN"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "3"
-					(effects
-						(font
-							(size 0.9906 0.9906)
-						)
-					)
-				)
-			)
 			(pin power_out line
 				(at 12.7 -2.54 180)
-				(length 2.54) hide
+				(length 2.54)
+				(hide yes)
 				(name "OUT"
 					(effects
 						(font
@@ -1589,6 +1609,7 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "LM317KCS"
 		(exclude_from_sim no)
@@ -1622,7 +1643,7 @@
 			)
 		)
 		(property "Datasheet" "${DATASHEETS}/LM317.pdf"
-			(at 0 9.398 0)
+			(at 0 9.144 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1631,7 +1652,7 @@
 			)
 		)
 		(property "Description" "IC REG LIN POS ADJ 1.5A TO220-3"
-			(at 0 10.922 0)
+			(at 0 10.668 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1649,6 +1670,24 @@
 			)
 		)
 		(symbol "LM317KCS_0_0"
+			(pin power_in line
+				(at -2.54 -2.54 0)
+				(length 2.54)
+				(name "IN"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 0.9906 0.9906)
+						)
+					)
+				)
+			)
 			(pin input line
 				(at 5.08 -10.16 90)
 				(length 2.54)
@@ -1685,24 +1724,6 @@
 					)
 				)
 			)
-			(pin power_in line
-				(at -2.54 -2.54 0)
-				(length 2.54)
-				(name "IN"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "3"
-					(effects
-						(font
-							(size 0.9906 0.9906)
-						)
-					)
-				)
-			)
 		)
 		(symbol "LM317KCS_0_1"
 			(rectangle
@@ -1717,6 +1738,7 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "LM317LIPK"
 		(exclude_from_sim no)
@@ -1741,7 +1763,7 @@
 			)
 		)
 		(property "Footprint" "Daxxn_Packages:SOT-89-3"
-			(at 7.62 6.858 0)
+			(at 0 6.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1750,7 +1772,7 @@
 			)
 		)
 		(property "Datasheet" "${DATASHEETS}/LM317.pdf"
-			(at 7.62 9.906 0)
+			(at 0 9.398 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1759,7 +1781,7 @@
 			)
 		)
 		(property "Description" "Linear Voltage Regulator IC Positive Adjustable 1 Output 100mA SOT-89-3"
-			(at 7.62 8.382 0)
+			(at 0 7.874 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1819,24 +1841,6 @@
 			)
 		)
 		(symbol "LM317LIPK_1_0"
-			(pin power_out line
-				(at 12.7 -2.54 180)
-				(length 2.54)
-				(name "OUT"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "2"
-					(effects
-						(font
-							(size 0.9906 0.9906)
-						)
-					)
-				)
-			)
 			(pin power_in line
 				(at -2.54 -2.54 0)
 				(length 2.54)
@@ -1855,7 +1859,26 @@
 					)
 				)
 			)
+			(pin power_out line
+				(at 12.7 -2.54 180)
+				(length 2.54)
+				(name "OUT"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 0.9906 0.9906)
+						)
+					)
+				)
+			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "LM317MDT-TR"
 		(exclude_from_sim no)
@@ -1880,7 +1903,7 @@
 			)
 		)
 		(property "Footprint" "Daxxn_Packages:TO-252-2_TabPin3"
-			(at 7.62 6.858 0)
+			(at 0 6.604 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1888,8 +1911,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.st.com/resource/en/datasheet/lm217m.pdf"
-			(at 7.62 8.382 0)
+		(property "Datasheet" "${DATASHEETS}/LM217M.pdf"
+			(at 0 8.128 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1898,7 +1921,7 @@
 			)
 		)
 		(property "Description" "Linear Voltage Regulator IC Positive Adjustable 1 Output 500mA DPAK"
-			(at 7.62 9.652 0)
+			(at 0 9.398 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1995,6 +2018,7 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "LM317TG"
 		(exclude_from_sim no)
@@ -2055,6 +2079,24 @@
 			)
 		)
 		(symbol "LM317TG_0_0"
+			(pin power_in line
+				(at -2.54 -2.54 0)
+				(length 2.54)
+				(name "IN"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 0.9906 0.9906)
+						)
+					)
+				)
+			)
 			(pin input line
 				(at 5.08 -10.16 90)
 				(length 2.54)
@@ -2091,24 +2133,6 @@
 					)
 				)
 			)
-			(pin power_in line
-				(at -2.54 -2.54 0)
-				(length 2.54)
-				(name "IN"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "3"
-					(effects
-						(font
-							(size 0.9906 0.9906)
-						)
-					)
-				)
-			)
 		)
 		(symbol "LM317TG_0_1"
 			(rectangle
@@ -2123,6 +2147,7 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "LM7805SX/NOPB"
 		(exclude_from_sim no)
@@ -2219,6 +2244,25 @@
 					)
 				)
 			)
+			(pin power_in line
+				(at 5.08 -10.16 90)
+				(length 2.54)
+				(hide yes)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 0.9906 0.9906)
+						)
+					)
+				)
+			)
 			(pin power_out line
 				(at 12.7 -2.54 180)
 				(length 2.54)
@@ -2230,24 +2274,6 @@
 					)
 				)
 				(number "3"
-					(effects
-						(font
-							(size 0.9906 0.9906)
-						)
-					)
-				)
-			)
-			(pin power_in line
-				(at 5.08 -10.16 90)
-				(length 2.54) hide
-				(name "GND"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "4"
 					(effects
 						(font
 							(size 0.9906 0.9906)
@@ -2269,6 +2295,7 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "LP2985-50DBVR"
 		(exclude_from_sim no)
@@ -2347,24 +2374,6 @@
 					)
 				)
 			)
-			(pin power_in line
-				(at 15.24 -10.16 180)
-				(length 2.54)
-				(name "GND"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "2"
-					(effects
-						(font
-							(size 0.9906 0.9906)
-						)
-					)
-				)
-			)
 			(pin input line
 				(at -2.54 -5.08 0)
 				(length 2.54)
@@ -2419,6 +2428,24 @@
 					)
 				)
 			)
+			(pin power_in line
+				(at 15.24 -10.16 180)
+				(length 2.54)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 0.9906 0.9906)
+						)
+					)
+				)
+			)
 		)
 		(symbol "LP2985-50DBVR_0_1"
 			(rectangle
@@ -2433,6 +2460,7 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "LT1129CS8-3.3#PBF"
 		(exclude_from_sim no)
@@ -2493,6 +2521,61 @@
 			)
 		)
 		(symbol "LT1129CS8-3.3#PBF_0_0"
+			(pin power_in line
+				(at -2.54 -2.54 0)
+				(length 2.54)
+				(name "VIN"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "8"
+					(effects
+						(font
+							(size 0.9906 0.9906)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -2.54 -10.16 0)
+				(length 2.54)
+				(name "~{SHDN}"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 0.9906 0.9906)
+						)
+					)
+				)
+			)
+			(pin no_connect line
+				(at 2.54 -5.08 0)
+				(length 2.54)
+				(hide yes)
+				(name "NC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 0.9906 0.9906)
+						)
+					)
+				)
+			)
 			(pin power_out line
 				(at 17.78 -2.54 180)
 				(length 2.54)
@@ -2547,45 +2630,10 @@
 					)
 				)
 			)
-			(pin no_connect line
-				(at 2.54 -5.08 0)
-				(length 2.54) hide
-				(name "NC"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "4"
-					(effects
-						(font
-							(size 0.9906 0.9906)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at -2.54 -10.16 0)
-				(length 2.54)
-				(name "~{SHDN}"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "5"
-					(effects
-						(font
-							(size 0.9906 0.9906)
-						)
-					)
-				)
-			)
 			(pin power_in line
 				(at 17.78 -10.16 180)
-				(length 2.54) hide
+				(length 2.54)
+				(hide yes)
 				(name "GND"
 					(effects
 						(font
@@ -2603,7 +2651,8 @@
 			)
 			(pin power_in line
 				(at 17.78 -10.16 180)
-				(length 2.54) hide
+				(length 2.54)
+				(hide yes)
 				(name "GND"
 					(effects
 						(font
@@ -2612,24 +2661,6 @@
 					)
 				)
 				(number "7"
-					(effects
-						(font
-							(size 0.9906 0.9906)
-						)
-					)
-				)
-			)
-			(pin power_in line
-				(at -2.54 -2.54 0)
-				(length 2.54)
-				(name "VIN"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "8"
 					(effects
 						(font
 							(size 0.9906 0.9906)
@@ -2651,6 +2682,7 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "MAX15027ATB+T"
 		(exclude_from_sim no)
@@ -2680,27 +2712,24 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "%LOCAL_DATASHEETS%/MAX15027.pdf"
+		(property "Datasheet" "${DATASHEETS}/MAX15027.pdf"
 			(at 0 11.176 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 				(hide yes)
 			)
 		)
 		(property "Description" "Linear Voltage Regulator IC Positive Adjustable 1 Output 1A 10-TDFN (3x3)"
-			(at 0 14.732 0)
+			(at 0 14.478 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 				(hide yes)
 			)
 		)
@@ -2741,45 +2770,10 @@
 					)
 				)
 			)
-			(pin power_out line
-				(at 17.78 0 180)
-				(length 2.54) hide
-				(name "OUT"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "10"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin power_in line
-				(at 7.62 -17.78 90)
-				(length 2.54) hide
-				(name "GND"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "11"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
 			(pin power_in line
 				(at -2.54 0 0)
-				(length 2.54) hide
+				(length 2.54)
+				(hide yes)
 				(name "IN"
 					(effects
 						(font
@@ -2797,7 +2791,8 @@
 			)
 			(pin power_in line
 				(at -2.54 0 0)
-				(length 2.54) hide
+				(length 2.54)
+				(hide yes)
 				(name "IN"
 					(effects
 						(font
@@ -2806,24 +2801,6 @@
 					)
 				)
 				(number "3"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin power_in line
-				(at 7.62 -17.78 90)
-				(length 2.54)
-				(name "GND"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "4"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -2867,17 +2844,18 @@
 					)
 				)
 			)
-			(pin input line
-				(at 17.78 -10.16 180)
+			(pin power_in line
+				(at 7.62 -17.78 90)
 				(length 2.54)
-				(name "FB"
+				(hide yes)
+				(name "GND"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "7"
+				(number "11"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -2887,7 +2865,26 @@
 			)
 			(pin power_in line
 				(at 7.62 -17.78 90)
-				(length 2.54) hide
+				(length 2.54)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 7.62 -17.78 90)
+				(length 2.54)
+				(hide yes)
 				(name "GND"
 					(effects
 						(font
@@ -2896,6 +2893,25 @@
 					)
 				)
 				(number "8"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_out line
+				(at 17.78 0 180)
+				(length 2.54)
+				(hide yes)
+				(name "OUT"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "10"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -2921,6 +2937,24 @@
 					)
 				)
 			)
+			(pin input line
+				(at 17.78 -10.16 180)
+				(length 2.54)
+				(name "FB"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "7"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
 		)
 		(symbol "MAX15027ATB+T_0_1"
 			(rectangle
@@ -2935,13 +2969,14 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "MC78M05CDTRKG"
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "U"
-			(at -2.794 10.16 0)
+			(at 0 3.556 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2950,7 +2985,7 @@
 			)
 		)
 		(property "Value" "MC78M05CDTRKG"
-			(at -1.524 7.366 0)
+			(at 0 2.032 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2958,8 +2993,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at -1.524 7.366 0)
+		(property "Footprint" "Daxxn_Packages:TO-252-2"
+			(at 0 9.398 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2968,7 +3003,7 @@
 			)
 		)
 		(property "Datasheet" "${DATASHEETS}/MC78M00-D.PDF"
-			(at -1.524 14.478 0)
+			(at 0 7.874 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2977,7 +3012,7 @@
 			)
 		)
 		(property "Description" "IC REG LINEAR 5V 500MA DPAK"
-			(at -0.762 12.446 0)
+			(at 0 6.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2986,7 +3021,7 @@
 			)
 		)
 		(property "PartNumber" "0811-0401-00025"
-			(at -1.524 7.366 0)
+			(at 0 0.762 0)
 			(effects
 				(font
 					(size 1 1)
@@ -2995,10 +3030,10 @@
 			)
 		)
 		(symbol "MC78M05CDTRKG_0_0"
-			(pin unspecified line
-				(at 0 0 0)
+			(pin power_in line
+				(at -2.54 -2.54 0)
 				(length 2.54)
-				(name ""
+				(name "IN"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -3013,10 +3048,10 @@
 					)
 				)
 			)
-			(pin unspecified line
-				(at 0 -2.54 0)
+			(pin power_in line
+				(at 5.08 -10.16 90)
 				(length 2.54)
-				(name ""
+				(name "GND"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -3031,10 +3066,10 @@
 					)
 				)
 			)
-			(pin unspecified line
-				(at 0 -5.08 0)
+			(pin power_out line
+				(at 12.7 -2.54 180)
 				(length 2.54)
-				(name ""
+				(name "OUT"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -3049,25 +3084,21 @@
 					)
 				)
 			)
-			(pin unspecified line
-				(at 0 -7.62 0)
-				(length 2.54)
-				(name ""
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
+		)
+		(symbol "MC78M05CDTRKG_0_1"
+			(rectangle
+				(start 0 0)
+				(end 10.16 -7.62)
+				(stroke
+					(width 0)
+					(type default)
 				)
-				(number "4"
-					(effects
-						(font
-							(size 0.9906 0.9906)
-						)
-					)
+				(fill
+					(type none)
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "MCP1700T-2802E/TT"
 		(exclude_from_sim no)
@@ -3092,32 +3123,29 @@
 			)
 		)
 		(property "Footprint" "Daxxn_Packages:SOT-23-3"
-			(at 0 9.652 0)
+			(at 0 7.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 				(hide yes)
 			)
 		)
 		(property "Datasheet" "${DATASHEETS}/MCP1700.pdf"
-			(at 0 13.208 0)
+			(at 0 10.668 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 				(hide yes)
 			)
 		)
 		(property "Description" "Linear Voltage Regulator IC Positive Fixed 1 Output 250mA SOT-23-3"
-			(at 0 11.43 0)
+			(at 0 9.144 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 				(hide yes)
 			)
 		)
@@ -3140,24 +3168,6 @@
 			)
 		)
 		(symbol "MCP1700T-2802E/TT_0_0"
-			(pin power_in line
-				(at 6.35 -10.16 90)
-				(length 2.54)
-				(name "GND"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "1"
-					(effects
-						(font
-							(size 0.9906 0.9906)
-						)
-					)
-				)
-			)
 			(pin power_out line
 				(at -2.54 -2.54 0)
 				(length 2.54)
@@ -3169,6 +3179,24 @@
 					)
 				)
 				(number "2"
+					(effects
+						(font
+							(size 0.9906 0.9906)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 6.35 -10.16 90)
+				(length 2.54)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
 					(effects
 						(font
 							(size 0.9906 0.9906)
@@ -3208,6 +3236,7 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "MIC5219-3.3YM5-TR"
 		(exclude_from_sim no)
@@ -3286,24 +3315,6 @@
 					)
 				)
 			)
-			(pin power_in line
-				(at 7.62 -12.7 90)
-				(length 2.54)
-				(name "GND"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "2"
-					(effects
-						(font
-							(size 0.9906 0.9906)
-						)
-					)
-				)
-			)
 			(pin input line
 				(at -2.54 -7.62 0)
 				(length 2.54)
@@ -3322,17 +3333,17 @@
 					)
 				)
 			)
-			(pin input line
-				(at 17.78 -7.62 180)
+			(pin power_in line
+				(at 7.62 -12.7 90)
 				(length 2.54)
-				(name "BYP"
+				(name "GND"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "4"
+				(number "2"
 					(effects
 						(font
 							(size 0.9906 0.9906)
@@ -3358,6 +3369,24 @@
 					)
 				)
 			)
+			(pin input line
+				(at 17.78 -7.62 180)
+				(length 2.54)
+				(name "BYP"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 0.9906 0.9906)
+						)
+					)
+				)
+			)
 		)
 		(symbol "MIC5219-3.3YM5-TR_0_1"
 			(rectangle
@@ -3372,6 +3401,7 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "MIC5504-2.8YM5-TR"
 		(exclude_from_sim no)
@@ -3396,32 +3426,29 @@
 			)
 		)
 		(property "Footprint" "Daxxn_Packages:SOT-23-5"
-			(at 0 12.7 0)
+			(at 0 9.398 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 				(hide yes)
 			)
 		)
 		(property "Datasheet" "${DATASHEETS}/MIC5501.pdf"
+			(at 0 7.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Linear Voltage Regulator IC Positive Fixed 1 Output 300mA SOT-23-5"
 			(at 0 10.922 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "Linear Voltage Regulator IC Positive Fixed 1 Output 300mA SOT-23-5"
-			(at 0 14.478 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 				(hide yes)
 			)
 		)
@@ -3462,24 +3489,6 @@
 					)
 				)
 			)
-			(pin power_in line
-				(at 15.24 -11.43 180)
-				(length 2.54)
-				(name "GND"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "2"
-					(effects
-						(font
-							(size 0.9906 0.9906)
-						)
-					)
-				)
-			)
 			(pin input line
 				(at -2.54 -11.43 0)
 				(length 2.54)
@@ -3500,7 +3509,8 @@
 			)
 			(pin no_connect line
 				(at 6.35 -7.62 90)
-				(length 2.54) hide
+				(length 2.54)
+				(hide yes)
 				(name "NC"
 					(effects
 						(font
@@ -3534,6 +3544,24 @@
 					)
 				)
 			)
+			(pin power_in line
+				(at 15.24 -11.43 180)
+				(length 2.54)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 0.9906 0.9906)
+						)
+					)
+				)
+			)
 		)
 		(symbol "MIC5504-2.8YM5-TR_0_1"
 			(rectangle
@@ -3548,6 +3576,7 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "NCP51200AMNTXG"
 		(exclude_from_sim no)
@@ -3572,32 +3601,29 @@
 			)
 		)
 		(property "Footprint" "Daxxn_Packages:DFN-10-1EP_3x3mm_P0.5mm_EP1.65x2.38mm"
-			(at 0.254 11.684 0)
+			(at 0 9.398 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "%LOCAL_DATASHEETS%/NCP51200.pdf"
-			(at 0.254 9.906 0)
+		(property "Datasheet" "${DATASHEETS}/NCP51200.pdf"
+			(at 0 7.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 				(hide yes)
 			)
 		)
 		(property "Description" "LDO (Linear), DDR Voltage Regulator IC 1 Output 10-DFN (3x3)"
-			(at 0.254 13.462 0)
+			(at 0 11.176 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 				(hide yes)
 			)
 		)
@@ -3620,6 +3646,24 @@
 			)
 		)
 		(symbol "NCP51200AMNTXG_0_0"
+			(pin power_in line
+				(at -2.54 -2.54 0)
+				(length 2.54)
+				(name "VIN"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
 			(pin input line
 				(at -2.54 -7.62 0)
 				(length 2.54)
@@ -3631,6 +3675,42 @@
 					)
 				)
 				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at -2.54 -21.59 0)
+				(length 2.54)
+				(name "PGOOD"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "9"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -2.54 -24.13 0)
+				(length 2.54)
+				(name "EN"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "7"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -3658,7 +3738,8 @@
 			)
 			(pin power_in line
 				(at 12.7 -30.48 90)
-				(length 2.54) hide
+				(length 2.54)
+				(hide yes)
 				(name "GND"
 					(effects
 						(font
@@ -3667,42 +3748,6 @@
 					)
 				)
 				(number "11"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin power_in line
-				(at -2.54 -2.54 0)
-				(length 2.54)
-				(name "VIN"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "2"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin power_out line
-				(at 27.94 -3.81 180)
-				(length 2.54)
-				(name "VTT"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "3"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -3721,6 +3766,43 @@
 					)
 				)
 				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 12.7 -30.48 90)
+				(length 2.54)
+				(hide yes)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "8"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_out line
+				(at 27.94 -3.81 180)
+				(length 2.54)
+				(name "VTT"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -3764,60 +3846,6 @@
 					)
 				)
 			)
-			(pin input line
-				(at -2.54 -24.13 0)
-				(length 2.54)
-				(name "EN"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "7"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin power_in line
-				(at 12.7 -30.48 90)
-				(length 2.54) hide
-				(name "GND"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "8"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin output line
-				(at -2.54 -21.59 0)
-				(length 2.54)
-				(name "PGOOD"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "9"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
 		)
 		(symbol "NCP51200AMNTXG_0_1"
 			(rectangle
@@ -3832,6 +3860,7 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "PROMICRO-REG"
 		(exclude_from_sim no)
@@ -3907,24 +3936,6 @@
 					)
 				)
 			)
-			(pin power_in line
-				(at 0 -11.43 90)
-				(length 2.54)
-				(name "GND"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "2"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
 			(pin input line
 				(at -8.89 -6.35 0)
 				(length 2.54)
@@ -3936,6 +3947,24 @@
 					)
 				)
 				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 0 -11.43 90)
+				(length 2.54)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -3995,6 +4024,7 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "TCR2LF33,LM"
 		(exclude_from_sim no)
@@ -4073,27 +4103,10 @@
 					)
 				)
 			)
-			(pin power_in line
-				(at 15.24 -12.7 180)
-				(length 2.54)
-				(name "GND"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "2"
-					(effects
-						(font
-							(size 0.9906 0.9906)
-						)
-					)
-				)
-			)
 			(pin no_connect line
 				(at 5.08 -5.08 0)
-				(length 2.54) hide
+				(length 2.54)
+				(hide yes)
 				(name "NC"
 					(effects
 						(font
@@ -4120,6 +4133,24 @@
 					)
 				)
 				(number "5"
+					(effects
+						(font
+							(size 0.9906 0.9906)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 15.24 -12.7 180)
+				(length 2.54)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
 					(effects
 						(font
 							(size 0.9906 0.9906)
@@ -4161,13 +4192,14 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "TLV7103318QDSERQ1"
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "U"
-			(at 0 4.318 0)
+			(at 0 4.064 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4190,27 +4222,24 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "%LOCAL_DATASHEETS%/TLV7103318.pdf"
+		(property "Datasheet" "${DATASHEETS}/TLV7103318.pdf"
 			(at 0 6.858 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 				(hide yes)
 			)
 		)
 		(property "Description" "Linear Voltage Regulator IC Positive Fixed 2 Output 200mA 6-WSON"
-			(at 0 10.414 0)
+			(at 0 10.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 				(hide yes)
 			)
 		)
@@ -4233,24 +4262,6 @@
 			)
 		)
 		(symbol "TLV7103318QDSERQ1_0_0"
-			(pin input line
-				(at -2.54 -6.35 0)
-				(length 2.54)
-				(name "EN1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
 			(pin power_in line
 				(at -2.54 -2.54 0)
 				(length 2.54)
@@ -4262,6 +4273,24 @@
 					)
 				)
 				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -2.54 -6.35 0)
+				(length 2.54)
+				(name "EN1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -4287,17 +4316,17 @@
 					)
 				)
 			)
-			(pin power_in line
-				(at 15.24 -8.89 180)
+			(pin power_out line
+				(at 15.24 -2.54 180)
 				(length 2.54)
-				(name "GND"
+				(name "OUT1"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "4"
+				(number "6"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -4323,17 +4352,17 @@
 					)
 				)
 			)
-			(pin power_out line
-				(at 15.24 -2.54 180)
+			(pin power_in line
+				(at 15.24 -8.89 180)
 				(length 2.54)
-				(name "OUT1"
+				(name "GND"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "6"
+				(number "4"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -4355,6 +4384,7 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "TLV75518PDRVR"
 		(exclude_from_sim no)
@@ -4415,53 +4445,17 @@
 			)
 		)
 		(symbol "TLV75518PDRVR_0_0"
-			(pin power_out line
-				(at 17.78 -2.54 180)
-				(length 2.54)
-				(name "OUT"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "1"
-					(effects
-						(font
-							(size 0.9906 0.9906)
-						)
-					)
-				)
-			)
-			(pin no_connect line
-				(at 5.08 -5.08 0)
-				(length 2.54) hide
-				(name "NC"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "2"
-					(effects
-						(font
-							(size 0.9906 0.9906)
-						)
-					)
-				)
-			)
 			(pin power_in line
-				(at 17.78 -10.16 180)
+				(at -2.54 -2.54 0)
 				(length 2.54)
-				(name "GND"
+				(name "IN"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "3"
+				(number "6"
 					(effects
 						(font
 							(size 0.9906 0.9906)
@@ -4488,8 +4482,28 @@
 				)
 			)
 			(pin no_connect line
+				(at 5.08 -5.08 0)
+				(length 2.54)
+				(hide yes)
+				(name "NC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 0.9906 0.9906)
+						)
+					)
+				)
+			)
+			(pin no_connect line
 				(at 5.08 -6.35 0)
-				(length 2.54) hide
+				(length 2.54)
+				(hide yes)
 				(name "NC"
 					(effects
 						(font
@@ -4505,17 +4519,17 @@
 					)
 				)
 			)
-			(pin power_in line
-				(at -2.54 -2.54 0)
+			(pin power_out line
+				(at 17.78 -2.54 180)
 				(length 2.54)
-				(name "IN"
+				(name "OUT"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "6"
+				(number "1"
 					(effects
 						(font
 							(size 0.9906 0.9906)
@@ -4525,7 +4539,26 @@
 			)
 			(pin power_in line
 				(at 17.78 -10.16 180)
-				(length 2.54) hide
+				(length 2.54)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 0.9906 0.9906)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 17.78 -10.16 180)
+				(length 2.54)
+				(hide yes)
 				(name "GND"
 					(effects
 						(font
@@ -4555,6 +4588,7 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "TLV75901PDRVR"
 		(exclude_from_sim no)
@@ -4584,17 +4618,15 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "%LOCAL_DATASHEETS%/TLV759P.pdf"
+		(property "Datasheet" "${DATASHEETS}/TLV759P.pdf"
 			(at 0 9.906 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 				(hide yes)
 			)
 		)
@@ -4604,7 +4636,6 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 				(hide yes)
 			)
 		)
@@ -4627,53 +4658,17 @@
 			)
 		)
 		(symbol "TLV75901PDRVR_0_0"
-			(pin power_out line
-				(at 15.24 -2.54 180)
-				(length 2.54)
-				(name "OUT"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at 15.24 -10.16 180)
-				(length 2.54)
-				(name "FB"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "2"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
 			(pin power_in line
-				(at 6.35 -15.24 90)
+				(at -2.54 -2.54 0)
 				(length 2.54)
-				(name "GND"
+				(name "IN"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "3"
+				(number "6"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -4701,7 +4696,8 @@
 			)
 			(pin no_connect line
 				(at 5.08 -6.35 0)
-				(length 2.54) hide
+				(length 2.54)
+				(hide yes)
 				(name "NC"
 					(effects
 						(font
@@ -4718,16 +4714,16 @@
 				)
 			)
 			(pin power_in line
-				(at -2.54 -2.54 0)
+				(at 6.35 -15.24 90)
 				(length 2.54)
-				(name "IN"
+				(name "GND"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "6"
+				(number "3"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -4737,7 +4733,8 @@
 			)
 			(pin power_in line
 				(at 6.35 -15.24 90)
-				(length 2.54) hide
+				(length 2.54)
+				(hide yes)
 				(name "GND"
 					(effects
 						(font
@@ -4746,6 +4743,42 @@
 					)
 				)
 				(number "7"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_out line
+				(at 15.24 -2.54 180)
+				(length 2.54)
+				(name "OUT"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 15.24 -10.16 180)
+				(length 2.54)
+				(name "FB"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -4767,6 +4800,7 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "TPS72301DRVR"
 		(exclude_from_sim no)
@@ -4791,32 +4825,29 @@
 			)
 		)
 		(property "Footprint" "Daxxn_Packages:DFN-6-1EP_2x2mm_P0.65mm_EP1x1.6mm"
-			(at 0 10.668 0)
+			(at 0 9.398 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 				(hide yes)
 			)
 		)
 		(property "Datasheet" "${DATASHEETS}/TPS723.pdf"
-			(at 0 12.446 0)
+			(at 0 11.176 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 				(hide yes)
 			)
 		)
 		(property "Description" "Linear Voltage Regulator IC Negative Adjustable 1 Output 200mA 6-WSON (2x2)"
-			(at 0 8.89 0)
+			(at 0 7.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 				(hide yes)
 			)
 		)
@@ -4839,6 +4870,98 @@
 			)
 		)
 		(symbol "TPS72301DRVR_0_0"
+			(pin power_in line
+				(at -2.54 -2.54 0)
+				(length 2.54)
+				(name "IN"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 0.9906 0.9906)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -2.54 -10.16 0)
+				(length 2.54)
+				(name "EN"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 0.9906 0.9906)
+						)
+					)
+				)
+			)
+			(pin no_connect line
+				(at 6.35 -6.35 90)
+				(length 2.54)
+				(hide yes)
+				(name "NC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 0.9906 0.9906)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 6.35 -15.24 90)
+				(length 2.54)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 0.9906 0.9906)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 6.35 -15.24 90)
+				(length 2.54)
+				(hide yes)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "7"
+					(effects
+						(font
+							(size 0.9906 0.9906)
+						)
+					)
+				)
+			)
 			(pin power_out line
 				(at 15.24 -2.54 180)
 				(length 2.54)
@@ -4875,96 +4998,6 @@
 					)
 				)
 			)
-			(pin no_connect line
-				(at 6.35 -6.35 90)
-				(length 2.54) hide
-				(name "NC"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "3"
-					(effects
-						(font
-							(size 0.9906 0.9906)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at -2.54 -10.16 0)
-				(length 2.54)
-				(name "EN"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "4"
-					(effects
-						(font
-							(size 0.9906 0.9906)
-						)
-					)
-				)
-			)
-			(pin power_in line
-				(at 6.35 -15.24 90)
-				(length 2.54)
-				(name "GND"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "5"
-					(effects
-						(font
-							(size 0.9906 0.9906)
-						)
-					)
-				)
-			)
-			(pin power_in line
-				(at -2.54 -2.54 0)
-				(length 2.54)
-				(name "IN"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "6"
-					(effects
-						(font
-							(size 0.9906 0.9906)
-						)
-					)
-				)
-			)
-			(pin power_in line
-				(at 6.35 -15.24 90)
-				(length 2.54) hide
-				(name "GND"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "7"
-					(effects
-						(font
-							(size 0.9906 0.9906)
-						)
-					)
-				)
-			)
 		)
 		(symbol "TPS72301DRVR_0_1"
 			(rectangle
@@ -4979,13 +5012,14 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "TPS7A0225PDBVR"
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "U"
-			(at 0 4.064 0)
+			(at 0 3.556 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4994,7 +5028,7 @@
 			)
 		)
 		(property "Value" "TPS7A0225PDBVR"
-			(at 0 2.286 0)
+			(at 0 2.032 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5057,24 +5091,6 @@
 					)
 				)
 			)
-			(pin power_in line
-				(at 17.78 -7.62 180)
-				(length 2.54)
-				(name "GND"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "2"
-					(effects
-						(font
-							(size 0.9906 0.9906)
-						)
-					)
-				)
-			)
 			(pin input line
 				(at -2.54 -7.62 0)
 				(length 2.54)
@@ -5095,7 +5111,8 @@
 			)
 			(pin no_connect line
 				(at 5.08 -5.08 0)
-				(length 2.54) hide
+				(length 2.54)
+				(hide yes)
 				(name "NC"
 					(effects
 						(font
@@ -5129,6 +5146,24 @@
 					)
 				)
 			)
+			(pin power_in line
+				(at 17.78 -7.62 180)
+				(length 2.54)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 0.9906 0.9906)
+						)
+					)
+				)
+			)
 		)
 		(symbol "TPS7A0225PDBVR_0_1"
 			(rectangle
@@ -5143,6 +5178,7 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "TPS7A9401DSCR"
 		(exclude_from_sim no)
@@ -5172,27 +5208,24 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "%LOCAL_DATASHEETS%/TPS7A94.pdf"
-			(at 0 9.652 0)
+		(property "Datasheet" "${DATASHEETS}/TPS7A94.pdf"
+			(at 0 9.144 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 				(hide yes)
 			)
 		)
 		(property "Description" "Ultra Low-Noise LDO Positive Voltage Regulator"
-			(at 0 11.684 0)
+			(at 0 10.668 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 				(hide yes)
 			)
 		)
@@ -5233,45 +5266,10 @@
 					)
 				)
 			)
-			(pin power_out line
-				(at 17.78 -2.54 180)
-				(length 2.54)
-				(name "OUT"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "10"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin power_in line
-				(at 17.78 -20.32 180)
-				(length 2.54) hide
-				(name "GND"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "11"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
 			(pin power_in line
 				(at -2.54 -2.54 0)
-				(length 2.54) hide
+				(length 2.54)
+				(hide yes)
 				(name "IN"
 					(effects
 						(font
@@ -5324,42 +5322,6 @@
 				)
 			)
 			(pin input line
-				(at 17.78 -12.7 180)
-				(length 2.54)
-				(name "FB_PG"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "5"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin power_in line
-				(at 17.78 -20.32 180)
-				(length 2.54)
-				(name "GND"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "6"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input line
 				(at -2.54 -20.32 0)
 				(length 2.54)
 				(name "NR/SS"
@@ -5370,6 +5332,43 @@
 					)
 				)
 				(number "7"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_out line
+				(at 17.78 -2.54 180)
+				(length 2.54)
+				(name "OUT"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "10"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_out line
+				(at 17.78 -2.54 180)
+				(length 2.54)
+				(hide yes)
+				(name "OUT"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "9"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -5395,17 +5394,54 @@
 					)
 				)
 			)
-			(pin power_out line
-				(at 17.78 -2.54 180)
-				(length 2.54) hide
-				(name "OUT"
+			(pin input line
+				(at 17.78 -12.7 180)
+				(length 2.54)
+				(name "FB_PG"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "9"
+				(number "5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 17.78 -20.32 180)
+				(length 2.54)
+				(hide yes)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "11"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 17.78 -20.32 180)
+				(length 2.54)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "6"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -5427,6 +5463,7 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "UA78M33CKVURG3"
 		(exclude_from_sim no)
@@ -5451,32 +5488,29 @@
 			)
 		)
 		(property "Footprint" "Daxxn_Packages:TO-252-2"
-			(at 0 9.398 0)
+			(at 0 7.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 				(hide yes)
 			)
 		)
 		(property "Datasheet" "${DATASHEETS}/UA78Mxx.pdf"
-			(at 0 12.954 0)
+			(at 0 10.922 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 				(hide yes)
 			)
 		)
 		(property "Description" "Linear Voltage Regulator IC Positive Fixed 1 Output 500mA TO-252-3"
-			(at 0 11.176 0)
+			(at 0 9.144 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 				(hide yes)
 			)
 		)
@@ -5569,6 +5603,7 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "AP2127K-3.3TRG1"
 		(extends "AP2127K-1.8TRG1")

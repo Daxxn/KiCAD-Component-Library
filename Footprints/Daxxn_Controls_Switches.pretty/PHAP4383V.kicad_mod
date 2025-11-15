@@ -1,7 +1,7 @@
 (footprint "PHAP4383V"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
 		(at 0 -5.1 0)
@@ -24,18 +24,6 @@
 			(font
 				(size 0.25 0.25)
 				(thickness 0.04)
-			)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "b765bb83-b28a-4c63-b9ce-9f604fc8bbff")
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.15)
 			)
 		)
 	)
@@ -101,9 +89,20 @@
 			(width 0.12)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.SilkS")
 		(uuid "fa6e20be-faa8-438f-8190-df1a6f7c29f1")
+	)
+	(fp_rect
+		(start -4.4 -4.4)
+		(end 4.4 4.4)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "e7e37c6e-df38-4cee-9805-74000285e85f")
 	)
 	(fp_rect
 		(start -4.25 -4.25)
@@ -112,7 +111,7 @@
 			(width 0.1)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 		(uuid "81afc970-972d-4b2f-8d33-7e65a59f6e13")
 	)
@@ -176,6 +175,7 @@
 		(remove_unused_layers no)
 		(uuid "88d3f10c-c8fd-410a-8e09-ef34283759dd")
 	)
+	(embedded_fonts no)
 	(model "${ENGINEERING}/KiCad/Libraries/Models/Controls/PHAP4383V.stp"
 		(offset
 			(xyz 0 0 0)

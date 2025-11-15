@@ -6907,7 +6907,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "16-V, 11-MHz, Rail-to-Rail Input/Output, Low Offset Voltage, Low Noise Op Amp - SMD SOT23-5"
+		(property "Description" "General Purpose Amplifier 1 Circuit Rail-to-Rail SOT-23-5"
 			(at 0 7.62 0)
 			(effects
 				(font
@@ -7254,7 +7254,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "16-V, 11-MHz, Rail-to-Rail Input/Output, Low Offset Voltage, Low Noise Op Amp - SMD SOT23-5"
+		(property "Description" "General Purpose Amplifier 1 Circuit Rail-to-Rail SOT-23-5"
 			(at 0 8.382 0)
 			(effects
 				(font

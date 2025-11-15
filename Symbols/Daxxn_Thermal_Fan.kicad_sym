@@ -24,7 +24,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Daxxn_Connectors_JST:B4B-XH-A"
+		(property "Footprint" "Daxxn_Connectors_Header:0470533000"
 			(at 0 7.62 0)
 			(effects
 				(font

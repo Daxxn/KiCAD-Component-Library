@@ -1,19 +1,19 @@
 (footprint "PA5034"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "High Power Inductor 40A for Switching Converters")
 	(tags "high power inductor l 40a")
 	(property "Reference" "REF**"
-		(at 0 -4.6 0)
+		(at 0 -4.2 0)
 		(unlocked yes)
 		(layer "F.SilkS")
 		(uuid "fdc8e94b-f7d8-45bb-b6d6-c836a131a7e4")
 		(effects
 			(font
-				(size 1 1)
-				(thickness 0.15)
+				(size 0.8 0.8)
+				(thickness 0.12)
 			)
 		)
 	)
@@ -26,18 +26,6 @@
 			(font
 				(size 0.25 0.25)
 				(thickness 0.04)
-			)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "f4e9ed72-8195-4b92-85e7-147486f853cd")
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.15)
 			)
 		)
 	)
@@ -173,7 +161,7 @@
 			(width 0.05)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.CrtYd")
 		(uuid "9da49014-933d-4f9e-afce-bbb18de54cef")
 	)
@@ -184,7 +172,7 @@
 			(width 0.1)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 		(uuid "cca6aedc-7968-49b8-bf63-283f2abb59da")
 	)
@@ -203,17 +191,18 @@
 	(pad "1" smd roundrect
 		(at -3.75 0)
 		(size 3.4 3.5)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.15)
 		(uuid "1ce346f2-904f-4565-8be2-eee32f3ec47a")
 	)
 	(pad "2" smd roundrect
 		(at 3.75 0)
 		(size 3.4 3.5)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.15)
 		(uuid "498c588d-3d7c-4509-8d2b-d8352917f9ff")
 	)
+	(embedded_fonts no)
 	(model "${MY_MODELS_DIR}/Passives/Inductors/PA5034.stp"
 		(offset
 			(xyz 0 0 0.05)

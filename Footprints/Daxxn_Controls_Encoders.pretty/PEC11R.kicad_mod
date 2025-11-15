@@ -1,7 +1,7 @@
 (footprint "PEC11R"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
 		(at 0 9 0)
@@ -24,18 +24,6 @@
 			(font
 				(size 0.25 0.25)
 				(thickness 0.04)
-			)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "8abe7ad6-9e58-44ff-b9df-1200b963188a")
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.15)
 			)
 		)
 	)
@@ -181,7 +169,7 @@
 			(width 0.12)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.SilkS")
 		(uuid "eac9d870-0491-405a-b434-ab207fe9724c")
 	)
@@ -246,16 +234,6 @@
 		(uuid "1251d10c-12bc-4325-93f0-68455a12ac63")
 	)
 	(fp_line
-		(start -3.4 -6.8)
-		(end -3.4 -7.9)
-		(stroke
-			(width 0.05)
-			(type solid)
-		)
-		(layer "F.CrtYd")
-		(uuid "21ebe959-c380-4e55-a3f1-3434e19284db")
-	)
-	(fp_line
 		(start -3.4 6.8)
 		(end -6.4 6.8)
 		(stroke
@@ -266,7 +244,7 @@
 		(uuid "9dfe669d-6a67-4791-9f85-bd19b5c4a838")
 	)
 	(fp_line
-		(start -3.4 8.4)
+		(start -3.4 7.5)
 		(end -3.4 6.8)
 		(stroke
 			(width 0.05)
@@ -276,38 +254,8 @@
 		(uuid "7494146f-4e07-4fa9-9450-68a53de077a6")
 	)
 	(fp_line
-		(start -1.6 -7.9)
-		(end -3.4 -7.9)
-		(stroke
-			(width 0.05)
-			(type solid)
-		)
-		(layer "F.CrtYd")
-		(uuid "d7c9a5ce-4abc-4900-aaed-27b8da6cb20c")
-	)
-	(fp_line
-		(start -1.6 -6.9)
-		(end -1.6 -7.9)
-		(stroke
-			(width 0.05)
-			(type solid)
-		)
-		(layer "F.CrtYd")
-		(uuid "ba8faffc-a63f-4523-83ea-8c47f59b1969")
-	)
-	(fp_line
-		(start 1.6 -7.9)
-		(end 3.4 -7.9)
-		(stroke
-			(width 0.05)
-			(type solid)
-		)
-		(layer "F.CrtYd")
-		(uuid "8660d882-e0db-4b78-94ba-f2b74e34eb6c")
-	)
-	(fp_line
-		(start 1.6 -6.9)
-		(end -1.6 -6.9)
+		(start 1.6 -6.8)
+		(end -1.6 -6.8)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -316,24 +264,14 @@
 		(uuid "dfc195f2-48af-41ce-ab97-d14cfcfab895")
 	)
 	(fp_line
-		(start 1.6 -6.9)
-		(end 1.6 -7.9)
+		(start 2.5 8.4)
+		(end -2.5 8.4)
 		(stroke
 			(width 0.05)
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "0910fc47-d689-4f2c-b98a-e4d6893e0439")
-	)
-	(fp_line
-		(start 3.4 -7.9)
-		(end 3.4 -6.8)
-		(stroke
-			(width 0.05)
-			(type solid)
-		)
-		(layer "F.CrtYd")
-		(uuid "3db4495b-7829-455f-a190-23cf17aa0626")
+		(uuid "4329841e-147c-40a9-b6f9-fc929d84154f")
 	)
 	(fp_line
 		(start 3.4 -6.8)
@@ -346,24 +284,14 @@
 		(uuid "4a48f2a8-239d-4fe0-a442-5b416640b561")
 	)
 	(fp_line
-		(start 3.4 6.8)
-		(end 3.4 8.4)
+		(start 3.4 7.5)
+		(end 3.4 6.8)
 		(stroke
 			(width 0.05)
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "e93f4eef-0f59-47e1-a896-709c0f9c5212")
-	)
-	(fp_line
-		(start 3.4 8.4)
-		(end -3.4 8.4)
-		(stroke
-			(width 0.05)
-			(type solid)
-		)
-		(layer "F.CrtYd")
-		(uuid "4329841e-147c-40a9-b6f9-fc929d84154f")
+		(uuid "98a2ce6f-debe-4537-b4a4-0f9f3ecede6a")
 	)
 	(fp_line
 		(start 6.4 -6.8)
@@ -425,6 +353,50 @@
 		(layer "F.CrtYd")
 		(uuid "c71e342c-310d-4b74-aac5-e86a045cb4d6")
 	)
+	(fp_arc
+		(start -3.399999 -6.8)
+		(mid -2.5 -7.921953)
+		(end -1.600001 -6.8)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "e184c29a-2dc6-457f-b48a-d1bda1fdc841")
+	)
+	(fp_arc
+		(start -2.5 8.4)
+		(mid -3.136396 8.136396)
+		(end -3.4 7.5)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "19be4541-4fa3-4c7c-aee0-a0ce5f30fdf6")
+	)
+	(fp_arc
+		(start 1.6 -6.8)
+		(mid 2.5 -7.921954)
+		(end 3.4 -6.8)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "ccfd246c-8f6a-4e98-8def-fb4574888243")
+	)
+	(fp_arc
+		(start 3.4 7.5)
+		(mid 3.136396 8.136396)
+		(end 2.5 8.4)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "c2404748-1ae0-47a6-8660-ee9128e54c12")
+	)
 	(fp_rect
 		(start -6.25 -6.7)
 		(end 6.25 6.7)
@@ -432,7 +404,7 @@
 			(width 0.1)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 		(uuid "f01316d0-cb71-41f4-90e2-dbebbfe175b3")
 	)
@@ -504,6 +476,7 @@
 		(remove_unused_layers no)
 		(uuid "5f6a8d0a-63d9-4207-aae9-191def41689e")
 	)
+	(embedded_fonts no)
 	(model "${MY_MODELS_DIR}/Controls/PEC11R.stp"
 		(hide yes)
 		(offset

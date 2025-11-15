@@ -1,41 +1,29 @@
 (footprint "L_Vishay_IHLP-6767"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "Inductor, Vishay, IHLP series, 17.0mmx17.0mm")
 	(tags "inductor vishay ihlp smd")
 	(property "Reference" "REF**"
-		(at 0 -9.509 0)
+		(at 0 -9.4 0)
 		(layer "F.SilkS")
 		(uuid "96f27bc0-85ff-414d-8b2c-54c9e21636da")
 		(effects
 			(font
-				(size 1 1)
-				(thickness 0.15)
+				(size 0.8 0.8)
+				(thickness 0.12)
 			)
 		)
 	)
 	(property "Value" "L_Vishay_IHLP-6767"
-		(at 0 10.009 0)
+		(at 0 0.3 0)
 		(layer "F.Fab")
 		(uuid "5b097435-4a71-4455-8364-c3dae4e91a07")
 		(effects
 			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "00000000-0000-0000-0000-000000000000")
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.15)
+				(size 0.25 0.25)
+				(thickness 0.04)
 			)
 		)
 	)
@@ -43,7 +31,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "00000000-0000-0000-0000-000000000000")
+		(uuid "fa4bfc40-1816-4c31-ac8b-92909f263dc6")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -55,7 +43,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "00000000-0000-0000-0000-000000000000")
+		(uuid "67655661-41db-41e4-a4ca-2ccee93317e8")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -205,28 +193,29 @@
 		(uuid "957d3de1-dbd2-4cb2-808f-830e38ad665e")
 	)
 	(fp_text user "${REFERENCE}"
-		(at 0 0 0)
+		(at 0 -0.3 0)
 		(layer "F.Fab")
 		(uuid "e7a29a0e-8cf2-49e3-9712-3810faf2dede")
 		(effects
 			(font
-				(size 1 1)
-				(thickness 0.15)
+				(size 0.25 0.25)
+				(thickness 0.04)
 			)
 		)
 	)
 	(pad "1" smd rect
 		(at -8.1225 0)
 		(size 3.825 12.32)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "9a0f6e18-6b23-4710-ac60-17ca44eb5ef7")
 	)
 	(pad "2" smd rect
 		(at 8.1225 0)
 		(size 3.825 12.32)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "c7652796-f416-43b5-827a-39089914c789")
 	)
+	(embedded_fonts no)
 	(model ":DAXXN:Passives/Inductors/IHLP6767GZ.step"
 		(offset
 			(xyz -6.4 0.125 -2.45)

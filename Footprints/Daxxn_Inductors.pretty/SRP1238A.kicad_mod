@@ -1,7 +1,7 @@
 (footprint "SRP1238A"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
 		(at 0 -7 0)
@@ -10,8 +10,8 @@
 		(uuid "4c9b3832-9ba4-4713-9eef-a55d5195f366")
 		(effects
 			(font
-				(size 1 1)
-				(thickness 0.15)
+				(size 0.8 0.8)
+				(thickness 0.12)
 			)
 		)
 	)
@@ -23,19 +23,7 @@
 		(effects
 			(font
 				(size 0.25 0.25)
-				(thickness 0.0625)
-			)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "1019ff66-c4ad-47e1-a82f-2b5310c4288b")
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.15)
+				(thickness 0.04)
 			)
 		)
 	)
@@ -75,16 +63,6 @@
 		(uuid "ec0faeec-5476-4c08-b941-d062272f7cd7")
 	)
 	(fp_line
-		(start -6.425 3.75)
-		(end -6.3 3.825)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(layer "F.SilkS")
-		(uuid "98c31558-7427-4f49-9ebe-1c45e5256590")
-	)
-	(fp_line
 		(start -6.3 -6.3)
 		(end -4.95 -6.3)
 		(stroke
@@ -113,16 +91,6 @@
 		)
 		(layer "F.SilkS")
 		(uuid "09097132-b818-4062-b998-cae4433bb126")
-	)
-	(fp_line
-		(start -6.3 3.525)
-		(end -6.425 3.75)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(layer "F.SilkS")
-		(uuid "b58660a7-8d52-4234-894f-b23bc45ae1c6")
 	)
 	(fp_line
 		(start -6.3 3.525)
@@ -311,36 +279,37 @@
 			(width 0.1)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 		(uuid "9527cac7-a6ec-4da5-9955-87d809ec2282")
 	)
 	(fp_text user "${REFERENCE}"
-		(at 0 -0.2 0)
+		(at 0 -0.3 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(uuid "e9f4c80b-6e60-4be3-8f23-629de9ac50f3")
 		(effects
 			(font
 				(size 0.25 0.25)
-				(thickness 0.0625)
+				(thickness 0.04)
 			)
 		)
 	)
 	(pad "1" smd roundrect
 		(at -5.4 0)
 		(size 4 5)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.2)
 		(uuid "c836c47f-2486-43b5-942c-c4e5d08ea58b")
 	)
 	(pad "2" smd roundrect
 		(at 5.4 0)
 		(size 4 5)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.2)
 		(uuid "cbc6424f-83b5-41f8-b038-611b957063c2")
 	)
+	(embedded_fonts no)
 	(model "${MY_FOLDER}/KiCad/Libraries/Models/Passives/Inductors/SRP1238A.stp"
 		(offset
 			(xyz 0 0 0)

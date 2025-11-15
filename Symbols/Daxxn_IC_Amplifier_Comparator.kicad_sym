@@ -542,7 +542,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "${DATASHEETS}/LM311.pdf"
+		(property "Datasheet" "${DATASHEETS}/AP331A.pdf"
 			(at 0 9.144 0)
 			(effects
 				(font

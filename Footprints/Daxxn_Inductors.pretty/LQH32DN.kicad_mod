@@ -1,7 +1,7 @@
 (footprint "LQH32DN"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
 		(at 0 -2 0)
@@ -24,19 +24,6 @@
 			(font
 				(size 0.25 0.25)
 				(thickness 0.04)
-			)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "48bb69d9-d140-4aba-8f30-b9c65953f599")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
 			)
 		)
 	)
@@ -88,13 +75,24 @@
 		(uuid "dba5501e-1912-4938-bc7f-d95c487b2c41")
 	)
 	(fp_rect
+		(start -2.3 -1.4)
+		(end 2.3 1.4)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "a38cc01a-ef40-4661-acf7-e86dc4fe2c4e")
+	)
+	(fp_rect
 		(start -1.6 -1.25)
 		(end 1.6 1.25)
 		(stroke
 			(width 0.1)
 			(type default)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 		(uuid "c56f9c92-032a-43e2-9c70-dbf978a9722e")
 	)
@@ -113,17 +111,18 @@
 	(pad "1" smd roundrect
 		(at -1.4 0)
 		(size 1.5 2)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.1640419948)
 		(uuid "dc402922-3b66-462a-823e-a16f5422e150")
 	)
 	(pad "2" smd roundrect
 		(at 1.4 0)
 		(size 1.5 2)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.1640419948)
 		(uuid "e9191e2f-6eff-40c9-a00a-c29ce003b5df")
 	)
+	(embedded_fonts no)
 	(model "${DAXXN}/Passives/Inductors/LQH32DN3R3M53L.step"
 		(offset
 			(xyz 0 0 0)

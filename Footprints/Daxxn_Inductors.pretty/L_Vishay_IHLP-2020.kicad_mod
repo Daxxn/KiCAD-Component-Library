@@ -1,41 +1,29 @@
 (footprint "L_Vishay_IHLP-2020"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "Inductor, Vishay, IHLP series, 5.1mmx5.1mm")
 	(tags "inductor vishay ihlp smd")
 	(property "Reference" "REF**"
-		(at 0 -3.54 0)
+		(at 0 -3.3 0)
 		(layer "F.SilkS")
 		(uuid "a1cca094-e9c8-45ec-8898-a36999debfeb")
 		(effects
 			(font
-				(size 1 1)
-				(thickness 0.15)
+				(size 0.8 0.8)
+				(thickness 0.12)
 			)
 		)
 	)
 	(property "Value" "L_Vishay_IHLP-2020"
-		(at 0 4.04 0)
+		(at 0 0.3 0)
 		(layer "F.Fab")
 		(uuid "9cb7d097-6b93-420c-94ab-5bce66b92e0e")
 		(effects
 			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "dd30d546-2e93-459a-b7b6-1bf9dc7d408c")
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.15)
+				(size 0.25 0.25)
+				(thickness 0.04)
 			)
 		)
 	)
@@ -205,28 +193,31 @@
 		(uuid "d671e550-3837-429d-a153-4a204389c09a")
 	)
 	(fp_text user "${REFERENCE}"
-		(at 0 0 0)
+		(at 0 -0.3 0)
 		(layer "F.Fab")
 		(uuid "d3babfb0-096d-4f3a-b2b4-aaf0d9589c9a")
 		(effects
 			(font
-				(size 1 1)
-				(thickness 0.15)
+				(size 0.25 0.25)
+				(thickness 0.04)
 			)
 		)
 	)
-	(pad "1" smd rect
+	(pad "1" smd roundrect
 		(at -2.4265 0)
 		(size 1.903 2.79)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.1)
 		(uuid "e2ac7216-0428-453d-b572-d70480fdfd12")
 	)
-	(pad "2" smd rect
+	(pad "2" smd roundrect
 		(at 2.4265 0)
 		(size 1.903 2.79)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.1)
 		(uuid "82bca596-1525-4bdc-855b-d044dbcb28eb")
 	)
+	(embedded_fonts no)
 	(model ":DAXXN:Passives/Inductors/IHLP2020CZ.step"
 		(offset
 			(xyz -0.73 6.09 -2.45)

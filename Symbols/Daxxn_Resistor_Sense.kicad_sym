@@ -472,6 +472,63 @@
 		)
 		(embedded_fonts no)
 	)
+	(symbol "CRCW121810R0FKEKHP"
+		(extends "14AFR010E")
+		(property "Reference" "R"
+			(at 1.524 1.778 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10"
+			(at 1.524 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Daxxn_Standard_Resistors:RES_1218"
+			(at 0 9.398 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "${DATASHEETS}/CRCW-HPE3.pdf"
+			(at 0 6.096 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "10 Ohms ±1% 1.5W Chip Resistor 1218 (3246 Metric) Automotive AEC-Q200, Pulse Withstanding Thick Film"
+			(at 0 7.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PartNumber" "0204-0200-00031"
+			(at 0 10.922 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
 	(symbol "CRM2010-FX-R100ELF"
 		(extends "14AFR010E")
 		(property "Reference" "R"
@@ -1673,6 +1730,63 @@
 			(effects
 				(font
 					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(symbol "WK73S2JTTE4R70F"
+		(extends "14AFR010E")
+		(property "Reference" "R"
+			(at 1.524 1.778 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "4R7"
+			(at 1.524 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Daxxn_Standard_Resistors:RES_1218"
+			(at 0 9.398 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "${DATASHEETS}/WK73S.pdf"
+			(at 0 6.096 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "4.7 Ohms ±1% 1W Chip Resistor Wide 1812 (4532 Metric), 1218 Automotive AEC-Q200, Moisture Resistant Thick Film"
+			(at 0 7.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PartNumber" "0204-0200-00032"
+			(at 0 10.922 0)
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 				(hide yes)
 			)

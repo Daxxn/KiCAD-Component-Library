@@ -321,7 +321,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "J"
-			(at 0 5.588 0)
+			(at 0 7.112 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -329,14 +329,14 @@
 			)
 		)
 		(property "Value" "CONBNC002"
-			(at 0 3.81 0)
+			(at 0 5.334 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Daxxn_Connectors:CONBNC002"
+		(property "Footprint" "Daxxn_Connectors_Jack:CONBNC002"
 			(at -1.016 14.732 0)
 			(effects
 				(font
@@ -346,7 +346,7 @@
 			)
 		)
 		(property "Datasheet" "F:\\Electrical\\Drawings\\Connectors\\CONBNC002.pdf"
-			(at 0 7.62 0)
+			(at 0 11.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -355,12 +355,20 @@
 			)
 		)
 		(property "Description" "BNC Connector Jack, Female Socket 50 Ohms Panel Mount, Through Hole, Right Angle Solder"
-			(at 0 9.144 0)
+			(at 0 12.954 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "PartNumber" "0310-0000-00008"
+			(at 0 3.81 0)
+			(effects
+				(font
+					(size 1 1)
+				)
 			)
 		)
 		(property "ki_keywords" "connector bnc rf"
@@ -945,6 +953,69 @@
 			)
 		)
 		(embedded_fonts no)
+	)
+	(symbol "CONBNC001"
+		(extends "CONBNC002")
+		(property "Reference" "J"
+			(at 0 7.112 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "CONBNC001"
+			(at 0 5.334 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Daxxn_Connectors_Jack:CONBNC001"
+			(at 0 13.462 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "${DATASHEETS}\\CONBNC001.pdf"
+			(at 0 10.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "BNC Connector Jack, Female Socket 50 Ohms Through Hole Solder"
+			(at 0 11.684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PartNumber" "0310-0000-00007"
+			(at 0 3.81 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "ki_keywords" "connector bnc rf"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 	)
 	(symbol "PRT-09739"
 		(extends "575-4")

@@ -1,17 +1,17 @@
 (footprint "SRP7050WA"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
-		(at 0 -4.3 0)
+		(at 0 -4.5 0)
 		(unlocked yes)
 		(layer "F.SilkS")
 		(uuid "dadb4ccc-137a-4dcb-be82-36531da7e65c")
 		(effects
 			(font
-				(size 1 1)
-				(thickness 0.15)
+				(size 0.8 0.8)
+				(thickness 0.12)
 			)
 		)
 	)
@@ -23,19 +23,7 @@
 		(effects
 			(font
 				(size 0.25 0.25)
-				(thickness 0.0625)
-			)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "00000000-0000-0000-0000-000000000000")
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.15)
+				(thickness 0.04)
 			)
 		)
 	)
@@ -43,11 +31,11 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "00000000-0000-0000-0000-000000000000")
+		(uuid "9f022893-8ca2-43bc-91d1-06631ae3a5ff")
 		(effects
 			(font
-				(size 1.27 1.27)
-				(thickness 0.15)
+				(size 0.25 0.25)
+				(thickness 0.04)
 			)
 		)
 	)
@@ -55,25 +43,166 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "00000000-0000-0000-0000-000000000000")
+		(uuid "26cdfd38-984e-4d98-bbd6-e6240bb5f20e")
 		(effects
 			(font
-				(size 1.27 1.27)
-				(thickness 0.15)
+				(size 0.25 0.25)
+				(thickness 0.04)
 			)
 		)
 	)
 	(attr smd)
-	(fp_rect
-		(start -5 -3.7)
-		(end 5 3.7)
+	(fp_line
+		(start 3.9 -3.8)
+		(end -3.9 -3.8)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "f9e8871b-31f5-4808-a8ac-b8cfc39c4fb9")
+	)
+	(fp_line
+		(start 3.9 3.8)
+		(end -3.9 3.8)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "ab5ef00f-7506-4539-ad40-ea00ee401ad3")
+	)
+	(fp_poly
+		(pts
+			(xy -3.9 -3.8) (xy -3.6 -4.1) (xy -3.3 -3.8)
+		)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "f18f160c-e783-43c1-a851-fb309290511b")
+	)
+	(fp_line
+		(start -4.7 -1.8)
+		(end -4.1 -1.8)
 		(stroke
 			(width 0.05)
 			(type default)
 		)
-		(fill none)
 		(layer "F.CrtYd")
-		(uuid "c41a2a70-af6d-43ec-a57c-ccc310d24544")
+		(uuid "b9ea2b75-455e-4590-9112-9ff128179513")
+	)
+	(fp_line
+		(start -4.7 1.8)
+		(end -4.7 -1.8)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "e32dda79-5a34-483c-a0f7-ab7946eaf3e8")
+	)
+	(fp_line
+		(start -4.1 -3.8)
+		(end 4.1 -3.8)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "9e1ecd2c-e78f-4585-9c6c-c9fa475c9a4c")
+	)
+	(fp_line
+		(start -4.1 -1.8)
+		(end -4.1 -3.8)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "fb365b10-045a-4483-990c-2dbe14681082")
+	)
+	(fp_line
+		(start -4.1 1.8)
+		(end -4.7 1.8)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "42372da5-5612-453f-bb43-fc6494633890")
+	)
+	(fp_line
+		(start -4.1 3.8)
+		(end -4.1 1.8)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "4c0f20dc-a6a9-44bb-8ca2-f702a67b4f5d")
+	)
+	(fp_line
+		(start 4.1 -3.8)
+		(end 4.1 -1.8)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "149bf73c-5292-4d16-8240-1fc6691b1c3e")
+	)
+	(fp_line
+		(start 4.1 -1.8)
+		(end 4.7 -1.8)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "8a8505f8-7dc5-42be-9ba9-6f043f3110b8")
+	)
+	(fp_line
+		(start 4.1 1.8)
+		(end 4.1 3.8)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "5d76dbda-5520-45ea-891a-92a259eb17c9")
+	)
+	(fp_line
+		(start 4.1 3.8)
+		(end -4.1 3.8)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "c33169bd-fd01-42a9-a56a-9ea6c8059910")
+	)
+	(fp_line
+		(start 4.7 -1.8)
+		(end 4.7 1.8)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "f0525b8e-eaa6-451f-ac9d-36e61c808233")
+	)
+	(fp_line
+		(start 4.7 1.8)
+		(end 4.1 1.8)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "2c47874d-0ae9-4cb3-b631-dff967a59524")
 	)
 	(fp_rect
 		(start -3.95 3.65)
@@ -82,7 +211,7 @@
 			(width 0.1)
 			(type default)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 		(uuid "d383809f-c044-4425-aec2-17fa0f59ee14")
 	)
@@ -94,24 +223,25 @@
 		(effects
 			(font
 				(size 0.25 0.25)
-				(thickness 0.0625)
+				(thickness 0.04)
 			)
 		)
 	)
 	(pad "1" smd roundrect
 		(at -3 0)
 		(size 3 3.5)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.2)
 		(uuid "3044d220-53c7-447a-bcb4-536e8c8820d6")
 	)
 	(pad "2" smd roundrect
 		(at 3 0)
 		(size 3 3.5)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.2)
 		(uuid "b370adf4-559f-47cb-b457-aad2a9425bed")
 	)
+	(embedded_fonts no)
 	(model ":DAXXN:Passives/Inductors/SRP7050WA.stp"
 		(offset
 			(xyz 0 0 2.62)

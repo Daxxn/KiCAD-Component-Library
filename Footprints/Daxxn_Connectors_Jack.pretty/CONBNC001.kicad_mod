@@ -1,0 +1,132 @@
+(footprint "CONBNC001"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -6.35 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "fdf17d77-6ff0-4220-a5ac-3ee9288260c5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "CONBNC001"
+		(at 0 -0.2 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "a7b4b7f6-7086-4fa0-96ba-ad514e9b6cce")
+		(effects
+			(font
+				(size 0.25 0.25)
+				(thickness 0.04)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0be2673e-56a1-469f-a0c9-dc036ea8f84e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "79d7d421-69c6-4ec2-9668-a04f040dce06")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_circle
+		(center 0 0)
+		(end 5.5 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "76375501-3c2a-424f-9862-a3a6e0468c86")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0.25 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "36248e45-b903-4173-a8cf-1fb5e2bb9676")
+		(effects
+			(font
+				(size 0.25 0.25)
+				(thickness 0.04)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at 0 0)
+		(size 1.8 1.8)
+		(drill 1.2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "123f1423-a75f-4882-9b87-fbf3bdde4b4d")
+	)
+	(pad "2" thru_hole circle
+		(at -3.15 -3.15)
+		(size 2.2 2.2)
+		(drill 1.6)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "51a0920d-3060-43fc-98c5-29f18e886b29")
+	)
+	(pad "2" thru_hole circle
+		(at -3.15 3.15)
+		(size 2.2 2.2)
+		(drill 1.6)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "02aab9e3-8eba-4def-934b-3d8d7be61471")
+	)
+	(pad "2" thru_hole circle
+		(at 3.15 -3.15)
+		(size 2.2 2.2)
+		(drill 1.6)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "f2d01a21-0d50-40c0-b28c-4b897e40bea7")
+	)
+	(pad "2" thru_hole circle
+		(at 3.15 3.15)
+		(size 2.2 2.2)
+		(drill 1.6)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "3f37f9fb-4ae8-4ec1-b268-cd80d63af6b2")
+	)
+	(embedded_fonts no)
+	(model "${DAXXN}/Connectors/Connector_BNC/CONBNC001.STEP"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -0)
+		)
+	)
+)

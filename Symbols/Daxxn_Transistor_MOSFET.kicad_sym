@@ -1,13 +1,13 @@
 (kicad_symbol_lib
-	(version 20231120)
+	(version 20241209)
 	(generator "kicad_symbol_editor")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(symbol "CPH3348-TL-W"
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "Q"
-			(at 2.794 1.778 0)
+			(at 2.794 1.524 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -52,7 +52,7 @@
 			)
 		)
 		(property "PartNumber" "1806-0000-00012"
-			(at 2.794 -1.524 0)
+			(at 2.794 -1.27 0)
 			(effects
 				(font
 					(size 1 1)
@@ -91,24 +91,6 @@
 			(pin bidirectional line
 				(at 1.27 3.81 270)
 				(length 2.54)
-				(name "S"
-					(effects
-						(font
-							(size 0 0)
-						)
-					)
-				)
-				(number "2"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin bidirectional line
-				(at 1.27 -3.81 90)
-				(length 2.54)
 				(name "D"
 					(effects
 						(font
@@ -124,11 +106,29 @@
 					)
 				)
 			)
+			(pin bidirectional line
+				(at 1.27 -3.81 90)
+				(length 2.54)
+				(name "S"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
 		)
 		(symbol "CPH3348-TL-W_0_1"
 			(polyline
 				(pts
-					(xy -0.254 0.762) (xy -0.254 -0.762)
+					(xy -0.254 -1.27) (xy -0.254 1.27)
 				)
 				(stroke
 					(width 0)
@@ -140,7 +140,7 @@
 			)
 			(polyline
 				(pts
-					(xy 0 -0.508) (xy 0 -1.016)
+					(xy 0 1.778) (xy 0 0.762)
 				)
 				(stroke
 					(width 0)
@@ -152,7 +152,7 @@
 			)
 			(polyline
 				(pts
-					(xy 0 0.254) (xy 0 -0.254)
+					(xy 0 1.27) (xy 1.27 1.27) (xy 1.27 1.27)
 				)
 				(stroke
 					(width 0)
@@ -164,7 +164,7 @@
 			)
 			(polyline
 				(pts
-					(xy 0 0.508) (xy 0 1.016)
+					(xy 0 -0.508) (xy 0 0.508)
 				)
 				(stroke
 					(width 0)
@@ -176,7 +176,7 @@
 			)
 			(polyline
 				(pts
-					(xy 1.778 0) (xy 2.286 0)
+					(xy 0 -1.27) (xy 1.27 -1.27) (xy 1.27 -1.27)
 				)
 				(stroke
 					(width 0)
@@ -188,7 +188,7 @@
 			)
 			(polyline
 				(pts
-					(xy 0 -0.762) (xy 1.27 -0.762) (xy 1.27 -1.27)
+					(xy 0 -1.778) (xy 0 -0.762)
 				)
 				(stroke
 					(width 0)
@@ -200,7 +200,7 @@
 			)
 			(polyline
 				(pts
-					(xy 0 0) (xy 1.27 0) (xy 1.27 -0.762)
+					(xy 0.762 0) (xy 0.508 -0.254) (xy 0.508 0.254) (xy 0.762 0)
 				)
 				(stroke
 					(width 0)
@@ -212,7 +212,7 @@
 			)
 			(polyline
 				(pts
-					(xy 0 0.762) (xy 1.27 0.762) (xy 1.27 1.27)
+					(xy 1.27 -1.27) (xy 1.27 0) (xy 0 0)
 				)
 				(stroke
 					(width 0)
@@ -224,7 +224,7 @@
 			)
 			(polyline
 				(pts
-					(xy 0.762 0) (xy 0.508 0.254) (xy 0.508 -0.254) (xy 0.762 0)
+					(xy 1.27 -1.27) (xy 2.032 -1.27) (xy 2.032 1.27) (xy 1.27 1.27)
 				)
 				(stroke
 					(width 0)
@@ -236,19 +236,19 @@
 			)
 			(polyline
 				(pts
-					(xy 1.27 0.762) (xy 2.032 0.762) (xy 2.032 -0.762) (xy 1.27 -0.762)
+					(xy 2.032 -0.254) (xy 2.286 0.254) (xy 1.778 0.254) (xy 2.032 -0.254)
 				)
 				(stroke
 					(width 0)
 					(type default)
 				)
 				(fill
-					(type none)
+					(type outline)
 				)
 			)
 			(polyline
 				(pts
-					(xy 2.032 0) (xy 1.778 0.254) (xy 2.286 0.254) (xy 2.032 0)
+					(xy 2.286 -0.254) (xy 1.778 -0.254)
 				)
 				(stroke
 					(width 0)
@@ -259,6 +259,1040 @@
 				)
 			)
 		)
+		(embedded_fonts no)
+	)
+	(symbol "CSD19533KCS"
+		(pin_names
+			(hide yes)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "Q"
+			(at 1.524 1.524 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "CSD19533KCS"
+			(at 1.524 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Daxxn_Packages:TO-220-3_Vertical"
+			(at 0 10.922 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "${DATASHEETS}/CSD19533KCS.pdf"
+			(at 0 9.144 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "N-Channel 100 V 100A (Ta) 188W (Tc) Through Hole TO-220-3"
+			(at 0 7.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PartNumber" "1806-0000-00004"
+			(at 1.524 -1.27 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
+			)
+		)
+		(symbol "CSD19533KCS_0_0"
+			(pin passive line
+				(at 0 3.81 270)
+				(length 2.54)
+				(name "D"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 0.9906 0.9906)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -3.81 90)
+				(length 2.54)
+				(name "S"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 0.9906 0.9906)
+						)
+					)
+				)
+			)
+		)
+		(symbol "CSD19533KCS_0_1"
+			(polyline
+				(pts
+					(xy -1.524 -1.27) (xy -1.524 1.27)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -1.27 1.778) (xy -1.27 0.762)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -1.27 1.27) (xy 0 1.27) (xy 0 1.27)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -1.27 -0.508) (xy -1.27 0.508)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -1.27 -1.27) (xy 0 -1.27) (xy 0 -1.27)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -1.27 -1.778) (xy -1.27 -0.762)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -1.016 0) (xy -0.762 0.254) (xy -0.762 -0.254) (xy -1.016 0)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 -1.27) (xy 0 0) (xy -1.27 0)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 -1.27) (xy 0.762 -1.27) (xy 0.762 1.27) (xy 0 1.27)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0.508 0.254) (xy 1.016 0.254)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0.762 0.254) (xy 0.508 -0.254) (xy 1.016 -0.254) (xy 0.762 0.254)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
+		)
+		(symbol "CSD19533KCS_1_0"
+			(pin input line
+				(at -3.81 0 0)
+				(length 2.25)
+				(name "G"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 0.9906 0.9906)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "CSD25402Q3AT"
+		(pin_names
+			(hide yes)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "Q"
+			(at 1.778 1.524 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "CSD25402Q3AT"
+			(at 1.778 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Daxxn_Packages:VSON-8_3x3.3mm_P0.65mm_NexFET"
+			(at 0 7.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "${DATASHEETS}/CSD25402Q3AT.pdf"
+			(at 0 10.922 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "P-Channel 20 V 15A (Ta), 76A (Tc) 2.8W (Ta), 69W (Tc) Surface Mount 8-VSONP (3x3.3)"
+			(at 0 9.144 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PartNumber" "1806-0000-00014"
+			(at 1.778 -1.27 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
+			)
+		)
+		(symbol "CSD25402Q3AT_0_0"
+			(pin input line
+				(at -3.81 0 0)
+				(length 2.25)
+				(name "G"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 0.9906 0.9906)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 3.81 270)
+				(length 2.54)
+				(name "D"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 0.9906 0.9906)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 3.81 270)
+				(length 2.54)
+				(hide yes)
+				(name "D"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 0.9906 0.9906)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 3.81 270)
+				(length 2.54)
+				(hide yes)
+				(name "D"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 0.9906 0.9906)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -3.81 90)
+				(length 2.54)
+				(name "S"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 0.9906 0.9906)
+						)
+					)
+				)
+			)
+		)
+		(symbol "CSD25402Q3AT_0_1"
+			(polyline
+				(pts
+					(xy -1.524 -1.27) (xy -1.524 1.27)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -1.27 1.778) (xy -1.27 0.762)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -1.27 1.27) (xy 0 1.27) (xy 0 1.27)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -1.27 -0.508) (xy -1.27 0.508)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -1.27 -1.27) (xy 0 -1.27) (xy 0 -1.27)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -1.27 -1.778) (xy -1.27 -0.762)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -0.508 0) (xy -0.762 -0.254) (xy -0.762 0.254) (xy -0.508 0)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 -1.27) (xy 0 0) (xy -1.27 0)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 -1.27) (xy 0.762 -1.27) (xy 0.762 1.27) (xy 0 1.27)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0.762 -0.254) (xy 1.016 0.254) (xy 0.508 0.254) (xy 0.762 -0.254)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(polyline
+				(pts
+					(xy 1.016 -0.254) (xy 0.508 -0.254)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "CSD87312Q3E"
+		(pin_names
+			(hide yes)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "Q"
+			(at 2.54 -4.318 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "CSD87312Q3E"
+			(at 2.54 -5.842 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Daxxn_Packages:DPB8_TEX"
+			(at 0 10.922 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "${DATASHEETS}/CSD87312Q3E.pdf"
+			(at 0 9.144 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "2N-CH MOSFET Array 30V 27A 2.5W Surface Mount 8-VSON (3.3x3.3)"
+			(at 0 7.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PartNumber" "1806-0000-00002"
+			(at 2.54 -7.112 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
+			)
+		)
+		(symbol "CSD87312Q3E_0_0"
+			(pin passive line
+				(at -2.54 3.81 270)
+				(length 2.54)
+				(name "D1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 0.9906 0.9906)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -6.35 90)
+				(length 2.54)
+				(name "COM-S"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 0.9906 0.9906)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 2.54 3.81 270)
+				(length 2.54)
+				(name "D2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 0.9906 0.9906)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 7.62 0 180)
+				(length 2.25)
+				(name "G"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 0.9906 0.9906)
+						)
+					)
+				)
+			)
+		)
+		(symbol "CSD87312Q3E_0_1"
+			(polyline
+				(pts
+					(xy -5.08 0) (xy -5.08 -3.302) (xy 5.08 -3.302) (xy 5.08 0)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -4.064 0) (xy -5.08 0)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -4.064 -1.27) (xy -4.064 1.27)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -3.81 1.778) (xy -3.81 0.762)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -3.81 1.27) (xy -2.54 1.27) (xy -2.54 1.27)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -3.81 -0.508) (xy -3.81 0.508)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -3.81 -1.27) (xy -2.54 -1.27) (xy -2.54 -1.27)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -3.81 -1.778) (xy -3.81 -0.762)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -3.556 0) (xy -3.302 0.254) (xy -3.302 -0.254) (xy -3.556 0)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -2.54 -1.27) (xy -2.54 0) (xy -3.81 0)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -2.54 -1.27) (xy -2.54 -2.54) (xy 2.54 -2.54) (xy 2.54 -1.27)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -2.54 -1.27) (xy -1.778 -1.27) (xy -1.778 1.27) (xy -2.54 1.27)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -2.032 0.254) (xy -1.524 0.254)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -1.778 0.254) (xy -2.032 -0.254) (xy -1.524 -0.254) (xy -1.778 0.254)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 -2.54) (xy 0 -3.81)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 1.778 0.254) (xy 2.032 -0.254) (xy 1.524 -0.254) (xy 1.778 0.254)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(polyline
+				(pts
+					(xy 2.032 0.254) (xy 1.524 0.254)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 2.54 -1.27) (xy 2.54 0) (xy 3.81 0)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 2.54 -1.27) (xy 1.778 -1.27) (xy 1.778 1.27) (xy 2.54 1.27)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 3.556 0) (xy 3.302 0.254) (xy 3.302 -0.254) (xy 3.556 0)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 3.81 1.778) (xy 3.81 0.762)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 3.81 1.27) (xy 2.54 1.27) (xy 2.54 1.27)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 3.81 -0.508) (xy 3.81 0.508)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 3.81 -1.27) (xy 2.54 -1.27) (xy 2.54 -1.27)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 3.81 -1.778) (xy 3.81 -0.762)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 4.064 -1.27) (xy 4.064 1.27)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 5.08 0) (xy 4.064 0)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "CSD87312Q3E_1_1"
+			(circle
+				(center 0 -2.54)
+				(radius 0.254)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(circle
+				(center 5.08 0)
+				(radius 0.254)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type outline)
+				)
+			)
+		)
+		(embedded_fonts no)
 	)
 	(symbol "CSD87503Q3E"
 		(exclude_from_sim no)
@@ -380,7 +1414,43 @@
 			)
 			(polyline
 				(pts
+					(xy 1.27 -0.508) (xy 1.27 -1.778) (xy 1.27 -1.778)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
 					(xy 2.286 -2.286) (xy 2.286 -2.794)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 2.286 -2.54) (xy 2.794 -2.286) (xy 2.794 -2.794) (xy 2.286 -2.54)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(polyline
+				(pts
+					(xy 2.54 -0.508) (xy 2.286 -0.762) (xy 2.794 -0.762) (xy 2.54 -0.508)
 				)
 				(stroke
 					(width 0)
@@ -404,7 +1474,7 @@
 			)
 			(polyline
 				(pts
-					(xy 3.81 -2.54) (xy 6.35 -2.54)
+					(xy 3.81 -0.254) (xy 1.27 -0.254)
 				)
 				(stroke
 					(width 0)
@@ -416,7 +1486,43 @@
 			)
 			(polyline
 				(pts
-					(xy 3.81 -0.254) (xy 1.27 -0.254)
+					(xy 3.81 -0.508) (xy 3.81 -1.778) (xy 3.81 -1.778)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 3.81 -1.778) (xy 2.54 -1.778) (xy 2.54 -0.508)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 3.81 -1.778) (xy 3.81 -2.54) (xy 1.27 -2.54) (xy 1.27 -1.778)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 3.81 -2.54) (xy 6.35 -2.54)
 				)
 				(stroke
 					(width 0)
@@ -464,67 +1570,7 @@
 			)
 			(polyline
 				(pts
-					(xy 7.112 -0.508) (xy 8.128 -0.508)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 7.874 -2.286) (xy 7.874 -2.794)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 9.398 -0.508) (xy 8.382 -0.508)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 1.27 -0.508) (xy 1.27 -1.778) (xy 1.27 -1.778)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 3.81 -1.778) (xy 2.54 -1.778) (xy 2.54 -0.508)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 3.81 -0.508) (xy 3.81 -1.778) (xy 3.81 -1.778)
+					(xy 6.35 -0.508) (xy 6.35 -1.778) (xy 6.35 -1.778)
 				)
 				(stroke
 					(width 0)
@@ -548,67 +1594,19 @@
 			)
 			(polyline
 				(pts
-					(xy 6.35 -0.508) (xy 6.35 -1.778) (xy 6.35 -1.778)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 8.89 -0.508) (xy 8.89 -1.778) (xy 8.89 -1.778)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 2.286 -2.54) (xy 2.794 -2.286) (xy 2.794 -2.794) (xy 2.286 -2.54)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type outline)
-				)
-			)
-			(polyline
-				(pts
-					(xy 2.54 -0.508) (xy 2.286 -0.762) (xy 2.794 -0.762) (xy 2.54 -0.508)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 3.81 -1.778) (xy 3.81 -2.54) (xy 1.27 -2.54) (xy 1.27 -1.778)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
 					(xy 6.35 -1.778) (xy 6.35 -2.54) (xy 8.89 -2.54) (xy 8.89 -1.778)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 7.112 -0.508) (xy 8.128 -0.508)
 				)
 				(stroke
 					(width 0)
@@ -632,6 +1630,18 @@
 			)
 			(polyline
 				(pts
+					(xy 7.874 -2.286) (xy 7.874 -2.794)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
 					(xy 7.874 -2.54) (xy 7.366 -2.286) (xy 7.366 -2.794) (xy 7.874 -2.54)
 				)
 				(stroke
@@ -642,8 +1652,50 @@
 					(type outline)
 				)
 			)
+			(polyline
+				(pts
+					(xy 8.89 -0.508) (xy 8.89 -1.778) (xy 8.89 -1.778)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 9.398 -0.508) (xy 8.382 -0.508)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
 		)
 		(symbol "CSD87503Q3E_1_0"
+			(pin passive line
+				(at -1.27 -2.54 0)
+				(length 2.54)
+				(name "D1"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+				(number "7"
+					(effects
+						(font
+							(size 0.9906 0.9906)
+						)
+					)
+				)
+			)
 			(pin input line
 				(at 2.54 2.54 270)
 				(length 2.7)
@@ -698,32 +1750,15 @@
 					)
 				)
 			)
-			(pin passive line
-				(at -1.27 -2.54 0)
-				(length 2.54)
-				(name "D1"
-					(effects
-						(font
-							(size 0 0)
-						)
-					)
-				)
-				(number "7"
-					(effects
-						(font
-							(size 0.9906 0.9906)
-						)
-					)
-				)
-			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "DMG2301L-7"
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "Q"
-			(at 1.524 1.778 0)
+			(at 1.524 1.524 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -741,7 +1776,7 @@
 			)
 		)
 		(property "Footprint" "Daxxn_Packages:SOT-23-3"
-			(at 0 7.112 0)
+			(at 0 6.604 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -750,7 +1785,7 @@
 			)
 		)
 		(property "Datasheet" "${DATASHEETS}/DMG2301L.pdf"
-			(at 0 8.89 0)
+			(at 0 7.874 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -768,7 +1803,7 @@
 			)
 		)
 		(property "PartNumber" "1806-0000-00015"
-			(at 1.524 -1.524 0)
+			(at 1.524 -1.27 0)
 			(effects
 				(font
 					(size 1 1)
@@ -799,7 +1834,7 @@
 		(symbol "DMG2301L-7_0_1"
 			(polyline
 				(pts
-					(xy -1.524 0.762) (xy -1.524 -0.762)
+					(xy -1.524 -1.27) (xy -1.524 1.27)
 				)
 				(stroke
 					(width 0)
@@ -811,7 +1846,7 @@
 			)
 			(polyline
 				(pts
-					(xy -1.27 -0.508) (xy -1.27 -1.016)
+					(xy -1.27 1.778) (xy -1.27 0.762)
 				)
 				(stroke
 					(width 0)
@@ -823,7 +1858,7 @@
 			)
 			(polyline
 				(pts
-					(xy -1.27 0.254) (xy -1.27 -0.254)
+					(xy -1.27 1.27) (xy 0 1.27) (xy 0 1.27)
 				)
 				(stroke
 					(width 0)
@@ -835,7 +1870,7 @@
 			)
 			(polyline
 				(pts
-					(xy -1.27 0.508) (xy -1.27 1.016)
+					(xy -1.27 -0.508) (xy -1.27 0.508)
 				)
 				(stroke
 					(width 0)
@@ -847,7 +1882,7 @@
 			)
 			(polyline
 				(pts
-					(xy 0.508 0) (xy 1.016 0)
+					(xy -1.27 -1.27) (xy 0 -1.27) (xy 0 -1.27)
 				)
 				(stroke
 					(width 0)
@@ -859,7 +1894,7 @@
 			)
 			(polyline
 				(pts
-					(xy -1.27 -0.762) (xy 0 -0.762) (xy 0 -1.27)
+					(xy -1.27 -1.778) (xy -1.27 -0.762)
 				)
 				(stroke
 					(width 0)
@@ -871,7 +1906,7 @@
 			)
 			(polyline
 				(pts
-					(xy -1.27 0) (xy 0 0) (xy 0 -0.762)
+					(xy -0.508 0) (xy -0.762 -0.254) (xy -0.762 0.254) (xy -0.508 0)
 				)
 				(stroke
 					(width 0)
@@ -883,7 +1918,7 @@
 			)
 			(polyline
 				(pts
-					(xy -1.27 0.762) (xy 0 0.762) (xy 0 1.27)
+					(xy 0 -1.27) (xy 0 0) (xy -1.27 0)
 				)
 				(stroke
 					(width 0)
@@ -895,7 +1930,7 @@
 			)
 			(polyline
 				(pts
-					(xy -0.508 0) (xy -0.762 0.254) (xy -0.762 -0.254) (xy -0.508 0)
+					(xy 0 -1.27) (xy 0.762 -1.27) (xy 0.762 1.27) (xy 0 1.27)
 				)
 				(stroke
 					(width 0)
@@ -907,19 +1942,19 @@
 			)
 			(polyline
 				(pts
-					(xy 0 0.762) (xy 0.762 0.762) (xy 0.762 -0.762) (xy 0 -0.762)
+					(xy 0.762 -0.254) (xy 1.016 0.254) (xy 0.508 0.254) (xy 0.762 -0.254)
 				)
 				(stroke
 					(width 0)
 					(type default)
 				)
 				(fill
-					(type none)
+					(type outline)
 				)
 			)
 			(polyline
 				(pts
-					(xy 0.762 0) (xy 0.508 0.254) (xy 1.016 0.254) (xy 0.762 0)
+					(xy 1.016 -0.254) (xy 0.508 -0.254)
 				)
 				(stroke
 					(width 0)
@@ -931,24 +1966,6 @@
 			)
 		)
 		(symbol "DMG2301L-7_1_0"
-			(pin bidirectional line
-				(at 0 -3.81 90)
-				(length 2.54)
-				(name "S"
-					(effects
-						(font
-							(size 0 0)
-						)
-					)
-				)
-				(number "2"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
 			(pin bidirectional line
 				(at 0 3.81 270)
 				(length 2.54)
@@ -967,14 +1984,887 @@
 					)
 				)
 			)
+			(pin bidirectional line
+				(at 0 -3.81 90)
+				(length 2.54)
+				(name "S"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
 		)
+		(embedded_fonts no)
+	)
+	(symbol "DMP1009UFDF-7"
+		(pin_names
+			(hide yes)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "Q"
+			(at 1.778 1.524 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "DMP1009UFDF-7"
+			(at 1.778 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Daxxn_Packages:DFN2020D-TYPE-F-6_2x2mm-P0.65mm"
+			(at 0 10.668 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "${DATASHEETS}/DMP1009UFDF.pdf"
+			(at 0 7.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "P-Channel 12 V 15A (Ta) 2W (Ta) Surface Mount U-DFN2020-6 (Type F)"
+			(at 0 9.144 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PartNumber" "1806-0000-00011"
+			(at 1.778 -1.27 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
+			)
+		)
+		(symbol "DMP1009UFDF-7_0_0"
+			(pin input line
+				(at -3.81 0 0)
+				(length 2.54)
+				(name "G"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 0.9906 0.9906)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 3.81 270)
+				(length 2.54)
+				(name "D"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 0.9906 0.9906)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 3.81 270)
+				(length 2.54)
+				(hide yes)
+				(name "D"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 0.9906 0.9906)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 3.81 270)
+				(length 2.54)
+				(hide yes)
+				(name "D"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 0.9906 0.9906)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 3.81 270)
+				(length 2.54)
+				(hide yes)
+				(name "D"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 0.9906 0.9906)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 3.81 270)
+				(length 2.54)
+				(hide yes)
+				(name "D"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "7"
+					(effects
+						(font
+							(size 0.9906 0.9906)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -3.81 90)
+				(length 2.54)
+				(name "S"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 0.9906 0.9906)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -3.81 90)
+				(length 2.54)
+				(hide yes)
+				(name "S"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "8"
+					(effects
+						(font
+							(size 0.9906 0.9906)
+						)
+					)
+				)
+			)
+		)
+		(symbol "DMP1009UFDF-7_0_1"
+			(polyline
+				(pts
+					(xy -1.524 -1.27) (xy -1.524 1.27)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -1.27 1.778) (xy -1.27 0.762)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -1.27 1.27) (xy 0 1.27) (xy 0 1.27)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -1.27 -0.508) (xy -1.27 0.508)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -1.27 -1.27) (xy 0 -1.27) (xy 0 -1.27)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -1.27 -1.778) (xy -1.27 -0.762)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -0.508 0) (xy -0.762 -0.254) (xy -0.762 0.254) (xy -0.508 0)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 -1.27) (xy 0 0) (xy -1.27 0)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 -1.27) (xy 0.762 -1.27) (xy 0.762 1.27) (xy 0 1.27)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0.762 -0.254) (xy 1.016 0.254) (xy 0.508 0.254) (xy 0.762 -0.254)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(polyline
+				(pts
+					(xy 1.016 -0.254) (xy 0.508 -0.254)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "DMP3099L-7"
+		(pin_names
+			(hide yes)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "Q"
+			(at 2.032 1.524 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "DMP3099L-7"
+			(at 2.032 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Daxxn_Packages:SOT-23-3"
+			(at 0 10.668 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "${DATASHEETS}/DMP3099L.pdf"
+			(at 0 9.144 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "MOSFET P-CH 30V 3.8A SOT23"
+			(at 0 7.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PartNumber" "1806-0000-00021"
+			(at 2.032 -1.27 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
+			)
+		)
+		(symbol "DMP3099L-7_0_0"
+			(pin input line
+				(at -3.81 0 0)
+				(length 2.54)
+				(name "G"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 0.9906 0.9906)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 3.81 270)
+				(length 2.54)
+				(name "D"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 0.9906 0.9906)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -3.81 90)
+				(length 2.54)
+				(name "S"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 0.9906 0.9906)
+						)
+					)
+				)
+			)
+		)
+		(symbol "DMP3099L-7_0_1"
+			(polyline
+				(pts
+					(xy -1.524 -1.27) (xy -1.524 1.27)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -1.27 1.778) (xy -1.27 0.762)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -1.27 1.27) (xy 0 1.27) (xy 0 1.27)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -1.27 -0.508) (xy -1.27 0.508)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -1.27 -1.27) (xy 0 -1.27) (xy 0 -1.27)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -1.27 -1.778) (xy -1.27 -0.762)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -0.508 0) (xy -0.762 -0.254) (xy -0.762 0.254) (xy -0.508 0)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 -1.27) (xy 0 0) (xy -1.27 0)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 -1.27) (xy 0.762 -1.27) (xy 0.762 1.27) (xy 0 1.27)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0.762 -0.254) (xy 1.016 0.254) (xy 0.508 0.254) (xy 0.762 -0.254)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(polyline
+				(pts
+					(xy 1.016 -0.254) (xy 0.508 -0.254)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "IRFP2907PBF"
+		(pin_names
+			(hide yes)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "Q"
+			(at 2.032 1.524 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "IRFP2907PBF"
+			(at 2.032 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Daxxn_Packages:TO-247-3_Vert-HS"
+			(at 0 10.922 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "${DATASHEETS}/IRFP2907PBF.pdf"
+			(at 0 9.144 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "N-Channel 75 V 209A (Tc) 470W (Tc) Through Hole TO-247AC"
+			(at 0 7.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PartNumber" "1806-0000-00019"
+			(at 2.032 -1.27 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
+			)
+		)
+		(symbol "IRFP2907PBF_0_0"
+			(pin input line
+				(at -3.81 0 0)
+				(length 2.25)
+				(name "G"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 0.9906 0.9906)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 3.81 270)
+				(length 2.54)
+				(name "D"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 0.9906 0.9906)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -3.81 90)
+				(length 2.54)
+				(name "S"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 0.9906 0.9906)
+						)
+					)
+				)
+			)
+		)
+		(symbol "IRFP2907PBF_0_1"
+			(polyline
+				(pts
+					(xy -1.524 -1.27) (xy -1.524 1.27)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -1.27 1.778) (xy -1.27 0.762)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -1.27 1.27) (xy 0 1.27) (xy 0 1.27)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -1.27 -0.508) (xy -1.27 0.508)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -1.27 -1.27) (xy 0 -1.27) (xy 0 -1.27)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -1.27 -1.778) (xy -1.27 -0.762)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -1.016 0) (xy -0.762 0.254) (xy -0.762 -0.254) (xy -1.016 0)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 -1.27) (xy 0 0) (xy -1.27 0)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 -1.27) (xy 0.762 -1.27) (xy 0.762 1.27) (xy 0 1.27)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0.508 0.254) (xy 1.016 0.254)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0.762 0.254) (xy 0.508 -0.254) (xy 1.016 -0.254) (xy 0.762 0.254)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
+		)
+		(embedded_fonts no)
 	)
 	(symbol "NTMFS5C430NLT1G"
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "Q"
-			(at 5.334 1.778 0)
+			(at 5.334 1.524 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1000,7 +2890,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "%LOCAL_DATASHEETS%NTMFS5C430NL-D.PDF"
+		(property "Datasheet" "${DATASHEETS}/NTMFS5C430NL-D.PDF"
 			(at 3.81 10.414 0)
 			(effects
 				(font
@@ -1019,7 +2909,7 @@
 			)
 		)
 		(property "PartNumber" "1806-0000-00018"
-			(at 5.334 -1.524 0)
+			(at 5.334 -1.27 0)
 			(effects
 				(font
 					(size 1 1)
@@ -1037,60 +2927,6 @@
 			)
 		)
 		(symbol "NTMFS5C430NLT1G_0_0"
-			(pin bidirectional line
-				(at 3.81 -3.81 90)
-				(length 2.54)
-				(name "S"
-					(effects
-						(font
-							(size 0 0)
-						)
-					)
-				)
-				(number "1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin bidirectional line
-				(at 3.81 -3.81 90)
-				(length 2.54) hide
-				(name "S"
-					(effects
-						(font
-							(size 0 0)
-						)
-					)
-				)
-				(number "2"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin bidirectional line
-				(at 3.81 -3.81 90)
-				(length 2.54) hide
-				(name "S"
-					(effects
-						(font
-							(size 0 0)
-						)
-					)
-				)
-				(number "3"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
 			(pin input line
 				(at 0 0 0)
 				(length 2.25)
@@ -1127,35 +2963,67 @@
 					)
 				)
 			)
+			(pin bidirectional line
+				(at 3.81 -3.81 90)
+				(length 2.54)
+				(name "S"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 3.81 -3.81 90)
+				(length 2.54)
+				(hide yes)
+				(name "S"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 3.81 -3.81 90)
+				(length 2.54)
+				(hide yes)
+				(name "S"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
 		)
 		(symbol "NTMFS5C430NLT1G_0_1"
 			(polyline
 				(pts
 					(xy 2.286 -1.27) (xy 2.286 1.27)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 2.54 -1.778) (xy 2.54 -0.762)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 2.54 -0.508) (xy 2.54 0.508)
 				)
 				(stroke
 					(width 0)
@@ -1179,7 +3047,19 @@
 			)
 			(polyline
 				(pts
-					(xy 4.318 0.254) (xy 4.826 0.254)
+					(xy 2.54 1.27) (xy 3.81 1.27) (xy 3.81 1.27)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 2.54 -0.508) (xy 2.54 0.508)
 				)
 				(stroke
 					(width 0)
@@ -1203,7 +3083,19 @@
 			)
 			(polyline
 				(pts
-					(xy 2.54 1.27) (xy 3.81 1.27) (xy 3.81 1.27)
+					(xy 2.54 -1.778) (xy 2.54 -0.762)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 2.794 0) (xy 3.048 0.254) (xy 3.048 -0.254) (xy 2.794 0)
 				)
 				(stroke
 					(width 0)
@@ -1227,7 +3119,7 @@
 			)
 			(polyline
 				(pts
-					(xy 2.54 0) (xy 2.794 0.254) (xy 2.794 -0.254) (xy 2.54 0)
+					(xy 3.81 -1.27) (xy 4.572 -1.27) (xy 4.572 1.27) (xy 3.81 1.27)
 				)
 				(stroke
 					(width 0)
@@ -1239,7 +3131,7 @@
 			)
 			(polyline
 				(pts
-					(xy 3.81 -1.27) (xy 4.572 -1.27) (xy 4.572 1.27) (xy 3.81 1.27)
+					(xy 4.318 0.254) (xy 4.826 0.254)
 				)
 				(stroke
 					(width 0)
@@ -1262,6 +3154,7 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "NX6008NBKWX"
 		(exclude_from_sim no)
@@ -1294,7 +3187,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "%LOCAL_DATASHEETS%/NX6008NBKW.pdf"
+		(property "Datasheet" "${DATASHEETS}/NX6008NBKW.pdf"
 			(at 3.81 8.89 0)
 			(effects
 				(font
@@ -1303,7 +3196,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "N-Channel 60 V 250mA (Ta) 270mW (Ta), 1.5W (Tc) SMD SOT-323"
+		(property "Description" "N-Channel 60 V 250mA (Ta) 270mW (Ta), 1.5W (Tc) SMD SC-70-3"
 			(at 2.54 10.16 0)
 			(effects
 				(font
@@ -1350,24 +3243,6 @@
 				)
 			)
 			(pin bidirectional line
-				(at 1.27 -3.81 90)
-				(length 2.54)
-				(name "S"
-					(effects
-						(font
-							(size 0 0)
-						)
-					)
-				)
-				(number "2"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin bidirectional line
 				(at 1.27 3.81 270)
 				(length 2.54)
 				(name "D"
@@ -1378,6 +3253,24 @@
 					)
 				)
 				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 1.27 -3.81 90)
+				(length 2.54)
+				(name "S"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+				(number "2"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1401,55 +3294,7 @@
 			)
 			(polyline
 				(pts
-					(xy 0 -1.778) (xy 0 -0.762)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 0 -0.508) (xy 0 0.508)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
 					(xy 0 1.778) (xy 0 0.762)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 1.778 0.254) (xy 2.286 0.254)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 0 -1.27) (xy 1.27 -1.27) (xy 1.27 -1.27)
 				)
 				(stroke
 					(width 0)
@@ -1473,7 +3318,7 @@
 			)
 			(polyline
 				(pts
-					(xy 1.27 -1.27) (xy 1.27 0) (xy 0 0)
+					(xy 0 -0.508) (xy 0 0.508)
 				)
 				(stroke
 					(width 0)
@@ -1485,7 +3330,43 @@
 			)
 			(polyline
 				(pts
-					(xy 0 0) (xy 0.254 0.254) (xy 0.254 -0.254) (xy 0 0)
+					(xy 0 -1.27) (xy 1.27 -1.27) (xy 1.27 -1.27)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 -1.778) (xy 0 -0.762)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0.254 0) (xy 0.508 0.254) (xy 0.508 -0.254) (xy 0.254 0)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 1.27 -1.27) (xy 1.27 0) (xy 0 0)
 				)
 				(stroke
 					(width 0)
@@ -1509,6 +3390,18 @@
 			)
 			(polyline
 				(pts
+					(xy 1.778 0.254) (xy 2.286 0.254)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
 					(xy 2.032 0.254) (xy 1.778 -0.254) (xy 2.286 -0.254) (xy 2.032 0.254)
 				)
 				(stroke
@@ -1520,6 +3413,7 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "PMXB43UNEZ"
 		(exclude_from_sim no)
@@ -1552,7 +3446,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "%LOCAL_DATASHEETS%/PMXB43UNE.pdf"
+		(property "Datasheet" "${DATASHEETS}/PMXB43UNE.pdf"
 			(at 1.27 5.842 0)
 			(effects
 				(font
@@ -1608,24 +3502,6 @@
 				)
 			)
 			(pin bidirectional line
-				(at 1.27 -3.81 90)
-				(length 2.54)
-				(name "S"
-					(effects
-						(font
-							(size 0 0)
-						)
-					)
-				)
-				(number "2"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin bidirectional line
 				(at 1.27 3.81 270)
 				(length 2.54)
 				(name "D"
@@ -1636,6 +3512,24 @@
 					)
 				)
 				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 1.27 -3.81 90)
+				(length 2.54)
+				(name "S"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+				(number "2"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1659,55 +3553,7 @@
 			)
 			(polyline
 				(pts
-					(xy 0 -1.778) (xy 0 -0.762)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 0 -0.508) (xy 0 0.508)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
 					(xy 0 1.778) (xy 0 0.762)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 1.778 0.254) (xy 2.286 0.254)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 0 -1.27) (xy 1.27 -1.27) (xy 1.27 -1.27)
 				)
 				(stroke
 					(width 0)
@@ -1731,7 +3577,7 @@
 			)
 			(polyline
 				(pts
-					(xy 1.27 -1.27) (xy 1.27 0) (xy 0 0)
+					(xy 0 -0.508) (xy 0 0.508)
 				)
 				(stroke
 					(width 0)
@@ -1743,7 +3589,43 @@
 			)
 			(polyline
 				(pts
-					(xy 0 0) (xy 0.254 0.254) (xy 0.254 -0.254) (xy 0 0)
+					(xy 0 -1.27) (xy 1.27 -1.27) (xy 1.27 -1.27)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 -1.778) (xy 0 -0.762)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0.254 0) (xy 0.508 0.254) (xy 0.508 -0.254) (xy 0.254 0)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 1.27 -1.27) (xy 1.27 0) (xy 0 0)
 				)
 				(stroke
 					(width 0)
@@ -1767,6 +3649,18 @@
 			)
 			(polyline
 				(pts
+					(xy 1.778 0.254) (xy 2.286 0.254)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
 					(xy 2.032 0.254) (xy 1.778 -0.254) (xy 2.286 -0.254) (xy 2.032 0.254)
 				)
 				(stroke
@@ -1778,13 +3672,14 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "RQ5A030APTL"
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "Q"
-			(at 2.794 1.778 0)
+			(at 2.794 1.524 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1810,7 +3705,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "%LOCAL_DATASHEETS%\\RQ5A030AP.pdf"
+		(property "Datasheet" "${DATASHEETS}/RQ5A030AP.pdf"
 			(at 1.27 8.382 0)
 			(effects
 				(font
@@ -1829,7 +3724,7 @@
 			)
 		)
 		(property "PartNumber" "1806-0000-00013"
-			(at 2.794 -1.524 0)
+			(at 2.794 -1.27 0)
 			(effects
 				(font
 					(size 1 1)
@@ -1868,24 +3763,6 @@
 			(pin bidirectional line
 				(at 1.27 3.81 270)
 				(length 2.54)
-				(name "S"
-					(effects
-						(font
-							(size 0 0)
-						)
-					)
-				)
-				(number "2"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin bidirectional line
-				(at 1.27 -3.81 90)
-				(length 2.54)
 				(name "D"
 					(effects
 						(font
@@ -1901,11 +3778,29 @@
 					)
 				)
 			)
+			(pin bidirectional line
+				(at 1.27 -3.81 90)
+				(length 2.54)
+				(name "S"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
 		)
 		(symbol "RQ5A030APTL_0_1"
 			(polyline
 				(pts
-					(xy -0.254 0.762) (xy -0.254 -0.762)
+					(xy -0.254 -1.27) (xy -0.254 1.27)
 				)
 				(stroke
 					(width 0)
@@ -1917,7 +3812,7 @@
 			)
 			(polyline
 				(pts
-					(xy 0 -0.508) (xy 0 -1.016)
+					(xy 0 1.778) (xy 0 0.762)
 				)
 				(stroke
 					(width 0)
@@ -1929,7 +3824,7 @@
 			)
 			(polyline
 				(pts
-					(xy 0 0.254) (xy 0 -0.254)
+					(xy 0 1.27) (xy 1.27 1.27) (xy 1.27 1.27)
 				)
 				(stroke
 					(width 0)
@@ -1941,7 +3836,7 @@
 			)
 			(polyline
 				(pts
-					(xy 0 0.508) (xy 0 1.016)
+					(xy 0 -0.508) (xy 0 0.508)
 				)
 				(stroke
 					(width 0)
@@ -1953,7 +3848,7 @@
 			)
 			(polyline
 				(pts
-					(xy 1.778 0) (xy 2.286 0)
+					(xy 0 -1.27) (xy 1.27 -1.27) (xy 1.27 -1.27)
 				)
 				(stroke
 					(width 0)
@@ -1965,7 +3860,7 @@
 			)
 			(polyline
 				(pts
-					(xy 0 -0.762) (xy 1.27 -0.762) (xy 1.27 -1.27)
+					(xy 0 -1.778) (xy 0 -0.762)
 				)
 				(stroke
 					(width 0)
@@ -1977,7 +3872,7 @@
 			)
 			(polyline
 				(pts
-					(xy 0 0) (xy 1.27 0) (xy 1.27 -0.762)
+					(xy 0.762 0) (xy 0.508 -0.254) (xy 0.508 0.254) (xy 0.762 0)
 				)
 				(stroke
 					(width 0)
@@ -1989,7 +3884,7 @@
 			)
 			(polyline
 				(pts
-					(xy 0 0.762) (xy 1.27 0.762) (xy 1.27 1.27)
+					(xy 1.27 -1.27) (xy 1.27 0) (xy 0 0)
 				)
 				(stroke
 					(width 0)
@@ -2001,7 +3896,7 @@
 			)
 			(polyline
 				(pts
-					(xy 0.762 0) (xy 0.508 0.254) (xy 0.508 -0.254) (xy 0.762 0)
+					(xy 1.27 -1.27) (xy 2.032 -1.27) (xy 2.032 1.27) (xy 1.27 1.27)
 				)
 				(stroke
 					(width 0)
@@ -2013,19 +3908,19 @@
 			)
 			(polyline
 				(pts
-					(xy 1.27 0.762) (xy 2.032 0.762) (xy 2.032 -0.762) (xy 1.27 -0.762)
+					(xy 2.032 -0.254) (xy 2.286 0.254) (xy 1.778 0.254) (xy 2.032 -0.254)
 				)
 				(stroke
 					(width 0)
 					(type default)
 				)
 				(fill
-					(type none)
+					(type outline)
 				)
 			)
 			(polyline
 				(pts
-					(xy 2.032 0) (xy 1.778 0.254) (xy 2.286 0.254) (xy 2.032 0)
+					(xy 2.286 -0.254) (xy 1.778 -0.254)
 				)
 				(stroke
 					(width 0)
@@ -2036,13 +3931,305 @@
 				)
 			)
 		)
+		(embedded_fonts no)
+	)
+	(symbol "SI7141DP-T1-GE3"
+		(pin_names
+			(hide yes)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "Q"
+			(at 2.032 1.524 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SI7141DP-T1-GE3"
+			(at 2.032 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Daxxn_Packages:POWER-FET-5-DFN"
+			(at 0 7.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "${DATASHEETS}/SI7141DP.pdf"
+			(at 0 9.144 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "P-Channel 20 V 60A (Tc) 6.25W (Ta), 104W (Tc) Surface Mount PowerPAK® SO-8"
+			(at 0 10.922 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PartNumber" "1806-0000-00017"
+			(at 2.032 -1.27 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
+			)
+		)
+		(symbol "SI7141DP-T1-GE3_0_0"
+			(pin input line
+				(at -3.81 0 0)
+				(length 2.54)
+				(name "G"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 0.9906 0.9906)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 3.81 270)
+				(length 2.54)
+				(name "D"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 0.9906 0.9906)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -3.81 90)
+				(length 2.54)
+				(name "S"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 0.9906 0.9906)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -3.81 90)
+				(length 2.54)
+				(hide yes)
+				(name "S"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 0.9906 0.9906)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -3.81 90)
+				(length 2.54)
+				(hide yes)
+				(name "S"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 0.9906 0.9906)
+						)
+					)
+				)
+			)
+		)
+		(symbol "SI7141DP-T1-GE3_0_1"
+			(polyline
+				(pts
+					(xy -1.524 -1.27) (xy -1.524 1.27)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -1.27 1.778) (xy -1.27 0.762)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -1.27 1.27) (xy 0 1.27) (xy 0 1.27)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -1.27 -0.508) (xy -1.27 0.508)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -1.27 -1.27) (xy 0 -1.27) (xy 0 -1.27)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -1.27 -1.778) (xy -1.27 -0.762)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -0.508 0) (xy -0.762 -0.254) (xy -0.762 0.254) (xy -0.508 0)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 -1.27) (xy 0 0) (xy -1.27 0)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 -1.27) (xy 0.762 -1.27) (xy 0.762 1.27) (xy 0 1.27)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0.762 -0.254) (xy 1.016 0.254) (xy 0.508 0.254) (xy 0.762 -0.254)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(polyline
+				(pts
+					(xy 1.016 -0.254) (xy 0.508 -0.254)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(embedded_fonts no)
 	)
 	(symbol "SIA440DJ-T1-GE3"
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "Q"
-			(at 1.778 1.778 0)
+			(at 1.778 1.524 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2065,7 +4252,6 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 				(hide yes)
 			)
 		)
@@ -2075,7 +4261,6 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 				(hide yes)
 			)
 		)
@@ -2085,12 +4270,11 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 				(hide yes)
 			)
 		)
 		(property "PartNumber" "1806-0000-00009"
-			(at 1.778 -1.524 0)
+			(at 1.778 -1.27 0)
 			(effects
 				(font
 					(size 1 1)
@@ -2127,24 +4311,6 @@
 				)
 			)
 			(pin bidirectional line
-				(at 0 -3.81 90)
-				(length 2.54)
-				(name "S"
-					(effects
-						(font
-							(size 0 0)
-						)
-					)
-				)
-				(number "2"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin bidirectional line
 				(at 0 3.81 270)
 				(length 2.54)
 				(name "D"
@@ -2155,6 +4321,24 @@
 					)
 				)
 				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 0 -3.81 90)
+				(length 2.54)
+				(name "S"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+				(number "2"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -2178,55 +4362,7 @@
 			)
 			(polyline
 				(pts
-					(xy -1.27 -1.778) (xy -1.27 -0.762)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -1.27 -0.508) (xy -1.27 0.508)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
 					(xy -1.27 1.778) (xy -1.27 0.762)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 0.508 0.254) (xy 1.016 0.254)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -1.27 -1.27) (xy 0 -1.27) (xy 0 -1.27)
 				)
 				(stroke
 					(width 0)
@@ -2250,7 +4386,7 @@
 			)
 			(polyline
 				(pts
-					(xy 0 -1.27) (xy 0 0) (xy -1.27 0)
+					(xy -1.27 -0.508) (xy -1.27 0.508)
 				)
 				(stroke
 					(width 0)
@@ -2262,7 +4398,43 @@
 			)
 			(polyline
 				(pts
-					(xy -1.27 0) (xy -1.016 0.254) (xy -1.016 -0.254) (xy -1.27 0)
+					(xy -1.27 -1.27) (xy 0 -1.27) (xy 0 -1.27)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -1.27 -1.778) (xy -1.27 -0.762)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -1.016 0) (xy -0.762 0.254) (xy -0.762 -0.254) (xy -1.016 0)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 -1.27) (xy 0 0) (xy -1.27 0)
 				)
 				(stroke
 					(width 0)
@@ -2286,6 +4458,18 @@
 			)
 			(polyline
 				(pts
+					(xy 0.508 0.254) (xy 1.016 0.254)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
 					(xy 0.762 0.254) (xy 0.508 -0.254) (xy 1.016 -0.254) (xy 0.762 0.254)
 				)
 				(stroke
@@ -2297,6 +4481,7 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "SQ2310ES-T1_GE3"
 		(exclude_from_sim no)
@@ -2329,7 +4514,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "%LOCAL_DATASHEETS%\\SQ2310ES.pdf"
+		(property "Datasheet" "${DATASHEETS}/SQ2310ES.pdf"
 			(at 1.27 5.842 0)
 			(effects
 				(font
@@ -2385,24 +4570,6 @@
 				)
 			)
 			(pin bidirectional line
-				(at 1.27 -3.81 90)
-				(length 2.54)
-				(name "S"
-					(effects
-						(font
-							(size 0 0)
-						)
-					)
-				)
-				(number "2"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin bidirectional line
 				(at 1.27 3.81 270)
 				(length 2.54)
 				(name "D"
@@ -2413,6 +4580,24 @@
 					)
 				)
 				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 1.27 -3.81 90)
+				(length 2.54)
+				(name "S"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+				(number "2"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -2436,55 +4621,7 @@
 			)
 			(polyline
 				(pts
-					(xy 0 -1.778) (xy 0 -0.762)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 0 -0.508) (xy 0 0.508)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
 					(xy 0 1.778) (xy 0 0.762)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 1.778 0.254) (xy 2.286 0.254)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 0 -1.27) (xy 1.27 -1.27) (xy 1.27 -1.27)
 				)
 				(stroke
 					(width 0)
@@ -2508,7 +4645,7 @@
 			)
 			(polyline
 				(pts
-					(xy 1.27 -1.27) (xy 1.27 0) (xy 0 0)
+					(xy 0 -0.508) (xy 0 0.508)
 				)
 				(stroke
 					(width 0)
@@ -2520,7 +4657,43 @@
 			)
 			(polyline
 				(pts
-					(xy 0 0) (xy 0.254 0.254) (xy 0.254 -0.254) (xy 0 0)
+					(xy 0 -1.27) (xy 1.27 -1.27) (xy 1.27 -1.27)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 -1.778) (xy 0 -0.762)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0.254 0) (xy 0.508 0.254) (xy 0.508 -0.254) (xy 0.254 0)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 1.27 -1.27) (xy 1.27 0) (xy 0 0)
 				)
 				(stroke
 					(width 0)
@@ -2544,6 +4717,18 @@
 			)
 			(polyline
 				(pts
+					(xy 1.778 0.254) (xy 2.286 0.254)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
 					(xy 2.032 0.254) (xy 1.778 -0.254) (xy 2.286 -0.254) (xy 2.032 0.254)
 				)
 				(stroke
@@ -2555,6 +4740,7 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "SSM3K15AFU"
 		(exclude_from_sim no)
@@ -2587,7 +4773,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "%LOCAL_DATASHEETS%/SSM3K15AFU.pdf"
+		(property "Datasheet" "${DATASHEETS}/SSM3K15AFU.pdf"
 			(at 1.27 5.842 0)
 			(effects
 				(font
@@ -2643,24 +4829,6 @@
 				)
 			)
 			(pin bidirectional line
-				(at 1.27 -3.81 90)
-				(length 2.54)
-				(name "S"
-					(effects
-						(font
-							(size 0 0)
-						)
-					)
-				)
-				(number "2"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin bidirectional line
 				(at 1.27 3.81 270)
 				(length 2.54)
 				(name "D"
@@ -2671,6 +4839,24 @@
 					)
 				)
 				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 1.27 -3.81 90)
+				(length 2.54)
+				(name "S"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+				(number "2"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -2694,55 +4880,7 @@
 			)
 			(polyline
 				(pts
-					(xy 0 -1.778) (xy 0 -0.762)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 0 -0.508) (xy 0 0.508)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
 					(xy 0 1.778) (xy 0 0.762)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 1.778 0.254) (xy 2.286 0.254)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 0 -1.27) (xy 1.27 -1.27) (xy 1.27 -1.27)
 				)
 				(stroke
 					(width 0)
@@ -2766,7 +4904,7 @@
 			)
 			(polyline
 				(pts
-					(xy 1.27 -1.27) (xy 1.27 0) (xy 0 0)
+					(xy 0 -0.508) (xy 0 0.508)
 				)
 				(stroke
 					(width 0)
@@ -2778,7 +4916,43 @@
 			)
 			(polyline
 				(pts
-					(xy 0 0) (xy 0.254 0.254) (xy 0.254 -0.254) (xy 0 0)
+					(xy 0 -1.27) (xy 1.27 -1.27) (xy 1.27 -1.27)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 -1.778) (xy 0 -0.762)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0.254 0) (xy 0.508 0.254) (xy 0.508 -0.254) (xy 0.254 0)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 1.27 -1.27) (xy 1.27 0) (xy 0 0)
 				)
 				(stroke
 					(width 0)
@@ -2802,6 +4976,18 @@
 			)
 			(polyline
 				(pts
+					(xy 1.778 0.254) (xy 2.286 0.254)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
 					(xy 2.032 0.254) (xy 1.778 -0.254) (xy 2.286 -0.254) (xy 2.032 0.254)
 				)
 				(stroke
@@ -2813,6 +4999,7 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "SSM3K361R"
 		(exclude_from_sim no)
@@ -2845,7 +5032,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "%LOCAL_DATASHEETS%\\SSM3K361R.pdf"
+		(property "Datasheet" "${DATASHEETS}/SSM3K361R.pdf"
 			(at 1.27 8.128 0)
 			(effects
 				(font
@@ -2901,24 +5088,6 @@
 				)
 			)
 			(pin bidirectional line
-				(at 1.27 -3.81 90)
-				(length 2.54)
-				(name "S"
-					(effects
-						(font
-							(size 0 0)
-						)
-					)
-				)
-				(number "2"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin bidirectional line
 				(at 1.27 3.81 270)
 				(length 2.54)
 				(name "D"
@@ -2929,6 +5098,24 @@
 					)
 				)
 				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 1.27 -3.81 90)
+				(length 2.54)
+				(name "S"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+				(number "2"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -2952,55 +5139,7 @@
 			)
 			(polyline
 				(pts
-					(xy 0 -1.778) (xy 0 -0.762)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 0 -0.508) (xy 0 0.508)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
 					(xy 0 1.778) (xy 0 0.762)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 1.778 0.254) (xy 2.286 0.254)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 0 -1.27) (xy 1.27 -1.27) (xy 1.27 -1.27)
 				)
 				(stroke
 					(width 0)
@@ -3024,7 +5163,7 @@
 			)
 			(polyline
 				(pts
-					(xy 1.27 -1.27) (xy 1.27 0) (xy 0 0)
+					(xy 0 -0.508) (xy 0 0.508)
 				)
 				(stroke
 					(width 0)
@@ -3036,7 +5175,43 @@
 			)
 			(polyline
 				(pts
-					(xy 0 0) (xy 0.254 0.254) (xy 0.254 -0.254) (xy 0 0)
+					(xy 0 -1.27) (xy 1.27 -1.27) (xy 1.27 -1.27)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 -1.778) (xy 0 -0.762)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0.254 0) (xy 0.508 0.254) (xy 0.508 -0.254) (xy 0.254 0)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 1.27 -1.27) (xy 1.27 0) (xy 0 0)
 				)
 				(stroke
 					(width 0)
@@ -3060,6 +5235,18 @@
 			)
 			(polyline
 				(pts
+					(xy 1.778 0.254) (xy 2.286 0.254)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
 					(xy 2.032 0.254) (xy 1.778 -0.254) (xy 2.286 -0.254) (xy 2.032 0.254)
 				)
 				(stroke
@@ -3069,6 +5256,381 @@
 				(fill
 					(type outline)
 				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "SSM6N7002KFU,LF"
+		(pin_names
+			(hide yes)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "Q"
+			(at 2.032 1.524 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SSM6N7002KFU,LF"
+			(at 2.032 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Daxxn_Packages:SOT-363_SC-70-6"
+			(at 0 9.144 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "${DATASHEETS}/SSM6N7002KFU.pdf"
+			(at 0 7.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "2N-CH MOSFET Array 60V 300mA 285mW Surface Mount US6"
+			(at 0 10.668 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PartNumber" "1806-0000-00003"
+			(at 2.032 -1.27 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
+			)
+		)
+		(property "ki_locked" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(symbol "SSM6N7002KFU,LF_0_1"
+			(polyline
+				(pts
+					(xy -1.524 -1.27) (xy -1.524 1.27)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -1.27 1.778) (xy -1.27 0.762)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -1.27 1.27) (xy 0 1.27) (xy 0 1.27)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -1.27 -0.508) (xy -1.27 0.508)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -1.27 -1.27) (xy 0 -1.27) (xy 0 -1.27)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -1.27 -1.778) (xy -1.27 -0.762)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -1.016 0) (xy -0.762 0.254) (xy -0.762 -0.254) (xy -1.016 0)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 -1.27) (xy 0 0) (xy -1.27 0)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 -1.27) (xy 0.762 -1.27) (xy 0.762 1.27) (xy 0 1.27)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0.508 0.254) (xy 1.016 0.254)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0.762 0.254) (xy 0.508 -0.254) (xy 1.016 -0.254) (xy 0.762 0.254)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
+		)
+		(symbol "SSM6N7002KFU,LF_1_0"
+			(pin input line
+				(at -3.81 0 0)
+				(length 2.25)
+				(name "Q1-G"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 0.9906 0.9906)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 3.81 270)
+				(length 2.54)
+				(name "Q1-D"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 0.9906 0.9906)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -3.81 90)
+				(length 2.54)
+				(name "Q1-S"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 0.9906 0.9906)
+						)
+					)
+				)
+			)
+		)
+		(symbol "SSM6N7002KFU,LF_2_0"
+			(pin input line
+				(at -3.81 0 0)
+				(length 2.25)
+				(name "Q2-G"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 0.9906 0.9906)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 3.81 270)
+				(length 2.54)
+				(name "Q2-D"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 0.9906 0.9906)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -3.81 90)
+				(length 2.54)
+				(name "Q2-S"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 0.9906 0.9906)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "DMN6068LK3-13"
+		(extends "CSD19533KCS")
+		(property "Reference" "Q"
+			(at 1.524 1.524 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "DMN6068LK3-13"
+			(at 1.524 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Daxxn_Packages:TO-252-2"
+			(at 0 10.922 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "${DATASHEETS}/DMN6068LK3.pdf"
+			(at 0 9.144 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "N-Channel 60 V 6A (Ta) 2.12W (Ta) Surface Mount TO-252-3"
+			(at 0 7.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PartNumber" "1806-0000-00010"
+			(at 1.524 -1.27 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
 			)
 		)
 	)

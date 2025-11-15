@@ -1,7 +1,7 @@
 (footprint "SW_PUSH_12-PV"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
 		(at 0 -2.35 0)
@@ -24,18 +24,6 @@
 			(font
 				(size 0.25 0.25)
 				(thickness 0.04)
-			)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "03338776-bba8-4b34-9957-e969475fa90d")
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.15)
 			)
 		)
 	)
@@ -131,9 +119,20 @@
 			(width 0.12)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.SilkS")
 		(uuid "040643d6-3261-439c-8eb9-ec8b1a722fdc")
+	)
+	(fp_rect
+		(start -4.5 -1.8)
+		(end 4.5 1.8)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "ab7694b6-db25-497d-b742-072947dd52e7")
 	)
 	(fp_rect
 		(start -3 -1.725)
@@ -142,7 +141,7 @@
 			(width 0.1)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 		(uuid "cb4caecb-313d-4c7a-83f5-d9bfb41f3d9c")
 	)
@@ -174,4 +173,5 @@
 		(remove_unused_layers no)
 		(uuid "7a35a607-d741-48e1-a232-6a5b8a07c055")
 	)
+	(embedded_fonts no)
 )

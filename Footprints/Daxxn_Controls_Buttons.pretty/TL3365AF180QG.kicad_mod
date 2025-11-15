@@ -1,10 +1,10 @@
 (footprint "TL3365AF180QG"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
-		(at 0 -3 0)
+		(at 0 -2.6 0)
 		(unlocked yes)
 		(layer "F.SilkS")
 		(uuid "6f7bbc35-2742-42ee-a10f-076c40018de2")
@@ -24,18 +24,6 @@
 			(font
 				(size 0.25 0.25)
 				(thickness 0.04)
-			)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "943f60f6-0857-4834-b6cd-bb474d4eb791")
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.15)
 			)
 		)
 	)
@@ -65,18 +53,8 @@
 	)
 	(attr smd)
 	(fp_line
-		(start -3.3 -1)
-		(end -3.3 1)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(layer "F.SilkS")
-		(uuid "17679fd5-9b67-469d-ade4-1f236bb56906")
-	)
-	(fp_line
-		(start -2.5 -1.8)
-		(end 2.5 -1.8)
+		(start -2 -1.8)
+		(end 2 -1.8)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -85,8 +63,8 @@
 		(uuid "67f17597-dc19-4a2f-ab1c-21395ae3e520")
 	)
 	(fp_line
-		(start 2.5 1.8)
-		(end -2.5 1.8)
+		(start 2 1.8)
+		(end -2 1.8)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -94,24 +72,14 @@
 		(layer "F.SilkS")
 		(uuid "b790a872-0357-454e-b5fe-417547b4eb1c")
 	)
-	(fp_line
-		(start 3.3 -1)
-		(end 3.3 1)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(layer "F.SilkS")
-		(uuid "021e959c-aa18-46b1-bfa4-484554f85548")
-	)
 	(fp_rect
-		(start -3.2 -1.8)
-		(end 3.2 1.8)
+		(start -3 -1.8)
+		(end 3 1.8)
 		(stroke
 			(width 0.05)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.CrtYd")
 		(uuid "7f643036-519d-4c04-b124-b1f7dcb9d210")
 	)
@@ -122,7 +90,7 @@
 			(width 0.1)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 		(uuid "c05ca1d9-153e-427d-9a61-5f372fd10514")
 	)
@@ -140,32 +108,33 @@
 	)
 	(pad "1" smd roundrect
 		(at -2.25 -1.075)
-		(size 1.75 1.1)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(size 1.25 1.1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.15)
 		(uuid "4ac126c2-d3ad-477a-9ba3-86e68a7fce76")
 	)
 	(pad "1" smd roundrect
 		(at 2.25 -1.075)
-		(size 1.75 1.1)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(size 1.25 1.1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.15)
 		(uuid "4dd880f7-8abb-4803-a61d-bc58e108d806")
 	)
 	(pad "2" smd roundrect
 		(at -2.25 1.075)
-		(size 1.75 1.1)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(size 1.25 1.1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.15)
 		(uuid "a5b6ccbd-c793-4497-8945-f002f720b0ca")
 	)
 	(pad "2" smd roundrect
 		(at 2.25 1.075)
-		(size 1.75 1.1)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(size 1.25 1.1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.15)
 		(uuid "a6bfb149-b11f-4680-b3ab-80966f32f170")
 	)
+	(embedded_fonts no)
 	(model "${MY_MODELS_DIR}/Controls/TL3365 v4.step"
 		(offset
 			(xyz 0 0 0)

@@ -2574,7 +2574,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Daxxn_Packages:TQFN-24-1EP_4x4mm_P0.5mm_EP2.1x2.1mm"
+		(property "Footprint" "Daxxn_Packages:QFN50P400X400X80-25N"
 			(at 0 10.922 0)
 			(effects
 				(font

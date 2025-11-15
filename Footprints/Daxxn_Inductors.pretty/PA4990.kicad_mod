@@ -1,19 +1,19 @@
 (footprint "PA4990"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "High Power Inductor 37A for Switching Converters")
 	(tags "high power 37a inductor")
 	(property "Reference" "REF**"
-		(at 0 -4 0)
+		(at 0 -3.8 0)
 		(unlocked yes)
 		(layer "F.SilkS")
 		(uuid "6d7ff8c0-8a2a-4636-844f-c7210ff3e6f2")
 		(effects
 			(font
-				(size 1 1)
-				(thickness 0.15)
+				(size 0.8 0.8)
+				(thickness 0.12)
 			)
 		)
 	)
@@ -26,18 +26,6 @@
 			(font
 				(size 0.25 0.25)
 				(thickness 0.04)
-			)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "eb3d8046-60d5-44e9-9510-6f10ce36227b")
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.15)
 			)
 		)
 	)
@@ -94,7 +82,7 @@
 			(width 0.12)
 			(type solid)
 		)
-		(fill solid)
+		(fill yes)
 		(layer "F.SilkS")
 		(uuid "77f33885-43de-4770-9841-3f9b6b51845e")
 	)
@@ -105,7 +93,7 @@
 			(width 0.05)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.CrtYd")
 		(uuid "7ecf4bcd-d9d2-4e83-80c3-c8e1fe9eef72")
 	)
@@ -116,7 +104,7 @@
 			(width 0.1)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 		(uuid "b21625e3-a75b-41d7-9f13-4c0e12ba16cb")
 	)
@@ -135,17 +123,18 @@
 	(pad "1" smd roundrect
 		(at -3.75 0)
 		(size 3.6 3.5)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "c6bba6d7-3631-448e-9df8-b5a9e3238ade")
 	)
 	(pad "2" smd roundrect
 		(at 3.75 0)
 		(size 3.6 3.5)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "b66731e7-61d5-4447-bf6a-e91a62b82298")
 	)
+	(embedded_fonts no)
 	(model "${DAXXN}/Passives/Inductors/PA4990.step"
 		(offset
 			(xyz 0 0 0)

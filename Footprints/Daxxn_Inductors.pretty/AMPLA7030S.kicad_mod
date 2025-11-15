@@ -1,7 +1,7 @@
 (footprint "AMPLA7030S"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
 		(at 0 -4 0)
@@ -24,19 +24,6 @@
 			(font
 				(size 0.25 0.25)
 				(thickness 0.04)
-			)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 -8.8 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "28265003-d9b6-4824-91e0-7a2db3ae6bca")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
 			)
 		)
 	)
@@ -95,9 +82,129 @@
 			(width 0.1)
 			(type solid)
 		)
-		(fill solid)
+		(fill yes)
 		(layer "F.SilkS")
 		(uuid "37a8edfb-bfed-47da-9a19-e3b3e882e7bd")
+	)
+	(fp_line
+		(start -4.3 -1.8)
+		(end -3.8 -1.8)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "33cd8e02-77a0-4b12-8d9e-fe607c17b858")
+	)
+	(fp_line
+		(start -4.3 1.8)
+		(end -4.3 -1.8)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "eee906bd-ac33-4082-a571-d567ba3f03db")
+	)
+	(fp_line
+		(start -3.8 -3.4)
+		(end 3.8 -3.4)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "d20cbd6b-2485-49a2-bc85-239f419ddeff")
+	)
+	(fp_line
+		(start -3.8 -1.8)
+		(end -3.8 -3.4)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "21984114-18b2-4578-8b5e-d6de760b14cb")
+	)
+	(fp_line
+		(start -3.8 1.8)
+		(end -4.3 1.8)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "700f5deb-6573-4393-97ad-2c35bfa6abb1")
+	)
+	(fp_line
+		(start -3.8 3.4)
+		(end -3.8 1.8)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "029d2348-3c44-4a53-b67c-eef67bfa7a52")
+	)
+	(fp_line
+		(start 3.8 -3.4)
+		(end 3.8 -1.8)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "ffbccf1a-35c5-49fd-affe-a063f4fff7cb")
+	)
+	(fp_line
+		(start 3.8 -1.8)
+		(end 4.3 -1.8)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "12722948-2c17-4cf3-a948-85e801a60307")
+	)
+	(fp_line
+		(start 3.8 1.8)
+		(end 3.8 3.4)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "852d3e7a-a99c-44c8-a2f6-f5cf1fba7a37")
+	)
+	(fp_line
+		(start 3.8 3.4)
+		(end -3.8 3.4)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "3c3954c0-bb65-42cc-bfdf-2ae8e3387160")
+	)
+	(fp_line
+		(start 4.3 -1.8)
+		(end 4.3 1.8)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "a5f71c3e-45e3-48dd-888d-e61c64ab0a85")
+	)
+	(fp_line
+		(start 4.3 1.8)
+		(end 3.8 1.8)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "60f875c1-63aa-43e9-8bf2-c854657c720b")
 	)
 	(fp_rect
 		(start -3.65 -3.3)
@@ -106,7 +213,7 @@
 			(width 0.1)
 			(type default)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 		(uuid "bab0644e-e9f4-4b82-9136-d320f0954e8b")
 	)
@@ -125,17 +232,18 @@
 	(pad "1" smd roundrect
 		(at -2.725 0)
 		(size 2.95 3.5)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.1640419948)
 		(uuid "32f44c6b-8d21-4fe7-b233-db27213596eb")
 	)
 	(pad "2" smd roundrect
 		(at 2.725 0)
 		(size 2.95 3.5)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.1640419948)
 		(uuid "77a15350-2b6e-42fc-9db6-1b63a3f29721")
 	)
+	(embedded_fonts no)
 	(model "${DAXXN}/Passives/Inductors/AMPLA7030S.step"
 		(offset
 			(xyz 0 0 0)

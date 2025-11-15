@@ -1,0 +1,5 @@
+{
+"description": "5 Pin Inline SWD header. Does NOT have the SWO pin.",
+"keywords": "connector programming header swd",
+"fields": {}
+}

@@ -1,7 +1,7 @@
 (footprint "BOJACK-POT-6mm"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
 		(at 0 -4.125 0)
@@ -24,19 +24,6 @@
 			(font
 				(size 0.25 0.25)
 				(thickness 0.04)
-			)
-		)
-	)
-	(property "Footprint" ""
-		(at -0.17 -9.82 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "ece4450f-9c06-4f6b-bc10-32f087ac5610")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
 			)
 		)
 	)
@@ -89,6 +76,47 @@
 		(uuid "71d076c9-fc11-4aa8-9587-de9a9af3cfab")
 	)
 	(fp_line
+		(start -3.4 3.6)
+		(end -3.4 0)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "df276d76-7b46-4733-b357-8f0717e362da")
+	)
+	(fp_line
+		(start -3.4 3.6)
+		(end 3.4 3.6)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "a907ec0f-bcba-49cb-ae6b-5289e1a171ba")
+	)
+	(fp_line
+		(start 3.4 3.6)
+		(end 3.4 0)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "85e2831a-f0ab-4015-9f0d-458871dc0aa5")
+	)
+	(fp_arc
+		(start -3.4 0)
+		(mid 0 -3.4)
+		(end 3.4 0)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "424db98a-8103-49fc-a6bf-17a54ff87320")
+	)
+	(fp_line
 		(start -3.25 0)
 		(end -3.25 3.5)
 		(stroke
@@ -125,7 +153,7 @@
 			(width 0.1)
 			(type default)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 		(uuid "e9cafb48-b9a5-4983-82f7-4e97c1b6a7d1")
 	)
@@ -165,4 +193,5 @@
 		(remove_unused_layers no)
 		(uuid "7ec55d70-0c6e-450b-bc60-e2a46c7db2a9")
 	)
+	(embedded_fonts no)
 )

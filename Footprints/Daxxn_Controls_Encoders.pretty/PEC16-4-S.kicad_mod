@@ -1,7 +1,7 @@
 (footprint "PEC16-4-S"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "PEC16 Rotary Encoder with internal Switch")
 	(property "Reference" "REF**"
@@ -25,19 +25,6 @@
 			(font
 				(size 0.25 0.25)
 				(thickness 0.04)
-			)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 -1.7 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "ab17aa41-0c94-440a-87e7-ae574172ce59")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
 			)
 		)
 	)
@@ -139,13 +126,24 @@
 		(uuid "212cea3d-d937-4d1d-8887-6011e1e35af2")
 	)
 	(fp_rect
+		(start -9 -8.5)
+		(end 9 11.6)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "c6fc1bca-2e96-4838-8e48-bf688043e9cb")
+	)
+	(fp_rect
 		(start -8 -8.3)
 		(end 8 9)
 		(stroke
 			(width 0.1)
 			(type default)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 		(uuid "0df6630e-2d1f-4fca-9221-7865c8d26074")
 	)
@@ -217,6 +215,7 @@
 		(remove_unused_layers no)
 		(uuid "7a1dc9f3-ebff-4032-8d5f-788056d34a04")
 	)
+	(embedded_fonts no)
 	(model "${DAXXN}/Controls/PEC16-4X15F-SXXXX.stp"
 		(hide yes)
 		(offset

@@ -1,0 +1,7 @@
+{
+"description": "The jumper connected to the BOOT0 pin to select the boot option for STM32 MCUs.",
+"keywords": "stm32 boot jumper",
+"fields": {
+"BOOT": "BOOT"
+}
+}

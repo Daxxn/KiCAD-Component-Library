@@ -11184,6 +11184,26 @@
 				)
 			)
 		)
+		(symbol "MT41K512M16HA-125{colon}A_1_1"
+			(text "9x"
+				(at 15.24 -4.826 900)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify right)
+				)
+			)
+			(text "9x"
+				(at 22.86 -5.842 900)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify right)
+				)
+			)
+		)
 		(embedded_fonts no)
 	)
 	(symbol "MT41K64M16TW-107{colon}J_TR"

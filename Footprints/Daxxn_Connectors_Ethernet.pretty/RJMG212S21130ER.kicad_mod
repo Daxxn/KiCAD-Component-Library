@@ -1,7 +1,7 @@
 (footprint "RJMG212S21130ER"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
 		(at 0 -24.6 0)
@@ -24,18 +24,6 @@
 			(font
 				(size 0.5 0.5)
 				(thickness 0.0625)
-			)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "93976027-15a6-46ec-981a-b0d1b5486f8f")
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.15)
 			)
 		)
 	)
@@ -64,30 +52,6 @@
 		)
 	)
 	(attr through_hole)
-	(fp_poly
-		(pts
-			(xy -0.7 -21.7) (xy -0.5 -22.3) (xy -0.1 -21.8)
-		)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(fill solid)
-		(layer "B.SilkS")
-		(uuid "9a7790fe-0a79-450a-ba8e-cc165690baf4")
-	)
-	(fp_poly
-		(pts
-			(xy 16.3 -21.7) (xy 16.5 -22.3) (xy 16.9 -21.8)
-		)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(fill solid)
-		(layer "B.SilkS")
-		(uuid "3057ee80-af1b-40d6-aeb2-154bcaf06ee9")
-	)
 	(fp_line
 		(start -17.4 -23.7)
 		(end -14.3 -23.7)
@@ -128,6 +92,30 @@
 		(layer "F.SilkS")
 		(uuid "80a999bf-769e-47d4-8ce9-bed71f6bb704")
 	)
+	(fp_poly
+		(pts
+			(xy -0.7 -21.7) (xy -0.5 -22.3) (xy -0.1 -21.8)
+		)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill yes)
+		(layer "B.SilkS")
+		(uuid "9a7790fe-0a79-450a-ba8e-cc165690baf4")
+	)
+	(fp_poly
+		(pts
+			(xy 16.3 -21.7) (xy 16.5 -22.3) (xy 16.9 -21.8)
+		)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill yes)
+		(layer "B.SilkS")
+		(uuid "3057ee80-af1b-40d6-aeb2-154bcaf06ee9")
+	)
 	(fp_line
 		(start -15.035 0)
 		(end 15.035 0)
@@ -162,8 +150,8 @@
 		(start -19 0)
 		(end -15.035 0)
 		(stroke
-			(width 0.12)
-			(type default)
+			(width 0.1)
+			(type solid)
 		)
 		(layer "Edge.Cuts")
 		(uuid "05511f1e-01ea-4d84-994d-8bd6e74e4ef3")
@@ -172,7 +160,7 @@
 		(start -15.035 -18.75)
 		(end -15.035 0)
 		(stroke
-			(width 0.12)
+			(width 0.1)
 			(type default)
 		)
 		(layer "Edge.Cuts")
@@ -182,7 +170,7 @@
 		(start -15.035 -18.75)
 		(end -2.03 -18.75)
 		(stroke
-			(width 0.12)
+			(width 0.1)
 			(type default)
 		)
 		(layer "Edge.Cuts")
@@ -192,7 +180,7 @@
 		(start -2.03 0)
 		(end -2.03 -18.75)
 		(stroke
-			(width 0.12)
+			(width 0.1)
 			(type default)
 		)
 		(layer "Edge.Cuts")
@@ -202,7 +190,7 @@
 		(start -2.03 0)
 		(end 2.03 0)
 		(stroke
-			(width 0.12)
+			(width 0.1)
 			(type default)
 		)
 		(layer "Edge.Cuts")
@@ -212,7 +200,7 @@
 		(start 2.03 -18.75)
 		(end 2.03 0)
 		(stroke
-			(width 0.12)
+			(width 0.1)
 			(type default)
 		)
 		(layer "Edge.Cuts")
@@ -222,7 +210,7 @@
 		(start 2.03 -18.75)
 		(end 15.035 -18.75)
 		(stroke
-			(width 0.12)
+			(width 0.1)
 			(type default)
 		)
 		(layer "Edge.Cuts")
@@ -232,7 +220,7 @@
 		(start 15.035 0)
 		(end 15.035 -18.75)
 		(stroke
-			(width 0.12)
+			(width 0.1)
 			(type default)
 		)
 		(layer "Edge.Cuts")
@@ -242,7 +230,7 @@
 		(start 19 0)
 		(end 15.035 0)
 		(stroke
-			(width 0.12)
+			(width 0.1)
 			(type default)
 		)
 		(layer "Edge.Cuts")
@@ -255,7 +243,7 @@
 			(width 0.05)
 			(type default)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.CrtYd")
 		(uuid "83e08bb1-4867-4d44-917e-f5da1581f0cc")
 	)
@@ -266,7 +254,7 @@
 			(width 0.1)
 			(type default)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 		(uuid "18c9fc8b-5b76-4e1a-ba16-a9edb4ad5164")
 	)
@@ -596,6 +584,7 @@
 		(remove_unused_layers no)
 		(uuid "55d16d1a-cad9-4e17-869e-d9f6a253515c")
 	)
+	(embedded_fonts no)
 	(model ":DAXXN:Connectors/RJMG212S21130ER.stp"
 		(offset
 			(xyz 0 -2.4 -1.75)
